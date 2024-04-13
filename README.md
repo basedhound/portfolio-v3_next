@@ -72,4 +72,3 @@ The first six variables are the colors for the app. The last six are font sizes.
 ## More info
 
 That's the basics! If you're comfortable digging in yourself, then you should be set.
-# portfolio-2024_next
