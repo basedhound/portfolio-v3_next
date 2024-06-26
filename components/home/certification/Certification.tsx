@@ -3,8 +3,8 @@ import { CertificationItem } from "./CertificationItem";
 
 export const Certification = () => {
   return (
-    <section className="section-wrapper" id="experience">
-      <SectionHeader title="Experience" dir="l" />
+    <section className="section-wrapper" id="certification">
+      <SectionHeader title="Certification" dir="l" />
       {certification.map((item) => (
         <CertificationItem key={item.title} {...item} />
       ))}
