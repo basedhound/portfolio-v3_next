@@ -17,7 +17,7 @@ export const MyLinks = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.1 }}>
         <Link
-          href="https://join.skype.com/invite/vKVMgi5SGjvM"
+          href="https://api.whatsapp.com/send?phone=33779134587"
           target="_blank"
           rel="nofollow"
           title="WhatsApp">
@@ -59,7 +59,7 @@ export const MyLinks = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}>
         <Link
-          href="https://www.instagram.com/aluckyfin/"
+          href="https://www.instagram.com/autumninety/"
           target="_blank"
           rel="nofollow">
           <AiFillInstagram size="2.4rem" />
