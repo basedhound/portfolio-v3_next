@@ -1,20 +1,20 @@
 import { SectionHeader } from "@/components/utils/SectionHeader";
-import { ExperienceItem } from "./ExperienceItem";
+import { CertificationItem } from "./CertificationItem";
 
-export const Experience = () => {
+export const Certification = () => {
   return (
     <section className="section-wrapper" id="experience">
       <SectionHeader title="Experience" dir="l" />
-      {experience.map((item) => (
-        <ExperienceItem key={item.title} {...item} />
+      {certification.map((item) => (
+        <CertificationItem key={item.title} {...item} />
       ))}
     </section>
   );
 };
 
-const experience = [
+const certification = [
   {
-    title: "Experience 1",
+    title: "Certification 1",
     position: "React Developer",
     time: "Aug 2022 - October 2023",
     location: "Grand Junction, CO",
@@ -31,7 +31,7 @@ const experience = [
     ],
   },
   {
-    title: "Experience 2",
+    title: "Certification 2",
     position: "React Developer",
     time: "Aug 2022 - October 2023",
     location: "Grand Junction, CO",
@@ -48,7 +48,7 @@ const experience = [
     ],
   },
   {
-    title: "Experience 3",
+    title: "Certification 3",
     position: "React Developer",
     time: "Aug 2022 - October 2023",
     location: "Grand Junction, CO",

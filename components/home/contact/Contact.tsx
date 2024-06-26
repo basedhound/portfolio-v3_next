@@ -16,24 +16,24 @@ export const Contact = () => {
           <p className={styles.contactCopy}>
             Have an idea to discuss? Shoot me an email if you want to connect! You can also find me on{" "}
             <Link
-              href="https://www.linkedin.com/in/john-carlo-devera-5240761b6/"
+              href="https://www.linkedin.com/in/frankdev/"
               target="_blank"
               rel="nofollow"
             >
-              Linkedin
+              LinkedIn
             </Link>{" "}
             or{" "}
-            <Link href="https://join.skype.com/invite/vKVMgi5SGjvM" target="_blank" rel="nofollow">
-              Skype
+            <Link href="https://api.whatsapp.com/send?phone=33779134587" target="_blank" rel="nofollow">
+              WhatsApp
             </Link>{" "}
-            if that&apos;s more your speed.
+            if that's more your speed.
           </p>
         </Reveal>
         <Reveal width="100%">
-          <Link href="mailto:dev.johncarlo.devera@gmail.com">
+          <Link href="mailto:franck.vukelic@gmail.com">
             <div className={styles.contactEmail}>
               <AiFillMail size="2.4rem" />
-              <span>Send Email</span>
+              <span>franck.vukelic@gmail.com</span>
             </div>
           </Link>
         </Reveal>
