@@ -5,7 +5,7 @@ export default function home() {
   return (
     <>
       <Head>
-        <title>Frank Vukelić | Web Developer</title>
+        <title>Frank Vukelić - React/Next.js</title>
         <link rel="shortcut icon" href="/assets/favicon.png" />
         <meta name="description" content="Frank Vukelić | Web Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
