@@ -1,11 +1,10 @@
-import Image from "next/image";
-import { motion } from "framer-motion";
-//
+// import Image from "next/image";
+// import { motion } from "framer-motion";
+// import Profile from "@/public/assets/profile.jpg";
 import { StandardButton } from "@/components/buttons/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
-import Profile from "@/public/assets/profile.jpg";
 
 export const Hero = () => {
   return (
@@ -37,7 +36,7 @@ export const Hero = () => {
             </StandardButton>
           </Reveal>
         </div>
-         <motion.div
+          {/* <motion.div
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}>
@@ -49,7 +48,7 @@ export const Hero = () => {
             width={250}
             height={250}
           />
-        </motion.div> 
+        </motion.div>   */}
       </div>
       <DotGrid />
     </section>

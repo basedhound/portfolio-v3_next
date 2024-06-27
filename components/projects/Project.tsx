@@ -52,14 +52,12 @@ export const Project = ({
         }}
         initial="hidden"
         animate={controls}
-        transition={{ duration: 0.75 }}
-      >
+        transition={{ duration: 0.75 }}>
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
           onClick={() => setIsOpen(true)}
-          className={styles.projectImage}
-        >
+          className={styles.projectImage}>
           <Image
             priority
             src={imgSrc}
@@ -71,14 +69,14 @@ export const Project = ({
               rotate: hovered ? "2deg" : "0deg",
             }}
           />
-          {/* <img
+          <img
             src={imgSrc}
             alt={`An image of the ${title} project.`}
             style={{
               width: hovered ? "90%" : "85%",
               rotate: hovered ? "2deg" : "0deg",
             }}
-          /> */}
+          />
         </div>
         <div className={styles.projectCopy}>
           <Reveal width="100%">
@@ -100,7 +98,7 @@ export const Project = ({
           </Reveal>
           <Reveal>
             <p className={styles.projectDescription}>
-              {description} <br />
+              {description}{" "}
               <span onClick={() => setIsOpen(true)}>Learn more {">"}</span>
             </p>
           </Reveal>

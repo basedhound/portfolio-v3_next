@@ -47,8 +47,7 @@ export const ProjectModal = ({
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         onClick={(e) => e.stopPropagation()}
-        className={styles.modalCard}
-      >
+        className={styles.modalCard}>
         <Image
           priority
           src={imgSrc}
@@ -56,12 +55,7 @@ export const ProjectModal = ({
           width={500}
           height={400}
           className={styles.modalImage}
-          />
-        {/* <img
-          className={styles.modalImage}
-          src={imgSrc}
-          alt={`An image of the ${title} project.`}
-        /> */}
+        />
         <div className={styles.modalContent}>
           <h4>{title}</h4>
           <div className={styles.modalTech}>{tech.join(" - ")}</div>
@@ -70,14 +64,16 @@ export const ProjectModal = ({
 
           <div className={styles.modalFooter}>
             <p className={styles.linksText}>
-              Project Links<span>.</span>
+              Links<span>.</span>
             </p>
             <div className={styles.links}>
               <Link target="_blank" rel="nofollow" href={code}>
-                <AiFillGithub /> source code
+                <AiFillGithub />
+                Code
               </Link>
               <Link target="_blank" rel="nofollow" href={projectLink}>
-                <AiOutlineExport /> live project
+                <AiOutlineExport />
+                Demo
               </Link>
             </div>
           </div>

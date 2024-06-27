@@ -74,18 +74,14 @@
 
 .projectDescription {
   font-weight: 200;
-
   span {
-    display: inline-block;
-
+    display: inline-block;    
     font-size: var(--text-xs);
     font-weight: 400;
     color: var(--brand);
-
     cursor: pointer;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
   }
-
   span:hover {
     text-decoration: underline;
   }

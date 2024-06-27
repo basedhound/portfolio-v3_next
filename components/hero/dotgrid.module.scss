@@ -1,4 +1,5 @@
 .dotGrid {
+  display: block;
   position: absolute;
   top: 12px;
   bottom: 12px;
@@ -6,6 +7,11 @@
   max-width: 75%;
   display: grid;
   z-index: 0;
+
+  // Disable dotGrid on mobile
+  @media (max-width: 980px) {
+    display: none;
+  }
 }
 
 .dotWrapper {
