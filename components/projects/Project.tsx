@@ -90,7 +90,7 @@ export const Project = ({
           <Reveal>
             <p className={styles.projectDescription}>
               {description}{" "}
-              <span onClick={() => setIsOpen(true)}>Learn more {">"}</span>
+              <span onClick={() => setIsOpen(true)}>Details {">"}</span>
             </p>
           </Reveal>
         </div>

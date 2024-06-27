@@ -85,13 +85,16 @@
     display: flex;
     align-items: center;
     gap: 0.4rem;
-
     font-size: var(--text-xs);
+    font-weight: 400;
     color: var(--brand);
+    opacity: 0.7;
+    transition: 0.2s;
   }
 
   a:hover {
-    text-decoration: underline;
+    opacity: 1;
+    // text-decoration: underline;
   }
 }
 

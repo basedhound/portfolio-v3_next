@@ -19,7 +19,7 @@ export const CertificationItem = ({
   tech,
 }: Props) => {
   return (
-    <div className={styles.experience}>
+    <div className={styles.certification}>
       <div className={styles.heading}>
         <Reveal>
           <span className={styles.title}>{title}</span>

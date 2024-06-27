@@ -24,13 +24,17 @@
   text-align: center;
   font-weight: 200;
   margin: 2.4rem 0;
-
   a {
     color: var(--brand);
+    font-weight: 400;
+    transition: 0.2s;
+    opacity: 0.8;
+    border-bottom: 2px solid var(--background);
   }
-
   a:hover {
-    text-decoration: underline;
+    opacity: 1;
+    border-bottom: 2px solid var(--brand);
+    // text-decoration: underline;
   }
 }
 

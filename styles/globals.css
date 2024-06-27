@@ -25,7 +25,7 @@
 
 *::selection {
   background: var(--brand);
-  color: var(--background);
+  color: rgb(235, 236, 243);
 }
 
 html,
