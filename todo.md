@@ -1,0 +1,4 @@
+- Add README + Screenshot
+- Choose 8 projects to display
+- Add Link to "Full Gallery" page, comment it for now
+- 
