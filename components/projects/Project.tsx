@@ -59,19 +59,10 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}>
           <Image
-            priority
             src={imgSrc}
             alt={`An image of the ${title} project.`}
             width={1000}
             height={0}
-            style={{
-              width: hovered ? "90% !important" : "85% !important",
-              rotate: hovered ? "2deg" : "0deg",
-            }}
-          />
-          <img
-            src={imgSrc}
-            alt={`An image of the ${title} project.`}
             style={{
               width: hovered ? "90%" : "85%",
               rotate: hovered ? "2deg" : "0deg",

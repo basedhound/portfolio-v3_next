@@ -26,7 +26,7 @@ export const Contact = () => {
             <Link href="https://api.whatsapp.com/send?phone=33779134587" target="_blank" rel="nofollow">
               WhatsApp
             </Link>{" "}
-            if that's more your speed.
+            if that&apos;s more your speed.
           </p>
         </Reveal>
         <Reveal width="100%">
