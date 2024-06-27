@@ -1,7 +1,7 @@
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 //
-import { MyLinks } from "@/components/nav/components/MyLinks";
+import { MyLinks } from "@/components/nav/MyLinks";
 import { Reveal } from "@/components/utils/Reveal";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Stats } from "./Stats";

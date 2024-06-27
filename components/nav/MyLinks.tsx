@@ -1,4 +1,4 @@
-import styles from "./headinglinks.module.scss";
+import styles from "./mylinks.module.scss";
 import {
   AiFillLinkedin,
   AiFillGithub,
