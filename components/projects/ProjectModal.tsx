@@ -54,6 +54,7 @@ export const ProjectModal = ({
             </p>
 
             <div className={styles.spaceBetween}>
+
               <div className={styles.links}>
                 <Link target="_blank" rel="nofollow" href={code}>
                   <AiFillGithub />
@@ -65,12 +66,14 @@ export const ProjectModal = ({
                 </Link>
               </div>
 
-              <button
-                className={styles.closeModalBtn}
-                onClick={() => setIsOpen(false)}>
+
+              <button className={styles.closeModalBtn} onClick={() => setIsOpen(false)}>
                 <MdClose />
               </button>
             </div>
+
+
+
           </div>
         </div>
       </motion.div>
