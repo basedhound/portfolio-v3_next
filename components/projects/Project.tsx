@@ -25,15 +25,16 @@ export const Project = ({
   code,
   tech,
 }: Props) => {
+  // Image Animation
   const [hovered, setHovered] = useState(false);
-
+  // Modal
   const [isOpen, setIsOpen] = useState(false);
 
   const controls = useAnimation();
-
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
+  // Reveal Animation
   useEffect(() => {
     if (isInView) {
       controls.start("visible");
@@ -41,6 +42,17 @@ export const Project = ({
       controls.start("hidden");
     }
   }, [isInView, controls]);
+
+  // iOS Safari Fix : Prevent scroll when modal is open 
+  useEffect(() => {
+    const body = document.querySelector("body");
+    if (isOpen) {
+      body!.style.overflowY = "hidden";
+    } else {
+      body!.style.overflowY = "scroll";
+    }
+  }, [isOpen]);
+
 
   return (
     <>
