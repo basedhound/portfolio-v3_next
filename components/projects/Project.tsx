@@ -45,22 +45,20 @@ export const Project = ({
   }, [isInView, controls]);
 
   // Body Scroll Lock
-  // Note : cleaner way to do this -> conditional CSS using globale state (context)
   // https://www.jayfreestone.com/writing/locking-body-scroll-ios/
-
-  const handleClick = () => {
-    setIsOpen(true);
-  };
-
+  // Try : cleaner way -> conditional CSS using global state (context)
   const [scrollTop, setScrollTop] = useState(0);
   useEffect(() => {
+    const body = document.querySelector("body");
     const wrapper = document.querySelector('.section-wrapper');
     if (isOpen) {
     setScrollTop(window.scrollY);
-    wrapper!.classList.add('is-fixed');
+    body!.style.overflowY = "hidden";
+    wrapper!.classList.add('fixed');
     wrapper!.scrollTo(0, scrollTop)
     } else {
-      wrapper!.classList.remove('is-fixed');
+      body!.style.overflowY = "scroll";
+      wrapper!.classList.remove('fixed');
       window.scrollTo(0, scrollTop)
     }
   }, [isOpen]);
@@ -112,7 +110,7 @@ export const Project = ({
           </Reveal>
           <Reveal>
             <p className={styles.projectDescription}>
-              {description} <span onClick={handleClick}>Details {">"}</span>
+              {description} <span onClick={() => setIsOpen(true)}>Details {">"}</span>
             </p>
           </Reveal>
         </div>

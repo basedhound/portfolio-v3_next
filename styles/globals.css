@@ -40,15 +40,6 @@ body {
   background: var(--background);
 }
 
-.is-fixed {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  /* Allow the main content to be scrolled, */
-  /* so we can adjust the scroll position with JS. */
-  overflow: auto;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -61,6 +52,11 @@ a {
   margin: auto;
   padding: 9.6rem;
   overflow: hidden;
+}
+
+.fixed {
+  position: fixed;
+  overflow: scroll;
 }
 
 @media (max-width: 768px) {
