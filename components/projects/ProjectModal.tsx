@@ -52,8 +52,9 @@ export const ProjectModal = ({
           priority
           src={imgSrc}
           alt={`An image of the ${title} project.`}
-          width={500}
-          height={400}
+          width={0}
+          height={0}
+          sizes="100vw"
           className={styles.modalImage}
         />
         <div className={styles.modalContent}>
