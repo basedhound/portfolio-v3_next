@@ -74,6 +74,12 @@
   }
 }
 
+.spaceBetween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
 .links {
   display: flex;
   align-items: center;
@@ -101,10 +107,10 @@
   border: none;
   color: var(--text);
   font-size: var(--text-md);
-
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-
+  // position: absolute;
+  // top: 2rem;
+  // right: 2rem;
   cursor: pointer;
+
+  
 }

@@ -28,9 +28,6 @@ export const ProjectModal = ({
 }: Props) => {
   const content = (
     <div className={styles.modal} onClick={() => setIsOpen(false)}>
-      <button className={styles.closeModalBtn}>
-        <MdClose />
-      </button>
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -55,16 +52,28 @@ export const ProjectModal = ({
             <p className={styles.linksText}>
               Links<span>.</span>
             </p>
-            <div className={styles.links}>
-              <Link target="_blank" rel="nofollow" href={code}>
-                <AiFillGithub />
-                Code
-              </Link>
-              <Link target="_blank" rel="nofollow" href={projectLink}>
-                <AiOutlineExport />
-                Demo
-              </Link>
+
+            <div className={styles.spaceBetween}>
+
+              <div className={styles.links}>
+                <Link target="_blank" rel="nofollow" href={code}>
+                  <AiFillGithub />
+                  Code
+                </Link>
+                <Link target="_blank" rel="nofollow" href={projectLink}>
+                  <AiOutlineExport />
+                  Demo
+                </Link>
+              </div>
+
+
+              <button className={styles.closeModalBtn}>
+                <MdClose />
+              </button>
             </div>
+
+
+
           </div>
         </div>
       </motion.div>
