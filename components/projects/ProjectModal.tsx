@@ -27,7 +27,7 @@ export const ProjectModal = ({
   tech,
 }: Props) => {
   const content = (
-    <div className={styles.modal}>
+    <div className={styles.modal} onClick={() => setIsOpen(false)}>
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}

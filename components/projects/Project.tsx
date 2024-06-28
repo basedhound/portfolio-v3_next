@@ -55,6 +55,7 @@ export const Project = ({
     body!.style.overflowY = "scroll";
     }
   }, [isOpen]);
+  
 
   return (
     <>
