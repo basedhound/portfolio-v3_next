@@ -47,9 +47,9 @@ export const Project = ({
   useEffect(() => {
     const body = document.querySelector("body");
     if (isOpen) {
-      body!.style.overflowY = "hidden";
+      body!.style.position = "fixed";
     } else {
-      body!.style.overflowY = "scroll";
+      body!.style.position = "relative";
     }
   }, [isOpen]);
 
