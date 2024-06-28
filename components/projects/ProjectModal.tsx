@@ -1,5 +1,4 @@
 import styles from "./projectmodal.module.scss";
-import { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -32,7 +31,6 @@ export const ProjectModal = ({
       <button className={styles.closeModalBtn}>
         <MdClose />
       </button>
-
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}

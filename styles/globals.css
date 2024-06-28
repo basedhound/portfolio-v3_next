@@ -54,11 +54,6 @@ a {
   overflow: hidden;
 }
 
-.fixed {
-  position: fixed;
-  overflow: scroll;
-}
-
 @media (max-width: 768px) {
   .section-wrapper {
     padding: 7.2rem 2.4rem;

@@ -47,19 +47,12 @@ export const Project = ({
   // Body Scroll Lock
   // https://www.jayfreestone.com/writing/locking-body-scroll-ios/
   // Try : cleaner way -> conditional CSS using global state (context)
-  const [scrollTop, setScrollTop] = useState(0);
   useEffect(() => {
     const body = document.querySelector("body");
-    const wrapper = document.querySelector('.section-wrapper');
     if (isOpen) {
-    setScrollTop(window.scrollY);
     body!.style.overflowY = "hidden";
-    wrapper!.classList.add('fixed');
-    wrapper!.scrollTo(0, scrollTop)
-    } else {
-      body!.style.overflowY = "scroll";
-      wrapper!.classList.remove('fixed');
-      window.scrollTo(0, scrollTop)
+  } else {
+    body!.style.overflowY = "scroll";
     }
   }, [isOpen]);
 
