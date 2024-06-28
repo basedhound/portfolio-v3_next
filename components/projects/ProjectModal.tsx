@@ -27,7 +27,7 @@ export const ProjectModal = ({
   tech,
 }: Props) => {
   const content = (
-    <div className={styles.modal} onClick={() => setIsOpen(false)}>
+    <div className={styles.modal}>
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -54,7 +54,6 @@ export const ProjectModal = ({
             </p>
 
             <div className={styles.spaceBetween}>
-
               <div className={styles.links}>
                 <Link target="_blank" rel="nofollow" href={code}>
                   <AiFillGithub />
@@ -66,14 +65,12 @@ export const ProjectModal = ({
                 </Link>
               </div>
 
-
-              <button className={styles.closeModalBtn}>
+              <button
+                className={styles.closeModalBtn}
+                onClick={() => setIsOpen(false)}>
                 <MdClose />
               </button>
             </div>
-
-
-
           </div>
         </div>
       </motion.div>
