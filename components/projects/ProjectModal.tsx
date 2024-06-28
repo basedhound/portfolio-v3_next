@@ -1,5 +1,5 @@
 import styles from "./projectmodal.module.scss";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -27,15 +27,6 @@ export const ProjectModal = ({
   code,
   tech,
 }: Props) => {
-  useEffect(() => {
-    const body = document.querySelector("body");
-    if (isOpen) {
-      body!.style.overflowY = "hidden";
-    } else {
-      body!.style.overflowY = "scroll";
-    }
-  }, [isOpen]);
-
   const content = (
     <div className={styles.modal} onClick={() => setIsOpen(false)}>
       <button className={styles.closeModalBtn}>

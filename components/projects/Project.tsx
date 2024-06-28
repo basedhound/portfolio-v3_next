@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
+
 interface Props {
   modalContent: JSX.Element;
   description: string;
@@ -29,7 +30,7 @@ export const Project = ({
   const [hovered, setHovered] = useState(false);
   // Modal
   const [isOpen, setIsOpen] = useState(false);
-
+  // Else
   const controls = useAnimation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -43,16 +44,26 @@ export const Project = ({
     }
   }, [isInView, controls]);
 
-  // iOS Safari Fix : Prevent scroll when modal is open 
+  // Body Scroll Lock
+  // Note : cleaner way to do this -> conditional CSS using globale state (context)
+  // https://www.jayfreestone.com/writing/locking-body-scroll-ios/
+
+  const handleClick = () => {
+    setIsOpen(true);
+  };
+
+  const [scrollTop, setScrollTop] = useState(0);
   useEffect(() => {
-    const body = document.querySelector("body");
+    const wrapper = document.querySelector('.section-wrapper');
     if (isOpen) {
-      body!.style.overflow = "hidden";
+    setScrollTop(window.scrollY);
+    wrapper!.classList.add('is-fixed');
+    wrapper!.scrollTo(0, scrollTop)
     } else {
-      body!.style.overflow = "scroll";
+      wrapper!.classList.remove('is-fixed');
+      window.scrollTo(0, scrollTop)
     }
   }, [isOpen]);
-
 
   return (
     <>
@@ -101,8 +112,7 @@ export const Project = ({
           </Reveal>
           <Reveal>
             <p className={styles.projectDescription}>
-              {description}{" "}
-              <span onClick={() => setIsOpen(true)}>Details {">"}</span>
+              {description} <span onClick={handleClick}>Details {">"}</span>
             </p>
           </Reveal>
         </div>
