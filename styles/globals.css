@@ -30,7 +30,7 @@
 
 html,
 body {
-  max-width: 100%;
+  max-width: auto;
   scroll-behavior: smooth;
   font-size: var(--text-sm);
 }
