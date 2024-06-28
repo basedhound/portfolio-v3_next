@@ -8,7 +8,7 @@ export default function home() {
         <title>Frank Vukelić - React/Next.js</title>
         <link rel="shortcut icon" href="/assets/favicon.png" />
         <meta name="description" content="Frank Vukelić | Web Developer" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width"/>
         <meta property="og:title" content="Frank Vukelić | Web Developer" />
         <meta name="description" content="Hey! I'm Frank Vukelić, and I'm a Bachelor of Science in Information Technology graduate." />
 

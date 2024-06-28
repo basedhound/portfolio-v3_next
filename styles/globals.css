@@ -7,7 +7,7 @@
   --background-dark: rgb(8, 8, 8);
 
   --text: rgb(235, 236, 243);
-  --brand: #DD58D6;
+  --brand: #dd58d6;
 
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
@@ -30,7 +30,7 @@
 
 html,
 body {
-  max-width: auto;
+  max-width: 100vw;
   scroll-behavior: smooth;
   font-size: var(--text-sm);
 }
