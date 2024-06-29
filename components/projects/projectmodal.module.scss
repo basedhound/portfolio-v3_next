@@ -5,15 +5,17 @@
   right: 0;
   z-index: 999;
 
-  padding: 4.8rem 1.2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background: var(--bg-opaque);
   backdrop-filter: blur(12px);
-
-  height: 100%;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  height: 100%;
+  overflow-y: scroll;
 
   cursor: pointer;
 }
@@ -92,8 +94,7 @@
     font-size: var(--text-xs);
     font-weight: 400;
     color: var(--brand);
-    opacity: 0.7;
-    transition: 0.2s;
+    opacity: 0.9;
   }
 
   a:hover {
@@ -108,9 +109,11 @@
   color: var(--text);
   font-size: 2.5rem;
   align-self: flex-end;
-  // font-size: var(--text-md);
-  // position: absolute;
-  // top: 2rem;
-  // right: 2rem;
   cursor: pointer;
+
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+    scale: 1.05;
+  }
 }
