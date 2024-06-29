@@ -12,3 +12,7 @@
 - Portfolio notes (Upnote/Todo previous portfolio)
 
 - Close modals on swipe finger move
+
+- Add Section with services/prices
+
+- Button to Switch Language

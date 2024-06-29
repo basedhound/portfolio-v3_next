@@ -30,6 +30,12 @@ const projects = [
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quisquam exercitationem aliquam delectus quas. Obcaecati aperiam, dignissimos expedita at quisquam nostrum commodi consequuntur ea, placeat magni maxime tenetur deleniti voluptates?
         </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quisquam exercitationem aliquam delectus quas. Obcaecati aperiam, dignissimos expedita at quisquam nostrum commodi consequuntur ea, placeat magni maxime tenetur deleniti voluptates?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quisquam exercitationem aliquam delectus quas. Obcaecati aperiam, dignissimos expedita at quisquam nostrum commodi consequuntur ea, placeat magni maxime tenetur deleniti voluptates?
+        </p>
       </>
     ),
   },

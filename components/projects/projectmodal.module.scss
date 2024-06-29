@@ -1,23 +1,27 @@
 .modal {
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
 
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 2rem 1.2rem;
   background: var(--bg-opaque);
   backdrop-filter: blur(12px);
-  
+  cursor: pointer;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  height: 100%;
+
+  // Allow scrolling inside modal
   overflow-y: scroll;
 
-  cursor: pointer;
+}
+
+.modalCardWrap {
+  height: 99%;
 }
 
 .modalCard {
@@ -31,14 +35,13 @@
 }
 
 .modalImage {
+  border-radius: 1.2rem 1.2rem 0 0;
   width: 100%;
   height: auto;
-  border-radius: 1.2rem 1.2rem 0 0;
 }
 
 .modalContent {
   padding: 2.4rem;
-
   h4 {
     font-size: var(--text-lg);
   }
@@ -110,6 +113,7 @@
   font-size: 2.5rem;
   align-self: flex-end;
   cursor: pointer;
+  transition: 0.2s;
 
   opacity: 0.7;
   &:hover {
