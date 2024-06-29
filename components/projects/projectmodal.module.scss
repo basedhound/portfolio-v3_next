@@ -11,12 +11,13 @@
   backdrop-filter: blur(12px);
   cursor: pointer;
 
+  /* Using Flex here sticks the modalImage to the top.
+  Grid seems to fix this problem. */
   display: grid;
   place-items: center;
 
   // Allow scrolling inside modal
   overflow-y: scroll;
-
 }
 
 .modalCard {
