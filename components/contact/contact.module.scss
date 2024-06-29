@@ -47,11 +47,7 @@
   font-size: var(--text-md);
   margin: auto;
   transition: 0.5s;
-  // padding: 12px 32px 12px 32px;
-  // border-radius: 1rem;
-  // background: var(--background-light);
-}
-
-.contactEmail:hover {
-  color: var(--brand);
+  &:hover {
+    color: var(--brand);
+  }
 }
