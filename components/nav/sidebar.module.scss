@@ -16,37 +16,50 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 
-  a {
-    height: 100px;
-
-    flex-shrink: 0;
-
-    writing-mode: vertical-lr;
-    font-size: var(--text-sm);
-    font-weight: 200;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.5;
-
-    border-right: 1px solid transparent;
-
-    transition: 0.1s all;
-    width: 100%;
-  }
-
-  a:hover {
-    background: var(--background);
-    border-right: 1px solid var(--brand);
-    opacity: 1;
-  }
-
+  
   .selected {
     background: var(--background);
     border-right: 1px solid var(--brand);
     opacity: 1;
   }
 }
+
+.sideBarLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100px;
+  padding: 1.5rem;
+  // flex-shrink: 0;
+
+  writing-mode: vertical-lr;
+  font-size: var(--text-sm);
+  font-weight: 200;
+  opacity: 0.5;
+
+  border-right: 1px solid transparent;
+
+  transition: 0.1s all;
+}
+
+
+.sideBarLink:hover {
+  background: var(--background);
+  border-right: 1px solid var(--brand);
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .logo {
   cursor: pointer;

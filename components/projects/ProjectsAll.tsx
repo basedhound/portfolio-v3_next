@@ -3,23 +3,19 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
-import { Reveal } from "../utils/Reveal";
 
-export const Projects = () => {
+export const ProjectsAll = () => {
   return (
     <section className="section-wrapper" id="projects">
-      <SectionHeader title="Projects" dir="r" />
-
       <div className={styles.projects}>
         {projects.map((project) => {
           return <Project key={project.title} {...project} />;
         })}
       </div>
-
-          <div className={styles.galleryLink}>
-            <AiOutlineArrowRight size="2rem" />
-            <Link href="/gallery">Access Full Gallery</Link>
-          </div>
+      <div className={styles.galleryLink}>
+        <AiOutlineArrowRight size="2rem" />
+        <Link href="/#projects">Go Back</Link>
+      </div>
     </section>
   );
 };

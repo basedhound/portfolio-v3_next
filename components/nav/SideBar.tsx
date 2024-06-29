@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import styles from "./sidebar.module.scss";
 import { motion } from "framer-motion";
+import styles from "./sidebar.module.scss";
+import Link from "next/link";
 
 export const SideBar = () => {
   const [selected, setSelected] = useState("");
@@ -26,72 +27,91 @@ export const SideBar = () => {
   }, []);
 
   return (
-    <div style={{background: "var(--background-dark)"}}>
+    <div style={{ background: "var(--background-dark)" }}>
       <motion.nav
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5 }}
-        className={styles.sideBar}
-      >
-        <span className={styles.logo} onClick={() => {
-          document.location.hash === "" ?
-          document.getElementById("main")?.scrollIntoView() :
-          document.location.hash = '';
-          }}>
+        className={styles.sideBar}>
+        <Link href="/" className={styles.logo}>
           FV<span>.</span>
-        </span>
-        <motion.a
+        </Link>
+
+        <motion.div
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          href="#about"
-          onClick={() => {
-            setSelected("about");
-          }}
-          className={selected === "about" ? styles.selected : ""}
-        >
-          About
-        </motion.a>
-        <motion.a
+          transition={{ duration: 0.5, delay: 0.1 }}>
+          <Link
+            className={`${styles.sideBarLink} ${
+              selected === "about" ? styles.selected : ""
+            }`}
+            href="/#about"
+            onClick={() => {
+              setSelected("about");
+            }}>
+            About
+          </Link>
+        </motion.div>
+
+        <motion.div
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          href="#projects"
-          onClick={() => setSelected("projects")}
-          className={selected === "projects" ? styles.selected : ""}
-        >
-          Projects
-        </motion.a>
-        <motion.a
+          transition={{ duration: 0.5, delay: 0.2 }}>
+          <Link
+            className={`${styles.sideBarLink} ${
+              selected === "projects" ? styles.selected : ""
+            }`}
+            href="/#projects"
+            onClick={() => setSelected("projects")}>
+            Projects
+          </Link>
+        </motion.div>
+
+        <motion.div
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          href="#experience"
-          onClick={() => setSelected("experience")}
-          className={selected === "experience" ? styles.selected : ""}
-        >
-          Exp.
-        </motion.a>
-        <motion.a
+          transition={{ duration: 0.5, delay: 0.2 }}>
+          <Link
+            className={`${styles.sideBarLink} ${
+              selected === "experience" ? styles.selected : ""
+            }`}
+            href="/#experience"
+            onClick={() => setSelected("experience")}>
+            Exp.
+          </Link>
+        </motion.div>
+
+        <motion.div
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          href="#certification"
-          onClick={() => setSelected("certification")}
-          className={selected === "certification" ? styles.selected : ""}
-        >
-          Certif.
-        </motion.a>
-        <motion.a
+          transition={{ duration: 0.5, delay: 0.2 }}>
+          <Link
+            className={`${styles.sideBarLink} ${
+              selected === "certification" ? styles.selected : ""
+            }`}
+            href="/#certification"
+            onClick={() => setSelected("certification")}>
+            Certif.
+          </Link>
+        </motion.div>
+
+        <motion.div
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          href="#contact"
-          onClick={() => setSelected("contact")}
-          className={selected === "contact" ? styles.selected : ""}
-        >
-          Contact
-        </motion.a>
+          transition={{ duration: 0.5, delay: 0.2 }}>
+          <Link
+            className={`${styles.sideBarLink} ${
+              selected === "contact" ? styles.selected : ""
+            }`}
+            href="/#contact"
+            onClick={() => setSelected("contact")}>
+            Contact
+          </Link>
+        </motion.div>
+
+        
+
+
       </motion.nav>
     </div>
   );

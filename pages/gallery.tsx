@@ -1,9 +1,14 @@
-import React from 'react'
+import { ProjectsAll } from "@/components/projects/ProjectsAll";
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
-  )
-}
+    <>
+        <main id="gallery">
+          <ProjectsAll />
+        </main>
+ 
+    </>
+  );
+};
 
 export default Gallery
