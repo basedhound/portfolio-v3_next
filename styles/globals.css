@@ -60,9 +60,32 @@ a {
   }
 }
 
+/* Stats - Exp. - Certif. */
 .chip {
+  cursor: default;
   font-size: var(--text-xs);
   background: var(--background-light);
   padding: 0.2rem 0.8rem;
   border-radius: 999px;
+
+  opacity: 0.6;
+  transition: 0.2s;
+}
+.chip:hover {
+  opacity: 1;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--background-dark);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--background-light);
+  opacity: 0.5;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--brand);
 }
