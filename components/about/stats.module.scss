@@ -22,12 +22,4 @@
   flex-wrap: wrap;
   gap: 1.2rem;
   margin-bottom: 4.8rem;
-  span {
-    opacity: 0.6;
-    transition: 0.2s;
-    cursor: default;
-    &:hover {
-      opacity: 1;
-    }
-  }
 }
