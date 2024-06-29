@@ -28,51 +28,48 @@ export const ProjectModal = ({
 }: Props) => {
   const content = (
     <div className={styles.modal} onClick={() => setIsOpen(false)}>
-
-      <div className={styles.modalCardWrap}>
-        <motion.div
-          initial={{ y: 100, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          onClick={(e) => e.stopPropagation()}
-          className={styles.modalCard}>
-          <Image
-            priority
-            src={imgSrc}
-            alt={`An image of the ${title} project.`}
-            width={0}
-            height={0}
-            sizes="100vw"
-            className={styles.modalImage}
-          />
-          <div className={styles.modalContent}>
-            <h4>{title}</h4>
-            <div className={styles.modalTech}>{tech.join(" - ")}</div>
-            <div className={styles.suppliedContent}>{modalContent}</div>
-            <div className={styles.modalFooter}>
-              <p className={styles.linksText}>
-                Links<span>.</span>
-              </p>
-              <div className={styles.spaceBetween}>
-                <div className={styles.links}>
-                  <Link target="_blank" rel="nofollow" href={code}>
-                    <AiFillGithub />
-                    Code
-                  </Link>
-                  <Link target="_blank" rel="nofollow" href={projectLink}>
-                    <AiOutlineExport />
-                    Demo
-                  </Link>
-                </div>
-                  <button className={styles.closeModalBtn} onClick={() => setIsOpen(false)}>
-                    <MdClose />
-                  </button>
+      <motion.div
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        onClick={(e) => e.stopPropagation()}
+        className={styles.modalCard}>
+        <Image
+          priority
+          src={imgSrc}
+          alt={`An image of the ${title} project.`}
+          width={0}
+          height={0}
+          sizes="100vw"
+          className={styles.modalImage}
+        />
+        <div className={styles.modalContent}>
+          <h4>{title}</h4>
+          <div className={styles.modalTech}>{tech.join(" - ")}</div>
+          <div className={styles.suppliedContent}>{modalContent}</div>
+          <div className={styles.modalFooter}>
+            <p className={styles.linksText}>
+              Links<span>.</span>
+            </p>
+            <div className={styles.spaceBetween}>
+              <div className={styles.links}>
+                <Link target="_blank" rel="nofollow" href={code}>
+                  <AiFillGithub />
+                  Code
+                </Link>
+                <Link target="_blank" rel="nofollow" href={projectLink}>
+                  <AiOutlineExport />
+                  Demo
+                </Link>
               </div>
+              <button
+                className={styles.closeModalBtn}
+                onClick={() => setIsOpen(false)}>
+                <MdClose />
+              </button>
             </div>
           </div>
-        </motion.div>
-      </div>
-
-
+        </div>
+      </motion.div>
     </div>
   );
 

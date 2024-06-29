@@ -11,17 +11,12 @@
   backdrop-filter: blur(12px);
   cursor: pointer;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
 
   // Allow scrolling inside modal
   overflow-y: scroll;
 
-}
-
-.modalCardWrap {
-  height: 99%;
 }
 
 .modalCard {
