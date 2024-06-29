@@ -65,15 +65,10 @@ export const ProjectModal = ({
                   Demo
                 </Link>
               </div>
-
-
-              <button className={styles.closeModalBtn} onClick={() => setIsOpen(false)}>
-                <MdClose />
-              </button>
+                <button className={styles.closeModalBtn} onClick={() => setIsOpen(false)}>
+                  <MdClose />
+                </button>
             </div>
-
-
-
           </div>
         </div>
       </motion.div>
