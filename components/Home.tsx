@@ -6,14 +6,14 @@ import { Experience } from "./experience/Experience";
 import { Certification } from "./certification/Certification";
 import { Contact } from "./contact/Contact";
 // Now imported in _app.tsx
-// import { SideBar } from "./nav/SideBar";
-// import styles from "./home.module.scss";
+import { SideBar } from "./nav/SideBar";
+import styles from "./home.module.scss";
 
 export const Home = () => {
   return (
     <>
-      {/* <div className={styles.home}> */}
-      {/* <SideBar /> */}
+      <div className={styles.home}>
+      <SideBar />
       <main id="main">
         <Heading />
         <Hero />
@@ -30,7 +30,7 @@ export const Home = () => {
           }}
         />
       </main>
-      {/* </div> */}
+      </div>
     </>
   );
 };

@@ -108,10 +108,6 @@ export const SideBar = () => {
             Contact
           </Link>
         </motion.div>
-
-        
-
-
       </motion.nav>
     </div>
   );

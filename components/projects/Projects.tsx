@@ -16,7 +16,7 @@ export const Projects = () => {
         })}
       </div>
 
-          <div className={styles.galleryLink}>
+          <div className={styles.linkToGallery}>
             <AiOutlineArrowRight size="2rem" />
             <Link href="/gallery">Access Full Gallery</Link>
           </div>
