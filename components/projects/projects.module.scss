@@ -8,6 +8,35 @@
   }
 }
 
+.galleryLink {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  gap: 0.8rem;
+  width: fit-content;
+  font-size: var(--text-md);
+  margin: auto;
+  transition: 0.5s;
+  animation: opacity 2s infinite;
+  &:hover {
+    color: var(--brand);
+    animation: none;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+
+
 .projectImage {
   width: 100%;
   aspect-ratio: 16 / 9;
