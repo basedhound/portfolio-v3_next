@@ -127,3 +127,29 @@
 
   margin: 0.8rem 0;
 }
+
+// Gallery =============================
+
+.galleryLink1 {
+  display: inline-block;
+  padding-bottom: 1rem;
+  transition: 0.1s;
+  opacity: 0.6;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.galleryLink2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 0.8rem;
+  font-size: var(--text-md);
+  transition: 0.1s;
+  opacity: 0.6;
+  &:hover {
+    opacity: 1;
+  }
+}
