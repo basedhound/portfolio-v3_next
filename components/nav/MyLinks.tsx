@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
   AiOutlineWhatsApp,
+  AiFillFacebook,
 } from "react-icons/ai";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -53,18 +54,33 @@ export const MyLinks = () => {
         </Link>
       </motion.span>
 
-      {/* INSTAGRAM */}
+      {/* FACEBOOK */}
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}>
         <Link
-          href="https://www.instagram.com/frank.vkc"
+          href="https://m.me/frank.vkc"
+          target="_blank"
+          rel="nofollow">
+          <AiFillFacebook size="2.4rem" />
+        </Link>
+      </motion.span>
+
+           {/* INSTAGRAM */}
+           <motion.span
+        initial={{ y: -30, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.3 }}>
+        <Link
+          href="https://ig.me/m/frank.vkc"
           target="_blank"
           rel="nofollow">
           <AiFillInstagram size="2.4rem" />
         </Link>
       </motion.span>
+
+
     </div>
   );
 };
