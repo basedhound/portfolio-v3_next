@@ -1,15 +1,9 @@
 - Add Section with services/prices
-
-- Add Search Bar Filter
-
 - Complete README : Add README + Screenshot
-
 - Complete Stack
 - Complete Certification
 - Complete Experience
   
-
-
 # 8 projects to showcase
 1 - CarHub : https://car-hub-fv.vercel.app
 - Need to fix API calls
@@ -33,6 +27,7 @@
 + GitHub README, Screenshot
 
 # Features for later
+- Add Search Bar Filter
 - Button to Switch Language EN/FR
 - Close modals on swipe finger move
 - CV : Créer une nouvelle page qui sera le CV avec un super design à la manière de certaines vidéos de Bedimcode
