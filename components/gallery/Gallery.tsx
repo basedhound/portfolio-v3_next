@@ -2,20 +2,27 @@ import Link from "next/link";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { Project } from "@/components/projects/Project";
 import styles from "./gallery.module.scss";
+import Search from "./Search";
 
 const Gallery = () => {
   return (
     <section className="section-wrapper" id="gallery">
+      {/* Back Home */}
       <Link className={styles.galleryLink1} href="/#projects">
         <AiOutlineArrowLeft size="3rem" />
       </Link>
 
+      {/* Search */}
+      <Search/>
+
+      {/* Gallery */}
       <div className={styles.projects}>
         {projects.map((project) => {
           return <Project key={project.title} {...project} />;
         })}
       </div>
 
+      {/* Back Home */}
       <Link className={styles.galleryLink2} href="/#projects">
         <AiOutlineArrowRight size="2rem" />
         Home
