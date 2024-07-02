@@ -33,15 +33,17 @@ export const ProjectModal = ({
         animate={{ y: 0, opacity: 1 }}
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}>
-        <Image
-          priority
-          src={imgSrc}
-          alt={`An image of the ${title} project.`}
-          width={0}
-          height={0}
-          sizes="100vw"
-          className={styles.modalImage}
-        />
+        <Link href={projectLink}>
+          <Image
+            priority
+            src={imgSrc}
+            alt={`An image of the ${title} project.`}
+            width={0}
+            height={0}
+            sizes="100vw"
+            className={styles.modalImage}
+          />
+        </Link>
         <div className={styles.modalContent}>
           <h4>{title}</h4>
           <div className={styles.modalTech}>{tech.join(" - ")}</div>
