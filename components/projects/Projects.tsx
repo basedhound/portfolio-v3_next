@@ -26,39 +26,8 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Project",
-    imgSrc: "/projects/iphone.webp",
-    code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    title: "iPhone 15",
+    imgSrc: "/showcase/iphone.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -76,8 +45,8 @@ const projects = [
     ),
   },
   {
-    title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    title: "Podcast AI",
+    imgSrc: "/showcase/podcastr.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -95,8 +64,8 @@ const projects = [
     ),
   },
   {
-    title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    title: "Travel Agency",
+    imgSrc: "/showcase/travel.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -114,8 +83,8 @@ const projects = [
     ),
   },
   {
-    title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    title: "Sushi Restaurant",
+    imgSrc: "/showcase/sushi.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -133,8 +102,8 @@ const projects = [
     ),
   },
   {
-    title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    title: "Evently",
+    imgSrc: "/showcase/evently.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -152,8 +121,8 @@ const projects = [
     ),
   },
   {
-    title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    title: "Imaginify",
+    imgSrc: "/showcase/imaginify.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -171,8 +140,27 @@ const projects = [
     ),
   },
   {
-    title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    title: "3D Portfolio",
+    imgSrc: "/showcase/portfolio3d.webp",
+    code: "https://www.github.com",
+    projectLink: "https://iphone15-fv.netlify.app/",
+    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    description:
+      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
+    modalContent: (
+      <>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
+          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
+          placeat magni maxime tenetur deleniti voluptates?
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Car Hub",
+    imgSrc: "/showcase/carhub.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
