@@ -3,7 +3,6 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
-import { Reveal } from "../utils/Reveal";
 
 export const Projects = () => {
   return (
