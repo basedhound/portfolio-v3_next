@@ -1,6 +1,3 @@
-// import Image from "next/image";
-// import { motion } from "framer-motion";
-// import Profile from "@/public/assets/profile.jpg";
 import { StandardButton } from "@/components/buttons/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
@@ -23,9 +20,7 @@ export const Hero = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-              I&apos;ve spent the last 3 years building and scaling applications
-              for some pretty cool companies and individuals. I also create
-              interesting self projects on my spare time. Let&apos;s connect!
+            Proficient in React and Next.js, I&apos;ve spent the last 3 years building websites and applications. In my free time, I dive into self-driven projects to broaden my technological skills. Let&apos;s bring your projects to life.
             </p>
           </Reveal>
           <Reveal>
@@ -37,19 +32,6 @@ export const Hero = () => {
             </StandardButton>
           </Reveal>
         </div>
-        {/* <motion.div
-          initial={{ y: -30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.4 }}>
-          <Image
-            className={styles.profile}
-            src={Profile}
-            priority
-            alt="Frank Vukelić | Web Developer"
-            width={250}
-            height={250}
-          />
-        </motion.div>   */}
       </div>
       <DotGrid />
     </section>
