@@ -14,46 +14,12 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "Experience 1",
-    position: "React Developer",
-    time: "Aug 2022 - October 2023",
-    location: "Grand Junction, CO",
+    title: "Freelance",
+    role: "Web Developer",
+    date: "Since 2022",
+    location: "Remote",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo beatae iure, provident hic deleniti obcaecati laborum labore eius est ullam et in, ex explicabo veritatis iusto dolor. Corporis, cupiditate explicabo.",
-    tech: [
-      "Next JS",
-      "React",
-      "MongoDB",
-      "Postgres",
-      "Python",
-      "Git",
-      "Github",
-    ],
-  },
-  {
-    title: "Experience 2",
-    position: "React Developer",
-    time: "Aug 2022 - October 2023",
-    location: "Grand Junction, CO",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo beatae iure, provident hic deleniti obcaecati laborum labore eius est ullam et in, ex explicabo veritatis iusto dolor. Corporis, cupiditate explicabo.",
-    tech: [
-      "Next JS",
-      "React",
-      "MongoDB",
-      "Postgres",
-      "Python",
-      "Git",
-      "Github",
-    ],
-  },
-  {
-    title: "Experience 3",
-    position: "React Developer",
-    time: "Aug 2022 - October 2023",
-    location: "Grand Junction, CO",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo beatae iure, provident hic deleniti obcaecati laborum labore eius est ullam et in, ex explicabo veritatis iusto dolor. Corporis, cupiditate explicabo.",
+    "I develop custom websites for individuals and small businesses, delivering responsive, user-friendly, and tailored designs. My responsibilities include optimizing site performance, enhancing search engine optimization (SEO) for better search visibility, and providing copyrighting services for unique, legally compliant content. Additionally, I offer logo design and social media assistance to improve brand presence and engage clients across different industries.",
     tech: [
       "Next JS",
       "React",
