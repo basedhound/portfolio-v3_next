@@ -17,11 +17,11 @@
 
 **[EN]** This portfolio is a showcase of my skills, built with React and powered by Next.js for fast and flexible server-side rendering and static site generation. I've leveraged TypeScript to ensure robust code quality and maintainability. A styling system crafted with Sass/Scss and Tailwind CSS brings a polished visual identity to life. And, with Framer Motion and Anime.js, I've added a touch of dynamism with smooth animations and transitions, creating an engaging user experience
 
-[FR] Ce portfolio est une vitrine de mes compétences, conçu avec React et propulsé par Next.js pour un rendu serveur rapide et flexible ainsi que la génération de sites statiques. J'ai mis à profit TypeScript pour assurer une qualité de code robuste et maintenable. Un système de styling conçu avec Sass/Scss et Tailwind CSS donne vie à une identité visuelle soignée. Et, avec Framer Motion et Anime.js, j'ai ajouté une touche de dynamisme avec des animations et des transitions fluides, créant une expérience utilisateur engageante.
+**[FR]** Ce portfolio est une vitrine de mes compétences, conçu avec React et propulsé par Next.js pour un rendu serveur rapide et flexible ainsi que la génération de sites statiques. J'ai mis à profit TypeScript pour assurer une qualité de code robuste et maintenable. Un système de styling conçu avec Sass/Scss et Tailwind CSS donne vie à une identité visuelle soignée. Et, avec Framer Motion et Anime.js, j'ai ajouté une touche de dynamisme avec des animations et des transitions fluides, créant une expérience utilisateur engageante.
 
 ## <br/> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **`React`:** React allows developers to create reusable components and efficiently render dynamic, data-driven UIs. With a focus on component-based architecture and a virtual DOM, React delivers faster rendering and improved performance.
+**`React:`** React allows developers to create reusable components and efficiently render dynamic, data-driven UIs. With a focus on component-based architecture and a virtual DOM, React delivers faster rendering and improved performance.
 
 - **Next.js:** A React framework for building server-side rendered or statically exported applications. Next.js extends the functionality of React by handling server-side rendering, automatic code splitting, and static site generation, improving performance, SEO, and user experience.
 
