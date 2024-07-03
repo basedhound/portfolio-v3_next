@@ -1,6 +1,7 @@
-<h1>Portfolio</h1>
 <div align="center">
-      <img src="./public/assets/portfolio.png" alt="Project Banner">    
+      <img src="./public/assets/portfolio.png" alt="Project Banner">   
+
+ <br/> <h1>Portfolio</h1>
 </div>
 
 <h2>📋 Table of Contents</h2>
@@ -9,61 +10,43 @@
 - ⚙️ [Tech Stack](#tech-stack)
 - 📝 [Features](#features)
 - 🚀 [Quick Start](#quick-start)
+- 📂 [File Structure](#file-structure)
+- 🎨 [Styling](#styling)
 
 
 ## <a name="introduction">✨ Introduction</a>
 
-**[EN]** A cutting-edge AI SaaS platform that enables users to create, discover, and enjoy podcasts with advanced features like text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation and seamless playback. 
+**[EN]** This portfolio is a showcase of my skills, built with React and powered by Next.js for fast and flexible server-side rendering and static site generation. I've leveraged TypeScript to ensure robust code quality and maintainability. A styling system crafted with Sass/Scss and Tailwind CSS brings a polished visual identity to life. And, with Framer Motion and Anime.js, I've added a touch of dynamism with smooth animations and transitions, creating an engaging user experience
 
-**[FR]** Une plateforme SaaS d'IA de pointe qui permet aux utilisateurs de créer, découvrir et apprécier des podcasts avec des fonctionnalités avancées telles que la conversion de texte en audio avec une IA multi-voix, la génération d'images de miniature de podcast et une lecture en continu sans accroc.
+[FR] Ce portfolio est une vitrine de mes compétences, conçu avec React et propulsé par Next.js pour un rendu serveur rapide et flexible ainsi que la génération de sites statiques. J'ai mis à profit TypeScript pour assurer une qualité de code robuste et maintenable. Un système de styling conçu avec Sass/Scss et Tailwind CSS donne vie à une identité visuelle soignée. Et, avec Framer Motion et Anime.js, j'ai ajouté une touche de dynamisme avec des animations et des transitions fluides, créant une expérience utilisateur engageante.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- TypeScript
-- Convex
-- OpenAI
-- Clerk
-- ShadCN
-- Tailwind CSS
+- **React:** React allows developers to create reusable components and efficiently render dynamic, data-driven UIs. With a focus on component-based architecture and a virtual DOM, React delivers faster rendering and improved performance.
+
+- **Next.js:** A React framework for building server-side rendered or statically exported applications. Next.js extends the functionality of React by handling server-side rendering, automatic code splitting, and static site generation, improving performance, SEO, and user experience.
+
+- **TypeScript:** A statically typed superset of JavaScript, offering better code quality, scalability, and maintainability. TypeScript enables developers to catch errors early, provides better code completion, and helps ensure consistency across large projects.
+
+- **Sass:** A CSS preprocessor, providing advanced features like variables, nesting, and mixins for more efficient and maintainable styling. Sass allows developers to write more complex and reusable CSS, reducing the amount of duplicate code and simplifying the design process.
+
+- **Tailwind:** A utility-first CSS framework for rapidly building custom designs. Tailwind CSS offers a large collection of low-level utility classes, enabling developers to create custom styles quickly and efficiently. With a focus on performance and extensibility, Tailwind CSS simplifies the development process and enhances the design experience.
+
+- **Framer Motion:** A React library for creating animations and transitions. Framer Motion simplifies the process of adding engaging interactions to projects by offering a declarative way to define animations, making it easier to create complex animations and transitions with minimal effort.
+
+- **Anime.js:** A versatile JavaScript animation library, offering a wide range of features including keyframes, timelines, and easing functions to create complex animations. Anime.js provides a simple and powerful API for creating dynamic, visually appealing animations, making it a popular choice for developers and designers alike.
 
 ## <a name="features">📝 Features</a>
 
-👉 **Robust Authentication**: Secure and reliable user login and registration system.
-
-👉 **Modern Home Page**: Showcases trending podcasts with a sticky podcast player for continuous listening.
-
-👉 **Discover Podcasts Page**: Dedicated page for users to explore new and popular podcasts.
-
-👉 **Fully Functional Search**: Allows users to find podcasts easily using various search criteria.
-
-👉 **Create Podcast Page**: Enables podcast creation with text-to-audio conversion, AI image generation, and previews.
-
-👉 **Multi Voice AI Functionality**: Supports multiple AI-generated voices for dynamic podcast creation.
-
-👉 **Profile Page**: View all created podcasts with options to delete them.
-
-👉 **Podcast Details Page**: Displays detailed information about each podcast, including creator details, number of listeners, and transcript.
-
-👉 **Podcast Player**: Features backward/forward controls, as well as mute/unmute functionality for a seamless listening experience.
-
 👉 **Responsive Design**: Fully functional and visually appealing across all devices and screen sizes.
 
-and many more, including code architecture and reusability 
+👉 **Fully Functional Search**: Allows users to find my projects easily using various search criteria.
 
 ## <a name="quick-start">🚀 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
-**Dashboards**
-
-- https://cloud.mongodb.com
-- https://dashboard.clerk.com
-- https://uploadthing.com/dashboard
-- https://dashboard.stripe.com
-- https://platform.openai.com
-
-<br/>**Prerequisites**
+**Prerequisites**
 
 Make sure you have the following installed on your machine:
 
@@ -74,55 +57,10 @@ Make sure you have the following installed on your machine:
 <br/>**Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/jsm_podcastr.git
-cd jsm_podcastr
+git clone {git remote URL}
 ```
 
 <br/>**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-# Convex
-CONVEX_DEPLOYMENT=
-NEXT_PUBLIC_CONVEX_URL=
-
-# Clerk
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-CLERK_WEBHOOK_SECRET=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL='/sign-in'
-NEXT_PUBLIC_CLERK_SIGN_UP_URL='/sign-up'
-
-# OpenAI
-OPENAI_API_KEY=
-```
-
-Replace the placeholder values with your actual Convex & Clerk credentials. You can obtain these credentials by signing up on the [Convex](https://www.convex.dev/) and [Clerk](https://clerk.com/) websites.
-
-<br/>**Running the Project**
-
-```bash
-npm run dev
-npx convex dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
-
-
-
-## Let's get things running
-
-This template is built on top of [NextJS](https://nextjs.org/), a full stack development framework built on top of React.
 
 At the root of your project, you'll see a `package.json` file defining our dependencies.
 
@@ -134,25 +72,28 @@ Most of this is boilerplate, but I will call out the following three dependencie
 
 Now that's out of the way, you can get your project running by first installing dependencies.
 
-From your terminal, run:
+Let's onstall the project dependencies, from your terminal, run:
 
-```
+```bash
 npm install
 # or
 yarn install
 ```
 
-This will take a minute or two, but once that's done, you should be able to run the following command:
+<br/>**Running the Project**
 
-```
+Installation will take a minute or two, but once that's done, you should be able to run the following command:
+
+```bash
 npm run dev
 # or
 yarn dev
 ```
 
-This will start your project on `localhost:3000`
+Open [`localhost:3000`](http://localhost:3000) in your browser to view the project.
 
-## The file structure
+
+## <a name="file-structure">📂 File Structure</a>
 
 Because this is a NextJS project, we follow the standard NextJS pattern for organizing this project.
 
@@ -168,7 +109,7 @@ Inside of the `styles/` directly you'll find find a global CSS file. This just i
 
 Inside of the `components/` directory you'll find all of the good stuff. The `components/home/` directory houses the majority of what you'll like want to edit
 
-## Styling
+## <a name="styling">🎨 Styling</a>
 
 Global styling (colors mainly) are defined using CSS variables in the `styles/globals.css` file.
 
@@ -190,7 +131,3 @@ Global styling (colors mainly) are defined using CSS variables in the `styles/gl
 ```
 
 The first six variables are the colors for the app. The last six are font sizes. Play around with these a bit to start making it your own.
-
-## More info
-
-That's the basics! If you're comfortable digging in yourself, then you should be set.
