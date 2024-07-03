@@ -1,7 +1,7 @@
 <div align="center">
+ <br/> <h1>Portfolio</h1>
       <img src="./public/assets/portfolio.png" alt="Project Banner">   
 
- <br/> <h1>Portfolio</h1>
 </div>
 
 <h2>📋 Table of Contents</h2>
@@ -14,13 +14,13 @@
 - 🎨 [Styling](#styling)
 
 
-## <a name="introduction">✨ Introduction</a>
+## <br/> <a name="introduction">✨ Introduction</a>
 
 **[EN]** This portfolio is a showcase of my skills, built with React and powered by Next.js for fast and flexible server-side rendering and static site generation. I've leveraged TypeScript to ensure robust code quality and maintainability. A styling system crafted with Sass/Scss and Tailwind CSS brings a polished visual identity to life. And, with Framer Motion and Anime.js, I've added a touch of dynamism with smooth animations and transitions, creating an engaging user experience
 
 [FR] Ce portfolio est une vitrine de mes compétences, conçu avec React et propulsé par Next.js pour un rendu serveur rapide et flexible ainsi que la génération de sites statiques. J'ai mis à profit TypeScript pour assurer une qualité de code robuste et maintenable. Un système de styling conçu avec Sass/Scss et Tailwind CSS donne vie à une identité visuelle soignée. Et, avec Framer Motion et Anime.js, j'ai ajouté une touche de dynamisme avec des animations et des transitions fluides, créant une expérience utilisateur engageante.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <br/> <a name="tech-stack">⚙️ Tech Stack</a>
 
 - **React:** React allows developers to create reusable components and efficiently render dynamic, data-driven UIs. With a focus on component-based architecture and a virtual DOM, React delivers faster rendering and improved performance.
 
@@ -36,13 +36,13 @@
 
 - **Anime.js:** A versatile JavaScript animation library, offering a wide range of features including keyframes, timelines, and easing functions to create complex animations. Anime.js provides a simple and powerful API for creating dynamic, visually appealing animations, making it a popular choice for developers and designers alike.
 
-## <a name="features">📝 Features</a>
+## <br/> <a name="features">📝 Features</a>
 
 👉 **Responsive Design**: Fully functional and visually appealing across all devices and screen sizes.
 
 👉 **Fully Functional Search**: Allows users to find my projects easily using various search criteria.
 
-## <a name="quick-start">🚀 Quick Start</a>
+## <br/> <a name="quick-start">🚀 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
@@ -93,7 +93,7 @@ yarn dev
 Open [`localhost:3000`](http://localhost:3000) in your browser to view the project.
 
 
-## <a name="file-structure">📂 File Structure</a>
+## <br/> <a name="file-structure">📂 File Structure</a>
 
 Because this is a NextJS project, we follow the standard NextJS pattern for organizing this project.
 
@@ -109,7 +109,8 @@ Inside of the `styles/` directly you'll find find a global CSS file. This just i
 
 Inside of the `components/` directory you'll find all of the good stuff. The `components/home/` directory houses the majority of what you'll like want to edit
 
-## <a name="styling">🎨 Styling</a>
+
+## <br/> <a name="styling">🎨 Styling</a>
 
 Global styling (colors mainly) are defined using CSS variables in the `styles/globals.css` file.
 
