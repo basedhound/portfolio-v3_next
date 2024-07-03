@@ -1,7 +1,7 @@
 <div align="center">
- <br/> <h1>Portfolio</h1>
       <img src="./public/assets/portfolio.png" alt="Project Banner">   
 
+<br/><h1>Portfolio</h1>
 </div>
 
 <h2>📋 Table of Contents</h2>
