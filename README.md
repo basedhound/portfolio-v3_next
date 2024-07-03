@@ -1,5 +1,5 @@
+<h1>Portfolio</h1>
 <div align="center">
-<h3>Portfolio</h3>
       <img src="./public/assets/portfolio.png" alt="Project Banner">    
 </div>
 
