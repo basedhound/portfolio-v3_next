@@ -21,7 +21,7 @@
 
 ## <br/> <a name="tech-stack">⚙️ Tech Stack</a>
 
-`**React:**` React allows developers to create reusable components and efficiently render dynamic, data-driven UIs. With a focus on component-based architecture and a virtual DOM, React delivers faster rendering and improved performance.
+- **`React`:** React allows developers to create reusable components and efficiently render dynamic, data-driven UIs. With a focus on component-based architecture and a virtual DOM, React delivers faster rendering and improved performance.
 
 - **Next.js:** A React framework for building server-side rendered or statically exported applications. Next.js extends the functionality of React by handling server-side rendering, automatic code splitting, and static site generation, improving performance, SEO, and user experience.
 
