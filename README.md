@@ -1,15 +1,9 @@
 <div align="center">
-  <br />
-    <a href="" target="_blank">
-      <img src="" alt="Project Banner">
-    </a>
-  <br />
-
-  <h3 align="center">AI Podcast Platform</h3>
-
+<h1 >Portfolio</h1>
+      <img src="./public/assets/portfolio.png" alt="Project Banner">    
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+<h2>📋 Table of Contents</h2>
 
 - ✨ [Introduction](#introduction)
 - ⚙️ [Tech Stack](#tech-stack)
