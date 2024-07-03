@@ -1,9 +1,9 @@
 <div align="center">
       <img src="./public/assets/portfolio.png" alt="Project Banner">   
-<h3>Portfolio</h3>
+<h3>Portfolio v3</h3>
 </div>
 
-<h2>📋 Table of Contents</h2>
+## <br/> 📋 Table of Contents
 
 - ✨ [Introduction](#introduction)
 - ⚙️ [Tech Stack](#tech-stack)
