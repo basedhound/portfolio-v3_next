@@ -1,6 +1,6 @@
 <div align="center">
-<h3>Portfolio</h1>
       <img src="./public/assets/portfolio.png" alt="Project Banner">   
+<h3>Portfolio</h3>
 </div>
 
 <h2>📋 Table of Contents</h2>
