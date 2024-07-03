@@ -29,7 +29,7 @@ const certification = [
       "Sass",
       "Bootstrap",
       "Git",
-      "GitHub"
+      "SEO"
   ],
   },
   {
@@ -47,6 +47,8 @@ const certification = [
       "Design",
       "Flexbox",
       "Grid",
+      "SEO",
+      "Accessibility",
     ],
   },
 /*   {
