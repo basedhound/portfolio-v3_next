@@ -14,12 +14,12 @@ export const Certification = () => {
 
 const certification = [
   {
-    title: "Certification 1",
-    position: "React Developer",
-    time: "Aug 2022 - October 2023",
-    location: "Grand Junction, CO",
+    title: "Web Developer",
+    school: "OpenClassrooms",
+    date: "November 2022 – 600 hours",
+    link: "pdf/openclassrooms.pdf",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo beatae iure, provident hic deleniti obcaecati laborum labore eius est ullam et in, ex explicabo veritatis iusto dolor. Corporis, cupiditate explicabo.",
+      "I gained proficiency in web interface development, focusing on frontend skills while also including backend API integration and building APIs from scratch. Under mentorship and examination, I developed skills in creating responsive web apps, enhancing webpage dynamics, optimizing site performance, and managing projects from start to finish.",
     tech: [
       "Next JS",
       "React",
@@ -31,37 +31,105 @@ const certification = [
     ],
   },
   {
-    title: "Certification 2",
-    position: "React Developer",
-    time: "Aug 2022 - October 2023",
-    location: "Grand Junction, CO",
+    title: "Responsive Web Design",
+    school: "freeCodeCamp",
+    date: "January 2024 – 300 hours",
+    link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo beatae iure, provident hic deleniti obcaecati laborum labore eius est ullam et in, ex explicabo veritatis iusto dolor. Corporis, cupiditate explicabo.",
+      "I honed my skills in HTML and CSS through 20 projects, focusing on content structuring, design principles, modern techniques like CSS variables, best practices for accessibility, and crafting responsive designs.",
     tech: [
-      "Next JS",
-      "React",
-      "MongoDB",
-      "Postgres",
-      "Python",
-      "Git",
-      "Github",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive",
+      "Design",
+      "Flexbox",
+      "Grid",
     ],
   },
-  {
-    title: "Certification 3",
-    position: "React Developer",
-    time: "Aug 2022 - October 2023",
-    location: "Grand Junction, CO",
+/*   {
+    title: "JavaScript Algorithms & Data Structures",
+    school: "freeCodeCamp",
+    date: "January 2024 – 300 hours",
+    link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo beatae iure, provident hic deleniti obcaecati laborum labore eius est ullam et in, ex explicabo veritatis iusto dolor. Corporis, cupiditate explicabo.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
     tech: [
-      "Next JS",
-      "React",
-      "MongoDB",
-      "Postgres",
-      "Python",
-      "Git",
-      "Github",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive",
+      "Design",
+      "Flexbox",
+      "Grid",
     ],
-  },
+  }, */
+/*   {
+    title: "Front End Development Libraries",
+    school: "freeCodeCamp",
+    date: "January 2024 – 300 hours",
+    link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive",
+      "Design",
+      "Flexbox",
+      "Grid",
+    ],
+  }, */
+/*   {
+    title: "Data Visualization",
+    school: "freeCodeCamp",
+    date: "January 2024 – 300 hours",
+    link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive",
+      "Design",
+      "Flexbox",
+      "Grid",
+    ],
+  }, */
+/*   {
+    title: "Relational Database",
+    school: "freeCodeCamp",
+    date: "January 2024 – 300 hours",
+    link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive",
+      "Design",
+      "Flexbox",
+      "Grid",
+    ],
+  }, */
+/*   {
+    title: "Back End Development & APIs",
+    school: "freeCodeCamp",
+    date: "January 2024 – 300 hours",
+    link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive",
+      "Design",
+      "Flexbox",
+      "Grid",
+    ],
+  }, */
 ];

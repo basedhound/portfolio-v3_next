@@ -1,20 +1,21 @@
 import { Reveal } from "@/components/utils/Reveal";
 import styles from "./certification.module.scss";
+import Link from "next/link";
 
 interface Props {
   title: string;
-  position: string;
-  time: string;
-  location: string;
+  school: string;
+  date: string;
+  link: string;
   description: string;
   tech: string[];
 }
 
 export const CertificationItem = ({
   title,
-  position,
-  time,
-  location,
+  school,
+  date,
+  link,
   description,
   tech,
 }: Props) => {
@@ -25,16 +26,23 @@ export const CertificationItem = ({
           <span className={styles.title}>{title}</span>
         </Reveal>
         <Reveal>
-          <span>{time}</span>
+          <span>{date}</span>
         </Reveal>
       </div>
 
       <div className={styles.heading}>
         <Reveal>
-          <span className={styles.position}>{position}</span>
+          <span className={styles.school}>{school}</span>
         </Reveal>
         <Reveal>
-          <span>{location}</span>
+          <Link
+            href={link}
+            className={styles.certificate}
+            target="_blank"
+            rel="nofollow"
+            title="certificate">
+            Certificate
+          </Link>
         </Reveal>
       </div>
       <Reveal>
