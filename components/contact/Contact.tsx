@@ -2,6 +2,7 @@ import { Reveal } from "@/components/utils/Reveal";
 import styles from "./contact.module.scss";
 import { AiFillMail } from "react-icons/ai";
 import Link from "next/link";
+import { MyLinks } from "../nav/MyLinks";
 
 export const Contact = () => {
   return (
@@ -14,28 +15,34 @@ export const Contact = () => {
         </Reveal>
         <Reveal width="100%">
           <p className={styles.contactCopy}>
-            Have an idea to discuss? Shoot me an email if you want to connect! You can also find me on{" "}
+            Have an idea to discuss? Shoot me an email if you want to connect!
+            You can also find me on{" "}
             <Link
               href="https://www.linkedin.com/in/frankdev/"
               target="_blank"
-              rel="nofollow"
-            >
+              rel="nofollow">
               LinkedIn
             </Link>{" "}
             or{" "}
-            <Link href="https://api.whatsapp.com/send?phone=33779134587" target="_blank" rel="nofollow">
+            <Link
+              href="https://api.whatsapp.com/send?phone=33779134587"
+              target="_blank"
+              rel="nofollow">
               WhatsApp
             </Link>{" "}
             if that&apos;s more your speed.
           </p>
         </Reveal>
         <Reveal width="100%">
-          <Link href="mailto:franck.vukelic@gmail.com">
-            <div className={styles.contactEmail}>
-              <AiFillMail size="2.4rem" />
-              <span>franck.vukelic@gmail.com</span>
-            </div>
+          <Link
+            href="mailto:franck.vukelic@gmail.com"
+            className={styles.contactEmail}>
+            <AiFillMail size="2.4rem" />
+            <span>franck.vukelic@gmail.com</span>
           </Link>
+        </Reveal>
+        <Reveal width="100%">
+          <MyLinks />
         </Reveal>
       </div>
     </section>
