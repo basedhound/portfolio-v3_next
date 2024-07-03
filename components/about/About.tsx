@@ -29,14 +29,14 @@ export const About = () => {
           <Reveal>
             <p className={styles.aboutText}>
               I&apos;m specialized in <span>React</span> and{" "}
-              <span>Next.js</span> frontend frameworks. I&apos;ve also worked
+              <span>Next.js</span> frontend frameworks. I&apos;ve worked
               with backend technologies like Node.js, PostgreSQL and MongoDB,
-              allowing me to build full-stack applications.
+              allowing me to build full-stack applications. AI tools such as ChatGPT, Git Copilot, and Midjourney are also part of my workflow.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              When I&apos;m not coding, I dedicate time to honing my{" "}
+              When I&apos;m not coding, I dedicate time to improving my{" "}
               <span>soft skills</span> in autonomy, effective communication,
               adaptability, organization, and resourcefulness.
             </p>

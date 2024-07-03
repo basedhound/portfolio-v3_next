@@ -43,6 +43,10 @@ export const Stats = () => {
             <span className="chip">SEO</span>
             <span className="chip">Figma</span>
             <span className="chip">Photoshop</span>
+            <span className="chip">ChatGPT</span>
+            <span className="chip">Dall-E</span>
+            <span className="chip">Midjourney</span>
+            <span className="chip">Git Copilot</span>
             <span className="chip">React Native</span>
             <span className="chip">Expo</span>
           </div>
