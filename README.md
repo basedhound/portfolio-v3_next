@@ -15,9 +15,9 @@
 
 ## <br/> <a name="introduction">✨ Introduction</a>
 
-**[EN]** This portfolio is a showcase of my skills, built with React and powered by Next.js for fast and flexible server-side rendering and static site generation. I've leveraged TypeScript to ensure robust code quality and maintainability. A styling system crafted with Sass and Tailwind CSS brings a polished visual identity to life. And, with Framer Motion and Anime.js, I've added a touch of dynamism with smooth animations and transitions, creating an engaging user experience.
+**[EN]** This portfolio is a showcase of my skills, built with React and powered by Next.js for fast and flexible server-side rendering and static site generation. I've leveraged TypeScript to ensure robust code quality and maintainability. A styling system crafted with Sass brings a polished visual identity to life. And, with Framer Motion and Anime.js, I've added a touch of dynamism with smooth animations and transitions, creating an engaging user experience.
 
-**[FR]** Ce portfolio est une vitrine de mes compétences, conçu avec React et propulsé par Next.js pour un rendu serveur rapide et flexible ainsi que la génération de sites statiques. J'ai mis à profit TypeScript pour assurer une qualité de code robuste et maintenable. Un système de styling conçu avec Sass et Tailwind CSS donne vie à une identité visuelle soignée. Et, avec Framer Motion et Anime.js, j'ai ajouté une touche de dynamisme avec des animations et des transitions fluides, créant une expérience utilisateur engageante.
+**[FR]** Ce portfolio est une vitrine de mes compétences, conçu avec React et propulsé par Next.js pour un rendu serveur rapide et flexible ainsi que la génération de sites statiques. J'ai mis à profit TypeScript pour assurer une qualité de code robuste et maintenable. Un système de styling conçu avec Sass donne vie à une identité visuelle soignée. Et, avec Framer Motion et Anime.js, j'ai ajouté une touche de dynamisme avec des animations et des transitions fluides, créant une expérience utilisateur engageante.
 
 ## <br/> <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -28,8 +28,6 @@
 - **TypeScript:** A statically typed superset of JavaScript, offering better code quality, scalability, and maintainability. TypeScript enables developers to catch errors early, provides better code completion, and helps ensure consistency across large projects.
 
 - **Sass:** A CSS preprocessor, providing advanced features like variables, nesting, and mixins for more efficient and maintainable styling. Sass allows developers to write more complex and reusable CSS, reducing the amount of duplicate code and simplifying the design process.
-
-- **Tailwind:** A utility-first CSS framework for rapidly building custom designs. Tailwind CSS offers a large collection of low-level utility classes, enabling developers to create custom styles quickly and efficiently. With a focus on performance and extensibility, Tailwind CSS simplifies the development process and enhances the design experience.
 
 - **Framer Motion:** A React library for creating animations and transitions. Framer Motion simplifies the process of adding engaging interactions to projects by offering a declarative way to define animations, making it easier to create complex animations and transitions with minimal effort.
 
