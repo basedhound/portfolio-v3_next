@@ -21,14 +21,16 @@ const certification = [
     description:
       "I gained proficiency in web interface development, focusing on frontend skills while also including backend API integration and building APIs from scratch. Under mentorship and examination, I developed skills in creating responsive web apps, enhancing webpage dynamics, optimizing site performance, and managing projects from start to finish.",
     tech: [
-      "Next JS",
       "React",
+      "JavaScript",
+      "Node.js",
+      "Express",
       "MongoDB",
-      "Postgres",
-      "Python",
+      "Sass",
+      "Bootstrap",
       "Git",
-      "Github",
-    ],
+      "GitHub"
+  ],
   },
   {
     title: "Responsive Web Design",
