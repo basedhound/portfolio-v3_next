@@ -27,8 +27,8 @@ const projects = [
   {
     title: "iPhone 15",
     imgSrc: "/showcase/iphone.webp",
-    code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    code: "https://github.com/basedhound/iPhone-15_ui_react",
+    projectLink: "https://iphone15-fv.netlify.app",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -44,8 +44,8 @@ const projects = [
     ),
   },
   {
-    title: "Podcast AI",
-    imgSrc: "/showcase/podcastr.webp",
+    title: "Evently",
+    imgSrc: "/showcase/evently.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -101,8 +101,8 @@ const projects = [
     ),
   },
   {
-    title: "Evently",
-    imgSrc: "/showcase/evently.webp",
+    title: "Imaginify",
+    imgSrc: "/showcase/imaginify.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -120,8 +120,8 @@ const projects = [
     ),
   },
   {
-    title: "Imaginify",
-    imgSrc: "/showcase/imaginify.webp",
+    title: "Car Hub",
+    imgSrc: "/showcase/carhub.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -158,8 +158,8 @@ const projects = [
     ),
   },
   {
-    title: "Car Hub",
-    imgSrc: "/showcase/carhub.webp",
+    title: "Podcast AI",
+    imgSrc: "/showcase/podcastr.webp",
     code: "https://www.github.com",
     projectLink: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
