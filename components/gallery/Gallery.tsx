@@ -36,7 +36,7 @@ const projects = [
     title: "Project",
     imgSrc: "/projects/iphone.webp",
     code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -67,7 +67,7 @@ const projects = [
     title: "Project",
     imgSrc: "/projects/iphone.webp",
     code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -86,7 +86,7 @@ const projects = [
     title: "Project",
     imgSrc: "/projects/iphone.webp",
     code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -105,7 +105,7 @@ const projects = [
     title: "Project",
     imgSrc: "/projects/iphone.webp",
     code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -124,7 +124,7 @@ const projects = [
     title: "Project",
     imgSrc: "/projects/iphone.webp",
     code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -143,7 +143,7 @@ const projects = [
     title: "Project",
     imgSrc: "/projects/iphone.webp",
     code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -162,7 +162,7 @@ const projects = [
     title: "Project",
     imgSrc: "/projects/iphone.webp",
     code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -181,7 +181,7 @@ const projects = [
     title: "Project",
     imgSrc: "/projects/iphone.webp",
     code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",

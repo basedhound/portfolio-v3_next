@@ -28,7 +28,7 @@ const projects = [
     title: "iPhone 15",
     imgSrc: "/showcase/iphone.webp",
     code: "https://github.com/basedhound/iPhone-15_ui_react",
-    projectLink: "https://iphone15-fv.netlify.app",
+    link: "https://iphone15-fv.netlify.app",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -46,8 +46,8 @@ const projects = [
   {
     title: "Evently",
     imgSrc: "/showcase/evently.webp",
-    code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    code: "https://github.com/basedhound/event-platform_app_next",
+    link: "https://evently-fv.vercel.app",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -65,8 +65,8 @@ const projects = [
   {
     title: "Travel Agency",
     imgSrc: "/showcase/travel.webp",
-    code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    code: "https://github.com/basedhound/travel-agency-2_ui",
+    link: "https://travel-2-fv.netlify.app",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -84,8 +84,8 @@ const projects = [
   {
     title: "Sushi Restaurant",
     imgSrc: "/showcase/sushi.webp",
-    code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    code: "https://github.com/basedhound/sushi-restaurant-2_ui",
+    link: "https://sushi-2-fv.netlify.app",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -103,8 +103,8 @@ const projects = [
   {
     title: "Imaginify",
     imgSrc: "/showcase/imaginify.webp",
-    code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    code: "https://github.com/basedhound/canva-clone_app_next",
+    link: "https://imaginify-fv.vercel.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -122,8 +122,8 @@ const projects = [
   {
     title: "Car Hub",
     imgSrc: "/showcase/carhub.webp",
-    code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    code: "https://github.com/basedhound/car-hub_app_next",
+    link: "https://car-hub-fv.vercel.app",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -141,8 +141,8 @@ const projects = [
   {
     title: "3D Portfolio",
     imgSrc: "/showcase/portfolio3d.webp",
-    code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    code: "https://github.com/basedhound/pf-design_3d-island_react",
+    link: "https://portfolio-3d-island-fv.netlify.app",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
@@ -160,8 +160,8 @@ const projects = [
   {
     title: "Podcast AI",
     imgSrc: "/showcase/podcastr.webp",
-    code: "https://www.github.com",
-    projectLink: "https://iphone15-fv.netlify.app/",
+    code: "https://github.com/basedhound/podcastr-ai_app_next",
+    link: "https://podcastr-fv.vercel.app",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
