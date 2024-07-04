@@ -10,7 +10,7 @@ import styles from "./projects.module.scss";
 interface Props {
   modalContent: JSX.Element;
   description: string;
-  projectLink: string;
+  link: string;
   imgSrc: string;
   tech: string[];
   title: string;
@@ -19,7 +19,7 @@ interface Props {
 
 export const Project = ({
   modalContent,
-  projectLink,
+  link,
   description,
   imgSrc,
   title,
@@ -94,7 +94,7 @@ export const Project = ({
                 <AiFillGithub size="2.8rem" />
               </Link>
 
-              <Link href={projectLink} target="_blank" rel="nofollow">
+              <Link href={link} target="_blank" rel="nofollow">
                 <AiOutlineExport size="2.8rem" />
               </Link>
             </div>
@@ -111,7 +111,7 @@ export const Project = ({
       </motion.div>
       <ProjectModal
         modalContent={modalContent}
-        projectLink={projectLink}
+        link={link}
         setIsOpen={setIsOpen}
         isOpen={isOpen}
         imgSrc={imgSrc}

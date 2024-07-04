@@ -11,14 +11,14 @@ interface Props {
   title: string;
   imgSrc: string;
   code: string;
-  projectLink: string;
+  link: string;
   tech: string[];
   modalContent: JSX.Element;
 }
 
 export const ProjectModal = ({
   modalContent,
-  projectLink,
+  link,
   setIsOpen,
   imgSrc,
   isOpen,
@@ -33,7 +33,7 @@ export const ProjectModal = ({
         animate={{ y: 0, opacity: 1 }}
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}>
-        <Link href={projectLink}>
+        <Link href={link}>
           <Image
             priority
             src={imgSrc}
@@ -58,7 +58,7 @@ export const ProjectModal = ({
                   <AiFillGithub />
                   Code
                 </Link>
-                <Link target="_blank" rel="nofollow" href={projectLink}>
+                <Link target="_blank" rel="nofollow" href={link}>
                   <AiOutlineExport />
                   Demo
                 </Link>
