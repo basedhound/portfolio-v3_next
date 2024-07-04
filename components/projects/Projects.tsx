@@ -26,10 +26,10 @@ export const Projects = () => {
 const projects = [
   {
     title: "iPhone 15",
-    imgSrc: "/showcase/iphone.webp",
+    img: "/showcase/iphone.webp",
     code: "https://github.com/basedhound/iPhone-15_ui_react",
     link: "https://iphone15-fv.netlify.app",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["React", "Three.js", "Tailwind", "GSAP"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
     modalContent: (
@@ -45,10 +45,10 @@ const projects = [
   },
   {
     title: "Evently",
-    imgSrc: "/showcase/evently.webp",
+    img: "/showcase/evently.webp",
     code: "https://github.com/basedhound/event-platform_app_next",
     link: "https://evently-fv.vercel.app",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind", "Stripe"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
     modalContent: (
@@ -64,10 +64,10 @@ const projects = [
   },
   {
     title: "Travel Agency",
-    imgSrc: "/showcase/travel.webp",
+    img: "/showcase/travel.webp",
     code: "https://github.com/basedhound/travel-agency-2_ui",
     link: "https://travel-2-fv.netlify.app",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["HTML", "CSS", "Sass", "JavaScript", "Figma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
     modalContent: (
@@ -83,10 +83,10 @@ const projects = [
   },
   {
     title: "Sushi Restaurant",
-    imgSrc: "/showcase/sushi.webp",
+    img: "/showcase/sushi.webp",
     code: "https://github.com/basedhound/sushi-restaurant-2_ui",
     link: "https://sushi-2-fv.netlify.app",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["HTML", "CSS", "Sass", "JavaScript", "Figma"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
     modalContent: (
@@ -102,10 +102,10 @@ const projects = [
   },
   {
     title: "Imaginify",
-    imgSrc: "/showcase/imaginify.webp",
+    img: "/showcase/imaginify.webp",
     code: "https://github.com/basedhound/canva-clone_app_next",
-    link: "https://imaginify-fv.vercel.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    link: "https://imaginify-fv.vercel.app",
+    tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind", "Stripe"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
     modalContent: (
@@ -121,10 +121,10 @@ const projects = [
   },
   {
     title: "Car Hub",
-    imgSrc: "/showcase/carhub.webp",
+    img: "/showcase/carhub.webp",
     code: "https://github.com/basedhound/car-hub_app_next",
     link: "https://car-hub-fv.vercel.app",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["Next.js", "React", "TypeScript", "Tailwind"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
     modalContent: (
@@ -140,10 +140,10 @@ const projects = [
   },
   {
     title: "3D Portfolio",
-    imgSrc: "/showcase/portfolio3d.webp",
+    img: "/showcase/portfolio3d.webp",
     code: "https://github.com/basedhound/pf-design_3d-island_react",
     link: "https://portfolio-3d-island-fv.netlify.app",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["React", "Three.js", "Three Fiber", "Tailwind", "Vite"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
     modalContent: (
@@ -159,10 +159,10 @@ const projects = [
   },
   {
     title: "Podcast AI",
-    imgSrc: "/showcase/podcastr.webp",
+    img: "/showcase/podcastr.webp",
     code: "https://github.com/basedhound/podcastr-ai_app_next",
     link: "https://podcastr-fv.vercel.app",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["OpenAI", "Next.js", "React", "TypeScript", "Tailwind"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
     modalContent: (
