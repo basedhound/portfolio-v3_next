@@ -34,7 +34,7 @@ const Gallery = () => {
 const projects = [
   {
     title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    img: "/projects/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -65,7 +65,7 @@ const projects = [
   },
   {
     title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    img: "/projects/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -84,7 +84,7 @@ const projects = [
   },
   {
     title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    img: "/projects/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -103,7 +103,7 @@ const projects = [
   },
   {
     title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    img: "/projects/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -122,7 +122,7 @@ const projects = [
   },
   {
     title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    img: "/projects/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -141,7 +141,7 @@ const projects = [
   },
   {
     title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    img: "/projects/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -160,7 +160,7 @@ const projects = [
   },
   {
     title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    img: "/projects/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],
@@ -179,7 +179,7 @@ const projects = [
   },
   {
     title: "Project",
-    imgSrc: "/projects/iphone.webp",
+    img: "/projects/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind", "Prisma"],

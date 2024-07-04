@@ -49,6 +49,8 @@ export const Stats = () => {
             <span className="chip">Git Copilot</span>
             <span className="chip">React Native</span>
             <span className="chip">Expo</span>
+            <span className="chip">Cloudinary</span>
+            <span className="chip">Appwrite</span>
           </div>
         </div>
       </Reveal>

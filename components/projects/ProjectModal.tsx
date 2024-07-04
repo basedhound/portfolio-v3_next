@@ -9,7 +9,7 @@ interface Props {
   isOpen: boolean;
   setIsOpen: Function;
   title: string;
-  imgSrc: string;
+  img: string;
   code: string;
   link: string;
   tech: string[];
@@ -20,7 +20,7 @@ export const ProjectModal = ({
   modalContent,
   link,
   setIsOpen,
-  imgSrc,
+  img,
   isOpen,
   title,
   code,
@@ -36,7 +36,7 @@ export const ProjectModal = ({
         <Link href={link}>
           <Image
             priority
-            src={imgSrc}
+            src={img}
             alt={`An image of the ${title} project.`}
             width={0}
             height={0}

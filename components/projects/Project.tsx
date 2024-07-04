@@ -11,7 +11,7 @@ interface Props {
   modalContent: JSX.Element;
   description: string;
   link: string;
-  imgSrc: string;
+  img: string;
   tech: string[];
   title: string;
   code: string;
@@ -21,7 +21,7 @@ export const Project = ({
   modalContent,
   link,
   description,
-  imgSrc,
+  img,
   title,
   code,
   tech,
@@ -74,7 +74,7 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}>
           <Image
-            src={imgSrc}
+            src={img}
             alt={`An image of the ${title} project.`}
             width={1000}
             height={0}
@@ -114,7 +114,7 @@ export const Project = ({
         link={link}
         setIsOpen={setIsOpen}
         isOpen={isOpen}
-        imgSrc={imgSrc}
+        img={img}
         title={title}
         code={code}
         tech={tech}
