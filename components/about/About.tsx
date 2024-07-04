@@ -5,7 +5,6 @@ import { Reveal } from "@/components/utils/Reveal";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Stats } from "./Stats";
 import styles from "./about.module.scss";
-import Link from "next/link";
 
 export const About = () => {
   return (
