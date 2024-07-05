@@ -15,10 +15,12 @@ export const Projects = () => {
         })}
       </div>
 
-          <div className={styles.linkToGallery}>
-            <AiOutlineArrowRight size="2rem" />
-            <Link href="/gallery">Access Full Gallery</Link>
-          </div>
+      <div className={styles.linkToGallery}>
+        <Link href="/gallery">
+          <AiOutlineArrowRight size="2rem" />
+          Full Gallery
+        </Link>
+      </div>
     </section>
   );
 };
