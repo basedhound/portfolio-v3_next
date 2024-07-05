@@ -33,6 +33,8 @@
 
 - **Anime.js:** A versatile JavaScript animation library, offering a wide range of features including keyframes, timelines, and easing functions to create complex animations. Anime.js provides a simple and powerful API for creating dynamic, visually appealing animations, making it a popular choice for developers and designers alike.
 
+and many more, including code architecture and reusability.
+
 ## <br/> <a name="features">📝 Features</a>
 
 👉 **Responsive Design**: Fully functional and visually appealing across all devices and screen sizes.
