@@ -304,7 +304,7 @@ const projects = [
         </p>
         <p>
           ✔ Three/Fiber optimizes the React binding for Three.js, utilizing
-          React's reconciliation algorithm (Fiber) to efficiently manage and
+          React&apos;s reconciliation algorithm (Fiber) to efficiently manage and
           update the 3D scene graph.
         </p>
       </>
