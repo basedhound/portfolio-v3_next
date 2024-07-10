@@ -5,30 +5,26 @@ export default function home() {
   return (
     <>
       <Head>
+        {/* Main */}
         <title>Frank Vukelić - React/Next.js</title>
         <link rel="shortcut icon" href="/assets/favicon.png" />
-        <meta name="description" content="Frank Vukelić | Web Developer" />
         <meta name="viewport" content="width=device-width"/>
-        <meta property="og:title" content="Frank Vukelić | Web Developer" />
-        <meta name="description" content="Hey! I'm Frank Vukelić, and I'm a Bachelor of Science in Information Technology graduate." />
+        <meta name="description" content="Proficient in React, Next.js, and a versatile tech stack, I deliver top-notch, interactive web experiences. I specialize in crafting compelling, responsive websites for individuals and small businesses." />
 
-        <meta property="og:title" content="Frank Vukelić | Web Developer" />
+        {/* Open Graph */}
+        <meta property="og:title" content="Frank Vukelić - React/Next.js" />
         <meta property="og:type" content="article" />
-        {/* <meta property="og:url" content="https://deverajc.com/" /> */}
-        {/* <meta property="og:image" content="https://deverajc.com/screenshot.png" /> */}
-        <meta property="og:description" content="Hey! I'm Frank Vukelić, and I'm a Bachelor of Science in Information Technology graduate." />
+        <meta property="og:url" content="https://devfrank.vercel.app" />
+        {/* <meta property="og:image" content="screenshot.png" /> */}
+        <meta property="og:description" content="Proficient in React, Next.js, and a versatile tech stack, I deliver top-notch, interactive web experiences. I specialize in crafting compelling, responsive websites for individuals and small businesses." />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary"/>
-        <meta name="twitter:site" content="@jc_devz"/>
-        <meta name="twitter:title" content="Frank Vukelić | Web Developer"/>
-        <meta name="twitter:description" content="Hey! I'm Frank Vukelić, and I'm a Bachelor of Science in Information Technology graduate."/>
-        {/* <meta name="twitter:creator" content="@jc_devz"/> */}
-        {/* <meta name="twitter:image" content="https://deverajc.com/screenshot.png"/> */}
-
-        {/* <meta itemprop="name" content="Frank Vukelić | Web Developer"/>
-        <meta itemprop="description" content="Hey! I'm Frank Vukelić, and I'm a Bachelor of Science in Information Technology graduate."/>
-        <meta itemprop="image" content="https://deverajc.com/screenshot.png"/> */}
+        <meta name="twitter:site" content="@frank_kelic"/>
+        <meta name="twitter:creator" content="@frank_kelic"/>
+        {/* <meta name="twitter:image" content="screenshot.png"/>  */}
+        <meta name="twitter:title" content="Frank Vukelić - React/Next.js"/>
+        <meta name="twitter:description" content="Proficient in React, Next.js, and a versatile tech stack, I deliver top-notch, interactive web experiences. I specialize in crafting compelling, responsive websites for individuals and small businesses."/>
       </Head>
       <Home />
     </>
