@@ -1,5 +1,5 @@
 <div align="center">
-      <a href="https://devfrank.vercel.app" target="_blank"><img src="public/assets/portfolio.webp" alt="Project Banner">   </a>
+      <a href="https://devfrank.vercel.app" target="_blank"><img src="public/assets/preview.webp" alt="Project Banner">   </a>
 <h3>Portfolio v3</h3>
 </div>
 

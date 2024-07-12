@@ -15,7 +15,8 @@ export default function home() {
         <meta property="og:title" content="Frank Vukelić - React/Next.js" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://devfrank.vercel.app" />
-        {/* <meta property="og:image" content="screenshot.png" /> */}
+        {/* <meta property="og:image" content="./assets/preview.webp" /> */}
+        {/* <meta property="og:image" content="https://devfrank.vercel.app/preview.webp" /> */}
         <meta property="og:description" content="Proficient in React, Next.js, and a versatile tech stack, I deliver top-notch, interactive web experiences. I specialize in crafting compelling, responsive websites for individuals and small businesses." />
 
         {/* Twitter */}
