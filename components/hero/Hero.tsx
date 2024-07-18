@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { StandardButton } from "@/components/buttons/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
@@ -24,11 +25,10 @@ export const Hero = () => {
             </p>
           </Reveal>
           <Reveal>
-            <StandardButton
-              onClick={() =>
-                document.getElementById("contact")?.scrollIntoView()
-              }>
+            <StandardButton>
+              <Link href={"#contact"}>
               Contact
+              </Link>
             </StandardButton>
           </Reveal>
         </div>
