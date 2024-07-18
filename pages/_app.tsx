@@ -1,8 +1,8 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Poppins } from "next/font/google";
-import { SideBar } from "@/components/nav/SideBar";
-import styles from "@/components/home.module.scss";
+// import { SideBar } from "@/components/nav/SideBar";
+// import styles from "@/components/home.module.scss";
 
 const poppins = Poppins({ weight: ["100", "200", "400", "700", "900"] });
 
