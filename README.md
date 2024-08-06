@@ -1,5 +1,5 @@
 <div align="center">
-      <a href="https://devfrank.vercel.app" target="_blank"><img src="public/assets/preview.webp" alt="Project Banner">   </a>
+      <a href="https://devfrank.vercel.app" target="_blank"><img src="public/assets/preview.png" alt="Project Banner">   </a>
 <h3>Portfolio v3</h3>
 </div>
 
@@ -21,17 +21,17 @@
 
 ## <br/> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **React** is a JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components that manage their own state, leading to more efficient and predictable code. It is widely used for developing single-page applications (SPAs) due to its virtual DOM that improves performance and ease of maintenance.
+- [**React**](https://react.dev/reference/react) is a JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components that manage their own state, leading to more efficient and predictable code. It is widely used for developing single-page applications (SPAs) due to its virtual DOM that improves performance and ease of maintenance.
 
-- **Next.js** is a React framework for building server-side rendered or statically exported applications. Next.js extends the functionality of React by handling server-side rendering, automatic code splitting, and static site generation, improving performance, SEO, and user experience.
+- [**Next.js**](https://nextjs.org/docs) is a React framework for building server-side rendered or statically exported applications. Next.js extends the functionality of React by handling server-side rendering, automatic code splitting, and static site generation, improving performance, SEO, and user experience.
 
-- **TypeScript** is a statically typed superset of JavaScript, offering better code quality, scalability, and maintainability. TypeScript enables developers to catch errors early, provides better code completion, and helps ensure consistency across large projects.
+- [**TypeScript**](https://www.typescriptlang.org/docs/) is a statically typed superset of JavaScript, offering better code quality, scalability, and maintainability. TypeScript enables developers to catch errors early, provides better code completion, and helps ensure consistency across large projects.
 
-- **Sass** is a CSS preprocessor, providing advanced features like variables, nesting, and mixins for more efficient and maintainable styling. Sass allows developers to write more complex and reusable CSS, reducing the amount of duplicate code and simplifying the design process.
+- [**Sass**](https://sass-lang.com/guide/) is a CSS preprocessor, providing advanced features like variables, nesting, and mixins for more efficient and maintainable styling. Sass allows developers to write more complex and reusable CSS, reducing the amount of duplicate code and simplifying the design process.
 
-- **Framer Motion** is a React library for creating animations and transitions. Framer Motion simplifies the process of adding engaging interactions to projects by offering a declarative way to define animations, making it easier to create complex animations and transitions with minimal effort.
+- [**Framer Motion**](https://www.framer.com/motion/) is a React library for creating animations and transitions. Framer Motion simplifies the process of adding engaging interactions to projects by offering a declarative way to define animations, making it easier to create complex animations and transitions with minimal effort.
 
-- **Anime.js** is a versatile JavaScript animation library, offering a wide range of features including keyframes, timelines, and easing functions to create complex animations. Anime.js provides a simple and powerful API for creating dynamic, visually appealing animations, making it a popular choice for developers and designers alike.
+- [**Anime.js**](https://animejs.com/documentation/) is a versatile JavaScript animation library, offering a wide range of features including keyframes, timelines, and easing functions to create complex animations. Anime.js provides a simple and powerful API for creating dynamic, visually appealing animations, making it a popular choice for developers and designers alike.
 
 ## <br/> <a name="features">📝 Features</a>
 
