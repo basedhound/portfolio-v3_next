@@ -51,13 +51,13 @@ const certification = [
       "Accessibility",
     ],
   },
-/*   {
+  {
     title: "JavaScript Algorithms & Data Structures",
     school: "freeCodeCamp",
     date: "January 2024 – 300 hours",
     link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
+      "Developers use HTML and CSS to control the content and styling of a page. And they use JavaScript to make that page interactive. In this JavaScript Algorithm and Data Structures Certification, you'll learn the JavaScript fundamentals like variables, arrays, objects, loops, functions, the DOM and more. You'll also learn about Object Oriented Programming (OOP), Functional Programming, algorithmic thinking, how to work with local storage, and how to fetch data using an API.",
     tech: [
       "HTML",
       "CSS",
@@ -67,14 +67,14 @@ const certification = [
       "Flexbox",
       "Grid",
     ],
-  }, */
-/*   {
+  },
+  {
     title: "Front End Development Libraries",
     school: "freeCodeCamp",
     date: "January 2024 – 300 hours",
     link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
+      "Now that you're familiar with HTML, CSS, and JavaScript, level up your skills by learning some of the most popular front end libraries in the industry. In the Front End Development Libraries Certification, you'll learn how to style your site quickly with Bootstrap. You'll also learn how to add logic to your CSS styles and extend them with Sass. Later, you'll build a shopping cart and other applications to learn how to create powerful Single Page Applications (SPAs) with React and Redux.",
     tech: [
       "HTML",
       "CSS",
@@ -84,14 +84,14 @@ const certification = [
       "Flexbox",
       "Grid",
     ],
-  }, */
-/*   {
+  },
+  {
     title: "Data Visualization",
     school: "freeCodeCamp",
     date: "January 2024 – 300 hours",
     link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
+      "Data is all around us, but it doesn't mean much without shape or context. In the Data Visualization Certification, you'll build charts, graphs, and maps to present different types of data with the D3.js library. You'll also learn about JSON (JavaScript Object Notation), and how to work with data online using an API (Application Programming Interface).",
     tech: [
       "HTML",
       "CSS",
@@ -101,14 +101,14 @@ const certification = [
       "Flexbox",
       "Grid",
     ],
-  }, */
-/*   {
+  },
+  {
     title: "Relational Database",
     school: "freeCodeCamp",
     date: "January 2024 – 300 hours",
     link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
+      "For these courses, you will use real developer tools and software including VS Code, PostgreSQL, and the Linux / Unix command line to complete interactive tutorials and build projects. These courses start off with basic Bash commands. Using the terminal, you will learn everything from navigating and manipulating a file system, scripting in Bash, all the way to advanced usage. Next, you will learn how to create and use a relational database with PostgreSQL, a database management system, and SQL, the language of these databases. Finally, you will learn Git, the version control system, an essential tool of every developer.",
     tech: [
       "HTML",
       "CSS",
@@ -118,14 +118,14 @@ const certification = [
       "Flexbox",
       "Grid",
     ],
-  }, */
-/*   {
+  },
+  {
     title: "Back End Development & APIs",
     school: "freeCodeCamp",
     date: "January 2024 – 300 hours",
     link: "https://github.com/basedhound/freeCodeCamp_responsive-web-design",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, error eveniet quis repudiandae, earum atque, numquam quos consequatur exercitationem quo explicabo. Fuga iure dolorem suscipit ipsum itaque, illo corporis repellat.",
+      "Until this point, you've only used JavaScript on the front end to add interactivity to a page, solve algorithm challenges, or build an SPA. But JavaScript can also be used on the back end, or server, to build entire web applications. Today, one of the popular ways to build applications is through microservices, which are small, modular applications that work together to form a larger whole. In the Back End Development and APIs Certification, you'll learn how to write back end apps with Node.js and npm. You'll also build web applications with the Express framework, and build a People Finder microservice with MongoDB and the Mongoose library.",
     tech: [
       "HTML",
       "CSS",
@@ -135,5 +135,5 @@ const certification = [
       "Flexbox",
       "Grid",
     ],
-  }, */
+  },
 ];
