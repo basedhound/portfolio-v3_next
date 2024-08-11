@@ -5,7 +5,7 @@ export default function home() {
   return (
     <>
       <Head>
-        <link rel="icon" href="favicon.ico" sizes="any" />
+        <link rel="icon" href="assets/favicon.ico" sizes="any" />
         {/* HTML Meta Tags */}
         <title>Frank Vukelić - Next.js/React</title>
         <meta
