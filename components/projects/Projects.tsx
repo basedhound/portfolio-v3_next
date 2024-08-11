@@ -280,8 +280,8 @@ const projects = [
   {
     title: "3D Portfolio",
     img: "/showcase/portfolio3d.webp",
-    code: "https://github.com/basedhound/pf-design_3d-island_react",
-    link: "https://portfolio-3d-island-fv.netlify.app",
+    code: "https://github.com/basedhound/3d-island_portfolio_react",
+    link: "https://3d-island-fv.netlify.app/",
     tech: ["React", "Three.js", "Three Fiber", "Tailwind", "Vite"],
     description:
       "3D website powered by Three.js featuring interactive elements. Navigate aboard a small plane and explore a floating island.",
