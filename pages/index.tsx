@@ -9,7 +9,7 @@ export default function home() {
         <title>Frank Vukelić - Next.js/React</title>
         <meta
           name="description"
-          content="Freelance. Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses."
+          content="Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses."
         />
 
         {/* Facebook Meta Tags */}
@@ -18,7 +18,7 @@ export default function home() {
         <meta property="og:title" content="Frank Vukelić - Next.js/React" />
         <meta
           property="og:description"
-          content="Freelance. Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses."
+          content="Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses."
         />
         <meta
           property="og:image"
@@ -32,7 +32,7 @@ export default function home() {
         <meta name="twitter:title" content="Frank Vukelić - Next.js/React" />
         <meta
           name="twitter:description"
-          content="Freelance. Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses."
+          content="Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses."
         />
         <meta
           name="twitter:image"
