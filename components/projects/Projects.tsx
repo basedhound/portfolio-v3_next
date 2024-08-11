@@ -3,6 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
+import { TransitionLink } from "../utils/TransitionLink";
 
 export const Projects = () => {
   return (
@@ -16,10 +17,10 @@ export const Projects = () => {
       </div>
 
       <div className={styles.linkToGallery}>
-        <Link href="/gallery">
+        <TransitionLink href="/gallery">
           <AiOutlineArrowRight size="2rem" />
           Full Gallery
-        </Link>
+        </TransitionLink>
       </div>
     </section>
   );

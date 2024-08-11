@@ -73,7 +73,7 @@ export const MyLinks = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}>
         <Link
-          href="https://ig.me/m/frank.vkc"
+          href="https://ig.me/m/frank.vkh"
           target="_blank"
           rel="nofollow">
           <AiFillInstagram size="2.4rem" />
