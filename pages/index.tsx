@@ -5,7 +5,7 @@ export default function home() {
   return (
     <>
       <Head>
-      <link rel="icon" href="assets/favicon.ico" sizes="any" />
+        <link rel="icon" href="assets/favicon.ico" sizes="any" />
         {/* HTML Meta Tags */}
         <title>Frank Vukelić - Next.js/React</title>
         <meta
@@ -23,7 +23,7 @@ export default function home() {
         />
         <meta
           property="og:image"
-          content="https://ogcdn.net/2c2c6737-47d4-4459-9969-e711eb48394c/v1/devfrank.vercel.app/Frank%20Vukeli%C4%87%20-%20Next.js%2FReact/Freelance.%20Proficient%20in%20Next.js%2FReact%2C%20and%20a%20versatile%20tech%20stack%20to%20deliver%20top-notch%20web%20experiences.%20I%20also%20build%20WordPress%20websites%20for%20small%20businesses./https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2F745d1c0b-22a2-45ac-870f-c842fcdafde8.png%3Ftoken%3DTWfEAmEQiL6lzhtdngMLc6zVJFvFw3-hLi3pnVL1aVA%26height%3D675%26width%3D1200%26expires%3D33259377027/og.png"
+          content="https://ogcdn.net/e4b8c678-7bd5-445d-ba03-bfaad510c686/v4/devfrank.vercel.app/Frank%20Vukeli%C4%87%20-%20Next.js%2FReact/https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2Fd364b10f-1358-49a4-922a-1f059440e8c0.png%3Ftoken%3DrWcnb0GVcWIBQV9r6oHsdDK1xqcb3QzKI_V687rUyVw%26height%3D1000%26width%3D1000%26expires%3D33259381866/og.png"
         />
 
         {/* Twitter Meta Tags */}
@@ -37,7 +37,7 @@ export default function home() {
         />
         <meta
           name="twitter:image"
-          content="https://ogcdn.net/2c2c6737-47d4-4459-9969-e711eb48394c/v1/devfrank.vercel.app/Frank%20Vukeli%C4%87%20-%20Next.js%2FReact/Freelance.%20Proficient%20in%20Next.js%2FReact%2C%20and%20a%20versatile%20tech%20stack%20to%20deliver%20top-notch%20web%20experiences.%20I%20also%20build%20WordPress%20websites%20for%20small%20businesses./https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2F745d1c0b-22a2-45ac-870f-c842fcdafde8.png%3Ftoken%3DTWfEAmEQiL6lzhtdngMLc6zVJFvFw3-hLi3pnVL1aVA%26height%3D675%26width%3D1200%26expires%3D33259377027/og.png"
+          content="https://ogcdn.net/e4b8c678-7bd5-445d-ba03-bfaad510c686/v4/devfrank.vercel.app/Frank%20Vukeli%C4%87%20-%20Next.js%2FReact/https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2Fd364b10f-1358-49a4-922a-1f059440e8c0.png%3Ftoken%3DrWcnb0GVcWIBQV9r6oHsdDK1xqcb3QzKI_V687rUyVw%26height%3D1000%26width%3D1000%26expires%3D33259381866/og.png"
         />
       </Head>
 
