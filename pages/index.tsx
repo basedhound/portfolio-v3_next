@@ -5,28 +5,41 @@ export default function home() {
   return (
     <>
       <Head>
-        {/* Main */}
-        <title>Frank Vukelić - React/Next.js</title>
-        <link rel="shortcut icon" href="/assets/favicon.png" />
-        <meta name="viewport" content="width=device-width"/>
-        <meta name="description" content="Proficient in React, Next.js, and a versatile tech stack, I deliver top-notch, interactive web experiences. I specialize in crafting compelling, responsive websites for individuals and small businesses." />
+        {/* HTML Meta Tags */}
+        <title>Frank Vukelić - Next.js/React</title>
+        <meta
+          name="description"
+          content="Freelance. Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses."
+        />
 
-        {/* Open Graph */}
-        <meta property="og:title" content="Frank Vukelić - React/Next.js" />
-        <meta property="og:type" content="article" />
+        {/* Facebook Meta Tags */}
         <meta property="og:url" content="https://devfrank.vercel.app" />
-        {/* <meta property="og:image" content="./assets/preview.webp" /> */}
-        {/* <meta property="og:image" content="https://devfrank.vercel.app/preview.webp" /> */}
-        <meta property="og:description" content="Proficient in React, Next.js, and a versatile tech stack, I deliver top-notch, interactive web experiences. I specialize in crafting compelling, responsive websites for individuals and small businesses." />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Frank Vukelić - Next.js/React" />
+        <meta
+          property="og:description"
+          content="Freelance. Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses."
+        />
+        <meta
+          property="og:image"
+          content="https://ogcdn.net/2c2c6737-47d4-4459-9969-e711eb48394c/v1/devfrank.vercel.app/Frank%20Vukeli%C4%87%20-%20Next.js%2FReact/Freelance.%20Proficient%20in%20Next.js%2FReact%2C%20and%20a%20versatile%20tech%20stack%20to%20deliver%20top-notch%20web%20experiences.%20I%20also%20build%20WordPress%20websites%20for%20small%20businesses./https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2F745d1c0b-22a2-45ac-870f-c842fcdafde8.png%3Ftoken%3DTWfEAmEQiL6lzhtdngMLc6zVJFvFw3-hLi3pnVL1aVA%26height%3D675%26width%3D1200%26expires%3D33259377027/og.png"
+        />
 
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary"/>
-        <meta name="twitter:site" content="@frank_kelic"/>
-        <meta name="twitter:creator" content="@frank_kelic"/>
-        {/* <meta name="twitter:image" content="screenshot.png"/>  */}
-        <meta name="twitter:title" content="Frank Vukelić - React/Next.js"/>
-        <meta name="twitter:description" content="Proficient in React, Next.js, and a versatile tech stack, I deliver top-notch, interactive web experiences. I specialize in crafting compelling, responsive websites for individuals and small businesses."/>
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="devfrank.vercel.app" />
+        <meta property="twitter:url" content="https://devfrank.vercel.app" />
+        <meta name="twitter:title" content="Frank Vukelić - Next.js/React" />
+        <meta
+          name="twitter:description"
+          content="Freelance. Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses."
+        />
+        <meta
+          name="twitter:image"
+          content="https://ogcdn.net/2c2c6737-47d4-4459-9969-e711eb48394c/v1/devfrank.vercel.app/Frank%20Vukeli%C4%87%20-%20Next.js%2FReact/Freelance.%20Proficient%20in%20Next.js%2FReact%2C%20and%20a%20versatile%20tech%20stack%20to%20deliver%20top-notch%20web%20experiences.%20I%20also%20build%20WordPress%20websites%20for%20small%20businesses./https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2F745d1c0b-22a2-45ac-870f-c842fcdafde8.png%3Ftoken%3DTWfEAmEQiL6lzhtdngMLc6zVJFvFw3-hLi3pnVL1aVA%26height%3D675%26width%3D1200%26expires%3D33259377027/og.png"
+        />
       </Head>
+
       <Home />
     </>
   );
