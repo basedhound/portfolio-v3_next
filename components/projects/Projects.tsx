@@ -43,25 +43,6 @@ const projects = [
           Animations) and Three.js for displaying iPhone 15 Pro models in
           various colors and shapes.
         </p>
-        <p>
-          ✔ Beautiful Subtle Smooth Animations using GSAP: Enhanced user
-          experience with seamless and captivating animations powered by GSAP.
-        </p>
-        <p>
-          ✔ 3D Model Rendering with Different Colors and Sizes: Explore the
-          iPhone 15 Pro from every angle with dynamic 3D rendering, offering
-          various color and size options.
-        </p>
-        <p>
-          ✔ Custom Video Carousel (made with GSAP): Engage users with a unique
-          and interactive video carousel developed using GSAP for a personalized
-          browsing experience.
-        </p>
-        <p>
-          ✔ Completely Responsive: Consistent access and optimal viewing on any
-          device with a fully responsive design that adapts to different screen
-          sizes.
-        </p>
       </>
     ),
   },
@@ -79,46 +60,6 @@ const projects = [
           Evently is an event management platform, built on Next.js. It serves
           as a hub for showcasing events, features payment through Stripe, the
           capability to purchase tickets and manage your own events.
-        </p>
-        <p>
-          ✔ Authentication (CRUD) with Clerk: User management through Clerk,
-          ensuring secure and efficient authentication.
-        </p>
-        <p>
-          ✔ Events (CRUD): Comprehensive functionality for creating, reading,
-          updating, and deleting events, giving users full control over event
-          management.
-        </p>
-        <p>
-          ✔ Related Events: Smartly connects events that are related and
-          displaying on the event details page, making it more engaging for
-          users.
-        </p>
-        <p>
-          ✔ Organized Events: Efficient organization of events, ensuring a
-          structured and user-friendly display for the audience, showing events
-          created by the user on the user profile.
-        </p>
-        <p>
-          ✔ Search & Filter: Empowering users with a robust search and filter
-          system, enabling them to easily find the events that match their
-          preferences.
-        </p>
-        <p>
-          ✔ New Category: Dynamic categorization allows for the seamless
-          addition of new event categories, keeping your platform adaptable.
-        </p>
-        <p>
-          ✔ Checkout and Pay with Stripe: Smooth and secure payment transactions
-          using Stripe, enhancing user experience during the checkout process.
-        </p>
-        <p>
-          ✔ Event Orders: Comprehensive order management system, providing a
-          clear overview of all event-related transactions.
-        </p>
-        <p>
-          ✔ Search Orders: Quick and efficient search functionality for orders,
-          facilitating easy tracking and management.
         </p>
       </>
     ),
@@ -174,55 +115,6 @@ const projects = [
           payments and powerful search. Features: restoration, recoloring,
           object removal, generative filling, and background removal.
         </p>
-        <p>
-          ✔ Authentication and Authorization: Secure user access with
-          registration, login, and route protection.
-        </p>
-        <p>
-          ✔ Community Image Showcase: Explore user transformations with easy
-          navigation using pagination.
-        </p>
-        <p>
-          ✔ Advanced Image Search: Find images by content or objects present
-          inside the image quickly and accurately.
-        </p>
-        <p>✔ Image Restoration: Revive old or damaged images effortlessly.</p>
-        <p>
-          ✔ Image Recoloring: Customize images by replacing objects with desired
-          colors easily.
-        </p>
-        <p>
-          ✔ Image Generative Fill: Fill in missing areas of images seamlessly.
-        </p>
-        <p>
-          ✔ Object Removal: Clean up images by removing unwanted objects with
-          precision.
-        </p>
-        <p>✔ Background Removal: Extract objects from backgrounds with ease.</p>
-        <p>
-          ✔ Download Transformed Images: Save and share AI-transformed images
-          conveniently.
-        </p>
-        <p>
-          ✔ Transformed Image Details: View details of transformations for each
-          image.
-        </p>
-        <p>
-          ✔ Transformation Management: Control over deletion and updates of
-          transformations.
-        </p>
-        <p>
-          ✔ Profile Page: Access transformed images and credit information
-          personally.
-        </p>
-        <p>
-          ✔ Credits Purchase: Securely buy credits via Stripe for uninterrupted
-          use.
-        </p>
-        <p>
-          ✔ Responsive UI/UX: A seamless experience across devices with a
-          user-friendly interface.
-        </p>
       </>
     ),
   },
@@ -240,39 +132,6 @@ const projects = [
           CarHub presents various car types, showcasing comprehensive
           information with advanced filtering and pagination support. Built with
           Next.js and leveraging its server-side rendering capabilities.
-        </p>
-        <p>
-          ✔ Home Page: Showcases a visually appealing display of cars fetched
-          from a third-party API, providing a captivating introduction to the
-          diverse range of vehicles available.
-        </p>
-        <p>
-          ✔ Exploration and Filtering: Explore a wide variety of cars from
-          around the world, utilizing a search and filter system based on
-          criteria such as model, manufacturer, year, fuel type, and make.
-        </p>
-        <p>
-          ✔ Transition to Server-Side Rendering: A seamless transition from
-          client-side rendering to server-side rendering, enhancing performance
-          and providing a smoother browsing experience.
-        </p>
-        <p>
-          ✔ Pagination: For easy navigation through a large dataset of cars,
-          allowing users to explore multiple pages effortlessly.
-        </p>
-        <p>
-          ✔ Metadata Optimization and SEO: Optimize metadata for car listing,
-          enhancing search engine optimization (SEO) and ensuring better
-          visibility on search engine results pages.
-        </p>
-        <p>
-          ✔ TypeScript Types: Utilize TypeScript to provide robust typing for
-          enhanced code quality and better development.
-        </p>
-        <p>
-          ✔ Responsive Website Design: The website is designed to be visually
-          pleasing and responsive, ensuring an optimal user experience across
-          various devices.
         </p>
       </>
     ),
@@ -292,21 +151,6 @@ const projects = [
           engaging interactive elements. Navigate aboard a small plane to
           explore a floating island and discover various information. On the
           contact page, a fox will dynamically react as you fill out the fields!
-        </p>
-        <p>
-          ✔ Three.js is a React binding to Three.js, enabling developers to
-          integrate powerful 3D graphics and visualizations into React
-          applications seamlessly.
-        </p>
-        <p>
-          ✔ Three/Drei is a collection of useful helpers and abstractions for
-          React Three.js applications. It provides components like effects,
-          shaders, and pre-built 3D objects to simplify development.
-        </p>
-        <p>
-          ✔ Three/Fiber optimizes the React binding for Three.js, utilizing
-          React&apos;s reconciliation algorithm (Fiber) to efficiently manage and
-          update the 3D scene graph.
         </p>
       </>
     ),
@@ -328,46 +172,6 @@ const projects = [
           podcast thumbnail image generation, and seamless playback. The
           platform includes secure authentication using Clerk, ensuring a safe
           and personalized user experience.
-        </p>
-        <p>
-          ✔ Robust Authentication: Secure and reliable user login and
-          registration system.
-        </p>
-        <p>
-          ✔ Modern Home Page: Showcases trending podcasts with a sticky podcast
-          player for continuous listening.
-        </p>
-        <p>
-          ✔ Discover Podcasts Page: Dedicated page for users to explore new and
-          popular podcasts.
-        </p>
-        <p>
-          ✔ Fully Functional Search: Allows users to find podcasts easily using
-          various search criteria.
-        </p>
-        <p>
-          ✔ Create Podcast Page: Enables podcast creation with text-to-audio
-          conversion, AI image generation, and previews.
-        </p>
-        <p>
-          ✔ Multi Voice AI Functionality: Supports multiple AI-generated voices
-          for dynamic podcast creation.
-        </p>
-        <p>
-          ✔ Profile Page: View all created podcasts with options to delete them.
-        </p>
-        <p>
-          ✔ Podcast Details Page: Displays detailed information about each
-          podcast, including creator details, number of listeners, and
-          transcript.
-        </p>
-        <p>
-          ✔ Podcast Player: Features backward/forward controls, as well as
-          mute/unmute functionality for a seamless listening experience.
-        </p>
-        <p>
-          ✔ Responsive Design: Fully functional and visually appealing across
-          all devices and screen sizes.
         </p>
       </>
     ),
