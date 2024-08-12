@@ -51,7 +51,7 @@ export const About = () => {
           <Reveal>
             <div className={styles.links}>
               <div className={styles.linksText}>
-                <span>Socials</span>
+                <span>Links</span>
                 <AiOutlineArrowRight />
               </div>
               <MyLinks />

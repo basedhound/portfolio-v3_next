@@ -5,6 +5,7 @@ import {
   AiFillInstagram,
   AiOutlineWhatsApp,
   AiFillFacebook,
+  // AiOutlineMail
 } from "react-icons/ai";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -12,6 +13,7 @@ import { motion } from "framer-motion";
 export const MyLinks = () => {
   return (
     <div className={styles.links}>
+
       {/* WHATSAPP */}
       <motion.span
         initial={{ y: -30, opacity: 0 }}
