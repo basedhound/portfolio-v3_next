@@ -94,7 +94,8 @@
     font-size: var(--text-xs);
     font-weight: 400;
     color: var(--brand);
-    opacity: 0.9;
+    opacity: 0.7;
+    transition: 0.2s;
   }
 
   a:hover {

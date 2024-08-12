@@ -81,13 +81,13 @@
     color: var(--brand);
     cursor: pointer;
     margin-top: 1rem;
-    opacity: 0.8;
-    border-bottom: 1px solid var(--background);
+    opacity: 0.7;
     transition: 0.2s;
+    // border-bottom: 1px solid var(--background);
   }
   span:hover {
     opacity: 1;
-    border-bottom: 1px solid var(--brand);
+    // border-bottom: 1px solid var(--brand);
   }
 }
 
