@@ -42,7 +42,8 @@
   width: fit-content;
   font-size: var(--text-md);
   margin: auto;
-  transition: 0.5s;
+  transition: 0.2s;
+  margin-bottom: 0.5rem;
   &:hover {
     color: var(--brand);
   }

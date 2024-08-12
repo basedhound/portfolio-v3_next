@@ -27,6 +27,9 @@
   font-weight: bold;
 }
 
+.certificate {
+  transition: 0.2s;
+}
 .certificate:hover {
   color: var(--brand);
 }
@@ -34,7 +37,7 @@
 .description {
   margin-bottom: 1.8rem;
   font-weight: 200;
-  text-align: justify
+  text-align: justify;
 }
 
 .tech {
@@ -42,4 +45,3 @@
   flex-wrap: wrap;
   gap: 1.2rem;
 }
-

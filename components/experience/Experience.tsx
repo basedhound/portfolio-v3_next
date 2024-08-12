@@ -28,6 +28,7 @@ const experience = [
       "MongoDB",
       "Node.js",
       "SEO",
+      "WordPress",
     ],
   },
 ];
