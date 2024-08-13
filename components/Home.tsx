@@ -5,31 +5,31 @@ import { Projects } from "./projects/Projects";
 import { Experience } from "./experience/Experience";
 import { Certification } from "./certification/Certification";
 import { Contact } from "./contact/Contact";
-// Now imported in _app.tsx
 import { SideBar } from "./nav/SideBar";
 import styles from "./home.module.scss";
 
 export const Home = () => {
+
   return (
     <>
       <div className={styles.home}>
-      <SideBar />
-      <main id="main">
-        <Heading />
-        <Hero />
-        <About />
-        <Projects />
-        <Experience />
-        <Certification />
-        <Contact />
-        <div
-          style={{
-            height: "200px",
-            background:
-              "linear-gradient(180deg, var(--background), var(--background-dark))",
-          }}
-        />
-      </main>
+        <SideBar />
+        <main id="main">
+          <Heading />
+          <Hero />
+          <About />
+          <Projects />
+          <Experience />
+          <Certification />
+          <Contact />
+          <div
+            style={{
+              height: "200px",
+              background:
+                "linear-gradient(180deg, var(--background), var(--background-dark))",
+            }}
+          />
+        </main>
       </div>
     </>
   );
