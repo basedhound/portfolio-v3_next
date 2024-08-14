@@ -1,14 +1,11 @@
 :root {
   font-size: 62.5%;
-
   --background: rgb(17, 17, 17);
   --bg-opaque: rgb(17, 17, 17, 0.25);
   --background-light: rgb(35, 35, 35);
   --background-dark: rgb(8, 8, 8);
-
   --text: rgb(235, 236, 243);
   --brand: #BE63F9;
-
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
   --text-md: 2.2rem;

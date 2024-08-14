@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 
@@ -8,13 +8,9 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-  maximumScale: 1,
-};
-
 export const metadata: Metadata = {
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  // Main
   metadataBase: new URL("https://devfrank.vercel.app"),
   title: "Frank Vukelić - Web Dev.",
   description:
@@ -63,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true} >
       <body className={poppins.className}>{children}</body>
     </html>
   );
