@@ -15,6 +15,9 @@
   span {
     font-weight: 600;
   }
+  @media (max-width: 450px) {
+    text-align: left;
+  }
 }
 
 .links {

@@ -1,3 +1,5 @@
+"use client"
+
 import styles from "./projectmodal.module.scss";
 import ReactDOM from "react-dom";
 import { motion } from "framer-motion";
