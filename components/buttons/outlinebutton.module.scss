@@ -19,8 +19,11 @@
   overflow: hidden;
   transition: 0.2s color;
 
-  @media (max-width: 420px) {
-    padding: 1rem;
+  @media (max-width: 450px) {
+    padding: 0.75rem;
+    svg {
+      display: none;
+    }
   }
 }
 
