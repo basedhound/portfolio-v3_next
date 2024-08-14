@@ -10,7 +10,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://devfrank.vercel.app"),
-  title: "Frank Vukelić - Next.js/React",
+  title: "Frank Vukelić - Web Dev.",
   description:
     "Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses.",
   icons: {
