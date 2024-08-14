@@ -9,7 +9,6 @@
 - ⚙️ [Tech Stack](#tech-stack)
 - 📝 [Features](#features)
 - 🚀 [Quick Start](#quick-start)
-- 📂 [File Structure](#file-structure)
 - 🎨 [Styling](#styling)
 
 
@@ -90,26 +89,9 @@ yarn dev
 Open [`localhost:3000`](http://localhost:3000) in your browser to view the project.
 
 
-## <br/> <a name="file-structure">📂 File Structure</a>
-
-Because this is a NextJS project, we follow the standard NextJS pattern for organizing this project.
-
-Inside of the `pages/` directly you'll find 3 files:
-
-- `_app.tsx` -> A file which wraps around every page in our app. Here we import the Poppins font and include it in our page. You can change to use whatever font you'd like here ([docs](https://nextjs.org/docs/basic-features/font-optimization)).
-- `_document.tsx` -> Essentially the NextJS version of your base "HTML document". Nothing fancy here.
-- `_index.tsx` -> This represents our home route. We include 1 single component here called `<Home />`. Click into this component to begin exploring.
-
-To add MORE routes to your project, see [this doc](https://nextjs.org/docs/basic-features/pages).
-
-Inside of the `styles/` directly you'll find find a global CSS file. This just includes a basic reset, as well as a couple of classes we use throughout the project.
-
-Inside of the `components/` directory you'll find all of the good stuff. The `components/home/` directory houses the majority of what you'll like want to edit
-
-
 ## <br/> <a name="styling">🎨 Styling</a>
 
-Global styling (colors mainly) are defined using CSS variables in the `styles/globals.css` file.
+Global styling (colors mainly) are defined using CSS variables in the `app/globals.css` file.
 
 ```
   --background: rgb(17, 17, 17);
