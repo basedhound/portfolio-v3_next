@@ -31,7 +31,8 @@
 html,
 body {
   max-width: 100vw;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
+  scroll-behavior: auto;
   font-size: var(--text-sm);
 }
 

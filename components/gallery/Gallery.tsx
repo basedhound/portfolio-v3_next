@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { Project } from "@/components/projects/Project";
 import styles from "./gallery.module.scss";
