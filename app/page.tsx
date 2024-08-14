@@ -1,5 +1,4 @@
 'use client'
-
 import { About } from '@/components/about/About';
 import { Certification } from '@/components/certification/Certification';
 import { Contact } from '@/components/contact/Contact';
@@ -8,10 +7,9 @@ import { Hero } from '@/components/hero/Hero';
 import { Heading } from '@/components/nav/Heading';
 import { SideBar } from '@/components/nav/SideBar';
 import { Projects } from '@/components/projects/Projects';
-import styles from "./home.module.scss";
+import styles from "../components/utils/home.module.scss";
 
-export const Home = () => {
-
+const Home = () => {
   return (
     <>
       <div className={styles.home}>
