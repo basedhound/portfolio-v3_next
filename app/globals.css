@@ -71,7 +71,7 @@ a {
 @media (max-width: 450px) {
   .section-wrapper {
     max-width: 315px;
-    padding: 3rem 1.5rem;
+    padding: 3rem 0.5rem;
   }  
 }
 
