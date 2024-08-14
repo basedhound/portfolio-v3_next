@@ -30,10 +30,7 @@
 .description {
   margin-bottom: 1.8rem;
   font-weight: 200;
-  text-align: justify;
-  @media (max-width: 450px) {
-    text-align: left;
-  }    
+  text-align: justify;  
 }
 
 .tech {
