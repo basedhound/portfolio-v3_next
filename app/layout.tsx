@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -8,8 +9,11 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-export const viewport: Viewport = {
-}
+// export const viewport: Viewport = {
+//   width: "device-width",
+//   initialScale: 1,
+//   maximumScale: 1,
+// };
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://devfrank.vercel.app"),
@@ -61,6 +65,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <body className={poppins.className}>{children}</body>
     </html>
   );
