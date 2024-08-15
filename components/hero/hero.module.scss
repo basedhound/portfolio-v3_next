@@ -37,6 +37,10 @@
   @media (max-width: 768px) {
     font-size: var(--text-xl);
   }
+
+  @media (max-width: 360px) {
+    font-size: var(--text-lg);
+  }  
 }
 
 .subTitle {
@@ -49,6 +53,10 @@
     font-weight: bold;
     color: var(--brand);
   }
+
+  @media (max-width: 360px) {
+    font-size: var(--text-md);
+  }  
 }
 
 .aboutCopy {

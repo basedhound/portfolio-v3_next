@@ -17,6 +17,10 @@
   @media (max-width: 768px) {
     font-size: var(--text-lg);
   }
+  
+  @media (max-width: 360px) {
+    font-size: var(--text-md);
+  }  
 }
 
 .line {
