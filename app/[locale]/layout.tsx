@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   // Facebook
   openGraph: {
-    title: "Franck Vukelić",
+    title: "Frank Vukelić",
     description:
       "Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses.",
     url: "https://devfrank.vercel.app",
