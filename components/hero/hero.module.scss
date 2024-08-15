@@ -2,6 +2,12 @@
   margin-top: 4rem;
   margin-bottom: 25rem;
   padding: 4rem 2.5rem;
+
+  p {
+    font-weight: 300;
+    opacity: 0.9;
+  }
+
   @media (max-width: 980px) {
     padding: 0 2rem;
     margin-top: 1.5rem;

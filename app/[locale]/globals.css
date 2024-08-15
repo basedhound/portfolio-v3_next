@@ -28,7 +28,6 @@
 html,
 body {
   max-width: 100%;
-  /* scroll-behavior: smooth; */
   scroll-behavior: auto;
   font-size: var(--text-sm);
 }
@@ -36,7 +35,7 @@ body {
 body {
   color: var(--text);
   background: var(--background);
-  /* For "TransitionLink" animation */
+  /* TransitionLink animation */
   transition-property: opacity, transform, filter, background;
   transition-timing-function: ease-in-out;
   transition-duration: 500ms;
@@ -75,9 +74,7 @@ a {
   }  
 }
 
-
-
-/* Stats - Exp. - Certif. */
+/* Stats -> Exp + Certif */
 .chip {
   cursor: default;
   font-size: var(--text-xs);

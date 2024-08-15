@@ -14,13 +14,13 @@ export const Hero = () => {
         <div className={styles.copyWrapper}>
           <Reveal>
             <h1 className={styles.title}>
-              {t("heading")}
+              {t("title")}
               <span>.</span>
             </h1>
           </Reveal>
           <Reveal>
             <h2 className={styles.subTitle}>
-              <span>{t("tagline")}</span>
+              <span>{t("subtitle")}</span>
             </h2>
           </Reveal>
           <Reveal>
