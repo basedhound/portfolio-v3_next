@@ -1,13 +1,12 @@
 .links {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   gap: 1.6rem;
   padding-top: 10px;
 
   a {
-    opacity: 0.5;
-    position: relative;
     z-index: 20;
+    opacity: 0.5;
     transition: 0.2s;
   }
 
