@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://devfrank.vercel.app"),
   title: "Frank Vukelić | Web Developer",
   description:
-    "Fullstack developer skilled in Next.js/React with a versatile tech stack, specializing in top-notch web experiences and WordPress sites for small businesses.",
+    "Fullstack developer skilled in Next.js/React and a versatile tech stack, specializing in top-notch web experiences and WordPress sites for small businesses.",
   icons: {
     icon: "/assets/favicon.ico",
   },
