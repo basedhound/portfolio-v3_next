@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://devfrank.vercel.app"),
   title: "Frank Vukelić",
   description:
-    "Fullstack developer skilled in Next.js/React and a versatile tech stack, specializing in top-notch web experiences and WordPress sites for small businesses.",
+    "Freelance fullstack developer skilled in Next.js/React and a versatile tech stack, also offering WordPress site development for small businesses.",
   icons: {
     icon: "/assets/favicon.ico",
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Frank Vukelić",
     description:
-      "Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses.",
+      "Freelance fullstack developer skilled in Next.js/React and a versatile tech stack, also offering WordPress site development for small businesses.",
     url: "https://devfrank.vercel.app",
     // siteName: "Frank Vukelić Portfolio",
     type: "website",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     site: "@frank_vkh",
     title: "Frank Vukelić",
     description:
-      "Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses.",
+      "Freelance fullstack developer skilled in Next.js/React and a versatile tech stack, also offering WordPress site development for small businesses.",
     images: [
       {
         url: "https://ogcdn.net/6064b869-74ed-4eb9-b76c-0b701ffe7e6b/v4/devfrank.vercel.app/Frank%20Vukeli%C4%87%20-%20Web%20Developer/https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2Fa9e8c408-5c62-4e7d-8d40-771e29523783.png%3Ftoken%3DRapK6uD2jQZDTLwq_T8cMtxJEiVnLvKIhJWTW69GI9o%26height%3D960%26width%3D1200%26expires%3D33259637381/og.png",
