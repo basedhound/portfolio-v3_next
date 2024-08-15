@@ -7,7 +7,7 @@ import { Hero } from '@/components/hero/Hero';
 import { Heading } from '@/components/nav/Heading';
 import { SideBar } from '@/components/nav/SideBar';
 import { Projects } from '@/components/projects/Projects';
-import styles from "../components/utils/home.module.scss";
+import styles from "@/components/utils/home.module.scss";
 
 const Home = () => {
   return (

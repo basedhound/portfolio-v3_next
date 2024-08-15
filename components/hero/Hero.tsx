@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { StandardButton } from "@/components/buttons/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
@@ -5,18 +6,22 @@ import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
 
 export const Hero = () => {
+
+  const t = useTranslations("Hero")
+
+
   return (
     <section className={`section-wrapper ${styles.hero}`}>
       <div className={styles.heroGrid}>
         <div className={styles.copyWrapper}>
           <Reveal>
             <h1 className={styles.title}>
-              Hi, I&apos;m Frank<span>.</span>
+              {t("heading")}<span>.</span>
             </h1>
           </Reveal>
           <Reveal>
             <h2 className={styles.subTitle}>
-              <span>Web Developer</span>
+              <span>{t("tagline")}</span>
             </h2>
           </Reveal>
           <Reveal>

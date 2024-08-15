@@ -1,5 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
+// NextIntl
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+//
 import "./globals.css";
 
 const poppins = Poppins({
@@ -57,14 +61,18 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+
+  const messages = await getMessages();
+
   return (
+    <NextIntlClientProvider messages={messages}>
     <html lang="en" suppressHydrationWarning={true}>
       <body className={poppins.className} id="root">{children}</body>
-    </html>
+    </html></NextIntlClientProvider>
   );
 }

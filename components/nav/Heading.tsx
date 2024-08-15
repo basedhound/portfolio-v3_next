@@ -1,17 +1,20 @@
 import styles from "./heading.module.scss";
 import { MyLinks } from "./MyLinks";
+import { Switch } from "./Switch";
 import { OutlineButton } from "../buttons/OutlineButton";
 
 export const Heading = () => {
   return (
     <header className={styles.heading}>
-      <MyLinks />
+      <div className={styles.headingLeft}>
+        <MyLinks />
+        <Switch />
+      </div>
       <div className={styles.headingButtons}>
-      <OutlineButton onClick={() => window.open("pdf/resume.pdf")}>
-        CV
-      </OutlineButton>
+        <OutlineButton onClick={() => window.open("pdf/resume.pdf")}>
+          CV
+        </OutlineButton>
       </div>
     </header>
   );
 };
-

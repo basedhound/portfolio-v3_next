@@ -1,9 +1,9 @@
-import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
-import { TransitionLink } from "../utils/TransitionLink";
+import { Link } from "@/navigation";
+
 
 export const Projects = () => {
   return (
@@ -17,10 +17,10 @@ export const Projects = () => {
       </div>
 
       <div className={styles.linkToGallery}>
-        <TransitionLink href="/gallery">
+        <Link href="/gallery">
           <AiOutlineArrowRight size="2rem" />
           Full Gallery
-        </TransitionLink>
+        </Link>
       </div>
     </section>
   );
