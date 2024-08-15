@@ -16,7 +16,6 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 
-  
   .selected {
     background: var(--background);
     border-right: 1px solid var(--brand);
@@ -42,7 +41,6 @@
 
   transition: 0.1s all;
 }
-
 
 .sideBarLink:hover {
   background: var(--background);
