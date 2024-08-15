@@ -14,7 +14,7 @@ const poppins = Poppins({
 
 export const viewport: Viewport = {
   width: "device-width",
-  initialScale: 1,
+  initialScale: 0.9,
   maximumScale: 1,
 };
 
