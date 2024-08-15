@@ -1,15 +1,15 @@
 .switch {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.5rem;
   margin-left: 1.6rem;
 
-  opacity: 0.5;
+  opacity: 1;
   position: relative;
   z-index: 20;
   transition: 0.2s;
+  
 
   &:hover {
     color: var(--brand);
-    opacity: 1;
   }
 }
