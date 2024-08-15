@@ -1,7 +1,10 @@
 {
   "Hero": {
     "heading": "Frank V",
-    "tagline": "Développeur Web"
+    "tagline": "Développeur Web",
+    "text1": "Specialiste React et Next.js, je développe des sites web depuis 3 ans.",
+    "text2": "Je développe  des projets personnels afin d'élargir mes compétences. ",
+    "text3": "Donnons vie à vos projets ensemble."
   },
   "About": {
     "title": "Accueil",

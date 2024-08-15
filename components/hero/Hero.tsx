@@ -6,9 +6,7 @@ import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
 
 export const Hero = () => {
-
-  const t = useTranslations("Hero")
-
+  const t = useTranslations("Hero");
 
   return (
     <section className={`section-wrapper ${styles.hero}`}>
@@ -16,7 +14,8 @@ export const Hero = () => {
         <div className={styles.copyWrapper}>
           <Reveal>
             <h1 className={styles.title}>
-              {t("heading")}<span>.</span>
+              {t("heading")}
+              <span>.</span>
             </h1>
           </Reveal>
           <Reveal>
@@ -26,11 +25,9 @@ export const Hero = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-              Proficient in React and Next.js, I&apos;ve spent the last 3 years
-              building websites. <br className={styles.breakline} />
-              In my free time, I dive into side projects to broaden my
-              technological skills. <br className={styles.breakline} />
-              Let&apos;s bring your projects to life.
+              {t("text1")}
+              <br className={styles.breakline} /> {t("text2")}
+              <br className={styles.breakline} /> {t("text3")}
             </p>
           </Reveal>
           <Reveal>

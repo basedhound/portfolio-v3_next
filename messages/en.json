@@ -1,7 +1,10 @@
 {
   "Hero": {
     "heading": "Hi, I'm Frank",
-    "tagline": "Web Developer"
+    "tagline": "Web Developer",
+    "text1": "Proficient in React and Next.js, I've spent the last 3 years building websites.",
+    "text2": "In my free time, I dive into side projects to broaden my technological skills.",
+    "text3": "Let's bring your projects to life."
   },
   "About": {
     "title": "Accueil",
