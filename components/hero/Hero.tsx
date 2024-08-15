@@ -21,14 +21,16 @@ export const Hero = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-            Proficient in React and Next.js, I&apos;ve spent the last 3 years building websites. <br/>In my free time, I dive into side projects to broaden my technological skills. <br/>Let&apos;s bring your projects to life.
+              Proficient in React and Next.js, I&apos;ve spent the last 3 years
+              building websites. <br className={styles.breakline} />
+              In my free time, I dive into side projects to broaden my
+              technological skills. <br className={styles.breakline} />
+              Let&apos;s bring your projects to life.
             </p>
           </Reveal>
           <Reveal>
             <StandardButton>
-              <Link href={"#contact"}>
-              Contact
-              </Link>
+              <Link href={"#contact"}>Contact</Link>
             </StandardButton>
           </Reveal>
         </div>
