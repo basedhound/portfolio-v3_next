@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import styles from "./sidebar.module.scss";
-import { Link } from "@/navigation";
+import Link from "next/link";
+
 
 export const SideBar = () => {
   const [selected, setSelected] = useState("");
