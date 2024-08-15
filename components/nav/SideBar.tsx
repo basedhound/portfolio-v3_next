@@ -9,11 +9,9 @@ export const SideBar = () => {
 
   useEffect(() => {
     const sections = document.querySelectorAll(".section-wrapper");
-
     const options = {
       threshold: 0.3,
     };
-
     const callback = (entries: any) => {
       entries.forEach((entry: any) => {
         if (entry.isIntersecting) {
@@ -21,9 +19,7 @@ export const SideBar = () => {
         }
       });
     };
-
     const observer = new IntersectionObserver(callback, options);
-
     sections.forEach((section) => observer.observe(section));
   }, []);
 
@@ -46,7 +42,7 @@ export const SideBar = () => {
             className={`${styles.sideBarLink} ${
               selected === "about" ? styles.selected : ""
             }`}
-            href="/#about"
+            href="#about"
             onClick={() => {
               setSelected("about");
             }}>
@@ -62,7 +58,7 @@ export const SideBar = () => {
             className={`${styles.sideBarLink} ${
               selected === "projects" ? styles.selected : ""
             }`}
-            href="/#projects"
+            href="#projects"
             onClick={() => setSelected("projects")}>
             Projects
           </Link>
@@ -76,7 +72,7 @@ export const SideBar = () => {
             className={`${styles.sideBarLink} ${
               selected === "experience" ? styles.selected : ""
             }`}
-            href="/#experience"
+            href="#experience"
             onClick={() => setSelected("experience")}>
             Exp.
           </Link>
@@ -85,13 +81,12 @@ export const SideBar = () => {
         <motion.div
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}>
-            
+          transition={{ duration: 0.5, delay: 0.2 }}>            
           <Link
             className={`${styles.sideBarLink} ${
               selected === "certification" ? styles.selected : ""
             }`}
-            href="/#certification"
+            href="#certification"
             onClick={() => setSelected("certification")}>
             Certif.
           </Link>
@@ -105,7 +100,7 @@ export const SideBar = () => {
             className={`${styles.sideBarLink} ${
               selected === "contact" ? styles.selected : ""
             }`}
-            href="/#contact"
+            href="#contact"
             onClick={() => setSelected("contact")}>
             Contact
           </Link>

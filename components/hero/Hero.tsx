@@ -9,7 +9,7 @@ export const Hero = () => {
   const t = useTranslations("Hero");
 
   return (
-    <section className={`section-wrapper ${styles.hero}`}>
+    <section className={`section-wrapper ${styles.hero}`} id="hero">
       <div className={styles.heroGrid}>
         <div className={styles.copyWrapper}>
           <Reveal>
