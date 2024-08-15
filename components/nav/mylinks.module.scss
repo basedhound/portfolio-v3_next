@@ -14,4 +14,8 @@
     color: var(--brand);
     opacity: 1;
   }
+
+  @media (max-width: 450px) {
+    gap: 1rem;
+  }
 }

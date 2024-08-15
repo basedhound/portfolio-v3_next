@@ -1,7 +1,7 @@
 import styles from "./heading.module.scss";
 import { MyLinks } from "./MyLinks";
 import { Switch } from "./Switch";
-import { OutlineButton } from "../buttons/OutlineButton";
+import { OutlineButton } from "./OutlineButton";
 
 export const Heading = () => {
   return (
