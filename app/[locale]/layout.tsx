@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://devfrank.vercel.app"),
-  title: "Frank Vukelić - Web Dev.",
+  title: "Frank Vukelić",
   description:
     "Proficient in Next.js/React, and a versatile tech stack to deliver top-notch web experiences. I also build WordPress websites for small businesses.",
   icons: {

@@ -2,7 +2,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
-import { Link } from "@/navigation";
+import { Link } from "@/i18n/navigation";
 
 
 

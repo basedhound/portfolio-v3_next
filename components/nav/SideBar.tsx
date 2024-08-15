@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import styles from "./sidebar.module.scss";
-import { Link } from "@/navigation";
+import { Link } from "@/i18n/navigation";
 
 
 export const SideBar = () => {
