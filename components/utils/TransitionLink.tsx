@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
-import { Link } from "@/navigation";
+import Link, { LinkProps } from "next/link";
 
 interface TransitionLinkProps extends LinkProps {
   children: React.ReactNode;
