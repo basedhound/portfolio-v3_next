@@ -60,42 +60,42 @@
     "certif1": "Développeur Web",
     "school1": "OpenClassrooms",
     "date1": "Novembre 2022 – 600 heures",
-    "desc1": "Axé sur le développement frontend, l'intégration d'APIs backend et la création d'APIs from scratch. Développement d'applications web responsives, amélioration de la dynamique des pages, optimisation des performances du site et gestion de projets de A à Z sous supervision et évaluation. Projet phare : Groupomania, une plateforme de médias sociaux full-stack construite avec la stack MERN.",
+    "desc1": "Parcours axé sur le développement frontend, l'intégration d'APIs backend et la création d'APIs from scratch. Développement d'applications web responsives, amélioration de la dynamique des pages, optimisation des performances du site et gestion de projets de A à Z sous supervision et évaluation. Projet phare : Groupomania, une plateforme de médias sociaux full-stack construite avec la stack MERN.",
 
     "certif2": "Responsive Web Design",
     "school2": "freeCodeCamp",
     "date2": "Janvier 2024 – 300 heures",
-    "desc2": "Axé sur la structuration du contenu avec HTML et les principes de design avec CSS. Développement des compétences en design responsif, Flexbox, CSS Grid, SEO et accessibilité à travers 20 projets. Mise en avant des techniques modernes et des meilleures pratiques pour concevoir des pages web bien structurées et accessibles. Projets clés : Groupomania, une plateforme de médias sociaux full-stack construite avec la stack MERN.",
+    "desc2": "Parcours axé sur la structuration du contenu avec HTML et les principes de design avec CSS. Développement des compétences en design responsif, Flexbox, CSS Grid, SEO et accessibilité à travers 20 projets. Mise en avant des techniques modernes et des meilleures pratiques pour concevoir des pages web bien structurées et accessibles. Projets clés : Groupomania, une plateforme de médias sociaux full-stack construite avec la stack MERN.",
 
     "certif3": "JavaScript Algorithms & Data Structures",
     "school3": "freeCodeCamp",
     "date3": "Janvier 2024 – 300 heures",
-    "desc3": "Axé sur la maîtrise des fondamentaux de JavaScript, y compris les variables, tableaux, objets, boucles, fonctions et le DOM. Développement des compétences en Programmation Orientée Objet (POO), Programmation Fonctionnelle et réflexion algorithmique. Expérience acquise en travail avec le stockage local et récupération de données via des APIs. Accent mis sur les applications pratiques et les meilleures pratiques pour créer des applications web interactives et efficaces.",
+    "desc3": "Parcours axé sur la maîtrise des fondamentaux de JavaScript, y compris les variables, tableaux, objets, boucles, fonctions et le DOM. Développement des compétences en Programmation Orientée Objet (POO), Programmation Fonctionnelle et réflexion algorithmique. Expérience acquise en travail avec le stockage local et récupération de données via des APIs. Accent mis sur les applications pratiques et les meilleures pratiques pour créer des applications web interactives et efficaces.",
 
     "certif4": "Front End Development Libraries",
     "school4": "freeCodeCamp",
     "date4":  "Janvier 2024 – 300 heures",
-    "desc4": "Axé sur l'amélioration des compétences frontend avec des bibliothèques et frameworks populaires. Acquisition de compétences en stylisation rapide des sites web avec Bootstrap et extension des styles CSS avec Sass. Expertise développée dans la création d'Applications à Page Unique (SPA) avec React et Redux à travers des projets pratiques comme une application de panier d'achat. Mise en avant des techniques avancées de stylisation et de gestion d'état pour des applications web dynamiques et efficaces.",
+    "desc4": "Parcours axé sur l'amélioration des compétences frontend avec des bibliothèques et frameworks populaires. Acquisition de compétences en stylisation rapide des sites web avec Bootstrap et extension des styles CSS avec Sass. Expertise développée dans la création d'Applications à Page Unique avec React et Redux à travers des projets pratiques comme une application de panier d'achat. Mise en avant des techniques avancées de stylisation et de state management pour des applications web dynamiques et efficaces.",
 
     "certif5": "Data Visualization",
     "school5": "freeCodeCamp",
     "date5":  "Janvier 2024 – 300 heures",
-    "desc5": "Axé sur la présentation des données à travers des graphiques, des cartes et des diagrammes en utilisant la bibliothèque D3.js. Acquisition de compétences en travail avec JSON (JavaScript Object Notation) et intégration des données depuis des sources en ligne via des APIs. Mise en avant des techniques pratiques pour visualiser et interpréter les données afin de fournir des insights clairs et pertinents.",
+    "desc5": "Parcours axé sur la présentation des données à travers des graphiques, des cartes et des diagrammes en utilisant la bibliothèque D3.js. Acquisition de compétences en travail avec JSON (JavaScript Object Notation) et intégration des données depuis des sources en ligne via des APIs. Mise en avant des techniques pratiques pour visualiser et interpréter les données afin de fournir des insights clairs et pertinents.",
 
     "certif6": "Relational Database",
     "school6": "freeCodeCamp",
     "date6":  "Janvier 2024 – 300 heures",
-    "desc6": "Axé sur l'utilisation des outils et logiciels essentiels pour développeurs, y compris VS Code, PostgreSQL et la ligne de commande Linux/Unix. Acquisition de compétences en commandes Bash de base, navigation dans le système de fichiers et scripting. Expertise développée dans la création et la gestion de bases de données relationnelles avec PostgreSQL et SQL. Apprentissage également de Git pour le contrôle de version, un outil crucial pour le développement collaboratif.",
+    "desc6": "Parcours axé sur l'utilisation des outils et logiciels essentiels pour développeurs, y compris VS Code, PostgreSQL et la ligne de commande Linux/Unix. Acquisition de compétences en commandes Bash de base, navigation dans le système de fichiers et scripting. Expertise développée dans la création et la gestion de bases de données relationnelles avec PostgreSQL et SQL. Apprentissage également de Git pour le contrôle de version, un outil crucial pour le développement collaboratif.",
 
     "certif7": "Back End Development & APIs",
     "school7": "freeCodeCamp",
     "date7":  "Janvier 2024 – 300 heures",
-    "desc7": "Axé sur l'utilisation de JavaScript pour le développement côté serveur afin de créer des applications web complètes. Apprentissage de l'écriture d'applications backend avec Node.js et npm, et de la construction d'applications web avec le framework Express. Développement d'un microservice People Finder avec MongoDB et la bibliothèque Mongoose, en mettant l'accent sur l'architecture des microservices pour créer des applications modulaires et évolutives.",
+    "desc7": "Parcours axé sur l'utilisation de JavaScript pour le développement côté serveur afin de créer des applications web complètes. Apprentissage de l'écriture d'applications backend avec Node.js et npm, et de la construction d'applications web avec le framework Express. Développement d'un microservice People Finder avec MongoDB et la bibliothèque Mongoose, en mettant l'accent sur l'architecture des microservices pour créer des applications modulaires et évolutives.",
 
     "certif8": "Quality Assurance",
     "school8": "freeCodeCamp",
     "date8":  "Janvier 2024 – 300 heures",
-    "desc8": "Axé sur les tests et l'assurance qualité des applications complexes. Apprentissage de l'écriture de tests avec Chai pour vérifier que les applications fonctionnent comme prévu. Création d'une application de chat pour explorer des concepts avancés de Node.js et Express, en utilisant Pug comme moteur de templates, Passport pour l'authentification, et Socket.io pour la communication en temps réel entre le serveur et les clients."
+    "desc8": "Parcours axé sur les tests et l'assurance qualité des applications complexes. Apprentissage de l'écriture de tests avec Chai pour vérifier que les applications fonctionnent comme prévu. Création d'une application de chat pour explorer des concepts avancés de Node.js et Express, en utilisant Pug comme moteur de templates, Passport pour l'authentification, et Socket.io pour la communication en temps réel entre le serveur et les clients."
   },
 
   "Contact": {
