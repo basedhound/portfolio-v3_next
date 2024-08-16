@@ -20,14 +20,14 @@ export const Hero = () => {
           </Reveal>
           <Reveal>
             <h2 className={styles.subTitle}>
-              <span>{t("subtitle")}</span>
+              <span>{t("tagline")}</span>
             </h2>
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-              {t("text1")}
-              <br className={styles.breakline} /> {t("text2")}
-              <br className={styles.breakline} /> {t("text3")}
+              {t("p1")}
+              <br className={styles.breakline} /> {t("p2")}
+              <br className={styles.breakline} /> {t("p3")}
             </p>
           </Reveal>
           <Reveal>

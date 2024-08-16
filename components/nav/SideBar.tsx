@@ -1,11 +1,14 @@
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import styles from "./sidebar.module.scss";
 import { Link } from "@/i18n/navigation";
 
-
 export const SideBar = () => {
   const [selected, setSelected] = useState("");
+
+  const t = useTranslations("Sidebar");
+
 
   useEffect(() => {
     const sections = document.querySelectorAll(".section-wrapper");
@@ -46,7 +49,7 @@ export const SideBar = () => {
             onClick={() => {
               setSelected("about");
             }}>
-            About
+            {t("about")}
           </Link>
         </motion.div>
 
@@ -60,7 +63,7 @@ export const SideBar = () => {
             }`}
             href="#projects"
             onClick={() => setSelected("projects")}>
-            Projects
+            {t("projects")}
           </Link>
         </motion.div>
 

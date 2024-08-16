@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/utils/Reveal";
 import styles from "./certification.module.scss";
 import Link from "next/link";
@@ -19,6 +20,9 @@ export const CertificationItem = ({
   description,
   tech,
 }: Props) => {
+
+  const t = useTranslations("Certification");
+
   return (
     <div className={styles.certification}>
       <div className={styles.heading}>
@@ -41,7 +45,7 @@ export const CertificationItem = ({
             target="_blank"
             rel="nofollow"
             title="certificate">
-            Certificate
+            {t("certificate")}
           </Link>
         </Reveal>
       </div>

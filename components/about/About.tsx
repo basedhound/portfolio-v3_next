@@ -1,5 +1,5 @@
+import { useTranslations } from "next-intl";
 import { AiOutlineArrowRight } from "react-icons/ai";
-//
 import { MyLinks } from "@/components/nav/MyLinks";
 import { Reveal } from "@/components/utils/Reveal";
 import { SectionHeader } from "@/components/utils/SectionHeader";
@@ -7,45 +7,36 @@ import { Stats } from "./Stats";
 import styles from "./about.module.scss";
 
 export const About = () => {
+  const t = useTranslations("About");
+
   return (
     <section id="about" className="section-wrapper">
-      <SectionHeader title="About" dir="l" />
+      <SectionHeader title={t("section")} dir="l" />
       <div className={styles.about}>
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hello there! I&apos;m Frank, a web developer fluent in both French
-              and English. I specialize in creating engaging and responsive
-              websites that cater to individual and small business needs.
-              <br />
-              <br />
-              Passionate about delivering user-friendly responsive designs and
-              optimizing site performance, I also provide <span>
-                SEO
-              </span> and <span>copyrighting</span> services to enhance online visibility and engagement.
+            {t("p1")}
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I&apos;m specialized in <span>React</span> and{" "}
-              <span>Next.js</span> frontend frameworks. I&apos;ve worked
-              with backend technologies like Node.js, PostgreSQL and MongoDB,
-              allowing me to build full-stack applications. AI tools such as ChatGPT, Git Copilot, and Midjourney are also part of my workflow.
+            {t("p2")}
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              When I&apos;m not coding, I dedicate time to improving my{" "}
-              <span>soft skills</span> in autonomy, effective communication,
-              adaptability, organization, and resourcefulness.
+            {t("p3")}
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I&apos;m always looking for new challenges and opportunities to
-              learn and grow as a developer. If you&apos;re interested in
-              working together or have any questions, please don&apos;t hesitate
-              to get in touch!
+            {t("p4")}
+            </p>
+          </Reveal>
+          <Reveal>
+            <p className={styles.aboutText}>
+            {t("p5")}
             </p>
           </Reveal>
           <Reveal>

@@ -1,29 +1,106 @@
 {
+  "Sidebar": {
+    "about": "About",
+    "projects": "Projects"
+  },
   "Hero": {
     "title": "Hi, I'm Frank",
-    "subtitle": "Web Developer",
-    "text1": "Proficient in React and Next.js, I've spent the last 3 years building websites.",
-    "text2": "In my free time, I dive into side projects to broaden my technological skills.",
-    "text3": "Let's bring your projects to life."
+    "tagline": "Web Developer",
+    "p1": "Proficient in React and Next.js, I've spent the last 3 years building websites.",
+    "p2": "In my free time, I dive into side projects to broaden my technological skills.",
+    "p3": "Let's bring your projects to life."
   },
   "About": {
-    "title": "Accueil",
-    "content": "Bonjour et bienvenue sur mon site !"
+    "section": "About",
+    "p1": "Hello there! Frank a web developer fluent in both French and English. I specialize in creating engaging and responsive websites that cater to individual and small business needs.",
+    "p2": "Passionate about delivering user-friendly responsive designs and optimizing site performance, I also provide SEO and copyrighting services to enhance online visibility and engagement.",
+    "p3": "I'm specialized in React and Next.js frontend frameworks. I've also worked with backend technologies like Node.js, PostgreSQL and MongoDB, allowing me to build full-stack applications. AI tools such as ChatGPT, Git Copilot, and Midjourney are also part of my workflow.",
+    "p4": "When I'm not coding, I dedicate time to improving my soft skills in autonomy, effective communication, adaptability, organization, and resourcefulness. I'm also very passionate about music and cinema.",
+    "p5": "I'm always looking for new challenges and opportunities to learn and grow as a developer. If you're interested in working together or have any questions, please don't hesitate to get in touch!"
   },
   "Projects": {
-    "title": "Accueil",
-    "content": "Bonjour et bienvenue sur mon site !"
+    "section": "Projets",
+    "gallery": "Full Gallery",
+
+    "desc1": "A clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of Three.js and GSAP for 3D and animations.",
+    "modal1": "This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.",
+
+    "desc2": "Event management platform built on Next.js. This app serves as a hub for showcasing events and features secure payment through Stripe.",
+    "modal2": "Evently is an event management platform, built on Next.js. It serves as a hub for showcasing events, features payment through Stripe, the capability to purchase tickets and manage your own events.",
+
+    "desc3": "Landing page design for a travel agency featuring a modern and minimalist aesthetic, crafted using HTML, CSS, and JavaScript.",
+    "modal3": "Landing page design for a travel agency featuring a modern and minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced with smooth animations powered by ScrollReveal.js library.",
+
+    "desc4": "Landing page for a sushi restaurant featuring a modern and minimalist aesthetic, crafted using HTML, CSS, and JavaScript.",
+    "modal4": "Landing page design for a sushi restaurant featuring a modern and minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced with smooth animations powered by ScrollReveal.js library",
+
+    "desc5": "AI image platform featuring advanced image processing: restoration, recoloring, object removal, generative filling, and background removal.",
+    "modal5": "An AI image SaaS platform with advanced image processing, secure payments and powerful search. Features: restoration, recoloring, object removal, generative filling, and background removal.",
+
+    "desc6": "CarHub presents various car types, showcasing comprehensive information with advanced filtering and pagination support.",
+    "modal6": "CarHub presents various car types, showcasing comprehensive information with advanced filtering and pagination support. Built with Next.js and leveraging its server-side rendering capabilities.",
+
+    "desc7": "3D website powered by Three.js featuring interactive elements. Navigate aboard a small plane and explore a floating island.",
+    "modal7": "This 3D website, built with React and powered by Three.js, features engaging interactive elements. Navigate aboard a small plane to explore a floating island and discover various information. On the contact page, a fox will dynamically react as you fill out the fields!",
+
+    "desc8": "AI platform that enables users to create podcasts with features like text-to-audio conversion, image generation and seamless playback.",
+    "modal8": "A cutting-edge AI SaaS platform that empowers users to create, discover, and enjoy podcasts with advanced features such as text-to-audio conversion using multi-voice AI powered by OpenAI API, podcast thumbnail image generation, and seamless playback. The platform includes secure authentication using Clerk, ensuring a safe and personalized user experience."
   },
   "Experience": {
-    "title": "Accueil",
-    "content": "Bonjour et bienvenue sur mon site !"
+    "section": "Experience",
+    "exp1": "Freelance",
+    "role1": "Web Developer",
+    "date1": "Since 2022",
+    "loca1": "Remote",
+    "desc1": "I develop custom websites for individuals and small businesses, delivering responsive, user-friendly, and tailored designs. My responsibilities include optimizing site performance, enhancing search engine optimization (SEO) for better search visibility, and providing copyrighting services for unique, legally compliant content. Additionally, I offer logo design and social media assistance to improve brand presence and engage clients across different industries."
   },
   "Certification": {
-    "title": "Accueil",
-    "content": "Bonjour et bienvenue sur mon site !"
+    "section": "Certification",
+    "certificate":"Certificate",
+    "certif1": "Web Developer",
+    "school1": "OpenClassrooms",
+    "date1": "November 2022 – 600 hours",
+    "desc1": "Focused on frontend skills, backend API integration, and building APIs from scratch. Developed responsive web apps, enhanced webpage dynamics, optimized site performance, and managed projects from start to finish under mentorship and examination. Key project: Groupomania, a full-stack social media platform built with the MERN stack.",
+
+    "certif2": "Responsive Web Design",
+    "school2": "freeCodeCamp",
+    "date2": "January 2024 – 300 hours",
+    "desc2": "Focused on content structuring with HTML and design principles with CSS. Developed skills in responsive design, Flexbox, CSS Grid, SEO, and accessibility through 20 projects. Emphasized modern techniques and best practices for crafting well-structured and accessible web pages. Key projects: Groupomania, a full-stack social media platform built with the MERN stack.",
+
+    "certif3": "JavaScript Algorithms & Data Structures",
+    "school3": "freeCodeCamp",
+    "date3": "January 2024 – 300 hours",
+    "desc3": "Focused on mastering JavaScript fundamentals, including variables, arrays, objects, loops, functions, and the DOM. Developed skills in Object-Oriented Programming (OOP), Functional Programming, and algorithmic thinking. Gained experience in working with local storage and fetching data using APIs. Emphasized practical applications and best practices for creating interactive and efficient web applications.",
+
+    "certif4": "Front End Development Libraries",
+    "school4": "freeCodeCamp",
+    "date4": "January 2024 – 300 hours",
+    "desc4": "Focused on enhancing front-end skills with popular libraries and frameworks. Gained proficiency in quickly styling websites with Bootstrap and extending CSS styles with Sass. Developed expertise in creating Single Page Applications (SPAs) using React and Redux through practical projects like a shopping cart application. Emphasized integrating advanced styling and state management techniques for dynamic and efficient web applications.",
+
+    "certif5": "Data Visualization",
+    "school5": "freeCodeCamp",
+    "date5": "January 2024 – 300 hours",
+    "desc5": "Focused on presenting data through charts, graphs, and maps using the D3.js library. Gained skills in working with JSON (JavaScript Object Notation) and integrating data from online sources using APIs. Emphasized practical techniques for visualizing and interpreting data to provide clear insights and context.",
+
+    "certif6": "Relational Database",
+    "school6": "freeCodeCamp",
+    "date6": "January 2024 – 300 hours",
+    "desc6": "Focused on using essential developer tools and software, including VS Code, PostgreSQL, and the Linux/Unix command line. Gained skills in basic Bash commands, file system navigation, and scripting. Developed expertise in creating and managing relational databases with PostgreSQL and SQL. Also learned Git for version control, a crucial tool for collaborative development.",
+
+    "certif7": "Back End Development & APIs",
+    "school7": "freeCodeCamp",
+    "date7": "January 2024 – 300 hours",
+    "desc7": "Focused on using JavaScript for server-side development to build full web applications. Learned to write back-end apps with Node.js and npm, and build web applications using the Express framework. Developed a People Finder microservice with MongoDB and the Mongoose library, emphasizing the microservices architecture for creating modular and scalable applications.",
+
+    "certif8": "Quality Assurance",
+    "school8": "freeCodeCamp",
+    "date8": "January 2024 – 300 hours",
+    "desc8": "Focused on testing and ensuring the reliability of complex applications. Learned to write tests with Chai to verify that applications function as expected. Built a chat application to explore advanced concepts in Node.js and Express, utilizing Pug as a template engine, Passport for authentication, and Socket.io for real-time communication between the server and clients."
   },
+
   "Contact": {
-    "title": "Accueil",
-    "content": "Bonjour et bienvenue sur mon site !"
+    "section": "Contact",
+    "p1": "Have an idea to discuss? Shoot me an email if you want to connect! You can also find me on",
+    "p2": "if that's more your speed."
   }
 }
