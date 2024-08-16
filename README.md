@@ -42,7 +42,7 @@
 
 👉 **Fully Functional Search**: Allows users to find my projects easily using various search criteria.
 
-👉 **Bilingual Support with i18n**: Allows seamless switching between English and French, offering a fully localized experience.
+👉 **Bilingual Support**: Seamless switching between English and French, offering a fully localized experience.
 
 ## <br/> <a name="quick-start">🚀 Quick Start</a>
 
