@@ -8,8 +8,7 @@ import { ProjectModal } from "../projects/ProjectModal";
 import styles from "./gallery.module.scss";
 
 interface Props {
-  modalContent: JSX.Element;
-  description: string;
+  modal: JSX.Element;
   link: string;
   img: string;
   tech: string[];
@@ -18,9 +17,8 @@ interface Props {
 }
 
 export const GalleryItem = ({
-  modalContent,
+  modal,
   link,
-  description,
   img,
   title,
   code,
@@ -110,7 +108,7 @@ export const GalleryItem = ({
         </div>
       </motion.div>
       <ProjectModal
-        modalContent={modalContent}
+        modal={modal}
         link={link}
         setIsOpen={setIsOpen}
         isOpen={isOpen}

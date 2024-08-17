@@ -11,7 +11,7 @@ export const Heading = () => {
         <Switch />
       </div>
       <div className={styles.headingButtons}>
-        <OutlineButton onClick={() => window.open("pdf/resume.pdf")}>
+        <OutlineButton onClick={() => window.open("docs/resume.pdf")}>
           CV
         </OutlineButton>
       </div>

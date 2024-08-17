@@ -8,8 +8,8 @@ import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
 
 interface Props {
-  modalContent: JSX.Element;
-  description: string;
+  modal: JSX.Element;
+  desc: string;
   link: string;
   img: string;
   tech: string[];
@@ -18,9 +18,9 @@ interface Props {
 }
 
 export const Project = ({
-  modalContent,
+  modal,
   link,
-  description,
+  desc,
   img,
   title,
   code,
@@ -104,13 +104,13 @@ export const Project = ({
           </Reveal>
           <Reveal>
             <p className={styles.projectDescription}>
-              {description} <br/><span onClick={() => setIsOpen(true)}>Details {">"}</span>
+              {desc} <br/><span onClick={() => setIsOpen(true)}>Details {">"}</span>
             </p>
           </Reveal>
         </div>
       </motion.div>
       <ProjectModal
-        modalContent={modalContent}
+        modal={modal}
         link={link}
         setIsOpen={setIsOpen}
         isOpen={isOpen}

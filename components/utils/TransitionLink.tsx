@@ -1,14 +1,13 @@
-"use client";
-import React from "react";
-import { useRouter } from "next/navigation";
-import Link, { LinkProps } from "next/link";
+import { LinkProps } from "next/link";
+// Needed for locales only. If not, use Next.js' native Router and Link.
+import { Link, useRouter } from "@/i18n/navigation";
 
 interface TransitionLinkProps extends LinkProps {
   children: React.ReactNode;
-  href: string;  
+  href: string;
   className?: string;
+  locale?: string; // for i18n
 }
-
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }

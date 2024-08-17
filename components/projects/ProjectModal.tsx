@@ -15,11 +15,11 @@ interface Props {
   code: string;
   link: string;
   tech: string[];
-  modalContent: JSX.Element;
+  modal: JSX.Element;
 }
 
 export const ProjectModal = ({
-  modalContent,
+  modal,
   link,
   setIsOpen,
   img,
@@ -49,7 +49,7 @@ export const ProjectModal = ({
         <div className={styles.modalContent}>
           <h4>{title}</h4>
           <div className={styles.modalTech}>{tech.join(" - ")}</div>
-          <div className={styles.suppliedContent}>{modalContent}</div>
+          <div className={styles.suppliedContent}>{modal}</div>
           <div className={styles.modalFooter}>
             <p className={styles.linksText}>
               Links<span>.</span>

@@ -33,9 +33,12 @@ const Gallery = () => {
 
         {/* Gallery */}
         <div className={styles.galleryItem}>
-        {filteredProjects.map((project) => (
-  <GalleryItem key={`${project.title}-${activeFilter}`} {...project} />
-))}
+          {filteredProjects.map((project) => (
+            <GalleryItem
+              key={`${project.title}-${activeFilter}`}
+              {...project}
+            />
+          ))}
         </div>
 
         {/* Back Home */}
@@ -56,9 +59,7 @@ const projects = [
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "GSAP", "Three.js"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: <></>,
+    modal: <></>,
   },
   {
     cat: "React",
@@ -67,9 +68,7 @@ const projects = [
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["HTML", "CSS", "JS", "Sass"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: <></>,
+    modal: <></>,
   },
   {
     cat: "Design",
@@ -78,9 +77,7 @@ const projects = [
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["HTML", "CSS", "JS", "Sass"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: <></>,
+    modal: <></>,
   },
   {
     cat: "App",
@@ -89,9 +86,7 @@ const projects = [
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: <></>,
+    modal: <></>,
   },
   {
     cat: "React, Design",
@@ -100,9 +95,7 @@ const projects = [
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "GSAP", "Three.js"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: <></>,
+    modal: <></>,
   },
   {
     cat: "React",
@@ -111,9 +104,7 @@ const projects = [
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["HTML", "CSS", "JS", "Sass"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: <></>,
+    modal: <></>,
   },
   {
     cat: "Design",
@@ -122,9 +113,7 @@ const projects = [
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["HTML", "CSS", "JS", "Sass"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: <></>,
+    modal: <></>,
   },
   {
     cat: "App",
@@ -133,9 +122,7 @@ const projects = [
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
     tech: ["React", "Nextjs", "Tailwind"],
-    description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: <></>,
+    modal: <></>,
   },
 ];
 

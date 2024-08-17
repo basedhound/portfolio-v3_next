@@ -3,7 +3,9 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
+
 import { Link } from "@/i18n/navigation";
+import { TransitionLink } from "../utils/TransitionLink";
 
 export const Projects = () => {
   const t = useTranslations("Projects");
@@ -15,8 +17,8 @@ export const Projects = () => {
       code: "https://github.com/basedhound/iPhone-15_ui_react",
       link: "https://iphone15-fv.netlify.app",
       tech: ["React", "Three.js", "Tailwind", "GSAP"],
-      description: t("desc1"),
-      modalContent: <>{t("modal1")}</>,
+      desc: t("desc1"),
+      modal: <>{t("modal1")}</>,
     },
     {
       title: "Evently",
@@ -24,8 +26,8 @@ export const Projects = () => {
       code: "https://github.com/basedhound/event-platform_app_next",
       link: "https://evently-fv.vercel.app",
       tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind", "Stripe"],
-      description: t("desc2"),
-      modalContent: <>{t("modal2")}</>,
+      desc: t("desc2"),
+      modal: <>{t("modal2")}</>,
     },
     {
       title: "Travel Agency",
@@ -33,8 +35,8 @@ export const Projects = () => {
       code: "https://github.com/basedhound/travel-agency-2_ui",
       link: "https://travel-2-fv.netlify.app",
       tech: ["HTML", "CSS", "Sass", "JavaScript", "Figma"],
-      description: t("desc3"),
-      modalContent: <>{t("modal3")}</>,
+      desc: t("desc3"),
+      modal: <>{t("modal3")}</>,
     },
     {
       title: "Sushi Restaurant",
@@ -42,8 +44,8 @@ export const Projects = () => {
       code: "https://github.com/basedhound/sushi-restaurant-2_ui",
       link: "https://sushi-2-fv.netlify.app",
       tech: ["HTML", "CSS", "Sass", "JavaScript", "Figma"],
-      description: t("desc4"),
-      modalContent: <>{t("modal4")}</>,
+      desc: t("desc4"),
+      modal: <>{t("modal4")}</>,
     },
     {
       title: "Imaginify",
@@ -51,8 +53,8 @@ export const Projects = () => {
       code: "https://github.com/basedhound/canva-clone_app_next",
       link: "https://imaginify-fv.vercel.app",
       tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind", "Stripe"],
-      description: t("desc5"),
-      modalContent: <>{t("modal5")}</>,
+      desc: t("desc5"),
+      modal: <>{t("modal5")}</>,
     },
     {
       title: "Car Hub",
@@ -60,8 +62,8 @@ export const Projects = () => {
       code: "https://github.com/basedhound/car-hub_app_next",
       link: "https://car-hub-fv.vercel.app",
       tech: ["Next.js", "React", "TypeScript", "Tailwind"],
-      description: t("desc6"),
-      modalContent: <>{t("modal6")}</>,
+      desc: t("desc6"),
+      modal: <>{t("modal6")}</>,
     },
     {
       title: "3D Portfolio",
@@ -69,8 +71,8 @@ export const Projects = () => {
       code: "https://github.com/basedhound/3d-island_portfolio_react",
       link: "https://3d-island-fv.netlify.app/",
       tech: ["React", "Three.js", "Three Fiber", "Tailwind", "Vite"],
-      description: t("desc7"),
-      modalContent: <>{t("modal7")}</>,
+      desc: t("desc7"),
+      modal: <>{t("modal7")}</>,
     },
     {
       title: "Podcast AI",
@@ -78,8 +80,8 @@ export const Projects = () => {
       code: "https://github.com/basedhound/podcastr-ai_app_next",
       link: "https://podcastr-fv.vercel.app",
       tech: ["OpenAI", "Next.js", "React", "TypeScript", "Tailwind"],
-      description: t("desc8"),
-      modalContent: <>{t("modal8")}</>,
+      desc: t("desc8"),
+      modal: <>{t("modal8")}</>,
     },
   ];
 
@@ -94,10 +96,10 @@ export const Projects = () => {
       </div>
 
       <div className={styles.linkToGallery}>
-        <Link href="/gallery">
+        <TransitionLink href="/gallery">
           <AiOutlineArrowRight size="2rem" />
           {t("gallery")}
-        </Link>
+        </TransitionLink>
       </div>
     </section>
   );
