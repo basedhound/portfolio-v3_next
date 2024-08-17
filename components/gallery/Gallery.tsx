@@ -1,200 +1,141 @@
+import { useState } from "react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import { Project } from "@/components/projects/Project";
-import styles from "./gallery.module.scss";
-import Search from "./Search";
 import { TransitionLink } from "../utils/TransitionLink";
+import { GalleryItem } from "@/components/gallery/GalleryItem";
+import styles from "./gallery.module.scss";
+import Filter from "./Filter";
 
 const Gallery = () => {
+  const [activeFilter, setActiveFilter] = useState("all");
+  const [filteredProjects, setFilteredProjects] = useState(projects);
+
+  const handleFilter = (filter: string) => {
+    setActiveFilter(filter);
+    if (filter === "all") {
+      setFilteredProjects(projects);
+    } else {
+      setFilteredProjects(
+        projects.filter((project) => project.cat.includes(filter))
+      );
+    }
+  };
+
   return (
-    <section className="section-wrapper" id="gallery">
-      {/* Back Home */}
-      <TransitionLink className={styles.galleryLink1} href="/#projects">
-        <AiOutlineArrowLeft size="3rem" />
-      </TransitionLink>
+    <>
+      <section className={styles.galleryWrapper} id="gallery">
+        {/* Back Home */}
+        <TransitionLink className={styles.returnLink} href="/#projects">
+          <AiOutlineArrowLeft size="3rem" />
+        </TransitionLink>
 
-      {/* Search */}
-      <Search/>
+        {/* Filter */}
+        <Filter activeFilter={activeFilter} handleFilter={handleFilter} />
 
-      {/* Gallery */}
-      <div className={styles.projects}>
-        {projects.map((project) => {
-          return <Project key={project.title} {...project} />;
-        })}
-      </div>
+        {/* Gallery */}
+        <div className={styles.galleryItem}>
+        {filteredProjects.map((project) => (
+  <GalleryItem key={`${project.title}-${activeFilter}`} {...project} />
+))}
+        </div>
 
-      {/* Back Home */}
-      <TransitionLink className={styles.galleryLink2} href="/#projects">
-        <AiOutlineArrowRight size="2rem" />
-        Home
-      </TransitionLink>
-    </section>
+        {/* Back Home */}
+        <TransitionLink className={styles.galleryLink2} href="/#projects">
+          <AiOutlineArrowRight size="2rem" />
+          Home
+        </TransitionLink>
+      </section>
+    </>
   );
 };
 
 const projects = [
   {
-    title: "Project",
-    img: "/projects/iphone.webp",
+    cat: "React, Design",
+    title: "Project 1",
+    img: "/showcase/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["React", "GSAP", "Three.js"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-      </>
-    ),
+    modalContent: <></>,
   },
   {
-    title: "Project",
-    img: "/projects/iphone.webp",
+    cat: "React",
+    title: "Project 2",
+    img: "/showcase/sushi.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["HTML", "CSS", "JS", "Sass"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-      </>
-    ),
+    modalContent: <></>,
   },
   {
-    title: "Project",
-    img: "/projects/iphone.webp",
+    cat: "Design",
+    title: "Project 3",
+    img: "/showcase/travel.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["HTML", "CSS", "JS", "Sass"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-      </>
-    ),
+    modalContent: <></>,
   },
   {
-    title: "Project",
-    img: "/projects/iphone.webp",
+    cat: "App",
+    title: "Project 4",
+    img: "/showcase/podcastr.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["React", "Nextjs", "Tailwind"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-      </>
-    ),
+    modalContent: <></>,
   },
   {
-    title: "Project",
-    img: "/projects/iphone.webp",
+    cat: "React, Design",
+    title: "Project 5",
+    img: "/showcase/iphone.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["React", "GSAP", "Three.js"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-      </>
-    ),
+    modalContent: <></>,
   },
   {
-    title: "Project",
-    img: "/projects/iphone.webp",
+    cat: "React",
+    title: "Project 6",
+    img: "/showcase/sushi.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["HTML", "CSS", "JS", "Sass"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-      </>
-    ),
+    modalContent: <></>,
   },
   {
-    title: "Project",
-    img: "/projects/iphone.webp",
+    cat: "Design",
+    title: "Project 7",
+    img: "/showcase/travel.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["HTML", "CSS", "JS", "Sass"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-      </>
-    ),
+    modalContent: <></>,
   },
   {
-    title: "Project",
-    img: "/projects/iphone.webp",
+    cat: "App",
+    title: "Project 8",
+    img: "/showcase/podcastr.webp",
     code: "https://www.github.com",
     link: "https://iphone15-fv.netlify.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Prisma"],
+    tech: ["React", "Nextjs", "Tailwind"],
     description:
       "A Talent finder app for anything around the world. This is my first time as a React developer job.",
-    modalContent: (
-      <>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-          quisquam exercitationem aliquam delectus quas. Obcaecati aperiam,
-          dignissimos expedita at quisquam nostrum commodi consequuntur ea,
-          placeat magni maxime tenetur deleniti voluptates?
-        </p>
-      </>
-    ),
+    modalContent: <></>,
   },
 ];
 

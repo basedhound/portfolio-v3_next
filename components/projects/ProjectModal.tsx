@@ -35,7 +35,7 @@ export const ProjectModal = ({
         animate={{ y: 0, opacity: 1 }}
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}>
-        <Link href={link}>
+        <Link href={link} target="_blank" >
           <Image
             priority
             src={img}
