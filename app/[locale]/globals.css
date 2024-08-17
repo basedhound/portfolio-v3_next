@@ -5,7 +5,7 @@
   --background-light: rgb(35, 35, 35);
   --background-dark: rgb(8, 8, 8);
   --text: rgb(235, 236, 243);
-  --brand: #BE63F9;
+  --brand: #be63f9;
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
   --text-md: 2.2rem;
@@ -53,14 +53,16 @@ a {
   text-decoration: none;
 }
 
-button, input[type="submit"], input[type="reset"] {
-	background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 .section-wrapper {
@@ -74,18 +76,19 @@ button, input[type="submit"], input[type="reset"] {
 @media (max-width: 768px) {
   .section-wrapper {
     padding: 7.2rem 2.4rem;
-  }  
+  }
 }
 @media (max-width: 450px) {
   .section-wrapper {
     width: 300px;
     padding: 3rem 0.5rem;
-  }  
+    font-size: var(--text-xs);
+  }
 }
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .section-wrapper {
     width: 240px;
-  }  
+  }
 }
 
 /* Stats -> Exp + Certif */

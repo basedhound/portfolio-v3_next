@@ -1,5 +1,9 @@
 import { useState } from "react";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
+import {
+  AiOutlineArrowLeft,
+  AiOutlineArrowRight,
+  AiOutlineArrowUp,
+} from "react-icons/ai";
 import { TransitionLink } from "../utils/TransitionLink";
 import { GalleryItem } from "@/components/gallery/GalleryItem";
 import styles from "./gallery.module.scss";
@@ -24,8 +28,8 @@ const Gallery = () => {
     <>
       <section className={styles.galleryWrapper} id="gallery">
         {/* Back Home */}
-        <TransitionLink className={styles.returnLink} href="/#projects">
-          <AiOutlineArrowLeft size="3rem" />
+        <TransitionLink className={styles.goBackBtn} href="/#projects">
+          <AiOutlineArrowLeft size="2.4rem" />
         </TransitionLink>
 
         {/* Filter */}
@@ -41,11 +45,12 @@ const Gallery = () => {
           ))}
         </div>
 
-        {/* Back Home */}
-        <TransitionLink className={styles.galleryLink2} href="/#projects">
-          <AiOutlineArrowRight size="2rem" />
-          Home
-        </TransitionLink>
+        {/* Up Button */}
+        <button
+          className={styles.goUpBtn}
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+          <AiOutlineArrowUp size="2.4rem" />
+        </button>
       </section>
     </>
   );
