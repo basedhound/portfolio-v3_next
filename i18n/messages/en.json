@@ -19,7 +19,7 @@
     "p5": "I'm always looking for new challenges and opportunities to learn and grow as a developer. If you're interested in working together or have any questions, please don't hesitate to get in touch!"
   },
   "Projects": {
-    "section": "Projets",
+    "section": "Projects",
     "gallery": "Full Gallery",
 
     "desc1": "A clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of Three.js and GSAP for 3D and animations.",
