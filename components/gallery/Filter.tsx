@@ -23,3 +23,4 @@ const Filter = ({ activeFilter, handleFilter }: FilterProps) => {
 };
 
 export default Filter;
+
