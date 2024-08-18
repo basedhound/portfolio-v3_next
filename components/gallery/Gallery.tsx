@@ -83,8 +83,8 @@ const projects = [
     ),
   },
   {
-    cat: "App, Next",
-    title: "💜, CarHub",
+    cat: "💜, App, Next",
+    title: "Car Hub",
     img: "/gallery/carhub.png",
     code: "https://github.com/basedhound/car-hub_app_next",
     link: "https://car-hub-fv.vercel.app",
@@ -107,8 +107,8 @@ const projects = [
     ),
   },
   {
-    cat: "App, Next",
-    title: "💜, Canva Clone",
+    cat: "💜, App, Next",
+    title: "Canva clone",
     img: "/gallery/canva.png",
     code: "https://github.com/basedhound/canva-clone_app_next",
     link: "https://imaginify-fv.vercel.app",
@@ -133,7 +133,7 @@ const projects = [
   },
   {
     cat: "App, Next",
-    title: "Threads Clone",
+    title: "Threads clone",
     img: "/gallery/threads.png",
     code: "https://github.com/basedhound/threads-clone_app_next",
     link: "https://threads-fv.vercel.app",
@@ -156,7 +156,7 @@ const projects = [
   },
   {
     cat: "App, Next",
-    title: "Figma Clone",
+    title: "Figma clone",
     img: "/gallery/figma.png",
     code: "https://github.com/basedhound/figma-clone_app_next",
     link: "https://figpro-fv.vercel.app",
@@ -178,7 +178,7 @@ const projects = [
   },
   {
     cat: "App, Next",
-    title: "Zoom Clone",
+    title: "Zoom clone",
     img: "/gallery/zoom.png",
     code: "https://github.com/basedhound/zoom-clone_app_next",
     link: "https://yoom-fv.vercel.app",
@@ -524,7 +524,7 @@ const projects = [
   },
   {
     cat: "💜, App, React",
-    title: "Instagram Clone",
+    title: "Instagram clone",
     img: "/gallery/snapgram.png",
     code: "https://github.com/basedhound/instagram-clone_app_react",
     link: "https://snapgram-fv.vercel.app",
