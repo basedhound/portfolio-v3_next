@@ -72,6 +72,7 @@ export const GalleryItem = ({
           onClick={() => setIsOpen(true)}
           className={styles.itemCover}>
           <Image
+          priority
             src={img}
             alt={`An image of the ${title} project.`}
             width={1000}
@@ -100,11 +101,6 @@ export const GalleryItem = ({
           <Reveal>
             <div className={styles.itemTech}>{tech.join(" - ")}</div>
           </Reveal>
-{/*           <Reveal>
-            <p className={styles.itemDescription}>
-              {description} <br/><span onClick={() => setIsOpen(true)}>Details {">"}</span>
-            </p>
-          </Reveal> */}
         </div>
       </motion.div>
       <Modal
