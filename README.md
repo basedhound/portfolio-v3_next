@@ -44,7 +44,9 @@
 
 👉 **Bilingual Support**: Seamless switching between English and French, offering a fully localized experience.
 
-👉 **Tag-Based Filtering**: Enable users to seamlessly filter the gallery by tags, enhancing the browsing experience by allowing quick access to specific projects.
+👉 **Galery Filter**: Enable users to seamlessly filter the gallery by tags, enhancing the browsing experience by allowing quick access to specific projects.
+
+
 
 ## <br/> <a name="quick-start">🚀 Quick Start</a>
 
