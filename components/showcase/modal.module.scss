@@ -85,7 +85,7 @@
 .links {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 1.5rem;
 
   a {
     display: flex;
@@ -94,13 +94,8 @@
     font-size: var(--text-xs);
     font-weight: 400;
     color: var(--brand);
-    opacity: 0.9;
-    transition: 0.2s;
-  }
-
-  a:hover {
     opacity: 1;
-    // text-decoration: underline;
+    transition: 0.2s;
   }
 }
 
@@ -118,4 +113,8 @@
     opacity: 1;
     scale: 1.05;
   }
+}
+
+.flag {
+  font-size: 24px;
 }
