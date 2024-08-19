@@ -486,30 +486,30 @@ const projects = [
       </>
     ),
   },
-  // {
-  //   cat: "App, React",
-  //   title: "Refine Dashboard",
-  //   img: "/gallery/.webp",
-  //   code: "https://github.com/basedhound/dashboard_app_react-refine",
-  //   link: "https://dashboard-refine-fv.netlify.app",
-  //   tech: ["React", "Refine", "GraphQL"],
-  //   modal: (
-  //     <>
-  //       🍵  React-based internal tools, admin panels, dashboards, B2B apps with
-  //       flexibility in mind. An open-source, headless React meta-framework,
-  //       developed with a commitment to best practices, flexibility, minimal tech
-  //       debt, and team alignment, could be a perfect fit for dynamic
-  //       environments.
-  //       <br />
-  //       <br />
-  //       🥐 Applications internes, panneaux d'administration, tableaux de bord
-  //       et applications B2B basés sur React, conçus pour offrir une grande
-  //       flexibilité. Développé selon les meilleures pratiques, favorisant la
-  //       flexibilité, minimisant la dette technique et favorisant l'alignement
-  //       d'équipe, idéal pour les environnements dynamiques.
-  //     </>
-  //   ),
-  // },
+  {
+    cat: "App, React",
+    title: "Refine Dashboard",
+    img: "/gallery/refine.webp",
+    code: "https://github.com/basedhound/dashboard_app_react-refine",
+    link: "https://dashboard-refine-fv.netlify.app",
+    tech: ["React", "Refine", "GraphQL"],
+    modal: (
+      <>
+        🍵  React-based internal tools, admin panels, dashboards, B2B apps with
+        flexibility in mind. An open-source, headless React meta-framework,
+        developed with a commitment to best practices, flexibility, minimal tech
+        debt, and team alignment, could be a perfect fit for dynamic
+        environments.
+        <br />
+        <br />
+        🥐 Applications internes, panneaux d'administration, tableaux de bord
+        et applications B2B basés sur React, conçus pour offrir une grande
+        flexibilité. Développé selon les meilleures pratiques, favorisant la
+        flexibilité, minimisant la dette technique et favorisant l'alignement
+        d'équipe, idéal pour les environnements dynamiques.
+      </>
+    ),
+  },
   {
     cat: "App, React",
     title: "Summarize AI",
