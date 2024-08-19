@@ -13,7 +13,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "iPhone 15",
-      img: "/showcase/iphone.webp",
+      img: "/gallery/iphone.webp",
       code: "https://github.com/basedhound/iPhone-15_ui_react",
       link: "https://iphone15-fv.netlify.app",
       tech: ["React", "Three.js", "Tailwind", "GSAP"],
@@ -22,7 +22,7 @@ export const Projects = () => {
     },
     {
       title: "Evently",
-      img: "/showcase/evently.webp",
+      img: "/gallery/evently.webp",
       code: "https://github.com/basedhound/event-platform_app_next",
       link: "https://evently-fv.vercel.app",
       tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind", "Stripe"],
@@ -31,7 +31,7 @@ export const Projects = () => {
     },
     {
       title: "Travel Agency",
-      img: "/showcase/travel.webp",
+      img: "/gallery/travel2.webp",
       code: "https://github.com/basedhound/travel-agency-2_ui",
       link: "https://travel-2-fv.netlify.app",
       tech: ["HTML", "CSS", "Sass", "JavaScript", "Figma"],
@@ -40,7 +40,7 @@ export const Projects = () => {
     },
     {
       title: "Sushi Restaurant",
-      img: "/showcase/sushi.webp",
+      img: "/gallery/sushi2.webp",
       code: "https://github.com/basedhound/sushi-restaurant-2_ui",
       link: "https://sushi-2-fv.netlify.app",
       tech: ["HTML", "CSS", "Sass", "JavaScript", "Figma"],
@@ -49,7 +49,7 @@ export const Projects = () => {
     },
     {
       title: "Imaginify",
-      img: "/showcase/imaginify.webp",
+      img: "/gallery/canva.webp",
       code: "https://github.com/basedhound/canva-clone_app_next",
       link: "https://imaginify-fv.vercel.app",
       tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind", "Stripe"],
@@ -58,7 +58,7 @@ export const Projects = () => {
     },
     {
       title: "Car Hub",
-      img: "/showcase/carhub.webp",
+      img: "/gallery/carhub.webp",
       code: "https://github.com/basedhound/car-hub_app_next",
       link: "https://car-hub-fv.vercel.app",
       tech: ["Next.js", "React", "TypeScript", "Tailwind"],
@@ -67,7 +67,7 @@ export const Projects = () => {
     },
     {
       title: "3D Portfolio",
-      img: "/showcase/portfolio3d.webp",
+      img: "/gallery/island3d.webp",
       code: "https://github.com/basedhound/3d-island_portfolio_react",
       link: "https://3d-island-fv.netlify.app/",
       tech: ["React", "Three.js", "Three Fiber", "Tailwind", "Vite"],
@@ -76,7 +76,7 @@ export const Projects = () => {
     },
     {
       title: "Podcast AI",
-      img: "/showcase/podcastr.webp",
+      img: "/gallery/podcast.webp",
       code: "https://github.com/basedhound/podcastr-ai_app_next",
       link: "https://podcastr-fv.vercel.app",
       tech: ["OpenAI", "Next.js", "React", "TypeScript", "Tailwind"],

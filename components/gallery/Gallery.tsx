@@ -59,7 +59,7 @@ const projects = [
   {
     cat: "💜, App, Next",
     title: "Evently",
-    img: "/gallery/evently.png",
+    img: "/gallery/evently.webp",
     code: "https://github.com/basedhound/event-platform_app_next",
     link: "https://evently-fv.vercel.app",
     tech: ["Next", "MongoDB", "Tailwind", "TS"],
@@ -85,7 +85,7 @@ const projects = [
   {
     cat: "💜, App, Next",
     title: "Car Hub",
-    img: "/gallery/carhub.png",
+    img: "/gallery/carhub.webp",
     code: "https://github.com/basedhound/car-hub_app_next",
     link: "https://car-hub-fv.vercel.app",
     tech: ["Next", "Rapid API", "Tailwind", "TS"],
@@ -109,7 +109,7 @@ const projects = [
   {
     cat: "💜, App, Next",
     title: "Canva clone",
-    img: "/gallery/canva.png",
+    img: "/gallery/canva.webp",
     code: "https://github.com/basedhound/canva-clone_app_next",
     link: "https://imaginify-fv.vercel.app",
     tech: ["Next", "Rapid API", "Tailwind", "TS"],
@@ -134,7 +134,7 @@ const projects = [
   {
     cat: "App, Next",
     title: "Threads clone",
-    img: "/gallery/threads.png",
+    img: "/gallery/threads.webp",
     code: "https://github.com/basedhound/threads-clone_app_next",
     link: "https://threads-fv.vercel.app",
     tech: ["Next", "MongoDB", "Tailwind", "TS"],
@@ -157,7 +157,7 @@ const projects = [
   {
     cat: "App, Next",
     title: "Figma clone",
-    img: "/gallery/figma.png",
+    img: "/gallery/figma.webp",
     code: "https://github.com/basedhound/figma-clone_app_next",
     link: "https://figpro-fv.vercel.app",
     tech: ["Next", "LiveBlocks", "Fabric", "TS"],
@@ -179,7 +179,7 @@ const projects = [
   {
     cat: "App, Next",
     title: "Zoom clone",
-    img: "/gallery/zoom.png",
+    img: "/gallery/zoom.webp",
     code: "https://github.com/basedhound/zoom-clone_app_next",
     link: "https://yoom-fv.vercel.app",
     tech: ["Next", "GetStream", "Tailwind", "TS"],
@@ -203,7 +203,7 @@ const projects = [
   {
     cat: "App, Next",
     title: "Horizon Bank",
-    img: "/gallery/horizon.png",
+    img: "/gallery/horizon.webp",
     code: "https://github.com/basedhound/bank-platform_app_next",
     link: "https://horizon-bank-fv.vercel.app",
     tech: ["Next", "Plaid", "Dwolla", "TS"],
@@ -226,7 +226,7 @@ const projects = [
   {
     cat: "💜, App, Next",
     title: "Podcast AI",
-    img: "/gallery/podcast.png",
+    img: "/gallery/podcast.webp",
     code: "https://github.com/basedhound/podcastr-ai_app_next",
     link: "https://podcastr-fv.vercel.app",
     tech: ["Next", "Plaid", "Dwolla", "TS"],
@@ -253,7 +253,7 @@ const projects = [
   {
     cat: "App, Next",
     title: "Pricewise",
-    img: "/gallery/pricewise.png",
+    img: "/gallery/pricewise.webp",
     code: "https://github.com/basedhound/pricewise-scraper_app_next",
     link: "https://pricewise-fv.vercel.app",
     tech: ["Next", "Bright Data", "MongoDB", "TS"],
@@ -269,7 +269,7 @@ const projects = [
   {
     cat: "App, Next",
     title: "Prompt Share",
-    img: "/gallery/promptshare.png",
+    img: "/gallery/promptshare.webp",
     code: "https://github.com/basedhound/prompt-share_app_next",
     link: "https://prompt-share-fv.vercel.app",
     tech: ["Next", "MongoDB", "Tailwind", "TS"],
@@ -285,7 +285,7 @@ const projects = [
   {
     cat: "App, Next",
     title: "AnimeDB",
-    img: "/gallery/animedb.png",
+    img: "/gallery/animedb.webp",
     code: "https://github.com/basedhound/anime-db_app_next",
     link: "https://animedb-fv.netlify.app",
     tech: ["Next", "Rapid API", "Framer", "TS"],
@@ -302,7 +302,7 @@ const projects = [
   {
     cat: "💜, Design, Next",
     title: "Portfolio v3",
-    img: "/gallery/portfolio3.png",
+    img: "/gallery/portfolio3.webp",
     code: "https://github.com/basedhound/portfolio-v3_next",
     link: "/",
     tech: ["Next", "Sass", "Framer", "TypeScript"],
@@ -328,7 +328,7 @@ const projects = [
   {
     cat: "Design, Next",
     title: "Spotlight",
-    img: "/gallery/spotlight.png",
+    img: "/gallery/spotlight.webp",
     code: "https://github.com/basedhound/spotlight_portfolio_next",
     link: "https://spotlight-fv.netlify.app",
     tech: ["Next", "Threejs", "Framer", "TS"],
@@ -350,7 +350,7 @@ const projects = [
   {
     cat: "Design, Next",
     title: "Hilink",
-    img: "/gallery/hilink.png",
+    img: "/gallery/hilink.webp",
     code: "https://github.com/basedhound/hilink-travel_ui_next",
     link: "https://hilink-travel-fv.netlify.app",
     tech: ["Next", "Tailwind", "TypeScript"],
@@ -368,7 +368,7 @@ const projects = [
   {
     cat: "App, React",
     title: "GM Social",
-    img: "/gallery/gmsocial.png",
+    img: "/gallery/gmsocial.webp",
     code: "https://github.com/basedhound/gm-social_app_react",
     link: "/",
     tech: ["React", "Node", "Express", "MongoDB"],
@@ -401,7 +401,7 @@ const projects = [
   {
     cat: "App, React",
     title: "Workout",
-    img: "/gallery/workout.png",
+    img: "/gallery/workout.webp",
     code: "https://github.com/basedhound/workout_app_react",
     link: "https://workout-app-fv.netlify.app",
     tech: ["React", "Rapid API", "Material UI"],
@@ -429,7 +429,7 @@ const projects = [
   {
     cat: "App, React",
     title: "CryptoDB",
-    img: "/gallery/cryptodb.png",
+    img: "/gallery/cryptodb.webp",
     code: "https://github.com/basedhound/cryptodb_app_react",
     link: "https://cryptodb-fv.netlify.app",
     tech: ["React", "Rapid API", "Redux"],
@@ -477,7 +477,7 @@ const projects = [
   {
     cat: "App, React",
     title: "Summarize AI",
-    img: "/gallery/summarize.png",
+    img: "/gallery/summarize.webp",
     code: "https://github.com/basedhound/summarizer-ai_react",
     link: "https://summarize-fv.netlify.app",
     tech: ["React", "OpenAI", "Rapid API"],
@@ -504,7 +504,7 @@ const projects = [
   {
     cat: "💜, App, React",
     title: "3D T-Shirts",
-    img: "/gallery/tshirts3d.png",
+    img: "/gallery/tshirts3d.webp",
     code: "https://github.com/basedhound/3d-tshirts_app_react",
     link: "https://3d-tshirts-fv.netlify.app",
     tech: ["React", "Threejs", "Node", "MongoDB"],
@@ -525,7 +525,7 @@ const projects = [
   {
     cat: "💜, App, React",
     title: "Instagram clone",
-    img: "/gallery/snapgram.png",
+    img: "/gallery/snapgram.webp",
     code: "https://github.com/basedhound/instagram-clone_app_react",
     link: "https://snapgram-fv.vercel.app",
     tech: ["React", "Appwrite", "TanStack"],
@@ -543,7 +543,7 @@ const projects = [
   {
     cat: "💜, Design, React",
     title: "iPhone 15",
-    img: "/gallery/iphone.png",
+    img: "/gallery/iphone.webp",
     code: "https://github.com/basedhound/iPhone-15_ui_react",
     link: "https://iphone15-fv.netlify.app",
     tech: ["React", "GSAP", "Threejs", "Tailwind"],
@@ -565,7 +565,7 @@ const projects = [
   {
     cat: "💜, Design, React",
     title: "3D Island",
-    img: "/gallery/island3d.png",
+    img: "/gallery/island3d.webp",
     code: "https://github.com/basedhound/3d-island_portfolio_react",
     link: "https://3d-island-fv.netlify.app",
     tech: ["React", "Threejs", "Tailwind"],
@@ -588,7 +588,7 @@ const projects = [
   {
     cat: "💜, Design, React",
     title: "Brainwave",
-    img: "/gallery/brainwave.png",
+    img: "/gallery/brainwave.webp",
     code: "https://github.com/basedhound/brainwave_ui_react",
     link: "https://brainwave-fv.netlify.app",
     tech: ["React", "Tailwind", "Vite"],
@@ -604,7 +604,7 @@ const projects = [
   {
     cat: "💜, Design, React",
     title: "Gericht",
-    img: "/gallery/gericht.png",
+    img: "/gallery/gericht.webp",
     code: "https://github.com/basedhound/gericht-restaurant_ui_react",
     link: "https://gericht-restaurant-fv.netlify.app",
     tech: ["React", "CSS", "JS"],
@@ -620,7 +620,7 @@ const projects = [
   {
     cat: "💜, Design, React",
     title: "Nike",
-    img: "/gallery/nike.png",
+    img: "/gallery/nike.webp",
     code: "https://github.com/basedhound/nike_ui_react",
     link: "https://nike-fv.netlify.app",
     tech: ["React", "Tailwind"],
@@ -649,7 +649,7 @@ const projects = [
   {
     cat: "Design, React",
     title: "HooBank",
-    img: "/gallery/hoobank.png",
+    img: "/gallery/hoobank.webp",
     code: "https://github.com/basedhound/hoo-bank_ui_react",
     link: "https://hoobank-fv.netlify.app",
     tech: ["React", "Tailwind", "Vite"],
@@ -678,7 +678,7 @@ const projects = [
   {
     cat: "Design, React",
     title: "GPT3",
-    img: "/gallery/gpt3.png",
+    img: "/gallery/gpt3.webp",
     code: "https://github.com/basedhound/gpt3_ui_react",
     link: "https://gpt3-fv.netlify.app",
     tech: ["React", "CSS", "JS"],
@@ -705,7 +705,7 @@ const projects = [
   {
     cat: "Design, React",
     title: "KPOP Social",
-    img: "/gallery/kpop.png",
+    img: "/gallery/kpop.webp",
     code: "https://github.com/basedhound/kpop-social_ui_react",
     link: "https://ksocial-fv.netlify.app",
     tech: ["React", "CSS", "JS"],
@@ -729,7 +729,7 @@ const projects = [
   {
     cat: "Design, React",
     title: "Hua Astro",
-    img: "/gallery/hua.png",
+    img: "/gallery/hua.webp",
     code: "https://github.com/basedhound/hua-astro_react",
     link: "https://hua-astro-fv.netlify.app",
     tech: ["React", "Astro", "Tailwind", "Framer", "TS"],
@@ -751,7 +751,7 @@ const projects = [
   {
     cat: "Design, React",
     title: "Portfolio v2",
-    img: "/gallery/portfolio2.png",
+    img: "/gallery/portfolio2.webp",
     code: "https://github.com/basedhound/portfolio-v2_react",
     link: "https://portfolio-v2-fv.netlify.app",
     tech: ["React", "Framer", "Swiperjs", "Emailjs"],
@@ -767,7 +767,7 @@ const projects = [
   {
     cat: "Design, React",
     title: "Portfolio v1",
-    img: "/gallery/portfolio1.png",
+    img: "/gallery/portfolio1.webp",
     code: "https://github.com/basedhound/portfolio-v1_reactt",
     link: "https://portfolio-v1-fv.netlify.app",
     tech: ["React", "Sanity", "Framer", "Sass"],
@@ -784,7 +784,7 @@ const projects = [
 {
   cat: "Mobile",
   title: "Aora Video",
-  img: "/gallery/aora.png",
+  img: "/gallery/aora.webp",
   code: "https://github.com/basedhound/video-sharing_react-native",
   link: "/",
   tech: ["React Native", "Expo", "Appwrite"],
@@ -800,7 +800,7 @@ const projects = [
 {
   cat: "💜, Mobile",
   title: "Job Seeker",
-  img: "/gallery/jobseek.png",
+  img: "/gallery/jobseek.webp",
   code: "https://github.com/basedhound/job-seeker_react-native",
   link: "/",
   tech: ["React Native", "Expo", "Rapide API"],
@@ -819,7 +819,7 @@ const projects = [
   {
     cat: "Design",
     title: "Space Travel",
-    img: "/gallery/space.png",
+    img: "/gallery/space.webp",
     code: "https://github.com/basedhound/space-travel_ui",
     link: "https://space-travel-fv.netlify.app",
     tech: ["HTML", "CSS", "JS"],
@@ -844,7 +844,7 @@ const projects = [
   {
     cat: "Design",
     title: "Travel Agency 1",
-    img: "/gallery/travel1.png",
+    img: "/gallery/travel1.webp",
     code: "https://github.com/basedhound/travel-agency-1_ui",
     link: "https://travel-1-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -865,7 +865,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "Travel Agency 2",
-    img: "/gallery/travel2.png",
+    img: "/gallery/travel2.webp",
     code: "https://github.com/basedhound/travel-agency-2_ui",
     link: "https://travel-2-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -886,7 +886,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "Watches",
-    img: "/gallery/watches.png",
+    img: "/gallery/watches.webp",
     code: "https://github.com/basedhound/watch-shop_ui",
     link: "https://watches-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -907,7 +907,7 @@ const projects = [
   {
     cat: "Design",
     title: "Workout Plan",
-    img: "/gallery/workout2.png",
+    img: "/gallery/workout2.webp",
     code: "https://github.com/basedhound/yoga-coach_ui",
     link: "https://yoga-coach-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -928,7 +928,7 @@ const projects = [
   {
     cat: "Design",
     title: "Yoga Coach",
-    img: "/gallery/yoga.png",
+    img: "/gallery/yoga.webp",
     code: "https://github.com/basedhound/workout-program_ui",
     link: "https://workout-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -949,7 +949,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "Headphones",
-    img: "/gallery/headphones.png",
+    img: "/gallery/headphones.webp",
     code: "https://github.com/basedhound/headphone-shop_ui",
     link: "https://headphones-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -970,7 +970,7 @@ const projects = [
   {
     cat: "Design",
     title: "Juice Brand",
-    img: "/gallery/juice.png",
+    img: "/gallery/juice.webp",
     code: "https://github.com/basedhound/juice-brand_ui",
     link: "https://juice-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -991,7 +991,7 @@ const projects = [
   {
     cat: "Design",
     title: "Lamps",
-    img: "/gallery/lamps.png",
+    img: "/gallery/lamps.webp",
     code: "https://github.com/basedhound/lamp-shop_ui",
     link: "https://lamps-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1012,7 +1012,7 @@ const projects = [
   {
     cat: "Design",
     title: "NFT",
-    img: "/gallery/nft.png",
+    img: "/gallery/nft.webp",
     code: "https://github.com/basedhound/nft_ui",
     link: "https://nft-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1032,7 +1032,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "Real Estate",
-    img: "/gallery/realestate.png",
+    img: "/gallery/realestate.webp",
     code: "https://github.com/basedhound/real-estate-agency_ui",
     link: "https://real-estate-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1053,7 +1053,7 @@ const projects = [
   {
     cat: "Design",
     title: "Sneakers",
-    img: "/gallery/sneakers.png",
+    img: "/gallery/sneakers.webp",
     code: "https://github.com/basedhound/sneaker-shop_ui",
     link: "https://sneakers-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1074,7 +1074,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "Sushi",
-    img: "/gallery/sushi1.png",
+    img: "/gallery/sushi1.webp",
     code: "https://github.com/basedhound/sushi-restaurant-1_ui",
     link: "https://sushi-1-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Vite"],
@@ -1095,7 +1095,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "Sushi 2",
-    img: "/gallery/sushi2.png",
+    img: "/gallery/sushi2.webp",
     code: "https://github.com/basedhound/sushi-restaurant-2_ui",
     link: "https://sushi-2-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1116,7 +1116,7 @@ const projects = [
   {
     cat: "Design",
     title: "Tasty Food",
-    img: "/gallery/tasty.png",
+    img: "/gallery/tasty.webp",
     code: "https://github.com/basedhound/tasty-restaurant_ui",
     link: "https://tasty-restaurant-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1136,7 +1136,7 @@ const projects = [
   {
     cat: "Design",
     title: "404 Ghost",
-    img: "/gallery/404ghost.png",
+    img: "/gallery/404ghost.webp",
     code: "https://github.com/basedhound/404-ghost_ui",
     link: "https://404-ghost-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1156,7 +1156,7 @@ const projects = [
   {
     cat: "Design",
     title: "Accessories",
-    img: "/gallery/accessories.png",
+    img: "/gallery/accessories.webp",
     code: "https://github.com/basedhound/accessory-shop_ui",
     link: "https://accessories-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1177,7 +1177,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "Clothing",
-    img: "/gallery/clothing.png",
+    img: "/gallery/clothing.webp",
     code: "https://github.com/basedhound/clothing-shop_ui",
     link: "https://clothing-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1198,7 +1198,7 @@ const projects = [
   {
     cat: "Design",
     title: "Coffee 3D",
-    img: "/gallery/coffee3.png",
+    img: "/gallery/coffee3.webp",
     code: "https://github.com/basedhound/coffee-3d_ui",
     link: "https://coffee-3d-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1219,7 +1219,7 @@ const projects = [
   {
     cat: "Design",
     title: "Coffee",
-    img: "/gallery/coffee1.png",
+    img: "/gallery/coffee1.webp",
     code: "https://github.com/basedhound/coffee-brand-1_ui",
     link: "https://coffee-1-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1240,7 +1240,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "Coffee 2",
-    img: "/gallery/coffee2.png",
+    img: "/gallery/coffee2.webp",
     code: "https://github.com/basedhound/coffee-brand-2_ui",
     link: "https://coffee-2-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1261,7 +1261,7 @@ const projects = [
   {
     cat: "Design",
     title: "Delivery",
-    img: "/gallery/delivery.png",
+    img: "/gallery/delivery.webp",
     code: "https://github.com/basedhound/delivery-service_ui",
     link: "https://delivery-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1282,7 +1282,7 @@ const projects = [
   {
     cat: "Design",
     title: "Electric Cars",
-    img: "/gallery/electric-cars.png",
+    img: "/gallery/electric-cars.webp",
     code: "https://github.com/basedhound/electric-car-shop_ui",
     link: "https://electric-cars-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1303,7 +1303,7 @@ const projects = [
   {
     cat: "Design",
     title: "Gardening",
-    img: "/gallery/garden.png",
+    img: "/gallery/garden.webp",
     code: "https://github.com/basedhound/garden-shop_ui",
     link: "https://garden-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1324,7 +1324,7 @@ const projects = [
   {
     cat: "Design",
     title: "Christmas 1",
-    img: "/gallery/christmas1.png",
+    img: "/gallery/christmas1.webp",
     code: "https://github.com/basedhound/christmas-1_ui",
     link: "https://christmas-1-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1345,7 +1345,7 @@ const projects = [
   {
     cat: "Design",
     title: "Christmas 2",
-    img: "/gallery/christmas2.png",
+    img: "/gallery/christmas2.webp",
     code: "https://github.com/basedhound/christmas-2_ui",
     link: "https://christmas-2-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1366,7 +1366,7 @@ const projects = [
   {
     cat: "Design",
     title: "Christmas 3",
-    img: "/gallery/christmas3.png",
+    img: "/gallery/christmas3.webp",
     code: "https://github.com/basedhound/christmas-3-parallax_ui",
     link: "https://christmas-3-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1387,7 +1387,7 @@ const projects = [
   {
     cat: "Design",
     title: "Halloween 1",
-    img: "/gallery/halloween1.png",
+    img: "/gallery/halloween1.webp",
     code: "https://github.com/basedhound/halloween-1_ui",
     link: "https://halloween-1-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1407,7 +1407,7 @@ const projects = [
   {
     cat: "Design",
     title: "Halloween 2",
-    img: "/gallery/halloween2.png",
+    img: "/gallery/halloween2.webp",
     code: "https://github.com/basedhound/halloween-2_ui",
     link: "https://halloween-2-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1427,7 +1427,7 @@ const projects = [
   {
     cat: "Design",
     title: "Resume 1",
-    img: "/gallery/resume1.png",
+    img: "/gallery/resume1.webp",
     code: "https://github.com/basedhound/resume-1",
     link: "https://resume-1-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1448,7 +1448,7 @@ const projects = [
   {
     cat: "Design",
     title: "Resume 2",
-    img: "/gallery/resume2.png",
+    img: "/gallery/resume2.webp",
     code: "https://github.com/basedhound/resume-2",
     link: "https://resume-2-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1469,7 +1469,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "IMG Slider",
-    img: "/gallery/imgslider1.png",
+    img: "/gallery/imgslider1.webp",
     code: "https://github.com/basedhound/background-img-slider-1_js",
     link: "https://bg-img-slider-1.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1493,7 +1493,7 @@ const projects = [
   {
     cat: "Design",
     title: "IMG Slider 2",
-    img: "/gallery/imgslider2.png",
+    img: "/gallery/imgslider2.webp",
     code: "https://github.com/basedhound/background-img-slider-2_js",
     link: "https://bg-img-slider-2.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1515,7 +1515,7 @@ const projects = [
   {
     cat: "Design",
     title: "Video BG",
-    img: "/gallery/videobg.png",
+    img: "/gallery/videobg.webp",
     code: "https://github.com/basedhound/background-video_js",
     link: "https://bg-video-1.netlify.app",
     tech: ["HTML", "CSS", "JS"],
@@ -1533,7 +1533,7 @@ const projects = [
   {
     cat: "💜, Design",
     title: "Video Slider",
-    img: "/gallery/videoslider.png",
+    img: "/gallery/videoslider.webp",
     code: "https://github.com/basedhound/background-video-slider_js",
     link: "https://bg-video-slider-1.netlify.app",
     tech: ["HTML", "CSS", "JS"],
@@ -1554,7 +1554,7 @@ const projects = [
   {
     cat: "Design",
     title: "Parallax 1",
-    img: "/gallery/parallax1.png",
+    img: "/gallery/parallax1.webp",
     code: "https://github.com/basedhound/parallax-mountain-1_js",
     link: "https://parallax-1-fv.netlify.app",
     tech: ["HTML", "CSS", "JS"],
@@ -1574,7 +1574,7 @@ const projects = [
   {
     cat: "Design",
     title: "Parallax 2",
-    img: "/gallery/parallax2.png",
+    img: "/gallery/parallax2.webp",
     code: "https://github.com/basedhound/parallax-mountain-2_js",
     link: "https://parallax-2-fv.netlify.app",
     tech: ["HTML", "CSS", "JS"],
@@ -1594,7 +1594,7 @@ const projects = [
   {
     cat: "Design",
     title: "Parallax 3",
-    img: "/gallery/parallax3.png",
+    img: "/gallery/parallax3.webp",
     code: "https://github.com/basedhound/parallax-mountain-3_js",
     link: "https://parallax-3-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
@@ -1614,7 +1614,7 @@ const projects = [
   {
     cat: "Design, ",
     title: "Modern Scroll",
-    img: "/gallery/modernscroll.png",
+    img: "/gallery/modernscroll.webp",
     code: "https://github.com/basedhound/scroll-animation_js",
     link: "https://scroll-animation-fv.netlify.app",
     tech: ["HTML", "CSS", "JS"],
@@ -1638,7 +1638,7 @@ const projects = [
   {
     cat: "Design",
     title: "Modern Gallery",
-    img: "/gallery/moderngallery.png",
+    img: "/gallery/moderngallery.webp",
     code: "https://github.com/basedhound/responsive-gallery_css",
     link: "https://responsive-gallery-fv.netlify.app",
     tech: ["HTML", "CSS", "JS"],
@@ -1660,7 +1660,7 @@ const projects = [
   {
     cat: "Design",
     title: "Ohmyfood",
-    img: "/gallery/ohmyfood.png",
+    img: "/gallery/ohmyfood.webp",
     code: "https://github.com/basedhound/ohmyfood-restaurant_ui",
     link: "https://ohmyfood-fv.netlify.app",
     tech: ["HTML", "CSS", "Sass"],
