@@ -50,12 +50,11 @@ export const Project = ({
   useEffect(() => {
     const body = document.querySelector("body");
     if (isOpen) {
-    body!.style.overflowY = "hidden";
-  } else {
-    body!.style.overflowY = "scroll";
+      body!.style.overflowY = "hidden";
+    } else {
+      body!.style.overflowY = "scroll";
     }
   }, [isOpen]);
-  
 
   return (
     <>
@@ -74,6 +73,7 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}>
           <Image
+            priority
             src={img}
             alt={`An image of the ${title} project.`}
             width={1000}
@@ -104,7 +104,8 @@ export const Project = ({
           </Reveal>
           <Reveal>
             <p className={styles.projectDescription}>
-              {desc} <br/><span onClick={() => setIsOpen(true)}>Details {">"}</span>
+              {desc} <br />
+              <span onClick={() => setIsOpen(true)}>Details {">"}</span>
             </p>
           </Reveal>
         </div>
