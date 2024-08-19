@@ -4,7 +4,7 @@ import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
-import { ProjectModal } from "../projects/ProjectModal";
+import { Modal } from "../showcase/Modal";
 import styles from "./gallery.module.scss";
 
 interface Props {
@@ -107,7 +107,7 @@ export const GalleryItem = ({
           </Reveal> */}
         </div>
       </motion.div>
-      <ProjectModal
+      <Modal
         modal={modal}
         link={link}
         setIsOpen={setIsOpen}

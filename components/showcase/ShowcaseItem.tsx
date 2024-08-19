@@ -4,8 +4,8 @@ import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
-import { ProjectModal } from "./ProjectModal";
-import styles from "./projects.module.scss";
+import styles from "./showcase.module.scss";
+import { Modal } from "./Modal";
 
 interface Props {
   modal: JSX.Element;
@@ -109,7 +109,7 @@ export const Project = ({
           </Reveal>
         </div>
       </motion.div>
-      <ProjectModal
+      <Modal
         modal={modal}
         link={link}
         setIsOpen={setIsOpen}

@@ -1,12 +1,12 @@
 "use client"
-
-import styles from "./projectmodal.module.scss";
 import ReactDOM from "react-dom";
-import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-import Image from "next/image";
+import styles from "./modal.module.scss";
+
 interface Props {
   isOpen: boolean;
   setIsOpen: Function;
@@ -18,7 +18,7 @@ interface Props {
   modal: JSX.Element;
 }
 
-export const ProjectModal = ({
+export const Modal = ({
   modal,
   link,
   setIsOpen,

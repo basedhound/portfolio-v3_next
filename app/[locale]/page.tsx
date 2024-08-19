@@ -6,7 +6,7 @@ import { Experience } from '@/components/experience/Experience';
 import { Hero } from '@/components/hero/Hero';
 import { Heading } from '@/components/nav/Heading';
 import { SideBar } from '@/components/nav/SideBar';
-import { Projects } from '@/components/projects/Projects';
+import { Projects } from '@/components/showcase/Showcase';
 import styles from "@/components/utils/home.module.scss";
 
 const Home = () => {

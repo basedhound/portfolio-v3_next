@@ -1,11 +1,9 @@
 import { useTranslations } from "next-intl";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { SectionHeader } from "@/components/utils/SectionHeader";
-import { Project } from "./Project";
-import styles from "./projects.module.scss";
-
-import { Link } from "@/i18n/navigation";
+import { Project } from "./ShowcaseItem";
 import { TransitionLink } from "../utils/TransitionLink";
+import styles from "./showcase.module.scss";
 
 export const Projects = () => {
   const t = useTranslations("Projects");
