@@ -27,7 +27,7 @@
       opacity: 1;
     }
   }
-  
+
   @media (max-width: 768px) {
     left: 50%;
     transform: translate(-50%, -50%);
@@ -173,8 +173,8 @@
 .goUpBtn {
   display: inline-flex;
   position: fixed;
-  right: 5rem;
-  bottom: 5rem;
+  right: 3rem;
+  // bottom: 3rem;
 
   background-color: hsla(0, 0%, 100%, 0.1);
   padding: 0.6rem;
@@ -201,8 +201,5 @@
     right: 1rem;
     bottom: 1rem;
   }
-}
 
-.flagIcon {
-  font-size: 24px;
 }

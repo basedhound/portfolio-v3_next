@@ -7,6 +7,8 @@ import Filter from "./Filter";
 
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState("💜");
+  const [goUpBtn, setGoUpBtn] = useState(false);
+  
   const [filteredProjects, setFilteredProjects] = useState(
     projects.filter((project) => project.cat.includes("💜"))
   );
@@ -17,6 +19,11 @@ const Gallery = () => {
       projects.filter((project) => project.cat.includes(filter))
     );
   };
+
+  const handleScroll = () => {
+    setGoUpBtn(window.scrollY >= 350);
+  };  
+  window.addEventListener("scroll", handleScroll);
 
   return (
     <>
@@ -42,6 +49,7 @@ const Gallery = () => {
         {/* Up Button */}
         <button
           className={styles.goUpBtn}
+          style={{ bottom: goUpBtn ? "3rem" : "-50%" }}
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
           <AiOutlineArrowUp size="2.4rem" />
         </button>
@@ -211,10 +219,11 @@ const projects = [
         their finances altogether.
         <br />
         <br />
-        🥐 Construit avec Next.js, Horizon est une plateforme SaaS financière qui
-        se connecte à plusieurs comptes bancaires, affiche les transactions en
-        temps réel, permet aux utilisateurs de transférer de l'argent à d'autres
-        utilisateurs de la plateforme et gère leurs finances de manière globale.
+        🥐 Construit avec Next.js, Horizon est une plateforme SaaS financière
+        qui se connecte à plusieurs comptes bancaires, affiche les transactions
+        en temps réel, permet aux utilisateurs de transférer de l'argent à
+        d'autres utilisateurs de la plateforme et gère leurs finances de manière
+        globale.
       </>
     ),
   },
@@ -285,9 +294,9 @@ const projects = [
         design and responsive interface for optimal user experience.
         <br />
         <br />
-        🥐 Application Next.js conçue pour le partage prompts entre utilisateurs.
-        Découvrez, créez et partagez des prompts facilement grâce à
-        l'intégration MongoDB et à l'authentification sécurisée via NextAuth.
+        🥐 Application Next.js conçue pour le partage prompts entre
+        utilisateurs. Découvrez, créez et partagez des prompts facilement grâce
+        à l'intégration MongoDB et à l'authentification sécurisée via NextAuth.
         Profitez d'un design moderne et d'une interface responsive pour une
         expérience utilisateur optimale.
       </>
@@ -308,16 +317,16 @@ const projects = [
         Motion.
         <br />
         <br />
-        🥐 Explorez vos animes préférés facilement avec cette application Next.js
-        alimentée par l'API Shikimori. Décrouvrez de nouvelles séries, profitez
-        d'un défilement fluide à travers une vaste base de données d'animes et
-        d'animations modernes avec Framer Motion.
+        🥐 Explorez vos animes préférés facilement avec cette application
+        Next.js alimentée par l'API Shikimori. Décrouvrez de nouvelles séries,
+        profitez d'un défilement fluide à travers une vaste base de données
+        d'animes et d'animations modernes avec Framer Motion.
       </>
     ),
   },
   //! Design - Next.js
   {
-    cat: "💜, Design, Next",
+    cat: "Design, Next",
     title: "Portfolio v3",
     img: "/gallery/portfolio3.webp",
     code: "https://github.com/basedhound/portfolio-v3_next",
@@ -495,15 +504,15 @@ const projects = [
     tech: ["React", "Refine", "GraphQL"],
     modal: (
       <>
-        🍵  React-based internal tools, admin panels, dashboards, B2B apps with
+        🍵 React-based internal tools, admin panels, dashboards, B2B apps with
         flexibility in mind. An open-source, headless React meta-framework,
         developed with a commitment to best practices, flexibility, minimal tech
         debt, and team alignment, could be a perfect fit for dynamic
         environments.
         <br />
         <br />
-        🥐 Applications internes, panneaux d'administration, tableaux de bord
-        et applications B2B basés sur React, conçus pour offrir une grande
+        🥐 Applications internes, panneaux d'administration, tableaux de bord et
+        applications B2B basés sur React, conçus pour offrir une grande
         flexibilité. Développé selon les meilleures pratiques, favorisant la
         flexibilité, minimisant la dette technique et favorisant l'alignement
         d'équipe, idéal pour les environnements dynamiques.
@@ -620,11 +629,11 @@ const projects = [
         a fox will dynamically react as you fill out the fields!
         <br />
         <br />
-        🥐 Ce site web 3D, construit avec React et propulsé par Three.js, propose
-        des éléments interactifs captivants. Naviguez à bord d'un petit avion
-        pour explorer une île flottante et découvrir diverses informations. Sur
-        la page de contact, un renard réagira dynamiquement à mesure que vous
-        remplirez les champs !
+        🥐 Ce site web 3D, construit avec React et propulsé par Three.js,
+        propose des éléments interactifs captivants. Naviguez à bord d'un petit
+        avion pour explorer une île flottante et découvrir diverses
+        informations. Sur la page de contact, un renard réagira dynamiquement à
+        mesure que vous remplirez les champs !
       </>
     ),
   },
@@ -645,11 +654,11 @@ const projects = [
         providing inspiration for modern applications and websites.
         <br />
         <br />
-        🥐 Brainwave est un site web UI/UX moderne créé avec React.js et Tailwind
-        CSS, qui incarne les principes actuels du design. Il présente des effets
-        de parallaxe fluides et des mises en page bento box, offrant une
-        interface élégante adaptée aussi bien aux ordinateurs de bureau qu'aux
-        appareils mobiles. Avec des animations soignées et une expérience
+        🥐 Brainwave est un site web UI/UX moderne créé avec React.js et
+        Tailwind CSS, qui incarne les principes actuels du design. Il présente
+        des effets de parallaxe fluides et des mises en page bento box, offrant
+        une interface élégante adaptée aussi bien aux ordinateurs de bureau
+        qu'aux appareils mobiles. Avec des animations soignées et une expérience
         utilisateur exceptionnelle, Brainwave se distingue comme une source
         d'inspiration pour les applications et sites web contemporains.
       </>
@@ -1082,9 +1091,10 @@ const projects = [
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une marque de jus, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
+        🥐 Page d'accueil pour une marque de jus, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
       </>
     ),
   },
@@ -1495,9 +1505,9 @@ const projects = [
         animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique moderne
-        et minimaliste, réalisée avec HTML, CSS et JavaScript. Agrémentée
-        d'animations fluides grâce à la bibliothèque ScrollReveal.js.
+        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique
+        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
+        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
       </>
     ),
   },
@@ -1515,9 +1525,9 @@ const projects = [
         animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique moderne
-        et minimaliste, réalisée avec HTML, CSS et JavaScript. Agrémentée
-        d'animations fluides grâce à la bibliothèque ScrollReveal.js.
+        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique
+        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
+        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
       </>
     ),
   },
@@ -1579,9 +1589,9 @@ const projects = [
         Swiper.js.
         <br />
         <br />
-        🥐 Page d'accueil intégrant un diaporama d'images en arrière-plan sur les
-        thème des îles paradisiaques. Réalisée en HTML, CSS et JavaScript, avec
-        des transitions fluides et des visuels captivants pour attirer les
+        🥐 Page d'accueil intégrant un diaporama d'images en arrière-plan sur
+        les thème des îles paradisiaques. Réalisée en HTML, CSS et JavaScript,
+        avec des transitions fluides et des visuels captivants pour attirer les
         visiteurs. Animations dynamiques créées avec GSAP et diaporama
         interactif optimisé par Swiper.js.
       </>
@@ -1602,8 +1612,8 @@ const projects = [
         slider powered by Swiper.js.
         <br />
         <br />
-        🥐 Page d'accueil intégrant un diaporama d'images en arrière-plan sur les
-        thème des saisons. Réalisée en HTML, CSS et JavaScript, avec des
+        🥐 Page d'accueil intégrant un diaporama d'images en arrière-plan sur
+        les thème des saisons. Réalisée en HTML, CSS et JavaScript, avec des
         transitions fluides et des visuels captivants pour attirer les
         visiteurs. Diaporama interactif optimisé par Swiper.js.
       </>
