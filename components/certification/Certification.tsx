@@ -71,7 +71,7 @@ export const Certification = () => {
         "Single Page Application (SPA)",
       ],
     },
-    {
+/*     {
       title: t("certif5"),
       school: t("school5"),
       date: t("date5"),
@@ -85,7 +85,7 @@ export const Certification = () => {
         "JSON",
         "API Integration",
       ],
-    },
+    }, */
     {
       title: t("certif6"),
       school: t("school6"),
@@ -115,7 +115,7 @@ export const Certification = () => {
         "Microservices"
       ],
     },
-    {
+/*     {
       title: t("certif8"),
       school: t("school8"),
       date: t("date8"),
@@ -129,7 +129,7 @@ export const Certification = () => {
         "Passport",
         "Socket.io"
       ],
-    },
+    }, */
   ];
   
   return (
