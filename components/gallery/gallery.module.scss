@@ -153,23 +153,6 @@
   opacity: 0.3;
 }
 
-.itemDescription {
-  font-weight: 200;
-  span {
-    display: inline-block;
-    font-size: var(--text-xs);
-    font-weight: 400;
-    color: var(--brand);
-    cursor: pointer;
-    margin-top: 1rem;
-    opacity: 0.75;
-    transition: 0.2s;
-  }
-  span:hover {
-    opacity: 1;
-  }
-}
-
 .itemTech {
   cursor: default;
   display: flex;
@@ -218,4 +201,8 @@
     right: 1rem;
     bottom: 1rem;
   }
+}
+
+.flagIcon {
+  font-size: 24px;
 }
