@@ -8,7 +8,7 @@ import Filter from "./Filter";
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState("💜");
   const [goUpBtn, setGoUpBtn] = useState(false);
-  
+
   const [filteredProjects, setFilteredProjects] = useState(
     projects.filter((project) => project.cat.includes("💜"))
   );
@@ -22,7 +22,7 @@ const Gallery = () => {
 
   const handleScroll = () => {
     setGoUpBtn(window.scrollY >= 350);
-  };  
+  };
   window.addEventListener("scroll", handleScroll);
 
   return (
@@ -68,7 +68,7 @@ const projects = [
     link: "https://evently-fv.vercel.app",
     tech: ["Next", "MongoDB", "Tailwind", "TS"],
     modal: (
-      <>
+      <>        
         🍵 Built on Next.js 14, the events application stands as a
         comprehensive, full-stack platform for managing events. It serves as a
         hub, spotlighting diverse events taking place globally. Featuring
