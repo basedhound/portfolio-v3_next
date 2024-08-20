@@ -412,10 +412,78 @@ const projects = [
   //! Application - React
   {
     cat: "App, React",
+    title: "Refine Dashboard",
+    img: "/gallery/refine.webp",
+    code: "https://github.com/basedhound/dashboard_app_react-refine",
+    link: "https://dashboard-refine-fv.netlify.app",
+    tech: ["React", "Refine", "GraphQL"],
+    modal: (
+      <>
+        🍵 React-based internal tools, admin panels, dashboards, B2B apps with
+        flexibility in mind. An open-source, headless React meta-framework,
+        developed with a commitment to best practices, flexibility, minimal tech
+        debt, and team alignment, could be a perfect fit for dynamic
+        environments.
+        <br />
+        <br />
+        🥐 Applications internes, panneaux d'administration, tableaux de bord et
+        applications B2B basés sur React, conçus pour offrir une grande
+        flexibilité. Développé selon les meilleures pratiques, favorisant la
+        flexibilité, minimisant la dette technique et favorisant l'alignement
+        d'équipe, idéal pour les environnements dynamiques.
+      </>
+    ),
+  },
+  {
+    cat: "💜, App, React",
+    title: "3D T-Shirts",
+    img: "/gallery/tshirts3d.webp",
+    code: "https://github.com/basedhound/3d-tshirts_app_react",
+    link: "https://3d-tshirts-fv.netlify.app",
+    tech: ["React", "Threejs", "Node", "MongoDB"],
+    modal: (
+      <>
+        🍵 Create your own style with this 3D Customization App. Pick colors,
+        add logos, and try AI designs to make your virtual swag unique. Built
+        using React.js, Three.js, and OpenAI.
+        <br />
+        <br />
+        🥐 Créez votre propre style avec cette application de personnalisation
+        3D. Choisissez vos couleurs, ajoutez des logos et essayez des designs IA
+        pour rendre votre style virtuel unique. Réalisée avec React.js, Three.js
+        et OpenAI.
+      </>
+    ),
+  },
+  {
+    cat: "💜, App, React",
+    title: "Instagram clone",
+    img: "/gallery/snapgram.webp",
+    code: "https://github.com/basedhound/instagram-clone_app_react",
+    link: "https://snapgram-fv.vercel.app",
+    tech: ["React", "Appwrite", "TanStack"],
+    modal: (
+      <>
+        🍵 Explore social media with this user-friendly platform that has a nice
+        look and lots of features. Easily create and explore posts, and enjoy a
+        strong authentication system and quick data fetching using React Query
+        for a smooth user experience.
+        <br />
+        <br />
+        🥐 Explorez les réseaux sociaux avec cette plateforme conviviale, au
+        design élégant et riche en fonctionnalités. Créez et découvrez des
+        publications facilement, et bénéficiez d'un système d'authentification
+        sécurisé ainsi que d'une récupération rapide des données grâce à React
+        Query, pour une expérience utilisateur fluide et agréable.
+      </>
+    ),
+  },
+  {
+    cat: "App, React",
     title: "GM Social",
     img: "/gallery/gmsocial.webp",
     code: "https://github.com/basedhound/gm-social_app_react",
-    link: "/",
+    link: "https://github.com/basedhound/gm-social_app_react",
     tech: ["React", "Node", "Express", "MongoDB"],
     modal: (
       <>
@@ -497,30 +565,6 @@ const projects = [
   },
   {
     cat: "App, React",
-    title: "Refine Dashboard",
-    img: "/gallery/refine.webp",
-    code: "https://github.com/basedhound/dashboard_app_react-refine",
-    link: "https://dashboard-refine-fv.netlify.app",
-    tech: ["React", "Refine", "GraphQL"],
-    modal: (
-      <>
-        🍵 React-based internal tools, admin panels, dashboards, B2B apps with
-        flexibility in mind. An open-source, headless React meta-framework,
-        developed with a commitment to best practices, flexibility, minimal tech
-        debt, and team alignment, could be a perfect fit for dynamic
-        environments.
-        <br />
-        <br />
-        🥐 Applications internes, panneaux d'administration, tableaux de bord et
-        applications B2B basés sur React, conçus pour offrir une grande
-        flexibilité. Développé selon les meilleures pratiques, favorisant la
-        flexibilité, minimisant la dette technique et favorisant l'alignement
-        d'équipe, idéal pour les environnements dynamiques.
-      </>
-    ),
-  },
-  {
-    cat: "App, React",
     title: "Summarize AI",
     img: "/gallery/summarize.webp",
     code: "https://github.com/basedhound/summarizer-ai_react",
@@ -547,49 +591,49 @@ const projects = [
     ),
   },
   {
-    cat: "💜, App, React",
-    title: "3D T-Shirts",
-    img: "/gallery/tshirts3d.webp",
-    code: "https://github.com/basedhound/3d-tshirts_app_react",
-    link: "https://3d-tshirts-fv.netlify.app",
-    tech: ["React", "Threejs", "Node", "MongoDB"],
+    cat: "App, React",
+    title: "Budget",
+    img: "/gallery/budget.webp",
+    code: "https://github.com/basedhound/budget-app_react",
+    link: "https://budget-fv.netlify.app",
+    tech: ["React", "Bootstrap"],
     modal: (
       <>
-        🍵 Create your own style with this 3D Customization App. Pick colors,
-        add logos, and try AI designs to make your virtual swag unique. Built
-        using React.js, Three.js, and OpenAI.
+        🍵 Budgeting application built using React, focusing on CRUD (Create, Read, Update, Delete) operations. It covers intermediate and beginner-level React concepts, demonstrating how to manage budget data effectively.
         <br />
         <br />
-        🥐 Créez votre propre style avec cette application de personnalisation
-        3D. Choisissez vos couleurs, ajoutez des logos et essayez des designs IA
-        pour rendre votre style virtuel unique. Réalisée avec React.js, Three.js
-        et OpenAI.
+        🥐 Application de gestion de budget construite avec React, mettant l'accent sur les opérations CRUD (Create, Read, Update, Delete). Elle couvre des concepts intermédiaires et débutants de React, démontrant comment gérer efficacement les données budgétaires.
       </>
     ),
   },
   {
-    cat: "💜, App, React",
-    title: "Instagram clone",
-    img: "/gallery/snapgram.webp",
-    code: "https://github.com/basedhound/instagram-clone_app_react",
-    link: "https://snapgram-fv.vercel.app",
-    tech: ["React", "Appwrite", "TanStack"],
+    cat: "App, React",
+    title: "Notes",
+    img: "/gallery/notes.webp",
+    code: "https://github.com/basedhound/summarizer-ai_react",
+    link: "https://notes-fv.netlify.app",
+    tech: ["React", "Bootstrap", "TypeScript"],
     modal: (
       <>
-        🍵 Explore social media with this user-friendly platform that has a nice
-        look and lots of features. Easily create and explore posts, and enjoy a
-        strong authentication system and quick data fetching using React Query
-        for a smooth user experience.
+        🍵 Summarize any article with one click using the powerful OpenAI model.
+        This web app features a modern interface, allowing users to input
+        article URLs for concise AI-generated summaries. It saves summaries
+        locally for easy history management and offers copy-to-clipboard
+        functionality for effortless sharing. Advanced RTK Query API requests
+        optimize data fetching and management.
         <br />
         <br />
-        🥐 Explorez les réseaux sociaux avec cette plateforme conviviale, au
-        design élégant et riche en fonctionnalités. Créez et découvrez des
-        publications facilement, et bénéficiez d'un système d'authentification
-        sécurisé ainsi que d'une récupération rapide des données grâce à React
-        Query, pour une expérience utilisateur fluide et agréable.
+        🥐 Résumez n'importe quel article en un clic grâce au puissant modèle
+        OpenAI. Cette application web offre une interface moderne et conviviale,
+        permettant aux utilisateurs d'entrer des URL d'articles pour obtenir des
+        résumés concis générés par l'IA. Les résumés sont enregistrés localement
+        pour une gestion facile de l'historique, et une fonction de copie dans
+        le presse-papiers facilite le partage. Les requêtes API avancées de RTK
+        Query optimisent la récupération et la gestion des données.
       </>
     ),
   },
+
 
   //! Design - React
   {
