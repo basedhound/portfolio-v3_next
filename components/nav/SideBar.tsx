@@ -70,7 +70,7 @@ export const SideBar = () => {
         <motion.div
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}>
+          transition={{ duration: 0.5, delay: 0.3 }}>
           <Link
             className={`${styles.sideBarLink} ${
               selected === "experience" ? styles.selected : ""
@@ -84,7 +84,7 @@ export const SideBar = () => {
         <motion.div
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}>            
+          transition={{ duration: 0.5, delay: 0.4 }}>            
           <Link
             className={`${styles.sideBarLink} ${
               selected === "certification" ? styles.selected : ""
@@ -98,7 +98,7 @@ export const SideBar = () => {
         <motion.div
           initial={{ x: -70 }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}>
+          transition={{ duration: 0.5, delay: 0.5 }}>
           <Link
             className={`${styles.sideBarLink} ${
               selected === "contact" ? styles.selected : ""
