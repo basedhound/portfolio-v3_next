@@ -709,33 +709,6 @@ const projects = [
     ),
   },
   {
-    cat: "💜, Design, React",
-    title: "Brainwave",
-    img: "/gallery/brainwave.webp",
-    code: "https://github.com/basedhound/brainwave_ui_react",
-    link: "https://brainwave-fv.netlify.app",
-    tech: ["React", "Tailwind", "Vite"],
-    modal: (
-      <>
-        🍵 Brainwave is a modern UI/UX website built using React.js and Tailwind
-        CSS, designed with contemporary principles in mind. It features smooth
-        parallax effects and bento box layouts, offering a stylish UI that
-        adapts well from desktop to mobile devices. With polished animations and
-        a user-friendly experience, Brainwave sets a high standard while
-        providing inspiration for modern applications and websites.
-        <br />
-        <br />
-        🥐 Brainwave est un site web UI/UX moderne créé avec React.js et
-        Tailwind CSS, qui incarne les principes actuels du design. Il présente
-        des effets de parallaxe fluides et des mises en page bento box, offrant
-        une interface élégante adaptée aussi bien aux ordinateurs de bureau
-        qu'aux appareils mobiles. Avec des animations soignées et une expérience
-        utilisateur exceptionnelle, Brainwave se distingue comme une source
-        d'inspiration pour les applications et sites web contemporains.
-      </>
-    ),
-  },
-  {
     cat: "Design, React",
     title: "HooBank",
     img: "/gallery/hoobank.webp",
@@ -761,6 +734,33 @@ const projects = [
         page flexibles. Le design responsive est assuré grâce à des media
         queries soigneusement implémentées, optimisant l'affichage sur tous les
         appareils.
+      </>
+    ),
+  },
+  {
+    cat: "💜, Design, React",
+    title: "Brainwave",
+    img: "/gallery/brainwave.webp",
+    code: "https://github.com/basedhound/brainwave_ui_react",
+    link: "https://brainwave-fv.netlify.app",
+    tech: ["React", "Tailwind", "Vite"],
+    modal: (
+      <>
+        🍵 Brainwave is a modern UI/UX website built using React.js and Tailwind
+        CSS, designed with contemporary principles in mind. It features smooth
+        parallax effects and bento box layouts, offering a stylish UI that
+        adapts well from desktop to mobile devices. With polished animations and
+        a user-friendly experience, Brainwave sets a high standard while
+        providing inspiration for modern applications and websites.
+        <br />
+        <br />
+        🥐 Brainwave est un site web UI/UX moderne créé avec React.js et
+        Tailwind CSS, qui incarne les principes actuels du design. Il présente
+        des effets de parallaxe fluides et des mises en page bento box, offrant
+        une interface élégante adaptée aussi bien aux ordinateurs de bureau
+        qu'aux appareils mobiles. Avec des animations soignées et une expérience
+        utilisateur exceptionnelle, Brainwave se distingue comme une source
+        d'inspiration pour les applications et sites web contemporains.
       </>
     ),
   },
@@ -867,7 +867,7 @@ const projects = [
     ),
   },
   {
-    cat: "Design, React",
+    cat: "React",
     title: "Portfolio v2",
     img: "/gallery/portfolio2.webp",
     code: "https://github.com/basedhound/portfolio-v2_react",
@@ -895,7 +895,7 @@ const projects = [
     ),
   },
   {
-    cat: "Design, React",
+    cat: "React",
     title: "Portfolio v1",
     img: "/gallery/portfolio1.webp",
     code: "https://github.com/basedhound/portfolio-v1_reactt",
@@ -920,7 +920,7 @@ const projects = [
       </>
     ),
   },
-  //! Mobile
+  //! P5 -> MOBILE
   {
     cat: "Mobile",
     title: "Aora Video",
@@ -969,7 +969,405 @@ const projects = [
     ),
   },
 
-  //! Design - HTML/CSS/JS
+  //! P6 -> HTML/CSS/JS
+  {
+    cat: "Design, ",
+    title: "Modern Scroll",
+    img: "/gallery/modernscroll.webp",
+    code: "https://github.com/basedhound/scroll-animation_js",
+    link: "https://scroll-animation-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS"],
+    modal: (
+      <>
+        🍵 Landing page featuring a modern scroll animation, built using only
+        HTML, CSS, and JavaScript, without any libraries. This design
+        incorporates smooth, engaging animations triggered by scrolling,
+        enhancing user interaction and visual appeal with a clean and
+        contemporary aesthetic.
+        <br />
+        <br />
+        🥐 Page d'accueil avec des animations modernes au défilement, réalisées
+        uniquement en HTML, CSS et JavaScrip, sans utilisation de bibliothèque.
+        Ce design offre des animations fluides et captivantes qui se déclenchent
+        lors du défilement, optimisant l'interaction utilisateur et l'attrait
+        visuel avec une esthétique moderne et épurée.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Accessories",
+    img: "/gallery/accessories.webp",
+    code: "https://github.com/basedhound/accessory-shop_ui",
+    link: "https://accessories-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for an accessory shop featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une boutique d'accessoires, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "💜, Design",
+    title: "Clothing",
+    img: "/gallery/clothing.webp",
+    code: "https://github.com/basedhound/clothing-shop_ui",
+    link: "https://clothing-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a clothing shop featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une boutique de vêtements, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Coffee",
+    img: "/gallery/coffee1.webp",
+    code: "https://github.com/basedhound/coffee-brand-1_ui",
+    link: "https://coffee-1-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a coffee brand featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une marque de café, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "💜, Design",
+    title: "Coffee 2",
+    img: "/gallery/coffee2.webp",
+    code: "https://github.com/basedhound/coffee-brand-2_ui",
+    link: "https://coffee-2-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a coffee brand featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une marque de café, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Coffee 3D",
+    img: "/gallery/coffee3.webp",
+    code: "https://github.com/basedhound/coffee-3d_ui",
+    link: "https://coffee-3d-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a coffee brand featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une marque de café, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Christmas 1",
+    img: "/gallery/christmas1.webp",
+    code: "https://github.com/basedhound/christmas-1_ui",
+    link: "https://christmas-1-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for Christmas Day featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour la fête de Noël, mettant en avant une esthétique
+        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
+        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Christmas 2",
+    img: "/gallery/christmas2.webp",
+    code: "https://github.com/basedhound/christmas-2_ui",
+    link: "https://christmas-2-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for Christmas Day featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour la fête de Noël, mettant en avant une esthétique
+        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
+        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Christmas 3",
+    img: "/gallery/christmas3.webp",
+    code: "https://github.com/basedhound/christmas-3-parallax_ui",
+    link: "https://christmas-3-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for Christmas Day featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour la fête de Noël, mettant en avant une esthétique
+        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
+        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Delivery",
+    img: "/gallery/delivery.webp",
+    code: "https://github.com/basedhound/delivery-service_ui",
+    link: "https://delivery-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a delivery service featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour un service de livraison, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Electric Cars",
+    img: "/gallery/electric-cars.webp",
+    code: "https://github.com/basedhound/electric-car-shop_ui",
+    link: "https://electric-cars-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for an electric car shop featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une boutique de voitures électriques, mettant en
+        avant une esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Gardening",
+    img: "/gallery/garden.webp",
+    code: "https://github.com/basedhound/garden-shop_ui",
+    link: "https://garden-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a gardening shop featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une boutique de jardinage, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Halloween 1",
+    img: "/gallery/halloween1.webp",
+    code: "https://github.com/basedhound/halloween-1_ui",
+    link: "https://halloween-1-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for Halloween featuring a modern and minimalist
+        aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced with smooth
+        animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique
+        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
+        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Halloween 2",
+    img: "/gallery/halloween2.webp",
+    code: "https://github.com/basedhound/halloween-2_ui",
+    link: "https://halloween-2-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for Halloween featuring a modern and minimalist
+        aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced with smooth
+        animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique
+        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
+        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "💜, Design",
+    title: "Headphones",
+    img: "/gallery/headphones.webp",
+    code: "https://github.com/basedhound/headphone-shop_ui",
+    link: "https://headphones-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a headphone shop featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une boutique de casques audio, mettant en avant
+        une esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Juice Brand",
+    img: "/gallery/juice.webp",
+    code: "https://github.com/basedhound/juice-brand_ui",
+    link: "https://juice-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a juice brand featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une marque de jus, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+ 
+  {
+    cat: "Design",
+    title: "Lamps",
+    img: "/gallery/lamps.webp",
+    code: "https://github.com/basedhound/lamp-shop_ui",
+    link: "https://lamps-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a lamp shop featuring a modern and minimalist
+        aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced with smooth
+        animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une boutique de lampes, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "💜, Design",
+    title: "Real Estate",
+    img: "/gallery/realestate.webp",
+    code: "https://github.com/basedhound/real-estate-agency_ui",
+    link: "https://real-estate-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a real estate agency featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une agence immobilière, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Sneakers",
+    img: "/gallery/sneakers.webp",
+    code: "https://github.com/basedhound/sneaker-shop_ui",
+    link: "https://sneakers-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a sneaker shop featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour une boutique de sneakers, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
   {
     cat: "Design",
     title: "Space Travel",
@@ -995,6 +1393,71 @@ const projects = [
       </>
     ),
   },
+
+  {
+    cat: "💜, Design",
+    title: "Sushi",
+    img: "/gallery/sushi1.webp",
+    code: "https://github.com/basedhound/sushi-restaurant-1_ui",
+    link: "https://sushi-1-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Vite"],
+    modal: (
+      <>
+        🍵 Landing page design for a sushi restaurant featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour un restaurant de sushi, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+
+  {
+    cat: "💜, Design",
+    title: "Sushi 2",
+    img: "/gallery/sushi2.webp",
+    code: "https://github.com/basedhound/sushi-restaurant-2_ui",
+    link: "https://sushi-2-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a sushi restaurant featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour un restaurant de sushi, mettant en avant une
+        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
+        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
+        ScrollReveal.js.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Tasty Food",
+    img: "/gallery/tasty.webp",
+    code: "https://github.com/basedhound/tasty-restaurant_ui",
+    link: "https://tasty-restaurant-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a restaurant featuring a modern and
+        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
+        with smooth animations powered by ScrollReveal.js library.
+        <br />
+        <br />
+        🥐 Page d'accueil pour un restaurant, mettant en avant une esthétique
+        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
+        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
+      </>
+    ),
+  },
+
   {
     cat: "Design",
     title: "Travel Agency 1",
@@ -1101,193 +1564,6 @@ const projects = [
     ),
   },
   {
-    cat: "💜, Design",
-    title: "Headphones",
-    img: "/gallery/headphones.webp",
-    code: "https://github.com/basedhound/headphone-shop_ui",
-    link: "https://headphones-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a headphone shop featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une boutique de casques audio, mettant en avant
-        une esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Juice Brand",
-    img: "/gallery/juice.webp",
-    code: "https://github.com/basedhound/juice-brand_ui",
-    link: "https://juice-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a juice brand featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une marque de jus, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Lamps",
-    img: "/gallery/lamps.webp",
-    code: "https://github.com/basedhound/lamp-shop_ui",
-    link: "https://lamps-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a lamp shop featuring a modern and minimalist
-        aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced with smooth
-        animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une boutique de lampes, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "NFT",
-    img: "/gallery/nft.webp",
-    code: "https://github.com/basedhound/nft_ui",
-    link: "https://nft-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a NFT website featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour un site NFT, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "💜, Design",
-    title: "Real Estate",
-    img: "/gallery/realestate.webp",
-    code: "https://github.com/basedhound/real-estate-agency_ui",
-    link: "https://real-estate-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a real estate agency featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une agence immobilière, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Sneakers",
-    img: "/gallery/sneakers.webp",
-    code: "https://github.com/basedhound/sneaker-shop_ui",
-    link: "https://sneakers-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a sneaker shop featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une boutique de sneakers, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "💜, Design",
-    title: "Sushi",
-    img: "/gallery/sushi1.webp",
-    code: "https://github.com/basedhound/sushi-restaurant-1_ui",
-    link: "https://sushi-1-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Vite"],
-    modal: (
-      <>
-        🍵 Landing page design for a sushi restaurant featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour un restaurant de sushi, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "💜, Design",
-    title: "Sushi 2",
-    img: "/gallery/sushi2.webp",
-    code: "https://github.com/basedhound/sushi-restaurant-2_ui",
-    link: "https://sushi-2-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a sushi restaurant featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour un restaurant de sushi, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Tasty Food",
-    img: "/gallery/tasty.webp",
-    code: "https://github.com/basedhound/tasty-restaurant_ui",
-    link: "https://tasty-restaurant-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a restaurant featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour un restaurant, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
-    ),
-  },
-  {
     cat: "Design",
     title: "404 Ghost",
     img: "/gallery/404ghost.webp",
@@ -1307,313 +1583,25 @@ const projects = [
       </>
     ),
   },
+  
+
   {
     cat: "Design",
-    title: "Accessories",
-    img: "/gallery/accessories.webp",
-    code: "https://github.com/basedhound/accessory-shop_ui",
-    link: "https://accessories-fv.netlify.app",
+    title: "NFT",
+    img: "/gallery/nft.webp",
+    code: "https://github.com/basedhound/nft_ui",
+    link: "https://nft-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
     modal: (
       <>
-        🍵 Landing page design for an accessory shop featuring a modern and
+        🍵 Landing page design for a NFT website featuring a modern and
         minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
         with smooth animations powered by ScrollReveal.js library.
         <br />
         <br />
-        🥐 Page d'accueil pour une boutique d'accessoires, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "💜, Design",
-    title: "Clothing",
-    img: "/gallery/clothing.webp",
-    code: "https://github.com/basedhound/clothing-shop_ui",
-    link: "https://clothing-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a clothing shop featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une boutique de vêtements, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Coffee 3D",
-    img: "/gallery/coffee3.webp",
-    code: "https://github.com/basedhound/coffee-3d_ui",
-    link: "https://coffee-3d-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a coffee brand featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une marque de café, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Coffee",
-    img: "/gallery/coffee1.webp",
-    code: "https://github.com/basedhound/coffee-brand-1_ui",
-    link: "https://coffee-1-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a coffee brand featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une marque de café, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "💜, Design",
-    title: "Coffee 2",
-    img: "/gallery/coffee2.webp",
-    code: "https://github.com/basedhound/coffee-brand-2_ui",
-    link: "https://coffee-2-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a coffee brand featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une marque de café, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Delivery",
-    img: "/gallery/delivery.webp",
-    code: "https://github.com/basedhound/delivery-service_ui",
-    link: "https://delivery-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a delivery service featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour un service de livraison, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Electric Cars",
-    img: "/gallery/electric-cars.webp",
-    code: "https://github.com/basedhound/electric-car-shop_ui",
-    link: "https://electric-cars-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for an electric car shop featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une boutique de voitures électriques, mettant en
-        avant une esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Gardening",
-    img: "/gallery/garden.webp",
-    code: "https://github.com/basedhound/garden-shop_ui",
-    link: "https://garden-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a gardening shop featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour une boutique de jardinage, mettant en avant une
-        esthétique moderne et minimaliste, réalisée avec HTML, CSS et
-        JavaScript. Agrémentée d'animations fluides grâce à la bibliothèque
-        ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Christmas 1",
-    img: "/gallery/christmas1.webp",
-    code: "https://github.com/basedhound/christmas-1_ui",
-    link: "https://christmas-1-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for Christmas Day featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour la fête de Noël, mettant en avant une esthétique
+        🥐 Page d'accueil pour un site NFT, mettant en avant une esthétique
         moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
         Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Christmas 2",
-    img: "/gallery/christmas2.webp",
-    code: "https://github.com/basedhound/christmas-2_ui",
-    link: "https://christmas-2-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for Christmas Day featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour la fête de Noël, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Christmas 3",
-    img: "/gallery/christmas3.webp",
-    code: "https://github.com/basedhound/christmas-3-parallax_ui",
-    link: "https://christmas-3-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for Christmas Day featuring a modern and
-        minimalist aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced
-        with smooth animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour la fête de Noël, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Halloween 1",
-    img: "/gallery/halloween1.webp",
-    code: "https://github.com/basedhound/halloween-1_ui",
-    link: "https://halloween-1-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for Halloween featuring a modern and minimalist
-        aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced with smooth
-        animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Halloween 2",
-    img: "/gallery/halloween2.webp",
-    code: "https://github.com/basedhound/halloween-2_ui",
-    link: "https://halloween-2-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for Halloween featuring a modern and minimalist
-        aesthetic, crafted using HTML, CSS, and JavaScript. Enhanced with smooth
-        animations powered by ScrollReveal.js library.
-        <br />
-        <br />
-        🥐 Page d'accueil pour Halloween, mettant en avant une esthétique
-        moderne et minimaliste, réalisée avec HTML, CSS et JavaScript.
-        Agrémentée d'animations fluides grâce à la bibliothèque ScrollReveal.js.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Resume 1",
-    img: "/gallery/resume1.webp",
-    code: "https://github.com/basedhound/resume-1",
-    link: "https://resume-1-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a resume featuring a modern and minimalist
-        aesthetic, crafted using HTML, CSS, and JavaScript. It includes a
-        dark/light mode and features the ability to download a resume as a PDF
-        file.
-        <br />
-        <br />
-        🥐 Page d'accueil pour un CV, mettant en avant une esthétique moderne et
-        minimaliste, réalisée avec HTML, CSS et JavaScript. Il inclut un mode
-        sombre/clair et permet de télécharger un CV au format PDF.
-      </>
-    ),
-  },
-  {
-    cat: "Design",
-    title: "Resume 2",
-    img: "/gallery/resume2.webp",
-    code: "https://github.com/basedhound/resume-2",
-    link: "https://resume-2-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS", "Sass"],
-    modal: (
-      <>
-        🍵 Landing page design for a resume featuring a modern and minimalist
-        aesthetic, crafted using HTML, CSS, and JavaScript. It includes a
-        dark/light mode and features the ability to download a resume as a PDF
-        file.
-        <br />
-        <br />
-        🥐 Page d'accueil pour un CV, mettant en avant une esthétique moderne et
-        minimaliste, réalisée avec HTML, CSS et JavaScript. Il inclut un mode
-        sombre/clair et permet de télécharger un CV au format PDF.
       </>
     ),
   },
@@ -1763,26 +1751,44 @@ const projects = [
     ),
   },
   {
-    cat: "Design, ",
-    title: "Modern Scroll",
-    img: "/gallery/modernscroll.webp",
-    code: "https://github.com/basedhound/scroll-animation_js",
-    link: "https://scroll-animation-fv.netlify.app",
-    tech: ["HTML", "CSS", "JS"],
+    cat: "Design",
+    title: "Resume 1",
+    img: "/gallery/resume1.webp",
+    code: "https://github.com/basedhound/resume-1",
+    link: "https://resume-1-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
     modal: (
       <>
-        🍵 Landing page featuring a modern scroll animation, built using only
-        HTML, CSS, and JavaScript, without any libraries. This design
-        incorporates smooth, engaging animations triggered by scrolling,
-        enhancing user interaction and visual appeal with a clean and
-        contemporary aesthetic.
+        🍵 Landing page design for a resume featuring a modern and minimalist
+        aesthetic, crafted using HTML, CSS, and JavaScript. It includes a
+        dark/light mode and features the ability to download a resume as a PDF
+        file.
         <br />
         <br />
-        🥐 Page d'accueil avec des animations modernes au défilement, réalisées
-        uniquement en HTML, CSS et JavaScrip, sans utilisation de bibliothèque.
-        Ce design offre des animations fluides et captivantes qui se déclenchent
-        lors du défilement, optimisant l'interaction utilisateur et l'attrait
-        visuel avec une esthétique moderne et épurée.
+        🥐 Page d'accueil pour un CV, mettant en avant une esthétique moderne et
+        minimaliste, réalisée avec HTML, CSS et JavaScript. Il inclut un mode
+        sombre/clair et permet de télécharger un CV au format PDF.
+      </>
+    ),
+  },
+  {
+    cat: "Design",
+    title: "Resume 2",
+    img: "/gallery/resume2.webp",
+    code: "https://github.com/basedhound/resume-2",
+    link: "https://resume-2-fv.netlify.app",
+    tech: ["HTML", "CSS", "JS", "Sass"],
+    modal: (
+      <>
+        🍵 Landing page design for a resume featuring a modern and minimalist
+        aesthetic, crafted using HTML, CSS, and JavaScript. It includes a
+        dark/light mode and features the ability to download a resume as a PDF
+        file.
+        <br />
+        <br />
+        🥐 Page d'accueil pour un CV, mettant en avant une esthétique moderne et
+        minimaliste, réalisée avec HTML, CSS et JavaScript. Il inclut un mode
+        sombre/clair et permet de télécharger un CV au format PDF.
       </>
     ),
   },
