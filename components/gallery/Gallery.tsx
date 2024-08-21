@@ -59,7 +59,7 @@ const Gallery = () => {
 };
 
 const projects = [
-  //! Applications - Next.js
+  //! NEXT.JS -> APPLICATION(S)
   {
     cat: "💜, App, Next",
     title: "Evently",
@@ -83,30 +83,6 @@ const projects = [
         travers le monde. Intégrant un traitement de paiement fluide via Stripe,
         elle vous permet d'acheter des billets pour n'importe quel événement ou
         même de créer et gérer vos propres événements.
-      </>
-    ),
-  },
-  {
-    cat: "💜, App, Next",
-    title: "Car Hub",
-    img: "/gallery/carhub.webp",
-    code: "https://github.com/basedhound/car-hub_app_next",
-    link: "https://car-hub-fv.vercel.app",
-    tech: ["Next", "Rapid API", "Tailwind", "TS"],
-    modal: (
-      <>
-        🍵 Developed with Next.js and leveraging its server-side rendering
-        capabilities, this Car Showcase website presents various car types,
-        showcasing comprehensive information in a well-designed format with
-        advanced filtering and pagination support for an enhanced user
-        experience.
-        <br />
-        <br />
-        🥐 Développé avec Next.js et exploitant ses capacités de rendu côté
-        serveur, ce site web de présentation de voitures propose différents
-        types de véhicules, offrant des informations détaillées dans un format
-        bien conçu avec un support avancé de filtrage et de pagination pour une
-        expérience utilisateur améliorée.
       </>
     ),
   },
@@ -136,47 +112,26 @@ const projects = [
     ),
   },
   {
-    cat: "App, Next",
-    title: "Threads clone",
-    img: "/gallery/threads.webp",
-    code: "https://github.com/basedhound/threads-clone_app_next",
-    link: "https://threads-fv.vercel.app",
-    tech: ["Next", "MongoDB", "Tailwind", "TS"],
+    cat: "💜, App, Next",
+    title: "Car Hub",
+    img: "/gallery/carhub.webp",
+    code: "https://github.com/basedhound/car-hub_app_next",
+    link: "https://car-hub-fv.vercel.app",
+    tech: ["Next", "Rapid API", "Tailwind", "TS"],
     modal: (
       <>
-        🍵 Full-stack Threads clone built on Next.js 14+. It includes
-        comprehensive user interaction, community management functionalities,
-        robust technical implementation, and a range of features like nested
-        deep comments, notifications, real-time search, and more.
+        🍵 Developed with Next.js and leveraging its server-side rendering
+        capabilities, this Car Showcase website presents various car types,
+        showcasing comprehensive information in a well-designed format with
+        advanced filtering and pagination support for an enhanced user
+        experience.
         <br />
         <br />
-        🥐 Clone de Threads en full-stack réalisé avec Next.js 14+. Ce projet
-        comprend une interaction utilisateur approfondie, des fonctionnalités de
-        gestion communautaire, une implémentation technique robuste, ainsi
-        qu'une gamme de fonctionnalités telles que des commentaires imbriqués,
-        des notifications, une recherche en temps réel, et bien plus encore.
-      </>
-    ),
-  },
-  {
-    cat: "App, Next",
-    title: "Figma clone",
-    img: "/gallery/figma.webp",
-    code: "https://github.com/basedhound/figma-clone_app_next",
-    link: "https://figpro-fv.vercel.app",
-    tech: ["Next", "LiveBlocks", "Fabric", "TS"],
-    modal: (
-      <>
-        🍵 A minimalistic Figma clone to show how to add real-world features
-        like live collaboration with cursor chat, comments, reactions, and
-        drawing designs (shapes, image upload) on the canvas using fabric.js.
-        <br />
-        <br />
-        🥐 Un clone minimaliste de Figma conçu pour illustrer l'intégration de
-        fonctionnalités réalistes telles que la collaboration en temps réel avec
-        chat de curseur, commentaires, réactions, ainsi que la création de
-        designs (formes, téléchargement d'images) sur le canevas à l'aide de
-        fabric.js.
+        🥐 Développé avec Next.js et exploitant ses capacités de rendu côté
+        serveur, ce site web de présentation de voitures propose différents
+        types de véhicules, offrant des informations détaillées dans un format
+        bien conçu avec un support avancé de filtrage et de pagination pour une
+        expérience utilisateur améliorée.
       </>
     ),
   },
@@ -201,29 +156,6 @@ const projects = [
         aux utilisateurs de se connecter en toute sécurité, de créer des
         réunions et d'accéder à diverses fonctionnalités de réunion telles que
         l'enregistrement, le partage d'écran et la gestion des participants.
-      </>
-    ),
-  },
-  {
-    cat: "App, Next",
-    title: "Horizon Bank",
-    img: "/gallery/horizon.webp",
-    code: "https://github.com/basedhound/bank-platform_app_next",
-    link: "https://horizon-bank-fv.vercel.app",
-    tech: ["Next", "Plaid", "Dwolla", "TS"],
-    modal: (
-      <>
-        🍵 Built with Next.js, Horizon is a financial SaaS platform that
-        connects to multiple bank accounts, displays transactions in real-time,
-        allows users to transfer money to other platform users, and manages
-        their finances altogether.
-        <br />
-        <br />
-        🥐 Construit avec Next.js, Horizon est une plateforme SaaS financière
-        qui se connecte à plusieurs comptes bancaires, affiche les transactions
-        en temps réel, permet aux utilisateurs de transférer de l'argent à
-        d'autres utilisateurs de la plateforme et gère leurs finances de manière
-        globale.
       </>
     ),
   },
@@ -256,6 +188,28 @@ const projects = [
   },
   {
     cat: "App, Next",
+    title: "Figma clone",
+    img: "/gallery/figma.webp",
+    code: "https://github.com/basedhound/figma-clone_app_next",
+    link: "https://figpro-fv.vercel.app",
+    tech: ["Next", "LiveBlocks", "Fabric", "TS"],
+    modal: (
+      <>
+        🍵 A minimalistic Figma clone to show how to add real-world features
+        like live collaboration with cursor chat, comments, reactions, and
+        drawing designs (shapes, image upload) on the canvas using fabric.js.
+        <br />
+        <br />
+        🥐 Un clone minimaliste de Figma conçu pour illustrer l'intégration de
+        fonctionnalités réalistes telles que la collaboration en temps réel avec
+        chat de curseur, commentaires, réactions, ainsi que la création de
+        designs (formes, téléchargement d'images) sur le canevas à l'aide de
+        fabric.js.
+      </>
+    ),
+  },
+  {
+    cat: "App, Next",
     title: "Pricewise",
     img: "/gallery/pricewise.webp",
     code: "https://github.com/basedhound/pricewise-scraper_app_next",
@@ -276,6 +230,29 @@ const projects = [
         prix d'un produit baisse et aide les concurrents en les alertant lorsque
         le produit est en rupture de stock, le tout géré à travers des tâches
         cron.
+      </>
+    ),
+  },
+  {
+    cat: "App, Next",
+    title: "Horizon Bank",
+    img: "/gallery/horizon.webp",
+    code: "https://github.com/basedhound/bank-platform_app_next",
+    link: "https://horizon-bank-fv.vercel.app",
+    tech: ["Next", "Plaid", "Dwolla", "TS"],
+    modal: (
+      <>
+        🍵 Built with Next.js, Horizon is a financial SaaS platform that
+        connects to multiple bank accounts, displays transactions in real-time,
+        allows users to transfer money to other platform users, and manages
+        their finances altogether.
+        <br />
+        <br />
+        🥐 Construit avec Next.js, Horizon est une plateforme SaaS financière
+        qui se connecte à plusieurs comptes bancaires, affiche les transactions
+        en temps réel, permet aux utilisateurs de transférer de l'argent à
+        d'autres utilisateurs de la plateforme et gère leurs finances de manière
+        globale.
       </>
     ),
   },
@@ -324,7 +301,30 @@ const projects = [
       </>
     ),
   },
-  //! Design - Next.js
+  {
+    cat: "App, Next",
+    title: "Threads clone",
+    img: "/gallery/threads.webp",
+    code: "https://github.com/basedhound/threads-clone_app_next",
+    link: "https://threads-fv.vercel.app",
+    tech: ["Next", "MongoDB", "Tailwind", "TS"],
+    modal: (
+      <>
+        🍵 Full-stack Threads clone built on Next.js 14+. It includes
+        comprehensive user interaction, community management functionalities,
+        robust technical implementation, and a range of features like nested
+        deep comments, notifications, real-time search, and more.
+        <br />
+        <br />
+        🥐 Clone de Threads en full-stack réalisé avec Next.js 14+. Ce projet
+        comprend une interaction utilisateur approfondie, des fonctionnalités de
+        gestion communautaire, une implémentation technique robuste, ainsi
+        qu'une gamme de fonctionnalités telles que des commentaires imbriqués,
+        des notifications, une recherche en temps réel, et bien plus encore.
+      </>
+    ),
+  },
+  //! NEXT.JS -> UI/X ONLY
   {
     cat: "Design, Next",
     title: "Portfolio v3",
@@ -409,7 +409,7 @@ const projects = [
     ),
   },
 
-  //! Application - React
+  //! REACT -> APPLICATION(S)
   {
     cat: "App, React",
     title: "Refine Dashboard",
