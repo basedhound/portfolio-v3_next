@@ -792,6 +792,28 @@ const projects = [
     ),
   },
   {
+    cat: "Design, React",
+    title: "Hua Astro",
+    img: "/gallery/hua.webp",
+    code: "https://github.com/basedhound/hua-astro_react",
+    link: "https://hua-astro-fv.netlify.app",
+    tech: ["React", "Astro", "Tailwind", "Framer", "TS"],
+    modal: (
+      <>
+        🍵 This project is a test and my first experience with the Astro
+        framework. It showcases a simple portfolio concept for a graphic artist.
+        I used React, TypeScript, Astro, Tailwind CSS, and Framer Motion to
+        create a visually engaging and interactive site.
+        <br />
+        <br />
+        🥐 Ce projet est un test et ma première expérience avec le framework
+        Astro. Il présente un concept simple de portfolio pour un artiste
+        graphique. J'ai utilisé React, TypeScript, Astro, Tailwind CSS et Framer
+        Motion pour créer un site visuellement attrayant et interactif.
+      </>
+    ),
+  },
+  {
     cat: "💜, Design, React",
     title: "Nike",
     img: "/gallery/nike.webp",
@@ -817,28 +839,6 @@ const projects = [
         effets interactifs habituellement réalisés avec JavaScript. Le site est
         entièrement responsive, mettant en valeur la flexibilité et les
         capacités de design de Tailwind.
-      </>
-    ),
-  },
-  {
-    cat: "Design, React",
-    title: "Hua Astro",
-    img: "/gallery/hua.webp",
-    code: "https://github.com/basedhound/hua-astro_react",
-    link: "https://hua-astro-fv.netlify.app",
-    tech: ["React", "Astro", "Tailwind", "Framer", "TS"],
-    modal: (
-      <>
-        🍵 This project is a test and my first experience with the Astro
-        framework. It showcases a simple portfolio concept for a graphic artist.
-        I used React, TypeScript, Astro, Tailwind CSS, and Framer Motion to
-        create a visually engaging and interactive site.
-        <br />
-        <br />
-        🥐 Ce projet est un test et ma première expérience avec le framework
-        Astro. Il présente un concept simple de portfolio pour un artiste
-        graphique. J'ai utilisé React, TypeScript, Astro, Tailwind CSS et Framer
-        Motion pour créer un site visuellement attrayant et interactif.
       </>
     ),
   },
