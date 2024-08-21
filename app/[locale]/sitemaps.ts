@@ -1,31 +1,38 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://devfrank.vercel.com";
+
   return [
     {
-      url: "https://devfrank.vercel.com/en",
+      url: `${baseUrl}`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "https://devfrank.vercel.com/en/gallery",
+      url: `${baseUrl}/en`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "https://devfrank.vercel.com/fr",
+      url: `${baseUrl}/en/gallery`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "https://devfrank.vercel.com/fr/gallery",
+      url: `${baseUrl}/fr`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
-
+    {
+      url: `${baseUrl}/fr/gallery`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1,
+    },
   ];
 }
