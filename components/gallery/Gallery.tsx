@@ -59,7 +59,7 @@ const Gallery = () => {
 };
 
 const projects = [
-  //! NEXT.JS -> APPLICATION(S)
+  //! P1 -> NEXT.JS -> APPLICATION(S)
   {
     cat: "💜, App, Next",
     title: "Evently",
@@ -324,7 +324,7 @@ const projects = [
       </>
     ),
   },
-  //! NEXT.JS -> UI/X ONLY
+  //! P2 -> NEXT.JS -> UI/X ONLY
   {
     cat: "Design, Next",
     title: "Portfolio v3",
@@ -409,7 +409,7 @@ const projects = [
     ),
   },
 
-  //! REACT -> APPLICATION(S)
+  //! P3 -> REACT -> APPLICATION(S)
   {
     cat: "App, React",
     title: "Refine Dashboard",
@@ -452,6 +452,33 @@ const projects = [
         3D. Choisissez vos couleurs, ajoutez des logos et essayez des designs IA
         pour rendre votre style virtuel unique. Réalisée avec React.js, Three.js
         et OpenAI.
+      </>
+    ),
+  },
+  {
+    cat: "App, React",
+    title: "Summarize AI",
+    img: "/gallery/summarize.webp",
+    code: "https://github.com/basedhound/summarizer-ai_react",
+    link: "https://summarize-fv.netlify.app",
+    tech: ["React", "OpenAI", "Rapid API"],
+    modal: (
+      <>
+        🍵 Summarize any article with one click using the powerful OpenAI model.
+        This web app features a modern interface, allowing users to input
+        article URLs for concise AI-generated summaries. It saves summaries
+        locally for easy history management and offers copy-to-clipboard
+        functionality for effortless sharing. Advanced RTK Query API requests
+        optimize data fetching and management.
+        <br />
+        <br />
+        🥐 Résumez n'importe quel article en un clic grâce au puissant modèle
+        OpenAI. Cette application web offre une interface moderne et conviviale,
+        permettant aux utilisateurs d'entrer des URL d'articles pour obtenir des
+        résumés concis générés par l'IA. Les résumés sont enregistrés localement
+        pour une gestion facile de l'historique, et une fonction de copie dans
+        le presse-papiers facilite le partage. Les requêtes API avancées de RTK
+        Query optimisent la récupération et la gestion des données.
       </>
     ),
   },
@@ -565,33 +592,6 @@ const projects = [
   },
   {
     cat: "App, React",
-    title: "Summarize AI",
-    img: "/gallery/summarize.webp",
-    code: "https://github.com/basedhound/summarizer-ai_react",
-    link: "https://summarize-fv.netlify.app",
-    tech: ["React", "OpenAI", "Rapid API"],
-    modal: (
-      <>
-        🍵 Summarize any article with one click using the powerful OpenAI model.
-        This web app features a modern interface, allowing users to input
-        article URLs for concise AI-generated summaries. It saves summaries
-        locally for easy history management and offers copy-to-clipboard
-        functionality for effortless sharing. Advanced RTK Query API requests
-        optimize data fetching and management.
-        <br />
-        <br />
-        🥐 Résumez n'importe quel article en un clic grâce au puissant modèle
-        OpenAI. Cette application web offre une interface moderne et conviviale,
-        permettant aux utilisateurs d'entrer des URL d'articles pour obtenir des
-        résumés concis générés par l'IA. Les résumés sont enregistrés localement
-        pour une gestion facile de l'historique, et une fonction de copie dans
-        le presse-papiers facilite le partage. Les requêtes API avancées de RTK
-        Query optimisent la récupération et la gestion des données.
-      </>
-    ),
-  },
-  {
-    cat: "App, React",
     title: "Budget",
     img: "/gallery/budget.webp",
     code: "https://github.com/basedhound/budget-app_react",
@@ -635,7 +635,7 @@ const projects = [
   },
 
 
-  //! Design - React
+  //! P4 -> REACT -> UI/X ONLY
   {
     cat: "💜, Design, React",
     title: "iPhone 15",
@@ -683,33 +683,6 @@ const projects = [
   },
   {
     cat: "💜, Design, React",
-    title: "Brainwave",
-    img: "/gallery/brainwave.webp",
-    code: "https://github.com/basedhound/brainwave_ui_react",
-    link: "https://brainwave-fv.netlify.app",
-    tech: ["React", "Tailwind", "Vite"],
-    modal: (
-      <>
-        🍵 Brainwave is a modern UI/UX website built using React.js and Tailwind
-        CSS, designed with contemporary principles in mind. It features smooth
-        parallax effects and bento box layouts, offering a stylish UI that
-        adapts well from desktop to mobile devices. With polished animations and
-        a user-friendly experience, Brainwave sets a high standard while
-        providing inspiration for modern applications and websites.
-        <br />
-        <br />
-        🥐 Brainwave est un site web UI/UX moderne créé avec React.js et
-        Tailwind CSS, qui incarne les principes actuels du design. Il présente
-        des effets de parallaxe fluides et des mises en page bento box, offrant
-        une interface élégante adaptée aussi bien aux ordinateurs de bureau
-        qu'aux appareils mobiles. Avec des animations soignées et une expérience
-        utilisateur exceptionnelle, Brainwave se distingue comme une source
-        d'inspiration pour les applications et sites web contemporains.
-      </>
-    ),
-  },
-  {
-    cat: "💜, Design, React",
     title: "Gericht",
     img: "/gallery/gericht.webp",
     code: "https://github.com/basedhound/gericht-restaurant_ui_react",
@@ -737,30 +710,28 @@ const projects = [
   },
   {
     cat: "💜, Design, React",
-    title: "Nike",
-    img: "/gallery/nike.webp",
-    code: "https://github.com/basedhound/nike_ui_react",
-    link: "https://nike-fv.netlify.app",
-    tech: ["React", "Tailwind"],
+    title: "Brainwave",
+    img: "/gallery/brainwave.webp",
+    code: "https://github.com/basedhound/brainwave_ui_react",
+    link: "https://brainwave-fv.netlify.app",
+    tech: ["React", "Tailwind", "Vite"],
     modal: (
       <>
-        🍵 Modern Nike landing page designed with React and Tailwind CSS,
-        featuring a visually appealing hero section, popular products showcase,
-        unique "About Us" section, special offers display, testimonials, and a
-        newsletter integration. This project maximizes Tailwind CSS with best
-        practices, theming techniques, and JavaScript-like tasks. The entire
-        site is mobile-responsive, highlighting Tailwind's flexibility and
-        design capabilities.
+        🍵 Brainwave is a modern UI/UX website built using React.js and Tailwind
+        CSS, designed with contemporary principles in mind. It features smooth
+        parallax effects and bento box layouts, offering a stylish UI that
+        adapts well from desktop to mobile devices. With polished animations and
+        a user-friendly experience, Brainwave sets a high standard while
+        providing inspiration for modern applications and websites.
         <br />
         <br />
-        🥐 Page d'accueil moderne pour Nike, conçue avec React et Tailwind CSS.
-        Ce projet comprend une section héro captivante, une présentation des
-        produits populaires, une section "À propos" originale, des offres
-        spéciales, des témoignages, et une intégration de la newsletter. Il
-        optimise l'utilisation de Tailwind CSS avec des bonnes pratiques et des
-        effets interactifs habituellement réalisés avec JavaScript. Le site est
-        entièrement responsive, mettant en valeur la flexibilité et les
-        capacités de design de Tailwind.
+        🥐 Brainwave est un site web UI/UX moderne créé avec React.js et
+        Tailwind CSS, qui incarne les principes actuels du design. Il présente
+        des effets de parallaxe fluides et des mises en page bento box, offrant
+        une interface élégante adaptée aussi bien aux ordinateurs de bureau
+        qu'aux appareils mobiles. Avec des animations soignées et une expérience
+        utilisateur exceptionnelle, Brainwave se distingue comme une source
+        d'inspiration pour les applications et sites web contemporains.
       </>
     ),
   },
@@ -821,26 +792,31 @@ const projects = [
     ),
   },
   {
-    cat: "Design, React",
-    title: "KPOP Social",
-    img: "/gallery/kpop.webp",
-    code: "https://github.com/basedhound/kpop-social_ui_react",
-    link: "https://ksocial-fv.netlify.app",
-    tech: ["React", "CSS", "JS"],
+    cat: "💜, Design, React",
+    title: "Nike",
+    img: "/gallery/nike.webp",
+    code: "https://github.com/basedhound/nike_ui_react",
+    link: "https://nike-fv.netlify.app",
+    tech: ["React", "Tailwind"],
     modal: (
       <>
-        🍵 User interface design for a social media platform inspired by the
-        vibrant aesthetic of Kpop culture. Built with React, it features cozy,
-        girly color palettes and aesthetics. Leveraging the Mantine library and
-        complemented by Unicons, it aims to deliver an engaging and visually
-        appealing user experience.
+        🍵 Modern Nike landing page designed with React and Tailwind CSS,
+        featuring a visually appealing hero section, popular products showcase,
+        unique "About Us" section, special offers display, testimonials, and a
+        newsletter integration. This project maximizes Tailwind CSS with best
+        practices, theming techniques, and JavaScript-like tasks. The entire
+        site is mobile-responsive, highlighting Tailwind's flexibility and
+        design capabilities.
         <br />
         <br />
-        🥐 Design pour un réseau social inspiré par l'esthétique vibrante de la
-        culture Kpop. Développé avec React, il intègre une palette de couleurs
-        "girly". Utilisant la bibliothèque Mantine et complété par Unicons,
-        l'objectif est de fournir une expérience utilisateur engageante et
-        visuellement attrayante.
+        🥐 Page d'accueil moderne pour Nike, conçue avec React et Tailwind CSS.
+        Ce projet comprend une section héro captivante, une présentation des
+        produits populaires, une section "À propos" originale, des offres
+        spéciales, des témoignages, et une intégration de la newsletter. Il
+        optimise l'utilisation de Tailwind CSS avec des bonnes pratiques et des
+        effets interactifs habituellement réalisés avec JavaScript. Le site est
+        entièrement responsive, mettant en valeur la flexibilité et les
+        capacités de design de Tailwind.
       </>
     ),
   },
@@ -868,11 +844,35 @@ const projects = [
   },
   {
     cat: "Design, React",
+    title: "K-POP Social",
+    img: "/gallery/kpop.webp",
+    code: "https://github.com/basedhound/kpop-social_ui_react",
+    link: "https://ksocial-fv.netlify.app",
+    tech: ["React", "CSS", "JS"],
+    modal: (
+      <>
+        🍵 User interface design for a social media platform inspired by the
+        vibrant aesthetic of Kpop culture. Built with React, it features cozy,
+        girly color palettes and aesthetics. Leveraging the Mantine library and
+        complemented by Unicons, it aims to deliver an engaging and visually
+        appealing user experience.
+        <br />
+        <br />
+        🥐 Design pour un réseau social inspiré par l'esthétique vibrante de la
+        culture Kpop. Développé avec React, il intègre une palette de couleurs
+        "girly". Utilisant la bibliothèque Mantine et complété par Unicons,
+        l'objectif est de fournir une expérience utilisateur engageante et
+        visuellement attrayante.
+      </>
+    ),
+  },
+  {
+    cat: "Design, React",
     title: "Portfolio v2",
     img: "/gallery/portfolio2.webp",
     code: "https://github.com/basedhound/portfolio-v2_react",
     link: "https://portfolio-v2-fv.netlify.app",
-    tech: ["React", "Framer", "Swiperjs", "Emailjs"],
+    tech: ["React", "Framer", "Swiper.js", "Email.js"],
     modal: (
       <>
         🍵 A modern and minimalist portfolio website crafted using React and
