@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: `${baseUrl}/en`,
+      url: `${baseUrl}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
@@ -17,13 +17,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/en/gallery`,
+      url: `${baseUrl}/gallery`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/fr/galerie`,
+      url: `${baseUrl}/fr/gallery`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
