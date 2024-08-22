@@ -1,12 +1,9 @@
 //! next-intl
 import {notFound} from 'next/navigation';
 import {getRequestConfig} from 'next-intl/server';
-import {LocalePrefix} from 'next-intl/routing';
 
 // Can be imported from a shared config
 export const locales = ['en', 'fr'];
-export const localePrefix = 'as-needed' satisfies LocalePrefix;
-console.log('localePrefix in i18n.ts:', localePrefix);
 
 export default getRequestConfig(async ({locale}) => {
   // Validate that the incoming `locale` parameter is valid
