@@ -7,10 +7,9 @@ export default createMiddleware({
 
   // Used when no locale matches
   defaultLocale: "en",
-  localePrefix: "as-needed",
 
-  //! Don't use /en for default
-  // localePrefix: 'as-needed'
+  //! So "en" as default = 'url/'
+  localePrefix: "as-needed",
 });
 
 export const config = {
