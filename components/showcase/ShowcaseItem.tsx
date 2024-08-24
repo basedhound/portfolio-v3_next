@@ -55,7 +55,7 @@ export const ShowcaseItem = ({
       body!.style.overflowY = "scroll";
     }
   }, [isOpen]);
-
+  
   return (
     <>
       <motion.div

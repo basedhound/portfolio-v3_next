@@ -16,14 +16,7 @@ interface Props {
   code: string;
 }
 
-export const GalleryItem = ({
-  modal,
-  link,
-  img,
-  title,
-  code,
-  tech,
-}: Props) => {
+export const GalleryItem = ({ modal, link, img, title, code, tech }: Props) => {
   // Image Animation
   const [hovered, setHovered] = useState(false);
   // Modal
@@ -48,13 +41,13 @@ export const GalleryItem = ({
   useEffect(() => {
     const body = document.querySelector("body");
     if (isOpen) {
-    body!.style.overflowY = "hidden";
-  } else {
-    body!.style.overflowY = "scroll";
+      body!.style.overflowY = "hidden";
+    } else {
+      body!.style.overflowY = "scroll";
     }
   }, [isOpen]);
-  
 
+  
   return (
     <>
       <motion.div
@@ -72,7 +65,7 @@ export const GalleryItem = ({
           onClick={() => setIsOpen(true)}
           className={styles.itemCover}>
           <Image
-          priority
+            priority
             src={img}
             alt={`An image of the ${title} project.`}
             width={1000}
