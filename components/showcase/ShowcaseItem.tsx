@@ -17,7 +17,7 @@ interface Props {
   code: string;
 }
 
-export const Project = ({
+export const ShowcaseItem = ({
   modal,
   link,
   desc,

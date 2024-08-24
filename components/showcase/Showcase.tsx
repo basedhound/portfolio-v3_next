@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { SectionHeader } from "@/components/utils/SectionHeader";
-import { Project } from "./ShowcaseItem";
+import { ShowcaseItem } from "./ShowcaseItem";
 import { TransitionLink } from "../utils/TransitionLink";
 import styles from "./showcase.module.scss";
 
@@ -89,7 +89,7 @@ export const Projects = () => {
 
       <div className={styles.projects}>
         {projects.map((project) => {
-          return <Project key={project.title} {...project} />;
+          return <ShowcaseItem key={project.title} {...project} />;
         })}
       </div>
 
