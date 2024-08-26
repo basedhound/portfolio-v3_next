@@ -85,11 +85,11 @@ input[type="reset"] {
     font-size: var(--text-xs);
   }
 }
-@media (max-width: 400px) {
+ @media (max-width: 320px) {
   .section-wrapper {
     width: 240px;
   }
-}
+} 
 
 /* Stats -> Exp + Certif */
 .chip {
