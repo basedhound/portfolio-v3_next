@@ -21,6 +21,7 @@
 }
 
 .modalCard {
+  position: relative;
   width: 100%;
   max-width: 700px;
   height: fit-content;
@@ -100,21 +101,38 @@
 }
 
 .closeModalBtn {
-  background: none;
-  border: none;
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  top: 0.5rem;
+  right: 0.5rem;
+  // left: 50%;
+  // transform: translateX(-50%);
+
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 50%;
+
   color: var(--text);
+  background-color: var(--background-light);
+  opacity: 0.7;
+
   font-size: 2.5rem;
   align-self: flex-end;
   cursor: pointer;
   transition: 0.2s;
 
-  opacity: 0.7;
-  &:hover {
-    opacity: 1;
-    scale: 1.05;
+  svg {
+    opacity: 0.7;
+    transition: 0.2s;
   }
-}
 
-.flag {
-  font-size: 24px;
+  &:hover {
+    svg {
+      opacity: 1;
+      scale: 1.025;
+    }
+  }
 }

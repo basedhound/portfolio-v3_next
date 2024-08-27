@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import ReactDOM from "react-dom";
 import Link from "next/link";
 import Image from "next/image";
@@ -35,7 +35,10 @@ export const Modal = ({
         animate={{ y: 0, opacity: 1 }}
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}>
-        <Link href={link} target="_blank" >
+      <button className={styles.closeModalBtn} onClick={() => setIsOpen(false)}>
+        <MdClose />
+      </button>
+        <Link href={link} target="_blank">
           <Image
             priority
             src={img}
@@ -65,11 +68,6 @@ export const Modal = ({
                   Demo
                 </Link>
               </div>
-              <button
-                className={styles.closeModalBtn}
-                onClick={() => setIsOpen(false)}>
-                <MdClose />
-              </button>
             </div>
           </div>
         </div>

@@ -174,12 +174,10 @@
   display: inline-flex;
   position: fixed;
   right: 3rem;
-  // bottom: 3rem;
 
-  background-color: hsla(0, 0%, 100%, 0.1);
   padding: 0.6rem;
   border-radius: 5px;
-
+  background-color: hsla(0, 0%, 100%, 0.1);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(25px); /* For safari */
 
