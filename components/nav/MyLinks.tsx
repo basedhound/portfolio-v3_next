@@ -47,7 +47,7 @@ export const MyLinks = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}>
         <Link
-          href="https://www.linkedin.com/in/frankdev"
+          href="https://www.linkedin.com/in/fvukelic"
           target="_blank"
           rel="nofollow"
           title="LinkedIn">
