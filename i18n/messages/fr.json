@@ -20,7 +20,7 @@
   },
   "Projects": {
     "section": "Projets",
-    "gallery": "Voir la Galerie",
+    "gallery": "Visiter Galerie",
 
     "desc1": "Un clone du site web de l'iPhone 15 Pro d'Apple utilisant React.js et TailwindCSS. Animations et éléments en 3D via l'utilisation de Three.js et GSAP.",
     "modal1": "Il s'agit d'un clone du site web de l'iPhone 15 Pro d'Apple utilisant React.js et TailwindCSS. Il met en avant l'utilisation efficace de GSAP (Greensock Animations) et de Three.js pour afficher les modèles de l'iPhone 15 Pro dans différentes couleurs et formes.",
