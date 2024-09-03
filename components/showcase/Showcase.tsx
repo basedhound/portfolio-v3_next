@@ -86,6 +86,13 @@ export const Projects = () => {
   return (
     <section className="section-wrapper" id="projects">
       <SectionHeader title={t("section")} dir="r" />
+      
+      <div className={styles.linkToGallery}>
+        <TransitionLink href="/gallery">
+          <AiOutlineArrowRight size="2rem" />
+          {t("gallery")}
+        </TransitionLink>
+      </div>
 
       <div className={styles.projects}>
         {projects.map((project) => {
