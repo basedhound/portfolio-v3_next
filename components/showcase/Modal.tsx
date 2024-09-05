@@ -29,9 +29,8 @@ export const Modal = ({
   code,
   tech,
 }: Props) => {
-
+  // Blur imgs
   const [isImageLoading, setImageLoading] = useState(true)
-
 
   const content = (
     <div className={styles.modal} onClick={() => setIsOpen(false)}>
@@ -50,8 +49,8 @@ export const Modal = ({
             alt={`An image of the ${title} project.`}
             width={1280}
             height={720}
-            className={`${styles.modalImage} ${isImageLoading ? 'blur' : 'remove-blur'}`}
             onLoad={() => setImageLoading(false)}
+            className={`${styles.modalImage} ${isImageLoading ? 'blur' : 'remove-blur'}`}
           />
         </Link>
         <div className={styles.modalContent}>
