@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import ReactDOM from "react-dom";
 import Link from "next/link";
 import Image from "next/image";
@@ -28,6 +29,10 @@ export const Modal = ({
   code,
   tech,
 }: Props) => {
+
+  const [isImageLoading, setImageLoading] = useState(true)
+
+
   const content = (
     <div className={styles.modal} onClick={() => setIsOpen(false)}>
       <motion.div
@@ -43,10 +48,10 @@ export const Modal = ({
             priority
             src={img}
             alt={`An image of the ${title} project.`}
-            width={0}
-            height={0}
-            sizes="100vw"
-            className={styles.modalImage}
+            width={1280}
+            height={720}
+            className={`${styles.modalImage} ${isImageLoading ? 'blur' : 'remove-blur'}`}
+            onLoad={() => setImageLoading(false)}
           />
         </Link>
         <div className={styles.modalContent}>
