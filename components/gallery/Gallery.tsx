@@ -1203,10 +1203,10 @@ const projects = [
   },
   {
     cat: "Design",
-    title: "Gardening",
+    title: "Plants",
     img: "/gallery/garden.webp",
-    code: "https://github.com/basedhound/garden-shop_ui",
-    link: "https://garden-fv.netlify.app",
+    code: "https://github.com/basedhound/plant-shop_ui",
+    link: "https://plants-fv.netlify.app",
     tech: ["HTML", "CSS", "JS", "Sass"],
     modal: (
       <>
