@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/utils/Reveal";
 import styles from "./contact.module.scss";
-import { AiFillMail } from "react-icons/ai";
+import { AiFillMail, AiFillCalendar } from "react-icons/ai";
 import Link from "next/link";
 import { MyLinks } from "../nav/MyLinks";
 
@@ -13,12 +13,13 @@ export const Contact = () => {
       <div className={styles.contactWrapper}>
         <Reveal width="100%">
           <h4 className={styles.contactTitle}>
-          {t("section")}<span>.</span>
+            {t("section")}
+            <span>.</span>
           </h4>
         </Reveal>
         <Reveal width="100%">
           <p className={styles.contactCopy}>
-          {t("p1")}{" "}
+            {t("p1")}{" "}
             <Link
               href="https://www.linkedin.com/in/frankdev/"
               target="_blank"
@@ -37,10 +38,23 @@ export const Contact = () => {
         </Reveal>
         <Reveal width="100%">
           <Link
-            href="mailto:franck.vukelic@gmail.com"
+            href="mailto:fvukelic@proton.me"
+            target="_blank"
+            rel="nofollow"
             className={styles.contactEmail}>
             <AiFillMail size="2.4rem" />
-            <span>franck.vukelic@gmail.com</span>
+            <span>fvukelic@proton.me</span>
+          </Link>
+        </Reveal>
+
+        <Reveal width="100%">
+          <Link
+            href="https://calendly.com/fvukelic/meeting"
+            target="_blank"
+            rel="nofollow"
+            className={styles.contactEmail}>
+            <AiFillCalendar size="2.4rem" />
+            <span>{t("p3")}</span>
           </Link>
         </Reveal>
         <Reveal width="100%">
