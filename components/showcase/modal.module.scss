@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 99;
 
   padding: 2rem 1.2rem;
   background: var(--bg-opaque);
@@ -104,6 +104,7 @@
 }
 
 .closeModalBtn {
+  z-index: 999;
   position: absolute;
   display: inline-flex;
   justify-content: center;
