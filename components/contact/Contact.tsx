@@ -37,25 +37,24 @@ export const Contact = () => {
           </p>
         </Reveal>
         <Reveal width="100%">
+        <div className={styles.contactLinks}>
           <Link
             href="mailto:fvukelic@proton.me"
             target="_blank"
             rel="nofollow"
-            className={styles.contactEmail}>
+            className={styles.contactLink}>
             <AiFillMail size="2.4rem" />
             <span>fvukelic@proton.me</span>
           </Link>
-        </Reveal>
-
-        <Reveal width="100%">
           <Link
             href="https://calendly.com/fvukelic/meeting"
             target="_blank"
             rel="nofollow"
-            className={styles.contactEmail}>
+            className={styles.contactLink}>
             <AiFillCalendar size="2.4rem" />
             <span>{t("p3")}</span>
           </Link>
+        </div>
         </Reveal>
         <Reveal width="100%">
           <MyLinks />
