@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://devfrank.vercel.app"),
-  title: "Frank Vukelić · 🇫🇷",
+  title: "Frank Vukelić",
   description:
     "Self-taught fullstack developer skilled in Next.js/React and a versatile tech stack, also offering WordPress site development for small businesses.",
   icons: {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   // Facebook
   openGraph: {
-    title: "Frank Vukelić · 🇫🇷",
+    title: "Frank Vukelić",
     description:
       "Self-taught fullstack developer skilled in Next.js/React and a versatile tech stack, also offering WordPress site development for small businesses.",
     url: "https://devfrank.vercel.app",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@frank_vkh",
-    title: "Frank Vukelić · 🇫🇷",
+    title: "Frank Vukelić",
     description:
       "Self-taught fullstack developer skilled in Next.js/React and a versatile tech stack, also offering WordPress site development for small businesses.",
     images: [
