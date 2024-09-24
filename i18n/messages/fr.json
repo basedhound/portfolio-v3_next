@@ -59,7 +59,7 @@
     "certificate":"Certificat",
     "certif1": "Développeur Web",
     "school1": "OpenClassrooms",
-    "date1": "Novembre 2022 – 600 heures",
+    "date1": "Novembre 2022",
     "desc1": "Parcours axé sur le développement frontend, l'intégration d'APIs backend et la création d'APIs from scratch. Développement d'applications web responsives, amélioration de la dynamique des pages, optimisation des performances du site et gestion de projets de A à Z sous supervision et évaluation. Projet phare : Groupomania, une plateforme de médias sociaux full-stack construite avec la stack MERN.",
 
     "certif2": "Responsive Web Design",
@@ -69,7 +69,7 @@
 
     "certif3": "JavaScript Algorithms & Data Structures",
     "school3": "freeCodeCamp",
-    "date3": "Janvier 2024 – 300 heures",
+    "date3": "September 2024 – 300 heures",
     "desc3": "Parcours axé sur la maîtrise des fondamentaux de JavaScript, y compris les variables, tableaux, objets, boucles, fonctions et le DOM. Développement des compétences en Programmation Orientée Objet (POO), Programmation Fonctionnelle et réflexion algorithmique. Expérience acquise en travail avec le stockage local et récupération de données via des APIs. Accent mis sur les applications pratiques et les meilleures pratiques pour créer des applications web interactives et efficaces.",
 
     "certif4": "Front End Development Libraries",
@@ -90,12 +90,7 @@
     "certif7": "Back End Development & APIs",
     "school7": "freeCodeCamp",
     "date7":  "Janvier 2024 – 300 heures",
-    "desc7": "Parcours axé sur l'utilisation de JavaScript pour le développement côté serveur afin de créer des applications web complètes. Apprentissage de l'écriture d'applications backend avec Node.js et npm, et de la construction d'applications web avec le framework Express. Développement d'un microservice People Finder avec MongoDB et la bibliothèque Mongoose, en mettant l'accent sur l'architecture des microservices pour créer des applications modulaires et évolutives.",
-
-    "certif8": "Quality Assurance",
-    "school8": "freeCodeCamp",
-    "date8":  "Janvier 2024 – 300 heures",
-    "desc8": "Parcours axé sur les tests et l'assurance qualité des applications complexes. Apprentissage de l'écriture de tests avec Chai pour vérifier que les applications fonctionnent comme prévu. Création d'une application de chat pour explorer des concepts avancés de Node.js et Express, en utilisant Pug comme moteur de templates, Passport pour l'authentification, et Socket.io pour la communication en temps réel entre le serveur et les clients."
+    "desc7": "Parcours axé sur l'utilisation de JavaScript pour le développement côté serveur afin de créer des applications web complètes. Apprentissage de l'écriture d'applications backend avec Node.js et npm, et de la construction d'applications web avec le framework Express. Développement d'un microservice People Finder avec MongoDB et la bibliothèque Mongoose, en mettant l'accent sur l'architecture des microservices pour créer des applications modulaires et évolutives."
   },
 
   "Contact": {

@@ -59,7 +59,7 @@
     "certificate":"Certificate",
     "certif1": "Web Developer",
     "school1": "OpenClassrooms",
-    "date1": "November 2022 – 600 hours",
+    "date1": "November 2022",
     "desc1": "Focused on frontend skills, backend API integration, and building APIs from scratch. Developed responsive web apps, enhanced webpage dynamics, optimized site performance, and managed projects from start to finish under mentorship and examination. Key project: Groupomania, a full-stack social media platform built with the MERN stack.",
 
     "certif2": "Responsive Web Design",
@@ -69,7 +69,7 @@
 
     "certif3": "JavaScript Algorithms & Data Structures",
     "school3": "freeCodeCamp",
-    "date3": "January 2024 – 300 hours",
+    "date3": "September 2024 – 300 hours",
     "desc3": "Focused on mastering JavaScript fundamentals, including variables, arrays, objects, loops, functions, and the DOM. Developed skills in Object-Oriented Programming (OOP), Functional Programming, and algorithmic thinking. Gained experience in working with local storage and fetching data using APIs. Emphasized practical applications and best practices for creating interactive and efficient web applications.",
 
     "certif4": "Front End Development Libraries",
@@ -90,12 +90,7 @@
     "certif7": "Back End Development & APIs",
     "school7": "freeCodeCamp",
     "date7": "January 2024 – 300 hours",
-    "desc7": "Focused on using JavaScript for server-side development to build full web applications. Learned to write back-end apps with Node.js and npm, and build web applications using the Express framework. Developed a People Finder microservice with MongoDB and the Mongoose library, emphasizing the microservices architecture for creating modular and scalable applications.",
-
-    "certif8": "Quality Assurance",
-    "school8": "freeCodeCamp",
-    "date8": "January 2024 – 300 hours",
-    "desc8": "Focused on testing and ensuring the reliability of complex applications. Learned to write tests with Chai to verify that applications function as expected. Built a chat application to explore advanced concepts in Node.js and Express, utilizing Pug as a template engine, Passport for authentication, and Socket.io for real-time communication between the server and clients."
+    "desc7": "Focused on using JavaScript for server-side development to build full web applications. Learned to write back-end apps with Node.js and npm, and build web applications using the Express framework. Developed a People Finder microservice with MongoDB and the Mongoose library, emphasizing the microservices architecture for creating modular and scalable applications."
   },
 
   "Contact": {
