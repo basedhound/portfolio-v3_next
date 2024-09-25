@@ -663,7 +663,7 @@ const projects = [
     title: "3D Island",
     img: "/gallery/island3d.webp",
     code: "https://github.com/basedhound/3d-island_portfolio_react",
-    link: "https://3d-island-fv.netlify.app",
+    link: "https://3d-island-fv.vercel.app/",
     tech: ["React", "Threejs", "Tailwind"],
     modal: (
       <>

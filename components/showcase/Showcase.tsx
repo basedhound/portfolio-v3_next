@@ -67,7 +67,7 @@ export const Projects = () => {
       title: "3D Portfolio",
       img: "/gallery/island3d.webp",
       code: "https://github.com/basedhound/3d-island_portfolio_react",
-      link: "https://3d-island-fv.netlify.app/",
+      link: "https://3d-island-fv.vercel.app",
       tech: ["React", "Three.js", "Three Fiber", "Tailwind", "Vite"],
       desc: t("desc7"),
       modal: <>{t("modal7")}</>,
