@@ -75,13 +75,13 @@ input[type="reset"] {
 }
 @media (max-width: 768px) {
   .section-wrapper {
-    padding: 7.2rem 2.4rem;
+    padding: 7rem 2.5rem;
   }
 }
 @media (max-width: 450px) {
   .section-wrapper {
     width: 300px;
-    padding: 3rem 0.5rem;
+    padding: 3rem 0.75rem;
     font-size: var(--text-xs);
   }
 }
