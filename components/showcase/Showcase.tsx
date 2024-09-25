@@ -13,7 +13,7 @@ export const Projects = () => {
       title: "iPhone 15",
       img: "/gallery/iphone.webp",
       code: "https://github.com/basedhound/iPhone-15_ui_react",
-      link: "https://iphone15-fv.netlify.app",
+      link: "https://iphone15-fv.vercel.app",
       tech: ["React", "Three.js", "Tailwind", "GSAP"],
       desc: t("desc1"),
       modal: <>{t("modal1")}</>,
