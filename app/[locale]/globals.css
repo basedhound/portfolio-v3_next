@@ -75,19 +75,19 @@ input[type="reset"] {
 }
 @media (max-width: 768px) {
   .section-wrapper {
-    padding: 7rem 2.5rem;
+    padding: 7rem 3rem;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .section-wrapper {
-    max-width: 300px;
+    max-width: 360px;
     padding: 3rem 1.5rem;
     font-size: var(--text-xs);
   }
 }
- @media (max-width: 320px) {
+ @media (max-width: 310px) {
   .section-wrapper {
-    max-width: 240px;
+    max-width: 270px;
   }
 } 
 
