@@ -2,9 +2,11 @@ import styles from "./mylinks.module.scss";
 import {
   AiFillLinkedin,
   AiFillGithub,
-  AiFillInstagram,
   AiOutlineWhatsApp,
-  AiFillFacebook,
+  AiOutlineMail,
+  // AiFillInstagram,
+  // AiFillFacebook,
+
 } from "react-icons/ai";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -12,18 +14,17 @@ import { motion } from "framer-motion";
 export const MyLinks = () => {
   return (
     <div className={styles.links}>
-
-      {/* WHATSAPP */}
+      {/* LINKEDIN */}
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.1 }}>
+        transition={{ duration: 0.5, delay: 0.3 }}>
         <Link
-          href="https://api.whatsapp.com/send?phone=33779134587"
+          href="https://www.linkedin.com/in/fvukelic"
           target="_blank"
           rel="nofollow"
-          title="WhatsApp">
-          <AiOutlineWhatsApp size="2.4rem" />
+          title="LinkedIn">
+          <AiFillLinkedin size="2.4rem" />
         </Link>
       </motion.span>
 
@@ -41,22 +42,36 @@ export const MyLinks = () => {
         </Link>
       </motion.span>
 
-      {/* LINKEDIN */}
+      {/* WHATSAPP */}
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}>
+        transition={{ duration: 0.5, delay: 0.1 }}>
         <Link
-          href="https://www.linkedin.com/in/fvukelic"
+          href="https://api.whatsapp.com/send?phone=33779134587"
           target="_blank"
           rel="nofollow"
-          title="LinkedIn">
-          <AiFillLinkedin size="2.4rem" />
+          title="WhatsApp">
+          <AiOutlineWhatsApp size="2.4rem" />
+        </Link>
+      </motion.span>
+
+
+      <motion.span
+        initial={{ y: -30, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.1 }}>
+        <Link
+          href="mailto:fvukelic@proton.me"
+          target="_blank"
+          rel="nofollow"
+          title="Email">
+          <AiOutlineMail size="2.4rem" />
         </Link>
       </motion.span>
 
       {/* FACEBOOK */}
-{/*       <motion.span
+      {/*       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.4 }}>
@@ -66,7 +81,7 @@ export const MyLinks = () => {
       </motion.span> */}
 
       {/* INSTAGRAM */}
-{/*       <motion.span
+      {/*       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }}>
