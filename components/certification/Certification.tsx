@@ -68,7 +68,7 @@ export const Certification = () => {
         "Redux",
         "Bootstrap",
         "Sass",
-        "Single Page Application (SPA)",
+        "Single Page Application",
       ],
     },
 /*     {
