@@ -110,7 +110,7 @@
   justify-content: center;
   align-items: center;
 
-  top: 1rem;
+  top: 0.5rem;
   left: 50%;
   transform: translateX(-50%);
 
@@ -118,7 +118,8 @@
   width: 3.25rem;
   height: 3.25rem;
   border-radius: 50%;
-
+  
+  opacity: 0.7;
   color: var(--text);
   background-color: var(--background-light);
 
