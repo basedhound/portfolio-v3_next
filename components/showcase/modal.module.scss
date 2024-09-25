@@ -131,6 +131,9 @@
   svg {
     opacity: 0.7;
     transition: 0.2s;
+    @media (max-width: 768px) {
+      opacity: 1;
+    }
   }
   &:hover {
     svg {
