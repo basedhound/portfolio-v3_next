@@ -42,7 +42,6 @@ export const Modal = ({
       <button className={styles.closeModalBtn} onClick={() => setIsOpen(false)}>
         <MdClose />
       </button>
-        <Link href={link} target="_blank">
           <Image
             priority
             src={img}
@@ -52,7 +51,6 @@ export const Modal = ({
             onLoad={() => setImageLoading(false)}
             className={`${styles.modalImage} ${isImageLoading ? 'blur' : 'remove-blur'}`}
           />
-        </Link>
         <div className={styles.modalContent}>
           <h4>{title}</h4>
           <div className={styles.modalTech}>{tech.join(" - ")}</div>
