@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import styles from "./heading.module.scss";
 import { MyLinks } from "./MyLinks";
 import { Switch } from "./Switch";
-import { OutlineButton } from "./OutlineButton";
+import { ResumeButton } from "./ResumeButton";
 
 export const Heading = () => {
   return (
@@ -22,7 +22,7 @@ export const Heading = () => {
             target="_blank"
             rel="nofollow"
             title="Resume">
-            <OutlineButton>CV</OutlineButton>
+            <ResumeButton>CV</ResumeButton>
           </Link>
         </motion.span>
       </div>

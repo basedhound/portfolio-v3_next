@@ -18,7 +18,7 @@ export const MyLinks = () => {
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}>
+        transition={{ duration: 0.5, delay: 0.1 }}>
         <Link
           href="https://www.linkedin.com/in/fvukelic"
           target="_blank"
@@ -46,7 +46,7 @@ export const MyLinks = () => {
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.1 }}>
+        transition={{ duration: 0.5, delay: 0.3 }}>
         <Link
           href="https://api.whatsapp.com/send?phone=33779134587"
           target="_blank"
@@ -56,11 +56,10 @@ export const MyLinks = () => {
         </Link>
       </motion.span>
 
-
       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.1 }}>
+        transition={{ duration: 0.5, delay: 0.4 }}>
         <Link
           href="mailto:fvukelic@proton.me"
           target="_blank"
@@ -74,7 +73,7 @@ export const MyLinks = () => {
       {/*       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.4 }}>
+        transition={{ duration: 0.5, delay: 0.5 }}>
         <Link href="https://m.me/fvukelic" target="_blank" rel="nofollow">
           <AiFillFacebook size="2.4rem" />
         </Link>
@@ -84,7 +83,7 @@ export const MyLinks = () => {
       {/*       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.5 }}>
+        transition={{ duration: 0.5, delay: 0.6 }}>
         <Link href="https://ig.me/m/frank.vkh" target="_blank" rel="nofollow">
           <AiFillInstagram size="2.4rem" />
         </Link>

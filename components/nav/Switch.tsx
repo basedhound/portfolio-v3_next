@@ -13,7 +13,7 @@ export const Switch = () => {
     <motion.span
       initial={{ y: -30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 0.6 }}>
+      transition={{ duration: 0.5, delay: 0.5 }}>
       <Link href={newPath} className={styles.switch}>
         {/* Button */}
         {currentPath.includes("/fr") ? "FR" : "EN"}
