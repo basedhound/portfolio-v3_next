@@ -18,23 +18,20 @@
   @media (max-width: 768px) {
     padding: 0 2.4rem;
   }
-
-
-
 }
 
 .headingButtons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 
-    > a {
-      height: 46px;
-    }
+  a {
+    height: 46px;
+  }
 }
 
 .headingLeft {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }

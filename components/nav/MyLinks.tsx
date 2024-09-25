@@ -56,24 +56,24 @@ export const MyLinks = () => {
       </motion.span>
 
       {/* FACEBOOK */}
-      <motion.span
+{/*       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.4 }}>
         <Link href="https://m.me/fvukelic" target="_blank" rel="nofollow">
           <AiFillFacebook size="2.4rem" />
         </Link>
-      </motion.span>
+      </motion.span> */}
 
       {/* INSTAGRAM */}
-      <motion.span
+{/*       <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }}>
         <Link href="https://ig.me/m/frank.vkh" target="_blank" rel="nofollow">
           <AiFillInstagram size="2.4rem" />
         </Link>
-      </motion.span>
+      </motion.span> */}
     </div>
   );
 };
