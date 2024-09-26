@@ -1,15 +1,15 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
-import styles from "./heading.module.scss";
-import { MyLinks } from "./MyLinks";
+import styles from "./navbar.module.scss";
+import { Socials } from "./Socials";
 import { Switch } from "./Switch";
 import { ResumeButton } from "./ResumeButton";
 
-export const Heading = () => {
+export const Navbar = () => {
   return (
     <header className={styles.heading}>
       <div className={styles.headingLeft}>
-        <MyLinks />
+        <Socials />
         <Switch />
       </div>
       <div className={styles.headingButtons}>

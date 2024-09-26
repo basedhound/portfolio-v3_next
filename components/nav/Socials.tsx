@@ -1,4 +1,4 @@
-import styles from "./mylinks.module.scss";
+import styles from "./socials.module.scss";
 import {
   AiFillLinkedin,
   AiFillGithub,
@@ -11,7 +11,7 @@ import {
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export const MyLinks = () => {
+export const Socials = () => {
   return (
     <div className={styles.links}>
       {/* LINKEDIN */}

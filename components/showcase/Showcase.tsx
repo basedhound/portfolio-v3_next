@@ -5,7 +5,7 @@ import { ShowcaseItem } from "./ShowcaseItem";
 import { TransitionLink } from "../utils/TransitionLink";
 import styles from "./showcase.module.scss";
 
-export const Projects = () => {
+export const Showcase = () => {
   const t = useTranslations("Projects");
 
   const projects = [

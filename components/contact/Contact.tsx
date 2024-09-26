@@ -3,7 +3,7 @@ import { Reveal } from "@/components/utils/Reveal";
 import styles from "./contact.module.scss";
 import { AiFillMail, AiFillCalendar } from "react-icons/ai";
 import Link from "next/link";
-import { MyLinks } from "../nav/MyLinks";
+import { Socials } from "../nav/Socials";
 
 export const Contact = () => {
   const t = useTranslations("Contact");
@@ -57,7 +57,7 @@ export const Contact = () => {
         </div>
         </Reveal>
         <Reveal width="100%">
-          <MyLinks />
+          <Socials />
         </Reveal>
       </div>
     </section>
