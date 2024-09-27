@@ -116,7 +116,7 @@ const projects = [
     title: "Car Hub",
     img: "/gallery/carhub.webp",
     code: "https://github.com/basedhound/car-hub_app_next",
-    link: "https://car-hub-fv.vercel.app",
+    link: "https://carhub-fv.vercel.app",
     tech: ["Next", "Rapid API", "Tailwind", "TS"],
     modal: (
       <>
