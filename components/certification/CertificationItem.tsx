@@ -20,7 +20,6 @@ export const CertificationItem = ({
   description,
   tech,
 }: Props) => {
-
   const t = useTranslations("Certification");
 
   return (
@@ -40,6 +39,7 @@ export const CertificationItem = ({
         </Reveal>
         <Reveal>
           <Link
+            prefetch={false}
             href={link}
             className={styles.certificate}
             target="_blank"
