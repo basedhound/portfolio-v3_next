@@ -20,6 +20,7 @@ export const Socials = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.1 }}>
         <Link
+        prefetch={false}
           href="https://www.linkedin.com/in/fvukelic"
           target="_blank"
           rel="nofollow"
@@ -34,6 +35,7 @@ export const Socials = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}>
         <Link
+        prefetch={false}
           href="https://github.com/basedhound"
           target="_blank"
           rel="nofollow"
@@ -48,6 +50,7 @@ export const Socials = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}>
         <Link
+        prefetch={false}
           href="https://api.whatsapp.com/send?phone=33779134587"
           target="_blank"
           rel="nofollow"
@@ -61,6 +64,7 @@ export const Socials = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.4 }}>
         <Link
+        prefetch={false}
           href="mailto:fvukelic@proton.me"
           target="_blank"
           rel="nofollow"
@@ -74,7 +78,7 @@ export const Socials = () => {
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }}>
-        <Link href="https://m.me/fvukelic" target="_blank" rel="nofollow">
+        <Link prefetch={false} href="https://m.me/fvukelic" target="_blank" rel="nofollow">
           <AiFillFacebook size="2.4rem" />
         </Link>
       </motion.span> */}
@@ -84,7 +88,7 @@ export const Socials = () => {
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}>
-        <Link href="https://ig.me/m/frank.vkh" target="_blank" rel="nofollow">
+        <Link prefetch={false} href="https://ig.me/m/frank.vkh" target="_blank" rel="nofollow">
           <AiFillInstagram size="2.4rem" />
         </Link>
       </motion.span> */}

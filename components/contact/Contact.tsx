@@ -39,6 +39,7 @@ export const Contact = () => {
         <Reveal width="100%">
         <div className={styles.contactLinks}>
           <Link
+          prefetch={false}
             href="mailto:fvukelic@proton.me"
             target="_blank"
             rel="nofollow"
@@ -47,6 +48,7 @@ export const Contact = () => {
             <span>fvukelic@proton.me</span>
           </Link>
           <Link
+          prefetch={false}
             href="https://calendly.com/fvukelic/meeting"
             target="_blank"
             rel="nofollow"
