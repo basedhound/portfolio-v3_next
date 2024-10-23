@@ -23,7 +23,7 @@ export const Navbar = () => {
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.5 }}>
-          <Link href={newPath} className={styles.switch}>
+          <Link prefetch={false} href={newPath} className={styles.switch}>
             {currentPath.includes("/fr") ? "FR" : "EN"}
           </Link>
         </motion.span>
