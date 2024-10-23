@@ -8,9 +8,9 @@ import { AiOutlineDownload } from "react-icons/ai";
 export const Navbar = () => {
   // Switch
   const currentPath = usePathname();
-  const newPath = currentPath.includes("/fr")
-    ? currentPath.replace("/fr", "/en")
-    : currentPath.replace("/", "/fr");
+  const newPath = currentPath.includes("fr")
+  ? currentPath.replace("fr", "en")
+  : "/fr" + currentPath;
 
   return (
     <header className={styles.heading}>

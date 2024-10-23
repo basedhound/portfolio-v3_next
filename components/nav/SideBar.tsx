@@ -9,7 +9,6 @@ export const SideBar = () => {
 
   const t = useTranslations("Sidebar");
 
-
   useEffect(() => {
     const sections = document.querySelectorAll(".section-wrapper");
     const options = {
