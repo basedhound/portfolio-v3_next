@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Reveal } from "@/components/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { Modal } from "../showcase/Modal";
@@ -82,13 +81,13 @@ export const GalleryItem = ({ modal, link, img, title, code, tech }: Props) => {
               <h4>{title}</h4>
               <div className={styles.itemTitleLine} />
 
-              <Link href={code} target="_blank" rel="nofollow">
+              <a href={code} target="_blank" rel="nofollow">
                 <AiFillGithub size="2.8rem" />
-              </Link>
+              </a>
 
-              <Link href={link} target="_blank" rel="nofollow">
+              <a href={link} target="_blank" rel="nofollow">
                 <AiOutlineExport size="2.8rem" />
-              </Link>
+              </a>
             </div>
           </Reveal>
           <Reveal>

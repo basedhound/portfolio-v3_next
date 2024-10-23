@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/utils/Reveal";
 import styles from "./certification.module.scss";
-import Link from "next/link";
 
 interface Props {
   title: string;
@@ -38,15 +37,14 @@ export const CertificationItem = ({
           <span className={styles.school}>{school}</span>
         </Reveal>
         <Reveal>
-          <Link
-            prefetch={false}
+          <a
             href={link}
             className={styles.certificate}
             target="_blank"
             rel="nofollow"
             title="certificate">
             {t("certificate")}
-          </Link>
+          </a>
         </Reveal>
       </div>
       <Reveal>

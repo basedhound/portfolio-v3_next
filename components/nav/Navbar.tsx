@@ -35,7 +35,7 @@ const newPath = currentPath.includes("/fr")
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}>
-          <Link
+          <a
             href="https://cvdesignr.com/p/63692d868d588"
             target="_blank"
             rel="nofollow"
@@ -44,7 +44,7 @@ const newPath = currentPath.includes("/fr")
               CV
               <AiOutlineDownload size="2.4rem" />
             </button>
-          </Link>
+          </a>
         </motion.span>
       </div>
     </header>

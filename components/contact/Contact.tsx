@@ -2,7 +2,6 @@ import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/utils/Reveal";
 import styles from "./contact.module.scss";
 import { AiFillMail, AiFillCalendar } from "react-icons/ai";
-import Link from "next/link";
 import { Socials } from "../nav/Socials";
 
 export const Contact = () => {
@@ -20,42 +19,40 @@ export const Contact = () => {
         <Reveal width="100%">
           <p className={styles.contactCopy}>
             {t("p1")}{" "}
-            <Link
+            <a
               href="https://www.linkedin.com/in/frankdev/"
               target="_blank"
               rel="nofollow">
               LinkedIn
-            </Link>{" "}
+            </a>{" "}
             &{" "}
-            <Link
+            <a
               href="https://api.whatsapp.com/send?phone=33779134587"
               target="_blank"
               rel="nofollow">
               WhatsApp
-            </Link>{" "}
+            </a>{" "}
             {t("p2")}
           </p>
         </Reveal>
         <Reveal width="100%">
         <div className={styles.contactLinks}>
-          <Link
-          prefetch={false}
+          <a
             href="mailto:fvukelic@proton.me"
             target="_blank"
             rel="nofollow"
             className={styles.contactLink}>
             <AiFillMail size="2.4rem" />
             <span>fvukelic@proton.me</span>
-          </Link>
-          <Link
-          prefetch={false}
+          </a>
+          <a
             href="https://calendly.com/fvukelic/meeting"
             target="_blank"
             rel="nofollow"
             className={styles.contactLink}>
             <AiFillCalendar size="2.4rem" />
             <span>{t("p3")}</span>
-          </Link>
+          </a>
         </div>
         </Reveal>
         <Reveal width="100%">

@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import ReactDOM from "react-dom";
-import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
@@ -61,14 +60,14 @@ export const Modal = ({
             </p>
             <div className={styles.spaceBetween}>
               <div className={styles.links}>
-                <Link target="_blank" rel="nofollow" href={code}>
+                <a target="_blank" rel="nofollow" href={code}>
                   <AiFillGithub />
                   Code
-                </Link>
-                <Link target="_blank" rel="nofollow" href={link}>
+                </a>
+                <a target="_blank" rel="nofollow" href={link}>
                   <AiOutlineExport />
                   Demo
-                </Link>
+                </a>
               </div>
             </div>
           </div>
