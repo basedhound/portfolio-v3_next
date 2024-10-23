@@ -1,16 +1,16 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
+import { AiOutlineDownload } from "react-icons/ai";
 import styles from "./navbar.module.scss";
 import { Socials } from "./Socials";
-import { AiOutlineDownload } from "react-icons/ai";
 
 export const Navbar = () => {
   // Switch
-  const currentPath = usePathname();
-  const newPath = currentPath.includes("fr")
-  ? currentPath.replace("fr", "en")
-  : "/fr" + currentPath;
+const currentPath = usePathname();
+const newPath = currentPath.includes("/fr")
+  ? currentPath.replace("/fr", "/en")
+  : `${currentPath}/fr`.replace("//", "/");
 
   return (
     <header className={styles.heading}>
