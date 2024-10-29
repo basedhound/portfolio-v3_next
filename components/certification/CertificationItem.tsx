@@ -42,7 +42,7 @@ export const CertificationItem = ({
             className={styles.certificate}
             target="_blank"
             rel="nofollow"
-            title="certificate">
+            title="View Certificate">
             {t("certificate")}
           </a>
         </Reveal>

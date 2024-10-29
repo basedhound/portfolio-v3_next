@@ -45,8 +45,8 @@ export const Modal = ({
             priority
             src={img}
             alt={`An image of the ${title} project.`}
-            width={1280}
-            height={720}
+            width={1080}
+            height={608}
             onLoad={() => setImageLoading(false)}
             className={`${styles.modalImage} ${isImageLoading ? 'blur' : 'remove-blur'}`}
           />

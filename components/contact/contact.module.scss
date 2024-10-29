@@ -30,12 +30,11 @@
     color: var(--brand);
     font-weight: 400;
     transition: 0.2s;
-    opacity: 0.8;
-    border-bottom: 2px solid var(--background);
+    opacity: 1;
+    border-bottom: 1.5px solid var(--background);
   }
   a:hover {
-    opacity: 1;
-    border-bottom: 2px solid var(--brand);
+    border-bottom: 1.5px solid var(--brand);
   }
 }
 

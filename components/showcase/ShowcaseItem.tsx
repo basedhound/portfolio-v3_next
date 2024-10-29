@@ -89,11 +89,11 @@ export const ShowcaseItem = ({
               <h4>{title}</h4>
               <div className={styles.projectTitleLine} />
 
-              <a href={code} target="_blank" rel="nofollow">
+              <a href={code} title="GItHub" target="_blank" rel="nofollow">
                 <AiFillGithub size="2.8rem" />
               </a>
 
-              <a href={link} target="_blank" rel="nofollow">
+              <a href={link} title="Demo" target="_blank" rel="nofollow">
                 <AiOutlineExport size="2.8rem" />
               </a>
             </div>

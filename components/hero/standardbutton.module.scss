@@ -5,8 +5,8 @@
 
   padding: 1.2rem 2.4rem;
 
-  background: var(--brand);
-  color: var(--text);
+  background: #9448c8;
+  color: white;
   font-size: var(--text-sm);
   border-radius: 4px;
 
@@ -19,5 +19,5 @@
 }
 
 .standardButton:hover {
-  opacity: 0.85;
+  opacity: 0.80;
 }

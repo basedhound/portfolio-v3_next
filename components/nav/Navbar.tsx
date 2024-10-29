@@ -11,6 +11,7 @@ const currentPath = usePathname();
 const newPath = currentPath.includes("/fr")
   ? currentPath.replace("/fr", "/en")
   : `${currentPath}/fr`.replace("//", "/");
+  
 
   return (
     <header className={styles.heading}>
