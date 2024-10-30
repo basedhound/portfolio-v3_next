@@ -50,7 +50,9 @@ const Gallery = () => {
         <button
           className={styles.goUpBtn}
           style={{ bottom: goUpBtn ? "3rem" : "-50%" }}
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          aria-label="Back to top"
+          >
           <AiOutlineArrowUp size="2.4rem" />
         </button>
       </section>

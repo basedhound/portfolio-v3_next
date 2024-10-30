@@ -14,7 +14,9 @@ const Filter = ({ activeFilter, handleFilter }: FilterProps) => {
             className={`${styles.filterTag} ${
           activeFilter === filter ? styles.active : ""
         }`} 
-          onClick={() => handleFilter(filter)}>
+          onClick={() => handleFilter(filter)}
+          aria-label="Filter options"
+          >
           {filter}
         </button>
       ))}

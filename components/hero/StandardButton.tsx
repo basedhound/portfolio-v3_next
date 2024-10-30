@@ -8,7 +8,10 @@ interface Props {
 
 export const StandardButton = ({ children, onClick }: Props) => {
   return (
-    <button onClick={onClick} className={styles.standardButton}>
+    <button
+      onClick={onClick}
+      className={styles.standardButton}
+      aria-label="Go to Contact">
       {children}
     </button>
   );
