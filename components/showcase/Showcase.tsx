@@ -58,7 +58,7 @@ export const Showcase = () => {
       title: "Car Hub",
       img: "/gallery/carhub.webp",
       code: "https://github.com/basedhound/car-hub_app_next",
-      link: "https://carhub-fv.vercel.app",
+      link: "https://carhub-fv.netlify.app/",
       tech: ["Next.js", "React", "TypeScript", "Tailwind"],
       desc: t("desc6"),
       modal: <>{t("modal6")}</>,
