@@ -6,7 +6,6 @@ import {
   AiOutlineMail,
   // AiFillInstagram,
   // AiFillFacebook,
-
 } from "react-icons/ai";
 import { motion } from "framer-motion";
 
@@ -22,7 +21,8 @@ export const Socials = () => {
           href="https://www.linkedin.com/in/fvukelic"
           target="_blank"
           rel="nofollow"
-          title="LinkedIn">
+          title="LinkedIn"
+          aria-label="Contact me on LinkedIn">
           <AiFillLinkedin size="2.4rem" />
         </a>
       </motion.span>
@@ -36,7 +36,8 @@ export const Socials = () => {
           href="https://github.com/basedhound"
           target="_blank"
           rel="nofollow"
-          title="GitHub">
+          title="GitHub"
+          aria-label="View my GitHub Profile">
           <AiFillGithub size="2.4rem" />
         </a>
       </motion.span>
@@ -50,7 +51,8 @@ export const Socials = () => {
           href="https://api.whatsapp.com/send?phone=33779134587"
           target="_blank"
           rel="nofollow"
-          title="WhatsApp">
+          title="WhatsApp"
+          aria-label="Contact me on WhatApp">
           <AiOutlineWhatsApp size="2.4rem" />
         </a>
       </motion.span>
@@ -63,7 +65,8 @@ export const Socials = () => {
           href="mailto:fvukelic@proton.me"
           target="_blank"
           rel="nofollow"
-          title="Email">
+          title="Email"
+          aria-label="Send me an Email">
           <AiOutlineMail size="2.4rem" />
         </a>
       </motion.span>
@@ -73,7 +76,7 @@ export const Socials = () => {
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }}>
-        <a href="https://m.me/fvukelic" target="_blank" rel="nofollow">
+        <a href="https://m.me/fvukelic" target="_blank" rel="nofollow" aria-label="Contact me on Facebook">
           <AiFillFacebook size="2.4rem" />
         </a>
       </motion.span> */}
@@ -83,7 +86,7 @@ export const Socials = () => {
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}>
-        <a href="https://ig.me/m/frank.vkh" target="_blank" rel="nofollow">
+        <a href="https://ig.me/m/frank.vkh" target="_blank" rel="nofollow" aria-label="Contact me on Instagram">
           <AiFillInstagram size="2.4rem" />
         </a>
       </motion.span> */}
