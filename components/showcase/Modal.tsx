@@ -28,7 +28,7 @@ export const Modal = ({
   code,
   tech,
 }: Props) => {
-  // Blur imgs
+  // Blur images
   const [isImageLoading, setImageLoading] = useState(true)
 
   const content = (
