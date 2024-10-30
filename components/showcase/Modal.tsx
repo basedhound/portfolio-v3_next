@@ -38,7 +38,7 @@ export const Modal = ({
         animate={{ y: 0, opacity: 1 }}
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}>
-      <button className={styles.closeModalBtn} onClick={() => setIsOpen(false)}>
+      <button className={styles.closeModalBtn} onClick={() => setIsOpen(false)} aria-label="Close Modal">
         <MdClose />
       </button>
           <Image
@@ -60,11 +60,11 @@ export const Modal = ({
             </p>
             <div className={styles.spaceBetween}>
               <div className={styles.links}>
-                <a target="_blank" rel="nofollow" href={code}>
+                <a target="_blank" rel="nofollow" href={code} aria-label="View Code">
                   <AiFillGithub />
                   Code
                 </a>
-                <a target="_blank" rel="nofollow" href={link}>
+                <a target="_blank" rel="nofollow" href={link} aria-label="View Demo">
                   <AiOutlineExport />
                   Demo
                 </a>

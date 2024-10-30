@@ -32,7 +32,7 @@ export const SideBar = () => {
         animate={{ x: 0 }}
         transition={{ duration: 0.5 }}
         className={styles.sideBar}>
-        <Link href="/" className={styles.logo}>
+        <Link href="/" className={styles.logo} aria-label="Back to top" >
           FV<span>.</span>
         </Link>
 
@@ -47,7 +47,9 @@ export const SideBar = () => {
             href="#about"
             onClick={() => {
               setSelected("about");
-            }}>
+            }}
+            aria-label="About me"
+            >
             {t("about")}
           </Link>
         </motion.div>
@@ -61,7 +63,9 @@ export const SideBar = () => {
               selected === "projects" ? styles.selected : ""
             }`}
             href="#projects"
-            onClick={() => setSelected("projects")}>
+            onClick={() => setSelected("projects")}
+            aria-label="Projects"
+            >
             {t("projects")}
           </Link>
         </motion.div>
@@ -75,7 +79,9 @@ export const SideBar = () => {
               selected === "experience" ? styles.selected : ""
             }`}
             href="#experience"
-            onClick={() => setSelected("experience")}>
+            onClick={() => setSelected("experience")}
+            aria-label="Experience"
+            >
             Exp.
           </Link>
         </motion.div>
@@ -89,7 +95,9 @@ export const SideBar = () => {
               selected === "certification" ? styles.selected : ""
             }`}
             href="#certification"
-            onClick={() => setSelected("certification")}>
+            onClick={() => setSelected("certification")}
+            aria-label="Certification"
+            >
             Certif.
           </Link>
         </motion.div>
@@ -103,7 +111,9 @@ export const SideBar = () => {
               selected === "contact" ? styles.selected : ""
             }`}
             href="#contact"
-            onClick={() => setSelected("contact")}>
+            onClick={() => setSelected("contact")}
+            aria-label="Contact"
+            >
             Contact
           </Link>
         </motion.div>
