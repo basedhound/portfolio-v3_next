@@ -88,7 +88,7 @@ export const Showcase = () => {
       <SectionHeader title={t("section")} dir="r" />
       
       <div className={styles.linkToGallery}>
-        <TransitionLink href="/gallery">
+        <TransitionLink href="/gallery" aria-label="View Full Gallery">
           <AiOutlineArrowRight size="2rem" />
           {t("gallery")}
         </TransitionLink>
@@ -101,7 +101,7 @@ export const Showcase = () => {
       </div>
 
       <div className={styles.linkToGallery}>
-        <TransitionLink href="/gallery">
+        <TransitionLink href="/gallery" aria-label="View Full Gallery">
           <AiOutlineArrowRight size="2rem" />
           {t("gallery")}
         </TransitionLink>

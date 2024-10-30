@@ -24,7 +24,7 @@ const newPath = currentPath.includes("/fr")
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.5 }}>
-          <Link prefetch={false} href={newPath} className={styles.switch}>
+          <Link prefetch={false} href={newPath} className={styles.switch} aria-label="Change language">
             {currentPath.includes("/fr") ? "FR" : "EN"}
           </Link>
         </motion.span>
@@ -41,7 +41,7 @@ const newPath = currentPath.includes("/fr")
             target="_blank"
             rel="nofollow"
             title="Resume">
-            <button className={styles.outlineButton}>
+            <button className={styles.outlineButton} aria-label="View Resume">
               CV
               <AiOutlineDownload size="2.4rem" />
             </button>
