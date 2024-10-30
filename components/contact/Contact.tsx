@@ -22,38 +22,43 @@ export const Contact = () => {
             <a
               href="https://www.linkedin.com/in/frankdev/"
               target="_blank"
-              rel="nofollow">
+              rel="nofollow"
+              aria-label="Contact me on LinkedIn">
               LinkedIn
             </a>{" "}
             &{" "}
             <a
               href="https://api.whatsapp.com/send?phone=33779134587"
               target="_blank"
-              rel="nofollow">
+              rel="nofollow"
+              aria-label="Contact me on LinkedIn">
               WhatsApp
             </a>{" "}
             {t("p2")}
           </p>
         </Reveal>
         <Reveal width="100%">
-        <div className={styles.contactLinks}>
-          <a
-            href="mailto:fvukelic@proton.me"
-            target="_blank"
-            rel="nofollow"
-            className={styles.contactLink}>
-            <AiFillMail size="2.4rem" />
-            <span>fvukelic@proton.me</span>
-          </a>
-          <a
-            href="https://calendly.com/fvukelic/meeting"
-            target="_blank"
-            rel="nofollow"
-            className={styles.contactLink}>
-            <AiFillCalendar size="2.4rem" />
-            <span>{t("p3")}</span>
-          </a>
-        </div>
+          <div className={styles.contactLinks}>
+            <a
+              className={styles.contactLink}
+              href="mailto:fvukelic@proton.me"
+              target="_blank"
+              rel="nofollow"
+              aria-label="Send me an email">
+              <AiFillMail size="2.4rem" />
+              <span>fvukelic@proton.me</span>
+            </a>
+            <a
+              className={styles.contactLink}
+              href="https://calendly.com/fvukelic/meeting"
+              target="_blank"
+              rel="nofollow"
+              aria-label="Schedule a meeting with me on Calendly"
+              >
+              <AiFillCalendar size="2.4rem" />
+              <span>{t("p3")}</span>
+            </a>
+          </div>
         </Reveal>
         <Reveal width="100%">
           <Socials />

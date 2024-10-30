@@ -104,7 +104,7 @@ export const ShowcaseItem = ({
           <Reveal>
             <p className={styles.projectDescription}>
               {desc} <br />
-              <span onClick={() => setIsOpen(true)}>Details {">"}</span>
+              <span onClick={() => setIsOpen(true)} aria-label="View Details">Details {">"}</span>
             </p>
           </Reveal>
         </div>
