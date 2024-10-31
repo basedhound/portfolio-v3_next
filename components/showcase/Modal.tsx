@@ -60,11 +60,11 @@ export const Modal = ({
             </p>
             <div className={styles.spaceBetween}>
               <div className={styles.links}>
-                <a target="_blank" rel="nofollow" href={code} aria-label="View Code">
+                <a target="_blank" rel="nofollow" href={code} title="GitHub" aria-label="View Code">
                   <AiFillGithub />
                   Code
                 </a>
-                <a target="_blank" rel="nofollow" href={link} aria-label="View Demo">
+                <a target="_blank" rel="nofollow" href={link} title="Demo"aria-label="View Website">
                   <AiOutlineExport />
                   Demo
                 </a>
