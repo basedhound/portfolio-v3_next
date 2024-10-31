@@ -81,11 +81,11 @@ export const GalleryItem = ({ modal, link, img, title, code, tech }: Props) => {
               <h4>{title}</h4>
               <div className={styles.itemTitleLine} />
 
-              <a href={code} target="_blank" rel="nofollow">
+              <a href={code} target="_blank" rel="nofollow"  title="GitHub" aria-label="View Code">
                 <AiFillGithub size="2.8rem" />
               </a>
 
-              <a href={link} target="_blank" rel="nofollow">
+              <a href={link} target="_blank" rel="nofollow" title="Demo" aria-label="View Website">
                 <AiOutlineExport size="2.8rem" />
               </a>
             </div>

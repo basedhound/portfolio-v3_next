@@ -27,9 +27,9 @@ const Gallery = () => {
 
   return (
     <>
-      <section className={styles.galleryWrapper} id="gallery">
+      <main className={styles.galleryWrapper} id="gallery">
         {/* Back Home */}
-        <TransitionLink className={styles.goBackBtn} href="/#projects">
+        <TransitionLink className={styles.goBackBtn} href="/#projects" aria-label="Back to Homepage">
           <AiOutlineArrowLeft size="2.4rem" />
         </TransitionLink>
 
@@ -37,14 +37,14 @@ const Gallery = () => {
         <Filter activeFilter={activeFilter} handleFilter={handleFilter} />
 
         {/* Gallery */}
-        <div className={styles.galleryItem}>
+        <section className={styles.galleryItem}>
           {filteredProjects.map((project) => (
             <GalleryItem
               key={`${project.title}-${activeFilter}`}
               {...project}
             />
           ))}
-        </div>
+        </section>
 
         {/* Up Button */}
         <button
@@ -55,7 +55,7 @@ const Gallery = () => {
           >
           <AiOutlineArrowUp size="2.4rem" />
         </button>
-      </section>
+      </main>
     </>
   );
 };
