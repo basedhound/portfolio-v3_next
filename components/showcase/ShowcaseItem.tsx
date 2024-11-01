@@ -75,8 +75,8 @@ export const ShowcaseItem = ({
             priority
             src={img}
             alt={`An image of the ${title} project.`}
-            width={1000}
-            height={0}
+            width={1280}
+            height={720}
             style={{
               width: hovered ? "90%" : "85%",
               rotate: hovered ? "2deg" : "0deg",
