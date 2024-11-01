@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { StandardButton } from "@/components/hero/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
@@ -31,9 +30,9 @@ export const Hero = () => {
             </p>
           </Reveal>
           <Reveal>
-            <StandardButton>
-              <Link href={"#contact"}>Contact</Link>
-            </StandardButton>
+            <Link href="#contact" aria-label="Go to Contact">
+              <button className={styles.contactButton}>Contact</button>
+            </Link>
           </Reveal>
         </div>
       </div>
