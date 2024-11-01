@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 import ReactDOM from "react-dom";
 import Image from "next/image";

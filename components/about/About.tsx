@@ -1,3 +1,4 @@
+'use client'
 import { useTranslations } from "next-intl";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Socials } from "@/components/nav/Socials";

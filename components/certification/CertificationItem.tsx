@@ -1,3 +1,4 @@
+'use client'
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/utils/Reveal";
 import styles from "./certification.module.scss";

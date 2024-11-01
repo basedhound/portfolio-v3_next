@@ -1,3 +1,4 @@
+'use client'
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { Reveal } from "@/components/utils/Reveal";
