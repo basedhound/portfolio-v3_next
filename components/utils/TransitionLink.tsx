@@ -1,4 +1,3 @@
-'use client'
 import { LinkProps } from "next/link";
 // Needed for locales only. If not, use Next.js' native Router and Link.
 import { Link, useRouter } from "@/i18n/navigation";

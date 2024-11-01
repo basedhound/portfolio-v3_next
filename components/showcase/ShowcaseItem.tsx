@@ -1,4 +1,3 @@
-'use client'
 import Image from "next/image";
 import { Reveal } from "@/components/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";

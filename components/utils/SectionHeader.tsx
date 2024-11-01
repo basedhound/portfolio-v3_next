@@ -1,4 +1,3 @@
-'use client'
 import styles from "./header.module.scss";
 import { Reveal } from "./Reveal";
 
