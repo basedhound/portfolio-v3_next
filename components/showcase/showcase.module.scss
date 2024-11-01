@@ -9,32 +9,25 @@
 }
 
 .projectImage {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  background: var(--background-light);
-  cursor: pointer;
   position: relative;
-  border-radius: 0.8rem;
   overflow: hidden;
+  cursor: pointer;
+
+  aspect-ratio: 17 / 9;
+  border-radius: 0.8rem;
+  background: var(--background-light);
 
   img {
-    width: 100%;
-    height: auto;
     position: absolute;
-    bottom: 30px;
-    left: 50%;
     translate: -50% 20%;
+    left: 50%;
+    bottom: 30px;
 
-    transition: 0.25s all;
+    width: 100%;
+    height: auto; 
 
     border-radius: 0.4rem;
-  }
-
-  @media (max-width: 768px) {
-    img {
-      width: 85%;
-      height: 90%;
-    }
+    transition: 0.25s all;
   }
 }
 
@@ -90,7 +83,6 @@
   span:hover {
     opacity: 0.8;
   }
-  
 }
 
 .projectTech {
@@ -131,7 +123,6 @@
     }
   }
 }
-
 
 @keyframes point {
   0% {
