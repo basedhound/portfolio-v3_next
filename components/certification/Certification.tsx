@@ -86,7 +86,7 @@ export const Certification = () => {
         "API Integration",
       ],
     }, */
-    {
+/*     {
       title: t("certif6"),
       school: t("school6"),
       date: t("date6"),
@@ -99,8 +99,8 @@ export const Certification = () => {
         "Bash Commands",
         "SQL",      
       ],
-    },
-    {
+    }, */
+/*     {
       title: t("certif7"),
       school: t("school7"),
       date: t("date7"),
@@ -114,7 +114,7 @@ export const Certification = () => {
         "Mongoose",
         "Microservices"
       ],
-    },
+    }, */
 /*     {
       title: t("certif8"),
       school: t("school8"),
