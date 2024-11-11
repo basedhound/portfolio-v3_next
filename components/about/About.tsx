@@ -42,7 +42,7 @@ export const About = () => {
           <Reveal>
             <div className={styles.links}>
               <div className={styles.linksText}>
-                <span>Links</span>
+                <span>{t("links")}</span>
                 <AiOutlineArrowRight />
               </div>
               <Socials />
