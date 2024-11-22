@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  padding: 1.5rem;
+  background: var(--bg-opaque);
+
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  li {
+    font-size: var(--text-xs);
+    opacity: 0.5;
+    transition: 0.2s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 480px) {
+  }
+
+  @media (max-width: 310px) {
+  }
+}
