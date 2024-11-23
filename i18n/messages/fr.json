@@ -93,11 +93,15 @@
     "date7":  "Janvier 2024 – 300 heures",
     "desc7": "Parcours axé sur l'utilisation de JavaScript pour le développement côté serveur afin de créer des applications web complètes. Apprentissage de l'écriture d'applications backend avec Node.js et npm, et de la construction d'applications web avec le framework Express. Développement d'un microservice People Finder avec MongoDB et la bibliothèque Mongoose, en mettant l'accent sur l'architecture des microservices pour créer des applications modulaires et évolutives."
   },
-
   "Contact": {
     "section": "Contact",
     "p1": "Une idée à partager ? Envoyez-moi un e-mail pour en discuter ! Vous pouvez aussi me trouver sur ",
     "p2": "selon votre préférence.",
     "p3": "Rendez-vous"
+  },
+  "Footer": {
+    "p1": "Confidentialité",
+    "p2": "Cookies",
+    "p3": "Mentions Légales"
   }
 }

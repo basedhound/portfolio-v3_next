@@ -93,11 +93,15 @@
     "date7": "January 2024 – 300 hours",
     "desc7": "Focused on using JavaScript for server-side development to build full web applications. Learned to write back-end apps with Node.js and npm, and build web applications using the Express framework. Developed a People Finder microservice with MongoDB and the Mongoose library, emphasizing the microservices architecture for creating modular and scalable applications."
   },
-
   "Contact": {
     "section": "Contact",
     "p1": "Have an idea to discuss? Shoot me an email if you want to connect! You can also find me on",
     "p2": "if that's more your speed.",
     "p3": "Set up a meeting"
+  },
+  "Footer": {
+    "p1": "Privacy",
+    "p2": "Cookies",
+    "p3": "Legal Notice"
   }
 }

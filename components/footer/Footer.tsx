@@ -1,19 +1,23 @@
 import Link from "next/link";
 import styles from "./footer.module.scss";
+import { useTranslations } from "next-intl";
+
 
 const Footer = () => {
+  const t = useTranslations("Footer");
+
   return (
     <footer>
       
       <ul className={styles.footer}>
         <li>
-          <Link href="/">Legal Notice</Link>
+          <Link href="/">{t("p1")}</Link>
         </li>
         <li>
-          <Link href="/">Privacy Policy</Link>
+          <Link href="/">{t("p2")}</Link>
         </li>
         <li>
-          <Link href="/">Cookie Policy</Link>
+          <Link href="/">{t("p3")}</Link>
         </li>
       </ul>
     </footer>
