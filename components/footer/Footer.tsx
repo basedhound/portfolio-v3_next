@@ -3,7 +3,7 @@ import styles from "./footer.module.scss";
 import { useTranslations } from "next-intl";
 
 
-const Footer = () => {
+export const Footer = () => {
   const t = useTranslations("Footer");
 
   return (
@@ -11,17 +11,16 @@ const Footer = () => {
       
       <ul className={styles.footer}>
         <li>
-          <Link href="/">{t("p1")}</Link>
+          <Link href="/privacy">{t("p1")}</Link>
         </li>
         <li>
-          <Link href="/">{t("p2")}</Link>
+          <Link href="/cookies">{t("p2")}</Link>
         </li>
         <li>
-          <Link href="/">{t("p3")}</Link>
+          <Link href="/legal-notice">{t("p3")}</Link>
         </li>
       </ul>
     </footer>
   );
 };
 
-export default Footer;
