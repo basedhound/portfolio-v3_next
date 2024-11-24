@@ -44,7 +44,7 @@ export const SideBar = () => {
             className={`${styles.sideBarLink} ${
               selected === "about" ? styles.selected : ""
             }`}
-            href="#about"
+            href="/#about"
             onClick={() => {
               setSelected("about");
             }}
@@ -62,7 +62,7 @@ export const SideBar = () => {
             className={`${styles.sideBarLink} ${
               selected === "projects" ? styles.selected : ""
             }`}
-            href="#projects"
+            href="/#projects"
             onClick={() => setSelected("projects")}
             aria-label="Projects"
             >
@@ -78,7 +78,7 @@ export const SideBar = () => {
             className={`${styles.sideBarLink} ${
               selected === "experience" ? styles.selected : ""
             }`}
-            href="#experience"
+            href="/#experience"
             onClick={() => setSelected("experience")}
             aria-label="Experience"
             >
@@ -94,7 +94,7 @@ export const SideBar = () => {
             className={`${styles.sideBarLink} ${
               selected === "certification" ? styles.selected : ""
             }`}
-            href="#certification"
+            href="/#certification"
             onClick={() => setSelected("certification")}
             aria-label="Certification"
             >
@@ -110,7 +110,7 @@ export const SideBar = () => {
             className={`${styles.sideBarLink} ${
               selected === "contact" ? styles.selected : ""
             }`}
-            href="#contact"
+            href="/#contact"
             onClick={() => setSelected("contact")}
             aria-label="Contact"
             >

@@ -7,8 +7,8 @@ import { Showcase } from '@/components/showcase/Showcase';
 import { Experience } from '@/components/experience/Experience';
 import { Certification } from '@/components/certification/Certification';
 import { Contact } from '@/components/contact/Contact';
+import {Footer} from '@/components/footer/Footer';
 import styles from "@/components/utils/home.module.scss";
-import Footer from '@/components/footer/Footer';
 
 const Home = () => {
   return (

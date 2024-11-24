@@ -1,4 +1,4 @@
-import styles from "./header.module.scss";
+import styles from "./sectionHeader.module.scss";
 import { Reveal } from "./Reveal";
 
 interface Props {

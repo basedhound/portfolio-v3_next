@@ -2,3 +2,35 @@
   display: grid;
   grid-template-columns: 60px 1fr;
 }
+
+// Privacy, Legal Notice
+.legal {
+  max-width: 1150px;
+  margin: auto;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  padding: 10rem;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 7rem 3rem;
+  }
+  @media (max-width: 480px) {
+    max-width: 360px;
+    padding: 3rem 1.5rem;
+    font-size: var(--text-xs);
+  }
+
+  h2 {
+    margin-top: 5rem;
+  }
+
+  a {
+    transition: 0.2s;
+    &:hover {
+      color: var(--brand);
+    }
+  }
+}

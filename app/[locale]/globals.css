@@ -53,6 +53,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 button,
 input[type="submit"],
 input[type="reset"] {
@@ -132,3 +136,4 @@ input[type="reset"] {
   transition: filter 0.3s ease-in;
 }
 
+/* Privacy, Legal Notice */
