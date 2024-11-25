@@ -100,8 +100,9 @@
     "p3": "Rendez-vous"
   },
   "Footer": {
-    "p1": "Confidentialité",
-    "p2": "Mentions Légales"
+    "copyright": "©2024 Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "legalNotice": "Mentions Légales"
   },
   "Privacy": {
     "header": "Confidentialité",

@@ -3,11 +3,19 @@
   padding: 1.5rem;
   background: var(--bg-opaque);
 
-
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2rem;
+
+  p {
+    font-size: var(--text-xs);
+    opacity: 0.5;
+  }
+
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
 
   li {
     font-size: var(--text-xs);

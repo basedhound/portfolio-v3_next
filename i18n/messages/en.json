@@ -100,8 +100,9 @@
     "p3": "Set up a meeting"
   },
   "Footer": {
-    "p1": "Privacy",
-    "p2": "Legal Notice"
+    "copyright": "©2024 All rights reserved.",
+    "privacy": "Privacy",
+    "legalNotice": "Legal Notice"
   },
   "Privacy": {
     "header": "Privacy",

@@ -6,13 +6,14 @@ export const Footer = () => {
   const t = useTranslations("Footer");
 
   return (
-    <footer>
-      <ul className={styles.footer}>
+    <footer className={styles.footer}>
+      <p>{t("copyright")}</p>
+      <ul>
         <li>
-          <Link href="/privacy">{t("p1")}</Link>
+          <Link href="/privacy">{t("privacy")}</Link>
         </li>
         <li>
-          <Link href="/legal-notice">{t("p2")}</Link>
+          <Link href="/legal-notice">{t("legalNotice")}</Link>
         </li>
       </ul>
     </footer>
