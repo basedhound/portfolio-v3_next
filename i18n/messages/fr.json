@@ -57,7 +57,7 @@
   },
   "Certification": {
     "section": "Certification",
-    "certificate":"Certificat",
+    "certificate": "Certificat",
     "certif1": "Développeur Web",
     "school1": "OpenClassrooms",
     "date1": "Novembre 2022",
@@ -75,22 +75,22 @@
 
     "certif4": "Front End Development Libraries",
     "school4": "freeCodeCamp",
-    "date4":  "Janvier 2024 – 300 heures",
+    "date4": "Janvier 2024 – 300 heures",
     "desc4": "Parcours axé sur l'amélioration des compétences frontend avec des bibliothèques et frameworks populaires. Acquisition de compétences en stylisation rapide des sites web avec Bootstrap et extension des styles CSS avec Sass. Expertise développée dans la création d'Applications à Page Unique avec React et Redux à travers des projets pratiques comme une application de panier d'achat. Mise en avant des techniques avancées de stylisation et de state management pour des applications web dynamiques et efficaces.",
 
     "certif5": "Data Visualization",
     "school5": "freeCodeCamp",
-    "date5":  "Janvier 2024 – 300 heures",
+    "date5": "Janvier 2024 – 300 heures",
     "desc5": "Parcours axé sur la présentation des données à travers des graphiques, des cartes et des diagrammes en utilisant la bibliothèque D3.js. Acquisition de compétences en travail avec JSON (JavaScript Object Notation) et intégration des données depuis des sources en ligne via des APIs. Mise en avant des techniques pratiques pour visualiser et interpréter les données afin de fournir des insights clairs et pertinents.",
 
     "certif6": "Relational Database",
     "school6": "freeCodeCamp",
-    "date6":  "Janvier 2024 – 300 heures",
+    "date6": "Janvier 2024 – 300 heures",
     "desc6": "Parcours axé sur l'utilisation des outils et logiciels essentiels pour développeurs, y compris VS Code, PostgreSQL et la ligne de commande Linux/Unix. Acquisition de compétences en commandes Bash de base, navigation dans le système de fichiers et scripting. Expertise développée dans la création et la gestion de bases de données relationnelles avec PostgreSQL et SQL. Apprentissage également de Git pour le contrôle de version, un outil crucial pour le développement collaboratif.",
 
     "certif7": "Back End Development & APIs",
     "school7": "freeCodeCamp",
-    "date7":  "Janvier 2024 – 300 heures",
+    "date7": "Janvier 2024 – 300 heures",
     "desc7": "Parcours axé sur l'utilisation de JavaScript pour le développement côté serveur afin de créer des applications web complètes. Apprentissage de l'écriture d'applications backend avec Node.js et npm, et de la construction d'applications web avec le framework Express. Développement d'un microservice People Finder avec MongoDB et la bibliothèque Mongoose, en mettant l'accent sur l'architecture des microservices pour créer des applications modulaires et évolutives."
   },
   "Contact": {
@@ -102,5 +102,40 @@
   "Footer": {
     "p1": "Confidentialité",
     "p2": "Mentions Légales"
+  },
+  "Privacy": {
+    "header": "Confidentialité",
+    "date1": "Date d'entrée en vigueur :",
+    "date2": "1er décembre 2024",
+    "introTitle": "Introduction",
+    "introWelcome": "Bienvenue sur ",
+    "introBody": "Votre confidentialité est importante pour nous. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web. Veuillez lire attentivement cette politique pour comprendre nos pratiques concernant vos données personnelles et comment nous les traitons.",
+    "infoTitle": "Informations que nous collectons",
+    "personalTitle": "Informations personnelles",
+    "personalBody": "Nous ne collectons pas d'informations personnelles à moins que vous ne choisissiez de nous contacter. Si vous nous envoyez un email, nous pouvons collecter les informations suivantes :",
+    "personalList1": "Votre adresse email",
+    "personalList2": "Tout autre détail que vous incluez dans votre email",
+    "nonPersonalTitle": "Informations non personnelles",
+    "nonPersonalBody": "Nous ne collectons pas automatiquement d'informations non personnelles telles que les adresses IP, les détails du navigateur ou les données d'utilisation.",
+    "usageTitle": "Comment nous utilisons vos informations",
+    "usageBody": "Si vous nous contactez par email, nous utilisons les informations que vous fournissez uniquement pour :",
+    "usageList1": "Répondre à vos demandes.",
+    "usageList2": "Fournir toute assistance ou information demandée.",
+    "usageNote": "Nous n'utilisons pas vos informations à des fins marketing et ne les partageons pas avec des tiers.",
+    "sharingTitle": "Partage de vos informations",
+    "sharingBody": "Nous ne vendons, louons ou partageons pas vos données personnelles avec des tiers. Vos informations sont utilisées exclusivement pour répondre à vos demandes.",
+    "cookiesTitle": "Cookies et technologies de suivi",
+    "cookiesBody": "Nous n'utilisons pas de cookies ou d'autres technologies de suivi sur notre site web.",
+    "retentionTitle": "Conservation des données",
+    "retentionBody": "Nous conservons les informations que vous fournissez dans vos emails uniquement aussi longtemps que nécessaire pour répondre à vos demandes. Une fois les informations inutiles, elles sont supprimées de manière sécurisée.",
+    "rightsTitle": "Vos droits",
+    "rightsBody": "Vous avez le droit de :",
+    "rightsList1": "Demander l'accès à toute information que vous nous avez fournie.",
+    "rightsList2": "Demander la suppression de vos informations de nos dossiers.",
+    "changesTitle": "Modifications de cette politique de confidentialité",
+    "changesBody": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute modification sera reflétée sur cette page avec une date de révision mise à jour.",
+    "contactTitle": "Nous contacter",
+    "contactBody": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité ou nos pratiques, veuillez nous contacter à :",
+    "contactEmail": "fvukelic@proton.me"
   }
 }
