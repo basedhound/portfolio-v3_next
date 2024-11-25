@@ -37,7 +37,7 @@ const newPath = currentPath.includes("/fr")
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}>
           <a
-            href="https://cvdesignr.com/p/6736b957f2035"
+            href={currentPath.includes("/fr") ? "https://cvdesignr.com/p/6736b957f2035" : "https://cvdesignr.com/p/6736d2bee1dfa"}
             target="_blank"
             rel="nofollow"
             title="Resume">
