@@ -22,7 +22,7 @@ const Privacy = () => {
             href="https://fvukelic.com"
             target="_blank"
             rel="nofollow"
-            aria-label="Send us an email">
+            aria-label="Go to Homepage">
             fvukelic.com
           </a></p>
           <p>{t("introBody")}</p>
@@ -62,7 +62,7 @@ const Privacy = () => {
             href={`mailto:${t("contactEmail")}`}
             target="_blank"
             rel="nofollow"
-            aria-label="Send us an email">
+            aria-label="Send me an email">
             <span>{t("contactEmail")}</span>
           </a>
         </section>
