@@ -70,26 +70,6 @@ export const Socials = () => {
           <AiOutlineMail size="2.4rem" />
         </a>
       </motion.span>
-
-      {/* FACEBOOK */}
-      {/*       <motion.span
-        initial={{ y: -30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.5 }}>
-        <a href="https://m.me/fvukelic" target="_blank" rel="nofollow" aria-label="Contact me on Facebook">
-          <AiFillFacebook size="2.4rem" />
-        </a>
-      </motion.span> */}
-
-      {/* INSTAGRAM */}
-      {/*       <motion.span
-        initial={{ y: -30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.6 }}>
-        <a href="https://ig.me/m/frank.vkh" target="_blank" rel="nofollow" aria-label="Contact me on Instagram">
-          <AiFillInstagram size="2.4rem" />
-        </a>
-      </motion.span> */}
     </div>
   );
 };
