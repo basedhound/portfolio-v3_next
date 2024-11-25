@@ -12,7 +12,7 @@
   },
   "About": {
     "section": "About",
-    "p1": "Hello there! Name's Frank, I'm a self-taught fullstack web developer. I specialize in creating engaging and responsive websites that cater to individual and small business needs.",
+    "p1": "Hello there! Name's Frank, I'm a full-stack web developer. I specialize in creating engaging and responsive websites that cater to individual and small business needs.",
     "p2": "Passionate about delivering user-friendly responsive designs and optimizing site performance, I also provide SEO and copyrighting services to enhance online visibility and engagement.",
     "p3": "I'm specialized in React and Next.js frontend frameworks. I've also worked with backend technologies like Node.js, PostgreSQL and MongoDB, allowing me to build full-stack applications. AI tools such as ChatGPT, Git Copilot, and Midjourney are also part of my workflow.",
     "p4": "When I'm not coding, I dedicate time to improving my soft skills in autonomy, effective communication, adaptability, organization, and resourcefulness. I'm also very passionate about music and cinema.",
@@ -137,5 +137,30 @@
     "contactTitle": "Contact Us",
     "contactBody": "If you have any questions or concerns about this Privacy Policy or our practices, please contact us at:",
     "contactEmail": "fvukelic@proton.me"
+  },
+  "LegalNotice": {
+    "header": "Legal Notice",
+    "responsibleTitle": "Responsible for the Website",
+    "companyName": "Company Name:",
+    "legalForm1": "Legal Form:",
+    "legalForm2": "Entreprise individuelle (EI)",
+    "headquarters": "Headquarters Address:",
+    "registrationNumber": "Registration Number:",
+    "capital": "Share Capital:",
+    "email": "Email:",
+    "phone": "Phone:",
+    "hostingTitle": "Hosting",
+    "hostingProvider": "Hosting Provider:",
+    "hostingAddress": "Address:",
+    "hostingPhone": "Phone:",
+    "intellectualTitle": "Intellectual Property",
+    "intellectualBody": "All content on this site (texts, images, logos, etc.) is the exclusive property of [Your Company Name], unless stated otherwise. Reproduction, distribution, or use without prior written permission is prohibited and may result in legal action.",
+    "responsibilityTitle": "Responsibilities",
+    "responsibilityBody1": "The site owner is not responsible for damages resulting from the use of this site, including interruptions or bugs.",
+    "responsibilityBody2": "External links on this site do not imply any responsibility for their content.",
+    "contactTitle": "Contact",
+    "contactBody": "For any questions or requests, contact us at:",
+    "internationalTitle": "International",
+    "internationalBody": "This website is operated by [Your Company Name], based in [Your Country]. By using this site, you agree to comply with the applicable laws of [Your Country]."
   }
 }

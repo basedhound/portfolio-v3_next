@@ -12,7 +12,7 @@
   },
   "About": {
     "section": "Auteur",
-    "p1": "Bonjour ! Je suis Frank, développeur web full-stack autodidacte. Je me spécialise dans la création de sites web attrayants et réactifs adaptés aux besoins des particuliers et des petites entreprises.",
+    "p1": "Bonjour ! Moi c'est Franck, développeur web full-stack. Je me spécialise dans la création de sites web attrayants et réactifs adaptés aux besoins des particuliers et des petites entreprises.",
     "p2": "Passionné par la réalisation de designs conviviaux et réactifs et par l'optimisation des performances des sites, je propose également des services de SEO/Copywriting afin d'améliorer votre visibilité.",
     "p3": "Je suis spécialisé dans les frameworks frontend React et Next.js. Je travaille également avec des technologies backend telles que Node.js, PostgreSQL et MongoDB, ce qui me permet de construire des applications full-stack. Les outils d'IA tels que ChatGPT, Git Copilot et Midjourney font également partie de mon flux de travail.",
     "p4": "Je consacre du temps à améliorer mes soft skills en termes d'autonomie, communication, adaptabilité, et d'organisation. Hors travail, je suis aussi passionné par la musique et le cinéma.",
@@ -137,5 +137,30 @@
     "contactTitle": "Nous contacter",
     "contactBody": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité ou nos pratiques, veuillez nous contacter à :",
     "contactEmail": "fvukelic@proton.me"
+  },
+  "LegalNotice": {
+    "header": "Mentions Légales",
+    "responsibleTitle": "Responsable du Site",
+    "companyName": "Raison sociale :",
+    "legalForm1": "Forme juridique :",
+    "legalForm2": "Entreprise individuelle (EI)",
+    "headquarters": "Siège social :",
+    "registrationNumber": "Numéro d’immatriculation :",
+    "capital": "Capital social :",
+    "email": "Email :",
+    "phone": "Téléphone :",
+    "hostingTitle": "Hébergement",
+    "hostingProvider": "Hébergeur :",
+    "hostingAddress": "Adresse :",
+    "hostingPhone": "Téléphone :",
+    "intellectualTitle": "Propriété Intellectuelle",
+    "intellectualBody": "Tous les contenus présents sur ce site (textes, images, logos, etc.) sont la propriété exclusive de [Nom de l’entreprise], sauf mention contraire. Toute reproduction, distribution ou utilisation sans autorisation écrite est interdite et peut entraîner des poursuites.",
+    "responsibilityTitle": "Responsabilités",
+    "responsibilityBody1": "Le responsable du site ne peut être tenu responsable des dommages résultant de l’utilisation de ce site, y compris les interruptions ou bugs.",
+    "responsibilityBody2": "Les liens externes proposés sur ce site n’engagent pas la responsabilité du responsable quant à leur contenu.",
+    "contactTitle": "Contact",
+    "contactBody": "Pour toute question ou demande, contactez-nous à :",
+    "internationalTitle": "International",
+    "internationalBody": "Ce site web est géré par [Nom de l’entreprise], basé en [Pays]. En utilisant ce site, vous acceptez de respecter les lois applicables en [Pays]."
   }
 }
