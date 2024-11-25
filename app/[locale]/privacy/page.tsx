@@ -66,7 +66,6 @@ const Privacy = () => {
             <span>{t("contactEmail")}</span>
           </a>
         </section>
-
         <Footer />
       </main>
     </div>

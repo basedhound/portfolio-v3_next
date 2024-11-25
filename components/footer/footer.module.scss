@@ -1,11 +1,12 @@
 .footer {
   width: 100%;
-  padding: 1.5rem;
+  padding: 2rem;
   background: var(--bg-opaque);
 
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 1rem;
 
   p {
     font-size: var(--text-xs);
