@@ -20,7 +20,7 @@ export const Contact = () => {
           <p className={styles.contactCopy}>
             {t("p1")}{" "}
             <a
-              href="https://www.linkedin.com/in/frankdev/"
+              href="https://www.linkedin.com/in/fvukelic/"
               target="_blank"
               rel="nofollow"
               aria-label="Contact me on LinkedIn">
