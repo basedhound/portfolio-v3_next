@@ -10,10 +10,10 @@ export const Footer = () => {
       <p>{t("copyright")}</p>
       <ul>
         <li>
-          <Link href="/privacy">{t("privacy")}</Link>
+          <Link href="/privacy" aria-label="Privacy Policy">{t("privacy")}</Link>
         </li>
         <li>
-          <Link href="/legal-notice">{t("legalNotice")}</Link>
+          <Link href="/legal-notice" aria-label="Legal Notice">{t("legalNotice")}</Link>
         </li>
       </ul>
     </footer>
