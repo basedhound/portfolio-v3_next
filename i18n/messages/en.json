@@ -146,21 +146,21 @@
     "legalForm2": "Entreprise individuelle (EI)",
     "headquarters": "Headquarters Address:",
     "registrationNumber": "Registration Number:",
-    "capital": "Share Capital:",
     "email": "Email:",
     "phone": "Phone:",
     "hostingTitle": "Hosting",
     "hostingProvider": "Hosting Provider:",
     "hostingAddress": "Address:",
     "hostingPhone": "Phone:",
+    "hostingEmail": "Email:",
     "intellectualTitle": "Intellectual Property",
-    "intellectualBody": "All content on this site (texts, images, logos, etc.) is the exclusive property of [Your Company Name], unless stated otherwise. Reproduction, distribution, or use without prior written permission is prohibited and may result in legal action.",
+    "intellectualBody": "All content on this site (texts, images, logos, etc.) is the exclusive property of Mr. Franck Vukelic, unless stated otherwise. Reproduction, distribution, or use without prior written permission is prohibited and may result in legal action.",
     "responsibilityTitle": "Responsibilities",
     "responsibilityBody1": "The site owner is not responsible for damages resulting from the use of this site, including interruptions or bugs.",
     "responsibilityBody2": "External links on this site do not imply any responsibility for their content.",
     "contactTitle": "Contact",
     "contactBody": "For any questions or requests, contact us at:",
     "internationalTitle": "International",
-    "internationalBody": "This website is operated by [Your Company Name], based in [Your Country]. By using this site, you agree to comply with the applicable laws of [Your Country]."
+    "internationalBody": "This website is operated by Mr. Franck Vukelic, based in France. By using this site, you agree to comply with the applicable laws of France."
   }
 }

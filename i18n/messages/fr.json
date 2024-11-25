@@ -153,14 +153,15 @@
     "hostingProvider": "Hébergeur :",
     "hostingAddress": "Adresse :",
     "hostingPhone": "Téléphone :",
+    "hostingEmail": "Email :",
     "intellectualTitle": "Propriété Intellectuelle",
-    "intellectualBody": "Tous les contenus présents sur ce site (textes, images, logos, etc.) sont la propriété exclusive de [Nom de l’entreprise], sauf mention contraire. Toute reproduction, distribution ou utilisation sans autorisation écrite est interdite et peut entraîner des poursuites.",
+    "intellectualBody": "Tous les contenus présents sur ce site (textes, images, logos, etc.) sont la propriété exclusive de M. Franck Vukelic, sauf mention contraire. Toute reproduction, distribution ou utilisation sans autorisation écrite est interdite et peut entraîner des poursuites.",
     "responsibilityTitle": "Responsabilités",
     "responsibilityBody1": "Le responsable du site ne peut être tenu responsable des dommages résultant de l’utilisation de ce site, y compris les interruptions ou bugs.",
     "responsibilityBody2": "Les liens externes proposés sur ce site n’engagent pas la responsabilité du responsable quant à leur contenu.",
     "contactTitle": "Contact",
     "contactBody": "Pour toute question ou demande, contactez-nous à :",
     "internationalTitle": "International",
-    "internationalBody": "Ce site web est géré par [Nom de l’entreprise], basé en [Pays]. En utilisant ce site, vous acceptez de respecter les lois applicables en [Pays]."
+    "internationalBody": "Ce site web est géré par M. Franck Vukelic, basé en France. En utilisant ce site, vous acceptez de respecter les lois applicables en France."
   }
 }

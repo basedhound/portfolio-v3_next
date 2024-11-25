@@ -23,32 +23,48 @@ const LegalNotice = () => {
               <strong>{t("legalForm1")}</strong> {t("legalForm2")}
             </p>
             <p>
-              <strong>{t("headquarters")}</strong> [Address]
+              <strong>{t("headquarters")}</strong> 25 rue Guillaume Lekeu, 49100
+              Angers, France
             </p>
             <p>
-              <strong>{t("registrationNumber")}</strong> [SIRET/SIREN]
-            </p>
-            <p>
-              <strong>{t("capital")}</strong> [Share Capital, if applicable]
+              <strong>{t("registrationNumber")}</strong> 921995775 (SIREN)
             </p>
             <p>
               <strong>{t("email")}</strong>{" "}
-              <a href="mailto:[Your Email]" target="_blank" rel="nofollow">
-                [Your Email]
+              <a
+                href="mailto:fvukelic@proton.me"
+                target="_blank"
+                rel="nofollow">
+                fvukelic@proton.me
               </a>
             </p>
             <p>
-              <strong>{t("phone")}</strong> [Phone Number]
+              <strong>{t("phone")}</strong>{" "}
+              <a
+                href="https://api.whatsapp.com/send?phone=33779134587"
+                target="_blank"
+                rel="nofollow"
+                aria-label="Contact me on LinkedIn">
+                +33 07 79 13 45 87
+              </a>{" "}
+              (WhatsApp)
             </p>
             <h2>{t("hostingTitle")}</h2>
             <p>
-              <strong>{t("hostingProvider")}</strong> [Hosting Provider Name]
+              <strong>{t("hostingProvider")}</strong> Vercel
             </p>
             <p>
-              <strong>{t("hostingAddress")}</strong> [Address]
+              <strong>{t("hostingAddress")}</strong> 440 N Barranca Ave #4133,
+              Covina, CA 91723
             </p>
             <p>
-              <strong>{t("hostingPhone")}</strong> [Phone Number]
+              <strong>{t("hostingPhone")}</strong> (559) 288-7060
+            </p>
+            <p>
+              <strong>{t("hostingEmail")}</strong>{" "}
+              <a href="mailto:dmca@vercel.com" target="_blank" rel="nofollow">
+                dmca@vercel.com
+              </a>
             </p>
             <h2>{t("intellectualTitle")}</h2>
             <p>{t("intellectualBody")}</p>
@@ -58,8 +74,11 @@ const LegalNotice = () => {
             <h2>{t("contactTitle")}</h2>
             <p>
               {t("contactBody")}{" "}
-              <a href="mailto:[Your Email]" target="_blank" rel="nofollow">
-                [Your Email]
+              <a
+                href="mailto:fvukelic@proton.me"
+                target="_blank"
+                rel="nofollow">
+                fvukelic@proton.me
               </a>
             </p>
             <h2>{t("internationalTitle")}</h2>
