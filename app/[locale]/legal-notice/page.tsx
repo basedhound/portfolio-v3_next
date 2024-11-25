@@ -4,6 +4,7 @@ import { Footer } from "@/components/footer/Footer";
 import styles from "@/components/utils/home.module.scss";
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { useTranslations } from "next-intl";
+import { Navbar } from "@/components/nav/Navbar";
 
 const LegalNotice = () => {
   const t = useTranslations("LegalNotice");
@@ -34,7 +35,9 @@ const LegalNotice = () => {
               <a
                 href="mailto:fvukelic@proton.me"
                 target="_blank"
-                rel="nofollow">
+                rel="nofollow"
+                aria-label="Send me an email"
+                >
                 fvukelic@proton.me
               </a>
             </p>
@@ -44,7 +47,7 @@ const LegalNotice = () => {
                 href="https://api.whatsapp.com/send?phone=33779134587"
                 target="_blank"
                 rel="nofollow"
-                aria-label="Contact me on LinkedIn">
+                aria-label="Contact me on WhatsApp">
                 +33 07 79 13 45 87
               </a>{" "}
               (WhatsApp)
@@ -62,7 +65,7 @@ const LegalNotice = () => {
             </p>
             <p>
               <strong>{t("hostingEmail")}</strong>{" "}
-              <a href="mailto:dmca@vercel.com" target="_blank" rel="nofollow">
+              <a href="mailto:dmca@vercel.com" target="_blank" rel="nofollow" aria-label="Contact Vercel by Email">
                 dmca@vercel.com
               </a>
             </p>
@@ -71,18 +74,20 @@ const LegalNotice = () => {
             <h2>{t("responsibilityTitle")}</h2>
             <p>{t("responsibilityBody1")}</p>
             <p>{t("responsibilityBody2")}</p>
+              <h2>{t("internationalTitle")}</h2>
+              <p>{t("internationalBody")}</p>
             <h2>{t("contactTitle")}</h2>
             <p>
               {t("contactBody")}{" "}
+            </p>
               <a
                 href="mailto:fvukelic@proton.me"
                 target="_blank"
-                rel="nofollow">
+                rel="nofollow"
+                aria-label="Send me an Email"
+                >
                 fvukelic@proton.me
               </a>
-            </p>
-            <h2>{t("internationalTitle")}</h2>
-            <p>{t("internationalBody")}</p>
           </section>
           <Footer />
         </main>
