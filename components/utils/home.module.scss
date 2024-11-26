@@ -16,6 +16,11 @@
 
   h2 {
     margin-top: 4rem;
+    font-size: var(--text-lg);
+
+    @media (max-width: 768px) {
+      font-size: var(--text-md);
+    }
   }
 
   a {
