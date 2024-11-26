@@ -101,11 +101,11 @@
   },
   "Footer": {
     "copyright": "©2024 Tous droits réservés.",
-    "privacy": "Vie Privée",
+    "privacy": "Confidentialité",
     "legalNotice": "Mentions Légales"
   },
   "Privacy": {
-    "header": "Confidentialité",
+    "header": "Vie Privée",
     "date1": "Date d'entrée en vigueur :",
     "date2": "1er décembre 2024",
     "introTitle": "Introduction",
