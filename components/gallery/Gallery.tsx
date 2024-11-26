@@ -947,7 +947,7 @@ const projects = [
     ),
   },
   {
-    cat: "💜, Mobile",
+    cat: "Mobile",
     title: "Job Seeker",
     img: "/gallery/jobseek.webp",
     code: "https://github.com/basedhound/job-seeker_react-native",
