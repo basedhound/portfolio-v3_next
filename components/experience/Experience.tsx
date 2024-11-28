@@ -23,6 +23,19 @@ export const Experience = () => {
         "WordPress",
       ],
     },
+    {
+      title: t("exp2"),
+      role: t("role2"),
+      date: t("date2"),
+      location: t("loca2"),
+      description: t("desc2"),
+      tech: [
+        "AI Prompt Engineering",
+        "User Testing",
+        "Performance Analysis",
+        "Prompt Optimization",
+      ],
+    },
   ];
 
   return (

@@ -49,11 +49,19 @@
   },
   "Experience": {
     "section": "Experience",
+
     "exp1": "Web Developer",
     "role1": "Freelance",
     "date1": "Since 2021",
     "loca1": "Remote",
-    "desc1": "I develop custom websites for individuals and small businesses, delivering responsive, user-friendly, and tailored designs. My responsibilities include optimizing site performance, enhancing search engine optimization (SEO) for better search visibility, and providing copyrighting services for unique, legally compliant content. Additionally, I offer logo design and social media assistance to improve brand presence and engage clients across different industries."
+    "desc1": "I develop custom websites for individuals and small businesses, delivering responsive, user-friendly, and tailored designs. My responsibilities include optimizing site performance, enhancing search engine optimization (SEO) for better search visibility, and providing copyrighting services for unique, legally compliant content. Additionally, I offer logo design and social media assistance to improve brand presence and engage clients across different industries.",
+
+    "exp2": "AI Prompt Engineer",
+    "role2": "Outlier AI",
+    "date2": "Since 2024",
+    "loca2": "Remote",
+    "desc2": "I create effective prompts for AI models, focusing on optimizing performance and ensuring accuracy. My responsibilities include monitoring and adjusting prompts based on performance data, reviewing and evaluating AI-generated responses for quality and relevance, conducting user tests, and integrating feedback for continuous improvement. I also analyze edge cases and develop solutions, tailor prompts to various use cases, and document best practices for prompt writing to ensure high-quality and precise responses."
+    
   },
   "Certification": {
     "section": "Certification",
