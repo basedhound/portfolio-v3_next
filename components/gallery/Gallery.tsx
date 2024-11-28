@@ -29,7 +29,10 @@ const Gallery = () => {
     <>
       <main className={styles.galleryWrapper} id="gallery">
         {/* Back Home */}
-        <TransitionLink className={styles.goBackBtn} href="/#projects" aria-label="Back to Homepage">
+        <TransitionLink
+          className={styles.goBackBtn}
+          href="/#projects"
+          aria-label="Back to Homepage">
           <AiOutlineArrowLeft size="2.4rem" />
         </TransitionLink>
 
@@ -51,8 +54,7 @@ const Gallery = () => {
           className={styles.goUpBtn}
           style={{ bottom: goUpBtn ? "3rem" : "-50%" }}
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          aria-label="Back to top"
-          >
+          aria-label="Back to top">
           <AiOutlineArrowUp size="2.4rem" />
         </button>
       </main>
@@ -70,7 +72,7 @@ const projects = [
     link: "https://evently-fv.vercel.app",
     tech: ["Next", "MongoDB", "Tailwind", "TS"],
     modal: (
-      <>        
+      <>
         🍵 Built on Next.js 14, the events application stands as a
         comprehensive, full-stack platform for managing events. It serves as a
         hub, spotlighting diverse events taking place globally. Featuring
@@ -161,6 +163,7 @@ const projects = [
       </>
     ),
   },
+
   {
     cat: "💜, App, Next",
     title: "Podcast AI",
@@ -207,6 +210,37 @@ const projects = [
         chat de curseur, commentaires, réactions, ainsi que la création de
         designs (formes, téléchargement d'images) sur le canevas à l'aide de
         fabric.js.
+      </>
+    ),
+  },
+  {
+    cat: "App, Next",
+    title: "Sales Page Model",
+    img: "/gallery/salespage.webp",
+    code: "https://demo-sf.vercel.app/",
+    link: "https://demo-sf.vercel.app/",
+    tech: ["Next", "React", "TS", "MongoDB", "Stripe"],
+    modal: (
+      <>
+        🍵 This is a Next.js starter project designed for fast development,
+        featuring NextAuth for authentication, MongoDB for data management, and
+        Stripe for payment integration. Built with React, TypeScript, and
+        TailwindCSS, it provides a scalable foundation for web apps. It includes
+        tools like Axios for HTTP requests, Zod for validation, Mailgun for
+        email delivery, and DaisyUI for UI components. With React 18 and Next.js
+        14, it's ideal for building sales pages, e-commerce sites, or apps with
+        user and payment management.
+        <br />
+        <br />
+        🥐 Il s'agit d'un projet de démarrage Next.js conçu pour un
+        développement rapide, avec NextAuth pour l'authentification, MongoDB
+        pour la gestion des données et Stripe pour l'intégration des paiements.
+        Construit avec React, TypeScript et TailwindCSS, il offre une base
+        évolutive pour les applications web. Il inclut des outils comme Axios
+        pour les requêtes HTTP, Zod pour la validation, Mailgun pour la gestion
+        des e-mails et DaisyUI pour les composants UI. Avec React 18 et Next.js
+        14, il est idéal pour créer des pages de vente, des sites e-commerce ou
+        des applications avec gestion des utilisateurs et des paiements.
       </>
     ),
   },
@@ -601,10 +635,16 @@ const projects = [
     tech: ["React", "Bootstrap"],
     modal: (
       <>
-        🍵 Budgeting application built using React, focusing on CRUD (Create, Read, Update, Delete) operations. It covers intermediate and beginner-level React concepts, demonstrating how to manage budget data effectively.
+        🍵 Budgeting application built using React, focusing on CRUD (Create,
+        Read, Update, Delete) operations. It covers intermediate and
+        beginner-level React concepts, demonstrating how to manage budget data
+        effectively.
         <br />
         <br />
-        🥐 Application de gestion de budget construite avec React, mettant l'accent sur les opérations CRUD (Create, Read, Update, Delete). Elle couvre des concepts intermédiaires et débutants de React, démontrant comment gérer efficacement les données budgétaires.
+        🥐 Application de gestion de budget construite avec React, mettant
+        l'accent sur les opérations CRUD (Create, Read, Update, Delete). Elle
+        couvre des concepts intermédiaires et débutants de React, démontrant
+        comment gérer efficacement les données budgétaires.
       </>
     ),
   },
@@ -635,7 +675,6 @@ const projects = [
       </>
     ),
   },
-
 
   //! P4 -> REACT -> UI/X ONLY
   {
@@ -1306,7 +1345,7 @@ const projects = [
       </>
     ),
   },
- 
+
   {
     cat: "Design",
     title: "Lamps",
@@ -1585,7 +1624,6 @@ const projects = [
       </>
     ),
   },
-  
 
   {
     cat: "Design",
