@@ -141,6 +141,56 @@ const projects = [
   },
   {
     cat: "App, Next",
+    title: "Threads clone",
+    img: "/gallery/threads.webp",
+    code: "https://github.com/basedhound/threads-clone_app_next",
+    link: "https://threads-fv.vercel.app",
+    tech: ["Next", "MongoDB", "Tailwind", "TS"],
+    modal: (
+      <>
+        🍵 Full-stack Threads clone built on Next.js 14+. It includes
+        comprehensive user interaction, community management functionalities,
+        robust technical implementation, and a range of features like nested
+        deep comments, notifications, real-time search, and more.
+        <br />
+        <br />
+        🥐 Clone de Threads en full-stack réalisé avec Next.js 14+. Ce projet
+        comprend une interaction utilisateur approfondie, des fonctionnalités de
+        gestion communautaire, une implémentation technique robuste, ainsi
+        qu'une gamme de fonctionnalités telles que des commentaires imbriqués,
+        des notifications, une recherche en temps réel, et bien plus encore.
+      </>
+    ),
+  },
+  {
+    cat: "💜, App, Next",
+    title: "Podcast AI",
+    img: "/gallery/podcast.webp",
+    code: "https://github.com/basedhound/podcastr-ai_app_next",
+    link: "https://podcastr-fv.vercel.app",
+    tech: ["Next", "Plaid", "Dwolla", "TS"],
+    modal: (
+      <>
+        🍵 AI SaaS platform that empowers users to create,
+        discover, and enjoy podcasts with advanced features such as
+        text-to-audio conversion using multi-voice AI powered by OpenAI API,
+        podcast thumbnail image generation, and seamless playback. The platform
+        includes secure authentication using Clerk, ensuring a safe and
+        personalized user experience.
+        <br />
+        <br />
+        🥐 Une plateforme SaaS d'IA qui permet aux utilisateurs de
+        créer, découvrir et écouter des podcasts avec des fonctionnalités
+        avancées telles que la conversion texte-en-audio utilisant une IA
+        multi-voix alimentée par l'API OpenAI, la génération d'images miniatures
+        de podcasts et une lecture fluide. La plateforme inclut une
+        authentification sécurisée utilisant Clerk, garantissant une expérience
+        utilisateur sûre et personnalisée.
+      </>
+    ),
+  },
+  {
+    cat: "App, Next",
     title: "Zoom clone",
     img: "/gallery/zoom.webp",
     code: "https://github.com/basedhound/zoom-clone_app_next",
@@ -163,58 +213,31 @@ const projects = [
       </>
     ),
   },
-
   {
-    cat: "💜, App, Next",
-    title: "Podcast AI",
-    img: "/gallery/podcast.webp",
-    code: "https://github.com/basedhound/podcastr-ai_app_next",
-    link: "https://podcastr-fv.vercel.app",
+    cat: "App, Next",
+    title: "Horizon Bank",
+    img: "/gallery/horizon.webp",
+    code: "https://github.com/basedhound/bank-platform_app_next",
+    link: "https://horizon-bank-fv.vercel.app",
     tech: ["Next", "Plaid", "Dwolla", "TS"],
     modal: (
       <>
-        🍵 A cutting-edge AI SaaS platform that empowers users to create,
-        discover, and enjoy podcasts with advanced features such as
-        text-to-audio conversion using multi-voice AI powered by OpenAI API,
-        podcast thumbnail image generation, and seamless playback. The platform
-        includes secure authentication using Clerk, ensuring a safe and
-        personalized user experience.
+        🍵 Built with Next.js, Horizon is a financial SaaS platform that
+        connects to multiple bank accounts, displays transactions in real-time,
+        allows users to transfer money to other platform users, and manages
+        their finances altogether.
         <br />
         <br />
-        🥐 Une plateforme SaaS d'IA de pointe qui permet aux utilisateurs de
-        créer, découvrir et apprécier des podcasts avec des fonctionnalités
-        avancées telles que la conversion texte-en-audio utilisant une IA
-        multi-voix alimentée par l'API OpenAI, la génération d'images miniatures
-        de podcasts et une lecture fluide. La plateforme inclut une
-        authentification sécurisée utilisant Clerk, garantissant une expérience
-        utilisateur sûre et personnalisée.
+        🥐 Construit avec Next.js, Horizon est une plateforme SaaS financière
+        qui se connecte à plusieurs comptes bancaires, affiche les transactions
+        en temps réel, permet aux utilisateurs de transférer de l'argent à
+        d'autres utilisateurs de la plateforme et gère leurs finances de manière
+        globale.
       </>
     ),
   },
   {
-    cat: "App, Next",
-    title: "Figma clone",
-    img: "/gallery/figma.webp",
-    code: "https://github.com/basedhound/figma-clone_app_next",
-    link: "https://figpro-fv.vercel.app",
-    tech: ["Next", "LiveBlocks", "Fabric", "TS"],
-    modal: (
-      <>
-        🍵 A minimalistic Figma clone to show how to add real-world features
-        like live collaboration with cursor chat, comments, reactions, and
-        drawing designs (shapes, image upload) on the canvas using fabric.js.
-        <br />
-        <br />
-        🥐 Un clone minimaliste de Figma conçu pour illustrer l'intégration de
-        fonctionnalités réalistes telles que la collaboration en temps réel avec
-        chat de curseur, commentaires, réactions, ainsi que la création de
-        designs (formes, téléchargement d'images) sur le canevas à l'aide de
-        fabric.js.
-      </>
-    ),
-  },
-  {
-    cat: "App, Next",
+    cat: "💜, App, Next",
     title: "Sales Page Model",
     img: "/gallery/salespage.webp",
     code: "https://demo-sf.vercel.app/",
@@ -271,29 +294,6 @@ const projects = [
   },
   {
     cat: "App, Next",
-    title: "Horizon Bank",
-    img: "/gallery/horizon.webp",
-    code: "https://github.com/basedhound/bank-platform_app_next",
-    link: "https://horizon-bank-fv.vercel.app",
-    tech: ["Next", "Plaid", "Dwolla", "TS"],
-    modal: (
-      <>
-        🍵 Built with Next.js, Horizon is a financial SaaS platform that
-        connects to multiple bank accounts, displays transactions in real-time,
-        allows users to transfer money to other platform users, and manages
-        their finances altogether.
-        <br />
-        <br />
-        🥐 Construit avec Next.js, Horizon est une plateforme SaaS financière
-        qui se connecte à plusieurs comptes bancaires, affiche les transactions
-        en temps réel, permet aux utilisateurs de transférer de l'argent à
-        d'autres utilisateurs de la plateforme et gère leurs finances de manière
-        globale.
-      </>
-    ),
-  },
-  {
-    cat: "App, Next",
     title: "Prompt Share",
     img: "/gallery/promptshare.webp",
     code: "https://github.com/basedhound/prompt-share_app_next",
@@ -317,6 +317,28 @@ const projects = [
   },
   {
     cat: "App, Next",
+    title: "Figma clone",
+    img: "/gallery/figma.webp",
+    code: "https://github.com/basedhound/figma-clone_app_next",
+    link: "https://figpro-fv.vercel.app",
+    tech: ["Next", "LiveBlocks", "Fabric", "TS"],
+    modal: (
+      <>
+        🍵 A minimalistic Figma clone to show how to add real-world features
+        like live collaboration with cursor chat, comments, reactions, and
+        drawing designs (shapes, image upload) on the canvas using fabric.js.
+        <br />
+        <br />
+        🥐 Un clone minimaliste de Figma conçu pour illustrer l'intégration de
+        fonctionnalités réalistes telles que la collaboration en temps réel avec
+        chat de curseur, commentaires, réactions, ainsi que la création de
+        designs (formes, téléchargement d'images) sur le canevas à l'aide de
+        fabric.js.
+      </>
+    ),
+  },
+  {
+    cat: "App, Next",
     title: "AnimeDB",
     img: "/gallery/animedb.webp",
     code: "https://github.com/basedhound/anime-db_app_next",
@@ -334,29 +356,6 @@ const projects = [
         Next.js alimentée par l'API Shikimori. Décrouvrez de nouvelles séries,
         profitez d'un défilement fluide à travers une vaste base de données
         d'animes et d'animations modernes avec Framer Motion.
-      </>
-    ),
-  },
-  {
-    cat: "App, Next",
-    title: "Threads clone",
-    img: "/gallery/threads.webp",
-    code: "https://github.com/basedhound/threads-clone_app_next",
-    link: "https://threads-fv.vercel.app",
-    tech: ["Next", "MongoDB", "Tailwind", "TS"],
-    modal: (
-      <>
-        🍵 Full-stack Threads clone built on Next.js 14+. It includes
-        comprehensive user interaction, community management functionalities,
-        robust technical implementation, and a range of features like nested
-        deep comments, notifications, real-time search, and more.
-        <br />
-        <br />
-        🥐 Clone de Threads en full-stack réalisé avec Next.js 14+. Ce projet
-        comprend une interaction utilisateur approfondie, des fonctionnalités de
-        gestion communautaire, une implémentation technique robuste, ainsi
-        qu'une gamme de fonctionnalités telles que des commentaires imbriqués,
-        des notifications, une recherche en temps réel, et bien plus encore.
       </>
     ),
   },
