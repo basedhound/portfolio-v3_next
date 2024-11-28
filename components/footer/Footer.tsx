@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "./footer.module.scss";
 import { useTranslations } from "next-intl";
+import { TransitionLink } from "../utils/TransitionLink";
 
 export const Footer = () => {
   const t = useTranslations("Footer");
@@ -10,10 +11,14 @@ export const Footer = () => {
       <p>{t("copyright")}</p>
       <ul>
         <li>
-          <a href="/privacy" aria-label="Privacy Policy">{t("privacy")}</a>
+          <TransitionLink href="/privacy" aria-label="Privacy Policy">
+            {t("privacy")}
+          </TransitionLink>
         </li>
         <li>
-          <a href="/legal-notice" aria-label="Legal Notice">{t("legalNotice")}</a>
+          <TransitionLink href="/legal-notice" aria-label="Legal Notice">
+            {t("legalNotice")}
+          </TransitionLink>
         </li>
       </ul>
     </footer>
