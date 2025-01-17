@@ -33,7 +33,8 @@ export const Experience = () => {
         "AI Prompt Engineering",
         "User Testing",
         "Performance Analysis",
-        "Prompt Optimization",
+        "AI Training",
+        "Quality Review"
       ],
     },
   ];
