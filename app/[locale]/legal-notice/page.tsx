@@ -41,17 +41,17 @@ const LegalNotice = () => {
                 fvukelic@proton.me
               </a>
             </p>
-            <p>
+            {/* <p>
               <strong>{t("phone")}</strong>{" "}
               <a
-                href="https://api.whatsapp.com/send?phone=33779134587"
+                href="https://api.whatsapp.com/send?phone="
                 target="_blank"
                 rel="nofollow"
                 aria-label="Contact me on WhatsApp">
-                +33 07 79 13 45 87
+                
               </a>{" "}
               (WhatsApp)
-            </p>
+            </p> */}
             <h2>{t("hostingTitle")}</h2>
             <p>
               <strong>{t("hostingProvider")}</strong> Vercel

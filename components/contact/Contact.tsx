@@ -26,14 +26,14 @@ export const Contact = () => {
               aria-label="Contact me on LinkedIn">
               LinkedIn
             </a>{" "}
-            &{" "}
+            {/* &{" "}
             <a
-              href="https://api.whatsapp.com/send?phone=33779134587"
+              href="https://api.whatsapp.com/send?phone="
               target="_blank"
               rel="nofollow"
               aria-label="Contact me on LinkedIn">
               WhatsApp
-            </a>{" "}
+            </a>{" "} */}
             {t("p2")}
           </p>
         </Reveal>

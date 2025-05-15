@@ -43,19 +43,19 @@ export const Socials = () => {
       </motion.span>
 
       {/* WHATSAPP */}
-      <motion.span
+      {/* <motion.span
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}>
         <a
-          href="https://api.whatsapp.com/send?phone=33779134587"
+          href="https://api.whatsapp.com/send?phone="
           target="_blank"
           rel="nofollow"
           title="WhatsApp"
           aria-label="Contact me on WhatApp">
           <AiOutlineWhatsApp size="2.4rem" />
         </a>
-      </motion.span>
+      </motion.span> */}
 
       <motion.span
         initial={{ y: -30, opacity: 0 }}
