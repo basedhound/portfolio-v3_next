@@ -6,17 +6,16 @@
   "Hero": {
     "title": "Hi, I'm Frank",
     "tagline": "Web Developer",
-    "p1": "Proficient in React and Next.js, I've spent the last 3 years building websites.",
-    "p2": "In my free time, I dive into side projects to broaden my technological skills.",
-    "p3": "Let's bring your projects to life."
+    "p1": "Full-Stack Developer specialized in Next.js, React, and more.",
+    "p2": "Manager at ",
+    "p3": "— Youtube — 1M subscribers.",
+    "p4": "Looking for a developer to build your website?"
   },
   "About": {
     "section": "About",
-    "p1": "Hello there! Name's Frank, I'm a full-stack web developer. I specialize in creating engaging and responsive websites that cater to individual and small business needs.",
-    "p2": "Passionate about delivering user-friendly responsive designs and optimizing site performance, I also provide SEO and copyrighting services to enhance online visibility and engagement.",
-    "p3": "I'm specialized in React and Next.js frontend frameworks. I've also worked with backend technologies like Node.js, PostgreSQL and MongoDB, allowing me to build full-stack applications. AI tools such as ChatGPT, Git Copilot, and Midjourney are also part of my workflow.",
-    "p4": "When I'm not coding, I dedicate time to improving my soft skills in autonomy, effective communication, adaptability, organization, and resourcefulness. I'm also very passionate about music and cinema.",
-    "p5": "I'm always looking for new challenges and opportunities to learn and grow as a developer. If you're interested in working together or have any questions, please don't hesitate to get in touch!",
+    "p1": "Full-stack web developer focused on building responsive, engaging websites tailored for individuals and small businesses. I create seamless digital experiences that align with your goals, ensuring your website looks great and works flawlessly across all devices.",
+    "p2": "I specialize in crafting user-friendly interfaces and optimizing website performance for speed and accessibility. Alongside development, I offer SEO and copywriting services to boost your visibility, strengthen your message, and help you connect with the right audience online.",
+    "p3": "My technical stack includes React and Next.js for frontend development, paired with backend tools like Node.js, PostgreSQL, and MongoDB to build robust full-stack applications. I also integrate AI tools such as ChatGPT, GitHub Copilot, and Midjourney to streamline my workflow and enhance creativity and productivity.",
     "links": "Links"
   },
   "Projects": {
@@ -61,11 +60,10 @@
     "date2": "Since 2024",
     "loca2": "Remote",
     "desc2": "I create effective prompts for AI models, focusing on optimizing performance and ensuring accuracy. My responsibilities include monitoring and adjusting prompts based on performance data, reviewing and evaluating AI-generated responses for quality and relevance, conducting user tests, and integrating feedback for continuous improvement. I also analyze edge cases and develop solutions, tailor prompts to various use cases, and document best practices for prompt writing to ensure high-quality and precise responses."
-    
   },
   "Certification": {
     "section": "Certification",
-    "certificate":"Certificate",
+    "certificate": "Certificate",
     "certif1": "Web Developer",
     "school1": "OpenClassrooms",
     "date1": "November 2022",

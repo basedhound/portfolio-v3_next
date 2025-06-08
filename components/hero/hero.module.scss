@@ -4,7 +4,18 @@
   padding: 4rem 2.5rem;
 
   p {
-    font-weight: 300;
+    font-weight: 400;
+    opacity: 1;
+  }
+
+  a {
+    color: var(--brand);
+    font-weight: 500;
+    transition: 0.2s;
+    opacity: 1;
+  }
+  a:hover {
+    font-weight: 500;
     opacity: 0.9;
   }
 
@@ -40,7 +51,7 @@
 
   @media (max-width: 360px) {
     font-size: var(--text-lg);
-  }  
+  }
 }
 
 .subTitle {
@@ -56,7 +67,7 @@
 
   @media (max-width: 360px) {
     font-size: var(--text-md);
-  }  
+  }
 }
 
 .aboutCopy {
@@ -78,7 +89,6 @@
     align-items: start;
     flex-wrap: wrap;
   }
-
 }
 
 .breakline {
@@ -93,7 +103,7 @@
   border: none;
   overflow: hidden;
   cursor: pointer;
-  
+
   z-index: 20;
   padding: 1.2rem 2.4rem;
 
@@ -105,7 +115,6 @@
   transition: 0.2s opacity;
 
   &:hover {
-    opacity: 0.80;
+    opacity: 0.8;
   }
 }
-

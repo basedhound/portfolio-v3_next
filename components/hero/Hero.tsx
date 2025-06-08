@@ -26,7 +26,13 @@ export const Hero = () => {
             <p className={styles.aboutCopy}>
               {t("p1")}
               <br className={styles.breakline} /> {t("p2")}
-              <br className={styles.breakline} /> {t("p3")}
+              <a
+                href="https://www.youtube.com/@javascriptmastery"
+                target="_blank">
+                JavaScript Mastery
+              </a>{" "}
+              {t("p3")}
+              <br className={styles.breakline} /> {t("p4")}
             </p>
           </Reveal>
           <Reveal>

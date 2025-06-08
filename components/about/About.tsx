@@ -30,16 +30,6 @@ export const About = () => {
             </p>
           </Reveal>
           <Reveal>
-            <p className={styles.aboutText}>
-            {t("p4")}
-            </p>
-          </Reveal>
-          <Reveal>
-            <p className={styles.aboutText}>
-            {t("p5")}
-            </p>
-          </Reveal>
-          <Reveal>
             <div className={styles.links}>
               <div className={styles.linksText}>
                 <span>{t("links")}</span>

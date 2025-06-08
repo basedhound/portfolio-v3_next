@@ -6,17 +6,16 @@
   "Hero": {
     "title": "Frank V",
     "tagline": "Développeur Web",
-    "p1": "Specialiste React et Next.js, je développe des sites web depuis plus de 3 ans.",
-    "p2": "Je m'investis dans des projets personnels afin d'enrichir mes compétences.",
-    "p3": "Concrétisons vos idées ensemble."
+    "p1": "Full-Stack spécialisé en Next.js, React, et bien plus.",
+    "p2": "Manageur de ",
+    "p3": "— Youtube — 1M d'abonnés.",
+    "p4": "Vous cherchez un développeur pour créer votre site web ?"
   },
   "About": {
-    "section": "Auteur",
-    "p1": "Bonjour ! Moi c'est Franck, développeur web full-stack. Je me spécialise dans la création de sites web attrayants et réactifs adaptés aux besoins des particuliers et des petites entreprises.",
-    "p2": "Passionné par la réalisation de designs conviviaux et réactifs et par l'optimisation des performances des sites, je propose également des services de SEO/Copywriting afin d'améliorer votre visibilité.",
-    "p3": "Je suis spécialisé dans les frameworks frontend React et Next.js. Je travaille également avec des technologies backend telles que Node.js, PostgreSQL et MongoDB, ce qui me permet de construire des applications full-stack. Les outils d'IA tels que ChatGPT, Git Copilot et Midjourney font également partie de mon flux de travail.",
-    "p4": "Je consacre du temps à améliorer mes soft skills en termes d'autonomie, communication, adaptabilité, et d'organisation. Hors travail, je suis aussi passionné par la musique et le cinéma.",
-    "p5": "Toujours à la recherche de nouveaux défis et d'opportunités pour apprendre et évoluer en tant que développeur, si vous êtes intéressé par une collaboration, n'hésitez pas à me contacter !",
+    "section": "Intro",
+    "p1": "Développeur web full-stack, spécialisé dans la création de sites responsives et modernes pour les particuliers et les petites entreprises. Mon objectif est d’offrir des expériences fluides, esthétiques et parfaitement adaptées à tous les appareils.",
+    "p2": "Je conçois des interfaces intuitives et optimise les performances pour une navigation rapide et accessible. Je propose également des services de SEO et de rédaction web pour améliorer la visibilité, renforcer le message et toucher efficacement votre audience.",
+    "p3": "Ma stack comprend React et Next.js pour le front-end, ainsi que Node.js, PostgreSQL et MongoDB pour le back-end. J’utilise aussi des outils d’IA comme ChatGPT, GitHub Copilot et Midjourney pour fluidifier mon processus et booster la créativité.",
     "links": "Liens"
   },
   "Projects": {
