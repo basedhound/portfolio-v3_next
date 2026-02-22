@@ -151,7 +151,7 @@
     "responsibleTitle": "Responsable du Site",
     "companyName": "Raison sociale :",
     "legalForm1": "Forme juridique :",
-    "legalForm2": "Entreprise individuelle (EI)",
+    "legalForm2": "Société à responsabilité limitée (Osaühing)",
     "headquarters": "Siège social :",
     "registrationNumber": "Numéro d’immatriculation :",
     "capital": "Capital social :",
@@ -170,6 +170,6 @@
     "contactTitle": "Contact",
     "contactBody": "Pour toute question ou demande, contactez-nous à :",
     "internationalTitle": "International",
-    "internationalBody": "Ce site web est géré par M. Franck Vukelic, basé en France. En utilisant ce site, vous acceptez de respecter les lois applicables en France."
+    "internationalBody": "Ce site web est exploité par la société VUKELIC OÜ, immatriculée en Estonie. En utilisant ce site, vous acceptez que tout litige relatif à son utilisation soit régi par les lois en vigueur en Estonie, pays du siège social de l'entreprise."
   }
 }

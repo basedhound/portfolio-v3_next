@@ -18,17 +18,16 @@ const LegalNotice = () => {
             <SectionHeader title={t("header")} dir="r" />
             <h2>{t("responsibleTitle")}</h2>
             <p>
-              <strong>{t("companyName")}</strong> VUKELIC FRANCK
+              <strong>{t("companyName")}</strong> VUKELIC OÜ
             </p>
             <p>
               <strong>{t("legalForm1")}</strong> {t("legalForm2")}
             </p>
             <p>
-              <strong>{t("headquarters")}</strong> 25 rue Guillaume Lekeu, 49100
-              Angers, France
+              <strong>{t("headquarters")}</strong> Sepapaja tn 6, 15551 Tallinn, Harju Maakond, Estonia
             </p>
             <p>
-              <strong>{t("registrationNumber")}</strong> 921995775 (SIREN)
+              <strong>{t("registrationNumber")}</strong> 17365421
             </p>
             <p>
               <strong>{t("email")}</strong>{" "}

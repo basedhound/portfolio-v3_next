@@ -150,9 +150,9 @@
     "responsibleTitle": "Responsible for the Website",
     "companyName": "Company Name:",
     "legalForm1": "Legal Form:",
-    "legalForm2": "Entreprise individuelle (EI)",
-    "headquarters": "Headquarters Address:",
-    "registrationNumber": "Registration Number:",
+    "legalForm2": "Limited Company (Osaühing)",
+    "headquarters": "Address:",
+    "registrationNumber": "Registry Code:",
     "email": "Email:",
     "phone": "Phone:",
     "hostingTitle": "Hosting",
@@ -168,6 +168,6 @@
     "contactTitle": "Contact",
     "contactBody": "For any questions or requests, contact us at:",
     "internationalTitle": "International",
-    "internationalBody": "This website is operated by Mr. Franck Vukelic, based in France. By using this site, you agree to comply with the applicable laws of France."
+    "internationalBody": "This website is operated by VUKELIC OÜ, a company registered in Estonia. By using this site, you agree that any disputes arising from its use shall be governed by the laws of Estonia, where the company is headquartered."
   }
 }
