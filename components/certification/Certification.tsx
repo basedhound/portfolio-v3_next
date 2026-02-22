@@ -11,7 +11,7 @@ export const Certification = () => {
       title: t("certif1"),
       school: t("school1"),
       date: t("date1"),
-      link: "https://drive.google.com/file/d/1CNXBUrmcpHzEprEyA40yxcpp0ogD3Ahy/view?usp=sharing",
+      link: "/docs/openclassrooms.pdf",
       description:t("desc1"),
       tech: [
         "React",
